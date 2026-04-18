@@ -65,8 +65,12 @@ def upload_video(
     private: bool = False,
 ) -> int:
     size = path.stat().st_size
-    name = display_name or path.name
-    print(f"[upload] Soubor: {path.name} ({size} B), display name: {name}")
+    final_name = display_name or path.name
+    # Přehraj.to prepareVideo/CDN require a name ending in an extension.
+    # If caller wants a clean display name (e.g. "Lví král (1994) HD CZ"),
+    # we upload with ".mp4" appended and strip it via a rename call after.
+    upload_name = final_name if "." in final_name else final_name + ".mp4"
+    print(f"[upload] Soubor: {path.name} ({size} B), upload name: {upload_name}, final: {final_name}")
 
     # Priming GET /profil/nahrat-soubor — browser does this on page load; moderace
     # může matchovat (prepareVideo → CDN upload) proti sekvenci page visits.
@@ -104,7 +108,7 @@ def upload_video(
         },
         data={
             "description": "",
-            "name": name,
+            "name": upload_name,
             "size": str(size),
             "type": "video/mp4",
             "erotic": "false",
@@ -127,7 +131,7 @@ def upload_video(
     # tuples we control order.
     with path.open("rb") as fh:
         multipart = [
-            ("files", (name, fh, "video/mp4")),
+            ("files", (upload_name, fh, "video/mp4")),
             ("response", (None, prep_data["response"])),
             ("project", (None, prep_data["project"])),
             ("nonce", (None, prep_data["nonce"])),
@@ -155,6 +159,33 @@ def upload_video(
     print(f"[upload] CDN status={r.status_code}")
     print(f"[upload] CDN response: {r.text[:300]!r}")
     r.raise_for_status()
+
+    # If caller wanted a display name different from upload_name (e.g. without
+    # .mp4 extension), finalize via Přehraj.to's video-name rename endpoint.
+    # Discovered by DevTools; Nette-style `do=…` action with param
+    # `uploadedVideoListing-name`.
+    if final_name != upload_name:
+        print(f"[upload] Krok 3: rename na '{final_name}'")
+        rn = session.post(
+            f"https://prehraj.to/profil/nahrana-videa?uploadedVideoListing-videoId={video_id}&do=uploadedVideoListing-changeVideoName",
+            headers={
+                "Accept": "application/json",
+                "Accept-Language": ACCEPT_LANG,
+                "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+                "Origin": "https://prehraj.to",
+                "Referer": "https://prehraj.to/profil/nahrana-videa",
+                "X-Requested-With": "XMLHttpRequest",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-origin",
+                "sec-ch-ua": SEC_CH_UA,
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": '"Linux"',
+            },
+            data={"uploadedVideoListing-name": final_name},
+        )
+        print(f"[upload] rename status={rn.status_code}")
+        rn.raise_for_status()
 
     return video_id
 
