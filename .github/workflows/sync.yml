@@ -42,11 +42,17 @@ jobs:
           fi
 
       - name: Download from sktorrent
+        timeout-minutes: 10
         run: |
           safe_name=$(echo "${{ steps.pick.outputs.name }}" | tr '/' '_')
-          curl -sS -L "${{ steps.pick.outputs.url }}" \
+          # --max-time caps total download; --speed-time/--speed-limit abort if <10 KB/s for 60s
+          # Progress every ~10s via stderr so we see live status even without log streaming.
+          curl -L "${{ steps.pick.outputs.url }}" \
             -H "User-Agent: Mozilla/5.0" \
             -H "Referer: https://sktorrent.eu/" \
+            --max-time 540 \
+            --speed-time 60 --speed-limit 10000 \
+            --progress-bar \
             -o "/tmp/${safe_name}.mp4"
           ls -lh "/tmp/${safe_name}.mp4"
           echo "SAFE_NAME=${safe_name}" >> $GITHUB_ENV
