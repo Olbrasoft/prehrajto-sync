@@ -55,7 +55,7 @@ def login(email: str, password: str) -> requests.Session:
     return s
 
 
-def upload_video(session: requests.Session, path: Path, *, private: bool = True) -> int:
+def upload_video(session: requests.Session, path: Path, *, private: bool = False) -> int:
     size = path.stat().st_size
     print(f"[upload] Soubor: {path.name} ({size} B)")
 
@@ -125,10 +125,10 @@ def main() -> int:
         return 2
 
     session = login(email, password)
-    video_id = upload_video(session, path, private=True)
+    video_id = upload_video(session, path)
     print(f"\n=== HOTOVO ===")
     print(f"video_id: {video_id}")
-    print(f"Zkontroluj v profilu: https://prehraj.to/profil/nahrana-videa?filterIsPrivate=1")
+    print(f"Zkontroluj v profilu: https://prehraj.to/profil/nahrana-videa")
     return 0
 
 
