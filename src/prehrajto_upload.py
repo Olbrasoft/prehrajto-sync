@@ -57,9 +57,16 @@ def login(email: str, password: str) -> requests.Session:
     return s
 
 
-def upload_video(session: requests.Session, path: Path, *, private: bool = False) -> int:
+def upload_video(
+    session: requests.Session,
+    path: Path,
+    *,
+    display_name: str | None = None,
+    private: bool = False,
+) -> int:
     size = path.stat().st_size
-    print(f"[upload] Soubor: {path.name} ({size} B)")
+    name = display_name or path.name
+    print(f"[upload] Soubor: {path.name} ({size} B), display name: {name}")
 
     # Priming GET /profil/nahrat-soubor — browser does this on page load; moderace
     # může matchovat (prepareVideo → CDN upload) proti sekvenci page visits.
@@ -97,7 +104,7 @@ def upload_video(session: requests.Session, path: Path, *, private: bool = False
         },
         data={
             "description": "",
-            "name": path.name,
+            "name": name,
             "size": str(size),
             "type": "video/mp4",
             "erotic": "false",
@@ -120,7 +127,7 @@ def upload_video(session: requests.Session, path: Path, *, private: bool = False
     # tuples we control order.
     with path.open("rb") as fh:
         multipart = [
-            ("files", (path.name, fh, "video/mp4")),
+            ("files", (name, fh, "video/mp4")),
             ("response", (None, prep_data["response"])),
             ("project", (None, prep_data["project"])),
             ("nonce", (None, prep_data["nonce"])),
@@ -158,17 +165,18 @@ def main() -> int:
     if not email or not password:
         print("ERROR: Chybí PREHRAJTO_EMAIL nebo PREHRAJTO_PASSWORD v env")
         return 2
-    if len(sys.argv) != 2:
-        print(f"Použití: {sys.argv[0]} /path/to/video.mp4")
+    if len(sys.argv) not in (2, 3):
+        print(f"Použití: {sys.argv[0]} /path/to/video.mp4 [\"Display name (YYYY) HD CZ.mp4\"]")
         return 2
 
     path = Path(sys.argv[1])
     if not path.exists():
         print(f"ERROR: soubor neexistuje: {path}")
         return 2
+    display_name = sys.argv[2] if len(sys.argv) == 3 else None
 
     session = login(email, password)
-    video_id = upload_video(session, path)
+    video_id = upload_video(session, path, display_name=display_name)
     print(f"\n=== HOTOVO ===")
     print(f"video_id: {video_id}")
     print(f"Zkontroluj v profilu: https://prehraj.to/profil/nahrana-videa")
