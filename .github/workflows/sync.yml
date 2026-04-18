@@ -1,0 +1,60 @@
+name: sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      sktorrent_url:
+        description: "Direct sktorrent .mp4 URL (manual override, skip backlog)"
+        required: false
+      film_name:
+        description: "Human-readable name for the upload (e.g. 'Lví král (1994) HD CZ')"
+        required: false
+  # schedule:
+  #   - cron: "0 */6 * * *"  # enable once check_missing.py + backlog exists
+
+jobs:
+  upload-one:
+    name: Upload one missing film
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Pick next film (manual or backlog)
+        id: pick
+        run: |
+          if [ -n "${{ inputs.sktorrent_url }}" ]; then
+            echo "url=${{ inputs.sktorrent_url }}" >> $GITHUB_OUTPUT
+            echo "name=${{ inputs.film_name || 'manual-upload' }}" >> $GITHUB_OUTPUT
+          else
+            echo "::error::Automatic backlog picking not implemented yet. Provide sktorrent_url manually."
+            exit 1
+          fi
+
+      - name: Download from sktorrent
+        run: |
+          safe_name=$(echo "${{ steps.pick.outputs.name }}" | tr '/' '_')
+          curl -sS -L "${{ steps.pick.outputs.url }}" \
+            -H "User-Agent: Mozilla/5.0" \
+            -H "Referer: https://sktorrent.eu/" \
+            -o "/tmp/${safe_name}.mp4"
+          ls -lh "/tmp/${safe_name}.mp4"
+          echo "SAFE_NAME=${safe_name}" >> $GITHUB_ENV
+
+      - name: Upload to Přehraj.to
+        env:
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+        run: python src/prehrajto_upload.py "/tmp/${SAFE_NAME}.mp4"
+
+      # TODO: commit state/uploaded.json update (after check_missing.py + state format exists)

@@ -1,0 +1,44 @@
+name: test-sktorrent-access
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    name: Probe sktorrent CDN from GitHub runner
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: HEAD request sample URLs
+        run: |
+          set -u
+          urls=(
+            "https://online8.sktorrent.eu/media/videos//h264/56413_720p.mp4"
+            "https://online11.sktorrent.eu/media/videos//h264/19988_720p.mp4"
+            "https://online18.sktorrent.eu/media/videos//h264/24432_720p.mp4"
+            "https://online5.sktorrent.eu/media/videos//h264/55924_720p.mp4"
+            "https://online21.sktorrent.eu/media/videos//h264/37835_720p.mp4"
+          )
+          fail=0
+          for url in "${urls[@]}"; do
+            http=$(curl -sI -L "$url" \
+              -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
+              -H "Referer: https://sktorrent.eu/" \
+              -o /dev/null -w "%{http_code}")
+            size=$(curl -sI -L "$url" \
+              -H "User-Agent: Mozilla/5.0" -H "Referer: https://sktorrent.eu/" \
+              | tr -d '\r' | awk -F': ' 'tolower($1)=="content-length"{print $2}' | tail -1)
+            if [ "$http" = "200" ]; then
+              mb=$(awk -v s="${size:-0}" 'BEGIN{printf "%.1f", s/1024/1024}')
+              printf "OK    %s  (%s MB)\n" "$url" "$mb"
+            else
+              printf "FAIL  %s  (%s)\n" "$url" "$http"
+              fail=1
+            fi
+          done
+          if [ $fail -eq 1 ]; then
+            echo "::error::Some sktorrent URLs returned non-200. Possibly geo-blocked."
+            echo "See docs/hosting-architecture.md for mitigation (self-hosted runner / Oracle free EU)."
+            exit 1
+          fi
+          echo "All sktorrent URLs accessible from GitHub runner — geo-block not in effect."

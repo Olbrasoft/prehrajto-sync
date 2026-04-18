@@ -1,0 +1,19 @@
+# Local test video files — downloaded from sktorrent, don't push to git
+test-assets/*.mp4
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+.env.local
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
