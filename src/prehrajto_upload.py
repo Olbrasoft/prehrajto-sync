@@ -14,8 +14,10 @@ import requests
 
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/145.0 Safari/537.36 Edg/145.0"
+    "(KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
 )
+SEC_CH_UA = '"Not:A-Brand";v="99", "Microsoft Edge";v="145", "Chromium";v="145"'
+ACCEPT_LANG = "cs,en;q=0.9,en-GB;q=0.8,en-US;q=0.7"
 
 
 def login(email: str, password: str) -> requests.Session:
@@ -59,13 +61,39 @@ def upload_video(session: requests.Session, path: Path, *, private: bool = False
     size = path.stat().st_size
     print(f"[upload] Soubor: {path.name} ({size} B)")
 
+    # Priming GET /profil/nahrat-soubor — browser does this on page load; moderace
+    # může matchovat (prepareVideo → CDN upload) proti sekvenci page visits.
+    session.get(
+        "https://prehraj.to/profil/nahrat-soubor",
+        headers={
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": ACCEPT_LANG,
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-User": "?1",
+            "sec-ch-ua": SEC_CH_UA,
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Linux"',
+        },
+    )
+
     print(f"[upload] Krok 1: prepareVideo")
     prep = session.post(
         "https://prehraj.to/profil/nahrat-soubor?do=prepareVideo",
         headers={
-            "X-Requested-With": "XMLHttpRequest",
-            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
             "Accept": "*/*",
+            "Accept-Language": ACCEPT_LANG,
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Origin": "https://prehraj.to",
+            "Referer": "https://prehraj.to/profil/nahrat-soubor",
+            "X-Requested-With": "XMLHttpRequest",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-origin",
+            "sec-ch-ua": SEC_CH_UA,
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Linux"',
         },
         data={
             "description": "",
@@ -85,21 +113,36 @@ def upload_video(session: requests.Session, path: Path, *, private: bool = False
     print(f"[upload] video_id={video_id}")
 
     print(f"[upload] Krok 2: upload na api.premiumcdn.net")
+    # CDN upload: field name MUST be "files" (plural), file part MUST be first
+    # in the multipart body, then metadata. Browser order:
+    # files, response, project, nonce, params, signature.
+    # requests puts `files` before `data` — but if we pass everything as `files`
+    # tuples we control order.
     with path.open("rb") as fh:
+        multipart = [
+            ("files", (path.name, fh, "video/mp4")),
+            ("response", (None, prep_data["response"])),
+            ("project", (None, prep_data["project"])),
+            ("nonce", (None, prep_data["nonce"])),
+            ("params", (None, prep_data["params"])),
+            ("signature", (None, prep_data["signature"])),
+        ]
         r = requests.post(
             "https://api.premiumcdn.net/upload/",
             headers={
+                "Accept": "*/*",
+                "Accept-Language": ACCEPT_LANG,
+                "Origin": "https://prehraj.to",
                 "Referer": "https://prehraj.to/",
                 "User-Agent": USER_AGENT,
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "cross-site",
+                "sec-ch-ua": SEC_CH_UA,
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": '"Linux"',
             },
-            data={
-                "nonce": prep_data["nonce"],
-                "params": prep_data["params"],
-                "project": prep_data["project"],
-                "response": prep_data["response"],
-                "signature": prep_data["signature"],
-            },
-            files={"file": (path.name, fh, "video/mp4")},
+            files=multipart,
             timeout=3600,
         )
     print(f"[upload] CDN status={r.status_code}")
