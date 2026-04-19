@@ -4,7 +4,7 @@
 Spuštění:
     export PREHRAJTO_EMAIL=...
     export PREHRAJTO_PASSWORD=...
-    python3 prehrajto_upload.py /path/to/video.mp4
+    python3 prehrajto_upload.py /path/to/video.mp4 ["Display name"] ["Popis filmu"]
 """
 import json
 import os
@@ -62,6 +62,7 @@ def upload_video(
     path: Path,
     *,
     display_name: str | None = None,
+    description: str = "",
     private: bool = False,
 ) -> int:
     size = path.stat().st_size
@@ -107,7 +108,7 @@ def upload_video(
             "sec-ch-ua-platform": '"Linux"',
         },
         data={
-            "description": "",
+            "description": description,
             "name": upload_name,
             "size": str(size),
             "type": "video/mp4",
@@ -196,18 +197,21 @@ def main() -> int:
     if not email or not password:
         print("ERROR: Chybí PREHRAJTO_EMAIL nebo PREHRAJTO_PASSWORD v env")
         return 2
-    if len(sys.argv) not in (2, 3):
-        print(f"Použití: {sys.argv[0]} /path/to/video.mp4 [\"Display name (YYYY) HD CZ.mp4\"]")
+    if len(sys.argv) not in (2, 3, 4):
+        print(f"Použití: {sys.argv[0]} /path/to/video.mp4 [\"Display name\"] [\"Popis filmu\"]")
         return 2
 
     path = Path(sys.argv[1])
     if not path.exists():
         print(f"ERROR: soubor neexistuje: {path}")
         return 2
-    display_name = sys.argv[2] if len(sys.argv) == 3 else None
+    display_name = sys.argv[2] if len(sys.argv) >= 3 else None
+    description = sys.argv[3] if len(sys.argv) >= 4 else ""
 
     session = login(email, password)
-    video_id = upload_video(session, path, display_name=display_name)
+    video_id = upload_video(
+        session, path, display_name=display_name, description=description
+    )
     print(f"\n=== HOTOVO ===")
     print(f"video_id: {video_id}")
     print(f"Zkontroluj v profilu: https://prehraj.to/profil/nahrana-videa")

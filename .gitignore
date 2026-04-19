@@ -17,3 +17,14 @@ venv/
 
 # OS
 .DS_Store
+
+# Playwright MCP working dir (snapshots, console logs)
+.playwright-mcp/
+
+# Ad-hoc screenshots from manual verification
+*.png
+*.jpg
+*.jpeg
+
+# Ad-hoc Playwright snapshots saved at root
+uploaded-videos-after-moderation.yml

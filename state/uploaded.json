@@ -1,5 +1,36 @@
 {
-  "schema_version": 1,
-  "last_updated": null,
-  "uploads": []
+  "schema_version": 2,
+  "account": "filmy.prehrajto@email.cz",
+  "last_updated": "2026-04-19T09:30:00Z",
+  "uploads": [
+    {
+      "cr_film_id": 1268,
+      "cr_slug": "dj-ahmet",
+      "title": "DJ Ahmet",
+      "year": 2025,
+      "sktorrent_id": 55924,
+      "prehrajto_video_id": 23979886,
+      "prehrajto_slug_path": "/dj-ahmet-2025-hd-cz-mp4/7e558f299fae2b1b",
+      "uploaded_at": "2026-04-19T09:30:00Z",
+      "status": "processing"
+    }
+  ],
+  "moderated_out": [
+    {
+      "cr_film_id": 49,
+      "cr_slug": "lvi-kral",
+      "title": "Lví král",
+      "year": 1994,
+      "reason": "Disney IP — 5+ failed uploads on old account",
+      "marked_at": "2026-04-19T09:35:00Z"
+    },
+    {
+      "cr_film_id": 2963,
+      "cr_slug": "lvi-kral-2019",
+      "title": "Lví král",
+      "year": 2019,
+      "reason": "Disney IP (remake) — same fingerprint risk as 1994",
+      "marked_at": "2026-04-19T09:35:00Z"
+    }
+  ]
 }

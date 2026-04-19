@@ -9,14 +9,19 @@ on:
       film_name:
         description: "Human-readable name for the upload (e.g. 'Lví král (1994) HD CZ')"
         required: false
+      film_description:
+        description: "Plot description shown on prehraj.to detail page"
+        required: false
   # schedule:
-  #   - cron: "0 */6 * * *"  # enable once check_missing.py + backlog exists
+  #   - cron: "0 */6 * * *"  # enable once we trust the workflow
 
 jobs:
   upload-one:
     name: Upload one missing film
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: write  # commit state + log back to repo
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,37 +35,119 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Init log entry
+        id: log_init
+        run: |
+          mkdir -p state
+          touch state/sync.log
+          RUN_TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          {
+            echo ""
+            echo "===== run $RUN_TS ($RUN_URL) ====="
+            echo "[$RUN_TS] step=init github_run_id=${{ github.run_id }} attempt=${{ github.run_attempt }}"
+          } >> state/sync.log
+          echo "run_ts=$RUN_TS" >> $GITHUB_OUTPUT
+
       - name: Pick next film (manual or backlog)
         id: pick
         run: |
+          set -e
           if [ -n "${{ inputs.sktorrent_url }}" ]; then
-            echo "url=${{ inputs.sktorrent_url }}" >> $GITHUB_OUTPUT
-            echo "name=${{ inputs.film_name || 'manual-upload' }}" >> $GITHUB_OUTPUT
+            echo "[$(date -u +%H:%M:%S)] step=pick mode=manual url=${{ inputs.sktorrent_url }}" >> state/sync.log
+            echo "sktorrent_url=${{ inputs.sktorrent_url }}" >> $GITHUB_OUTPUT
+            echo "film_name=${{ inputs.film_name || 'manual-upload' }}" >> $GITHUB_OUTPUT
+            echo "film_description<<EOF_DESC" >> $GITHUB_OUTPUT
+            cat <<'EOF_DESC' >> $GITHUB_OUTPUT
+          ${{ inputs.film_description }}
+          EOF_DESC
+            echo "EOF_DESC" >> $GITHUB_OUTPUT
+            echo "cr_film_id=manual" >> $GITHUB_OUTPUT
           else
-            echo "::error::Automatic backlog picking not implemented yet. Provide sktorrent_url manually."
-            exit 1
+            echo "[$(date -u +%H:%M:%S)] step=pick mode=auto-backlog" >> state/sync.log
+            python src/pick_next_film.py 2>&1 | tee -a state/sync.log
           fi
 
       - name: Download from sktorrent
+        id: download
         timeout-minutes: 10
         run: |
-          safe_name=$(echo "${{ steps.pick.outputs.name }}" | tr '/' '_')
-          # --max-time caps total download; --speed-time/--speed-limit abort if <10 KB/s for 60s
-          # Progress every ~10s via stderr so we see live status even without log streaming.
-          curl -L "${{ steps.pick.outputs.url }}" \
+          set -e
+          safe_name=$(echo "${{ steps.pick.outputs.film_name }}" | tr '/' '_')
+          echo "[$(date -u +%H:%M:%S)] step=download start url=${{ steps.pick.outputs.sktorrent_url }} safe_name=${safe_name}" >> state/sync.log
+          curl -L "${{ steps.pick.outputs.sktorrent_url }}" \
             -H "User-Agent: Mozilla/5.0" \
             -H "Referer: https://sktorrent.eu/" \
             --max-time 540 \
             --speed-time 60 --speed-limit 10000 \
             --progress-bar \
-            -o "/tmp/${safe_name}.mp4"
-          ls -lh "/tmp/${safe_name}.mp4"
+            -o "/tmp/${safe_name}.mp4" 2>&1 | tail -3 >> state/sync.log || {
+              echo "[$(date -u +%H:%M:%S)] step=download FAILED exit=$?" >> state/sync.log
+              exit 1
+            }
+          size=$(stat -c%s "/tmp/${safe_name}.mp4")
+          echo "[$(date -u +%H:%M:%S)] step=download done size=${size}" >> state/sync.log
           echo "SAFE_NAME=${safe_name}" >> $GITHUB_ENV
+          echo "FILE_SIZE=${size}" >> $GITHUB_ENV
 
       - name: Upload to Přehraj.to
+        id: upload
         env:
           PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
-        run: python src/prehrajto_upload.py "/tmp/${SAFE_NAME}.mp4"
+        run: |
+          set -e
+          echo "[$(date -u +%H:%M:%S)] step=upload start file=/tmp/${SAFE_NAME}.mp4 size=${FILE_SIZE}" >> state/sync.log
+          python src/prehrajto_upload.py \
+            "/tmp/${SAFE_NAME}.mp4" \
+            "${{ steps.pick.outputs.film_name }}" \
+            "${{ steps.pick.outputs.film_description }}" 2>&1 | tee /tmp/upload.log
+          # Extract video_id from script's stdout: "video_id: 23979886"
+          VIDEO_ID=$(grep -E "^video_id:" /tmp/upload.log | tail -1 | awk '{print $2}')
+          if [ -z "$VIDEO_ID" ]; then
+            echo "[$(date -u +%H:%M:%S)] step=upload FAILED no video_id in stdout" >> state/sync.log
+            exit 1
+          fi
+          echo "[$(date -u +%H:%M:%S)] step=upload done video_id=${VIDEO_ID}" >> state/sync.log
+          echo "video_id=${VIDEO_ID}" >> $GITHUB_OUTPUT
 
-      # TODO: commit state/uploaded.json update (after check_missing.py + state format exists)
+      - name: Update state/uploaded.json
+        if: ${{ steps.pick.outputs.cr_film_id != 'manual' }}
+        run: |
+          set -e
+          python - <<'PY' >> state/sync.log 2>&1
+          import json, datetime, pathlib
+          state_path = pathlib.Path("state/uploaded.json")
+          state = json.loads(state_path.read_text())
+          now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+          entry = {
+              "cr_film_id": int("${{ steps.pick.outputs.cr_film_id }}"),
+              "cr_slug": "${{ steps.pick.outputs.cr_slug }}",
+              "title": """${{ steps.pick.outputs.title }}""",
+              "year": int("${{ steps.pick.outputs.year }}"),
+              "sktorrent_id": int("${{ steps.pick.outputs.sktorrent_id }}"),
+              "prehrajto_video_id": int("${{ steps.upload.outputs.video_id }}"),
+              "prehrajto_slug_path": None,
+              "uploaded_at": now,
+              "status": "processing",
+          }
+          state["uploads"].append(entry)
+          state["last_updated"] = now
+          state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n")
+          print(f"[state] appended cr_film_id={entry['cr_film_id']} video_id={entry['prehrajto_video_id']}")
+          PY
+
+      - name: Commit state + log
+        if: always()
+        run: |
+          set -e
+          echo "[$(date -u +%H:%M:%S)] step=commit-back" >> state/sync.log
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/uploaded.json state/sync.log || true
+          if git diff --cached --quiet; then
+            echo "no state changes to commit"
+          else
+            git commit -m "chore(sync): run ${{ steps.log_init.outputs.run_ts }} — upload ${{ steps.pick.outputs.film_name || 'unknown' }}"
+            git push
+          fi

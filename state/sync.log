@@ -1,0 +1,3 @@
+# prehrajto-sync — workflow execution log
+# Each entry: [HH:MM:SS] step=<name> ...
+# Format intended for human inspection; not parsed by code.
