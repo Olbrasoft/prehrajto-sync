@@ -102,3 +102,114 @@
 [10:13:07] step=film done cr_film_id=690 total=321.7s (cdn=12.3s + download=222.2s + upload=87.0s)
 [10:13:07] step=state-saved cr_film_id=690 (total uploads=7)
 [10:13:07] step=batch-end succeeded=5 failed=0 total_uploads=7 batch_dur=1109.2s avg_per_film=221.8s backlog_remaining=1005 eta_hours=61.9
+
+===== run 2026-04-19T10:19:05Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24626786355) =====
+[10:19:05] step=batch-start count=10 backlog=1014 uploads=7 moderated=2
+[10:19:05] step=login
+[10:19:07] step=login done
+[10:19:07] step=iteration 1/10
+[10:19:07] step=film start cr_film_id=902 name='Hrdina (2021) HD CZ'
+[10:19:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2162_480p.mp4
+[10:19:14] step=cdn-resolve done 7.8s → https://online9.sktorrent.eu/media/videos//h264/2162_480p.mp4
+[10:19:14] step=download curl https://online9.sktorrent.eu/media/videos//h264/2162_480p.mp4
+[10:20:57] step=download done cr_film_id=902 size=524978864 dur=103.0s speed=5.1MB/s
+[10:20:57] step=upload start cr_film_id=902 size=524978864
+[10:21:39] step=upload done cr_film_id=902 video_id=23980595 dur=41.3s speed=12.7MB/s
+[10:21:39] step=cleanup unlinked Hrdina (2021) HD CZ.mp4
+[10:21:39] step=film done cr_film_id=902 total=152.1s (cdn=7.8s + download=103.0s + upload=41.3s)
+[10:21:39] step=state-saved cr_film_id=902 (total uploads=8)
+[10:21:39] step=iteration 2/10
+[10:21:39] step=film start cr_film_id=1889 name='#annaismissing (2023) HD CZ'
+[10:21:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33047_720p.mp4
+[10:21:46] step=cdn-resolve done 7.6s → https://online11.sktorrent.eu/media/videos//h264/33047_720p.mp4
+[10:21:46] step=download curl https://online11.sktorrent.eu/media/videos//h264/33047_720p.mp4
+[10:22:58] step=download done cr_film_id=1889 size=492838969 dur=71.4s speed=6.9MB/s
+[10:22:58] step=upload start cr_film_id=1889 size=492838969
+[10:23:29] step=upload done cr_film_id=1889 video_id=23980646 dur=30.9s speed=15.9MB/s
+[10:23:29] step=cleanup unlinked #annaismissing (2023) HD CZ.mp4
+[10:23:29] step=film done cr_film_id=1889 total=110.0s (cdn=7.6s + download=71.4s + upload=30.9s)
+[10:23:29] step=state-saved cr_film_id=1889 (total uploads=9)
+[10:23:29] step=iteration 3/10
+[10:23:29] step=film start cr_film_id=1081 name='Anora (2024) HD CZ'
+[10:23:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44430_720p.mp4
+[10:23:31] step=cdn-resolve done 1.9s → https://online3.sktorrent.eu/media/videos//h264/44430_720p.mp4
+[10:23:31] step=download curl https://online3.sktorrent.eu/media/videos//h264/44430_720p.mp4
+[10:28:10] step=download done cr_film_id=1081 size=743096964 dur=279.5s speed=2.7MB/s
+[10:28:10] step=upload start cr_film_id=1081 size=743096964
+[10:29:18] step=upload done cr_film_id=1081 video_id=23981128 dur=68.3s speed=10.9MB/s
+[10:29:19] step=cleanup unlinked Anora (2024) HD CZ.mp4
+[10:29:19] step=film done cr_film_id=1081 total=349.8s (cdn=1.9s + download=279.5s + upload=68.3s)
+[10:29:19] step=state-saved cr_film_id=1081 (total uploads=10)
+[10:29:19] step=iteration 4/10
+[10:29:19] step=film start cr_film_id=943 name='Tiché místo (2018) HD CZ'
+[10:29:19] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/57045_720p.mp4
+[10:29:33] step=cdn-resolve done 14.5s → https://online25.sktorrent.eu/media/videos//h264/57045_720p.mp4
+[10:29:33] step=download curl https://online25.sktorrent.eu/media/videos//h264/57045_720p.mp4
+[10:29:57] step=download done cr_film_id=943 size=531935421 dur=23.9s speed=22.3MB/s
+[10:29:57] step=upload start cr_film_id=943 size=531935421
+[10:30:40] step=upload done cr_film_id=943 video_id=23981231 dur=42.9s speed=12.4MB/s
+[10:30:40] step=cleanup unlinked Tiché místo (2018) HD CZ.mp4
+[10:30:40] step=film done cr_film_id=943 total=81.4s (cdn=14.5s + download=23.9s + upload=42.9s)
+[10:30:40] step=state-saved cr_film_id=943 (total uploads=11)
+[10:30:40] step=iteration 5/10
+[10:30:40] step=film start cr_film_id=1136 name='Borat: Nakoukání do amerycké kultůry na obědnávku slavnoj kazašskoj národu (2006) HD CZ'
+[10:30:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/3806_720p.mp4
+[10:30:52] step=cdn-resolve done 12.1s → https://online21.sktorrent.eu/media/videos//h264/3806_720p.mp4
+[10:30:52] step=download curl https://online21.sktorrent.eu/media/videos//h264/3806_720p.mp4
+[10:33:33] step=download done cr_film_id=1136 size=1135105969 dur=161.0s speed=7.1MB/s
+[10:33:33] step=upload start cr_film_id=1136 size=1135105969
+[10:34:51] step=upload done cr_film_id=1136 video_id=23981299 dur=78.2s speed=14.5MB/s
+[10:34:51] step=cleanup unlinked Borat: Nakoukání do amerycké kultůry na obědnávku slavnoj kazašskoj národu (2006) HD CZ.mp4
+[10:34:51] step=film done cr_film_id=1136 total=251.4s (cdn=12.1s + download=161.0s + upload=78.2s)
+[10:34:51] step=state-saved cr_film_id=1136 (total uploads=12)
+[10:34:51] step=iteration 6/10
+[10:34:51] step=film start cr_film_id=2367 name='Anděl Páně 2 (2016) HD CZ'
+[10:34:51] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2068_720p.mp4
+[10:34:55] step=cdn-resolve done 3.6s → https://online5.sktorrent.eu/media/videos//h264/2068_720p.mp4
+[10:34:55] step=download curl https://online5.sktorrent.eu/media/videos//h264/2068_720p.mp4
+[10:43:55] step=download FAILED cr_film_id=2367 after 540.0s err=curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 686014464 out of 785634753 bytes received
+[10:43:55] step=iteration 7/10
+[10:43:55] step=film start cr_film_id=1610 name='Trojúhelník smutku (2022) HD CZ'
+[10:43:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28617_720p.mp4
+[10:44:06] step=cdn-resolve done 11.0s → https://online18.sktorrent.eu/media/videos//h264/28617_720p.mp4
+[10:44:06] step=download curl https://online18.sktorrent.eu/media/videos//h264/28617_720p.mp4
+[10:45:46] step=download done cr_film_id=1610 size=658573732 dur=100.2s speed=6.6MB/s
+[10:45:46] step=upload start cr_film_id=1610 size=658573732
+[10:46:23] step=upload done cr_film_id=1610 video_id=23981537 dur=37.1s speed=17.8MB/s
+[10:46:23] step=cleanup unlinked Trojúhelník smutku (2022) HD CZ.mp4
+[10:46:23] step=film done cr_film_id=1610 total=148.3s (cdn=11.0s + download=100.2s + upload=37.1s)
+[10:46:23] step=state-saved cr_film_id=1610 (total uploads=13)
+[10:46:23] step=iteration 8/10
+[10:46:23] step=film start cr_film_id=1567 name='Vlastníci (2019) HD CZ'
+[10:46:23] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/7720_720p.mp4
+[10:46:25] step=cdn-resolve done 1.4s → https://online2.sktorrent.eu/media/videos//h264/7720_720p.mp4
+[10:46:25] step=download curl https://online2.sktorrent.eu/media/videos//h264/7720_720p.mp4
+[10:48:50] step=download done cr_film_id=1567 size=683359108 dur=145.7s speed=4.7MB/s
+[10:48:50] step=upload start cr_film_id=1567 size=683359108
+[10:49:29] step=upload done cr_film_id=1567 video_id=23981592 dur=38.5s speed=17.7MB/s
+[10:49:29] step=cleanup unlinked Vlastníci (2019) HD CZ.mp4
+[10:49:29] step=film done cr_film_id=1567 total=185.7s (cdn=1.4s + download=145.7s + upload=38.5s)
+[10:49:29] step=state-saved cr_film_id=1567 (total uploads=14)
+[10:49:29] step=iteration 9/10
+[10:49:29] step=film start cr_film_id=2909 name='Byl jednou jeden sněhulák (2020) HD CZ'
+[10:49:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14754_720p.mp4
+[10:49:35] step=cdn-resolve done 5.8s → https://online6.sktorrent.eu/media/videos//h264/14754_720p.mp4
+[10:49:35] step=download curl https://online6.sktorrent.eu/media/videos//h264/14754_720p.mp4
+[10:49:46] step=download done cr_film_id=2909 size=40724797 dur=10.9s speed=3.7MB/s
+[10:49:46] step=upload start cr_film_id=2909 size=40724797
+[10:49:50] step=upload done cr_film_id=2909 video_id=23981611 dur=4.8s speed=8.5MB/s
+[10:49:50] step=cleanup unlinked Byl jednou jeden sněhulák (2020) HD CZ.mp4
+[10:49:50] step=film done cr_film_id=2909 total=21.5s (cdn=5.8s + download=10.9s + upload=4.8s)
+[10:49:50] step=state-saved cr_film_id=2909 (total uploads=15)
+[10:49:50] step=iteration 10/10
+[10:49:50] step=film start cr_film_id=2075 name='Teorie tygra (2016) HD CZ'
+[10:49:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2959_720p.mp4
+[10:49:56] step=cdn-resolve done 5.8s → https://online9.sktorrent.eu/media/videos//h264/2959_720p.mp4
+[10:49:56] step=download curl https://online9.sktorrent.eu/media/videos//h264/2959_720p.mp4
+[10:52:39] step=download done cr_film_id=2075 size=1188568765 dur=163.0s speed=7.3MB/s
+[10:52:39] step=upload start cr_film_id=2075 size=1188568765
+[10:55:07] step=upload done cr_film_id=2075 video_id=23981676 dur=148.1s speed=8.0MB/s
+[10:55:08] step=cleanup unlinked Teorie tygra (2016) HD CZ.mp4
+[10:55:08] step=film done cr_film_id=2075 total=317.1s (cdn=5.8s + download=163.0s + upload=148.1s)
+[10:55:08] step=state-saved cr_film_id=2075 (total uploads=16)
+[10:55:08] step=batch-end succeeded=9 failed=1 total_uploads=16 batch_dur=2160.9s avg_per_film=240.1s backlog_remaining=996 eta_hours=66.4
