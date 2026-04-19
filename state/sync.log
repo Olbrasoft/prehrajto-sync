@@ -1,3 +1,21 @@
 # prehrajto-sync — workflow execution log
 # Each entry: [HH:MM:SS] step=<name> ...
 # Format intended for human inspection; not parsed by code.
+
+===== run 2026-04-19T09:40:53Z (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24626101124) =====
+[2026-04-19T09:40:53Z] step=init github_run_id=24626101124 attempt=1
+[09:40:53] step=pick mode=auto-backlog
+[pick] state: 1 hotovo, 2 moderated_out
+[pick] backlog: 1014 kandidátů
+[pick] vybrán: cr_film_id=168, 'Umění létat 3D (2011) HD CZ'
+[pick] sktorrent_url=https://online.sktorrent.eu/media/videos//h264/19988_720p.mp4
+[pick] description (432 znaků): Připravte se na adrenalinovou jízdu s nejlepšími snowboardisty světa! Ve filmu Umění létat sledujeme Travise Rice a jeho...
+[pick] zapsáno do GITHUB_OUTPUT
+[09:40:53] step=download start url=https://online.sktorrent.eu/media/videos//h264/19988_720p.mp4 safe_name=Umění létat 3D (2011) HD CZ
+#=#=#                                                                          ##O#-#                                                                         
+[09:40:54] step=download done size=0
+[09:40:54] step=upload start file=/tmp/Umění létat 3D (2011) HD CZ.mp4 size=0
+[09:40:59] step=upload done video_id=23980006
+<stdin>:4: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+[state] appended cr_film_id=168 video_id=23980006
+[09:40:59] step=commit-back
