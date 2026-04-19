@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-19T10:55:08Z",
+  "last_updated": "2026-04-19T11:36:32Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -275,6 +275,186 @@
         "download_sec": 163.0,
         "upload_sec": 148.1,
         "total_sec": 317.1
+      }
+    },
+    {
+      "cr_film_id": 2367,
+      "cr_slug": "andel-pane-2",
+      "title": "Anděl Páně 2",
+      "year": 2016,
+      "sktorrent_id": 2068,
+      "prehrajto_video_id": 23981846,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:06:59Z",
+      "status": "processing",
+      "size_bytes": 785634753,
+      "timing": {
+        "cdn_resolve_sec": 4.1,
+        "download_sec": 202.9,
+        "upload_sec": 42.7,
+        "total_sec": 249.8
+      }
+    },
+    {
+      "cr_film_id": 3487,
+      "cr_slug": "dve-tvare-lasky",
+      "title": "Dvě tváře lásky",
+      "year": 1996,
+      "sktorrent_id": 43799,
+      "prehrajto_video_id": 23981923,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:11:41Z",
+      "status": "processing",
+      "size_bytes": 954619919,
+      "timing": {
+        "cdn_resolve_sec": 1.9,
+        "download_sec": 237.8,
+        "upload_sec": 42.8,
+        "total_sec": 282.5
+      }
+    },
+    {
+      "cr_film_id": 3042,
+      "cr_slug": "ostrov",
+      "title": "Ostrov",
+      "year": 2005,
+      "sktorrent_id": 5680,
+      "prehrajto_video_id": 23982029,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:18:33Z",
+      "status": "processing",
+      "size_bytes": 2019201752,
+      "timing": {
+        "cdn_resolve_sec": 0.6,
+        "download_sec": 284.4,
+        "upload_sec": 126.6,
+        "total_sec": 411.9
+      }
+    },
+    {
+      "cr_film_id": 2637,
+      "cr_slug": "spolu-to-dame",
+      "title": "Spolu to dáme",
+      "year": 2017,
+      "sktorrent_id": 2323,
+      "prehrajto_video_id": 23982118,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:22:25Z",
+      "status": "processing",
+      "size_bytes": 987267213,
+      "timing": {
+        "cdn_resolve_sec": 6.3,
+        "download_sec": 186.4,
+        "upload_sec": 38.9,
+        "total_sec": 231.8
+      }
+    },
+    {
+      "cr_film_id": 2355,
+      "cr_slug": "ukryt-v-zoo",
+      "title": "Úkryt v zoo",
+      "year": 2017,
+      "sktorrent_id": 2418,
+      "prehrajto_video_id": 23982164,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:24:46Z",
+      "status": "processing",
+      "size_bytes": 383342153,
+      "timing": {
+        "cdn_resolve_sec": 4.7,
+        "download_sec": 116.8,
+        "upload_sec": 19.2,
+        "total_sec": 140.8
+      }
+    },
+    {
+      "cr_film_id": 4040,
+      "cr_slug": "blazniva-strela-33-a-13-posledni-trapas",
+      "title": "Bláznivá střela 33 ⅓: Poslední trapas",
+      "year": 1994,
+      "sktorrent_id": 36318,
+      "prehrajto_video_id": 23982221,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:28:07Z",
+      "status": "processing",
+      "size_bytes": 718088970,
+      "timing": {
+        "cdn_resolve_sec": 2.2,
+        "download_sec": 162.2,
+        "upload_sec": 37.3,
+        "total_sec": 201.7
+      }
+    },
+    {
+      "cr_film_id": 3649,
+      "cr_slug": "mavka-strazkyne-lesa",
+      "title": "Mavka: Strážkyně lesa",
+      "year": 2022,
+      "sktorrent_id": 31991,
+      "prehrajto_video_id": 23982270,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:30:49Z",
+      "status": "processing",
+      "size_bytes": 967380789,
+      "timing": {
+        "cdn_resolve_sec": 6.7,
+        "download_sec": 120.6,
+        "upload_sec": 34.4,
+        "total_sec": 161.8
+      }
+    },
+    {
+      "cr_film_id": 1640,
+      "cr_slug": "tiche-misto-cast-ii",
+      "title": "Tiché místo: Část II",
+      "year": 2020,
+      "sktorrent_id": 18476,
+      "prehrajto_video_id": 23982301,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:32:52Z",
+      "status": "processing",
+      "size_bytes": 606481519,
+      "timing": {
+        "cdn_resolve_sec": 7.0,
+        "download_sec": 79.7,
+        "upload_sec": 35.6,
+        "total_sec": 122.4
+      }
+    },
+    {
+      "cr_film_id": 1643,
+      "cr_slug": "minamata",
+      "title": "Minamata",
+      "year": 2020,
+      "sktorrent_id": 54562,
+      "prehrajto_video_id": 23982333,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:34:56Z",
+      "status": "processing",
+      "size_bytes": 590633586,
+      "timing": {
+        "cdn_resolve_sec": 5.8,
+        "download_sec": 88.9,
+        "upload_sec": 29.4,
+        "total_sec": 124.2
+      }
+    },
+    {
+      "cr_film_id": 1300,
+      "cr_slug": "dalva",
+      "title": "Dalva",
+      "year": 2022,
+      "sktorrent_id": 35073,
+      "prehrajto_video_id": 23982359,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T11:36:32Z",
+      "status": "processing",
+      "size_bytes": 397523788,
+      "timing": {
+        "cdn_resolve_sec": 10.7,
+        "download_sec": 58.7,
+        "upload_sec": 26.5,
+        "total_sec": 96.0
       }
     }
   ],

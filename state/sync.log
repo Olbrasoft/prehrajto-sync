@@ -213,3 +213,119 @@
 [10:55:08] step=film done cr_film_id=2075 total=317.1s (cdn=5.8s + download=163.0s + upload=148.1s)
 [10:55:08] step=state-saved cr_film_id=2075 (total uploads=16)
 [10:55:08] step=batch-end succeeded=9 failed=1 total_uploads=16 batch_dur=2160.9s avg_per_film=240.1s backlog_remaining=996 eta_hours=66.4
+
+===== run 2026-04-19T11:02:47Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24627551735) =====
+[11:02:48] step=batch-start count=10 backlog=1014 uploads=16 moderated=2
+[11:02:48] step=login
+[11:02:49] step=login done
+[11:02:49] step=iteration 1/10
+[11:02:49] step=film start cr_film_id=2367 name='Anděl Páně 2 (2016) HD CZ'
+[11:02:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2068_720p.mp4
+[11:02:53] step=cdn-resolve done 4.1s → https://online5.sktorrent.eu/media/videos//h264/2068_720p.mp4
+[11:02:53] step=download curl https://online5.sktorrent.eu/media/videos//h264/2068_720p.mp4
+[11:06:16] step=download done cr_film_id=2367 size=785634753 dur=202.9s speed=3.9MB/s
+[11:06:16] step=upload start cr_film_id=2367 size=785634753
+[11:06:59] step=upload done cr_film_id=2367 video_id=23981846 dur=42.7s speed=18.4MB/s
+[11:06:59] step=cleanup unlinked Anděl Páně 2 (2016) HD CZ.mp4
+[11:06:59] step=film done cr_film_id=2367 total=249.8s (cdn=4.1s + download=202.9s + upload=42.7s)
+[11:06:59] step=state-saved cr_film_id=2367 (total uploads=17)
+[11:06:59] step=iteration 2/10
+[11:06:59] step=film start cr_film_id=3487 name='Dvě tváře lásky (1996) HD CZ'
+[11:06:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/43799_720p.mp4
+[11:07:01] step=cdn-resolve done 1.9s → https://online4.sktorrent.eu/media/videos//h264/43799_720p.mp4
+[11:07:01] step=download curl https://online4.sktorrent.eu/media/videos//h264/43799_720p.mp4
+[11:10:58] step=download done cr_film_id=3487 size=954619919 dur=237.8s speed=4.0MB/s
+[11:10:58] step=upload start cr_film_id=3487 size=954619919
+[11:11:41] step=upload done cr_film_id=3487 video_id=23981923 dur=42.8s speed=22.3MB/s
+[11:11:41] step=cleanup unlinked Dvě tváře lásky (1996) HD CZ.mp4
+[11:11:41] step=film done cr_film_id=3487 total=282.5s (cdn=1.9s + download=237.8s + upload=42.8s)
+[11:11:41] step=state-saved cr_film_id=3487 (total uploads=18)
+[11:11:41] step=iteration 3/10
+[11:11:41] step=film start cr_film_id=3042 name='Ostrov (2005) HD CZ'
+[11:11:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/5680_720p.mp4
+[11:11:42] step=cdn-resolve done 0.6s → https://online1.sktorrent.eu/media/videos//h264/5680_720p.mp4
+[11:11:42] step=download curl https://online1.sktorrent.eu/media/videos//h264/5680_720p.mp4
+[11:16:26] step=download done cr_film_id=3042 size=2019201752 dur=284.4s speed=7.1MB/s
+[11:16:26] step=upload start cr_film_id=3042 size=2019201752
+[11:18:33] step=upload done cr_film_id=3042 video_id=23982029 dur=126.6s speed=15.9MB/s
+[11:18:33] step=cleanup unlinked Ostrov (2005) HD CZ.mp4
+[11:18:33] step=film done cr_film_id=3042 total=411.9s (cdn=0.6s + download=284.4s + upload=126.6s)
+[11:18:33] step=state-saved cr_film_id=3042 (total uploads=19)
+[11:18:33] step=iteration 4/10
+[11:18:33] step=film start cr_film_id=2637 name='Spolu to dáme (2017) HD CZ'
+[11:18:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2323_720p.mp4
+[11:18:39] step=cdn-resolve done 6.3s → https://online10.sktorrent.eu/media/videos//h264/2323_720p.mp4
+[11:18:39] step=download curl https://online10.sktorrent.eu/media/videos//h264/2323_720p.mp4
+[11:21:46] step=download done cr_film_id=2637 size=987267213 dur=186.4s speed=5.3MB/s
+[11:21:46] step=upload start cr_film_id=2637 size=987267213
+[11:22:25] step=upload done cr_film_id=2637 video_id=23982118 dur=38.9s speed=25.4MB/s
+[11:22:25] step=cleanup unlinked Spolu to dáme (2017) HD CZ.mp4
+[11:22:25] step=film done cr_film_id=2637 total=231.8s (cdn=6.3s + download=186.4s + upload=38.9s)
+[11:22:25] step=state-saved cr_film_id=2637 (total uploads=20)
+[11:22:25] step=iteration 5/10
+[11:22:25] step=film start cr_film_id=2355 name='Úkryt v zoo (2017) HD CZ'
+[11:22:25] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2418_480p.mp4
+[11:22:30] step=cdn-resolve done 4.7s → https://online11.sktorrent.eu/media/videos//h264/2418_480p.mp4
+[11:22:30] step=download curl https://online11.sktorrent.eu/media/videos//h264/2418_480p.mp4
+[11:24:26] step=download done cr_film_id=2355 size=383342153 dur=116.8s speed=3.3MB/s
+[11:24:26] step=upload start cr_film_id=2355 size=383342153
+[11:24:46] step=upload done cr_film_id=2355 video_id=23982164 dur=19.2s speed=20.0MB/s
+[11:24:46] step=cleanup unlinked Úkryt v zoo (2017) HD CZ.mp4
+[11:24:46] step=film done cr_film_id=2355 total=140.8s (cdn=4.7s + download=116.8s + upload=19.2s)
+[11:24:46] step=state-saved cr_film_id=2355 (total uploads=21)
+[11:24:46] step=iteration 6/10
+[11:24:46] step=film start cr_film_id=4040 name='Bláznivá střela 33 ⅓: Poslední trapas (1994) HD CZ'
+[11:24:46] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36318_720p.mp4
+[11:24:48] step=cdn-resolve done 2.2s → https://online3.sktorrent.eu/media/videos//h264/36318_720p.mp4
+[11:24:48] step=download curl https://online3.sktorrent.eu/media/videos//h264/36318_720p.mp4
+[11:27:30] step=download done cr_film_id=4040 size=718088970 dur=162.2s speed=4.4MB/s
+[11:27:30] step=upload start cr_film_id=4040 size=718088970
+[11:28:07] step=upload done cr_film_id=4040 video_id=23982221 dur=37.3s speed=19.3MB/s
+[11:28:07] step=cleanup unlinked Bláznivá střela 33 ⅓: Poslední trapas (1994) HD CZ.mp4
+[11:28:07] step=film done cr_film_id=4040 total=201.7s (cdn=2.2s + download=162.2s + upload=37.3s)
+[11:28:07] step=state-saved cr_film_id=4040 (total uploads=22)
+[11:28:07] step=iteration 7/10
+[11:28:07] step=film start cr_film_id=3649 name='Mavka: Strážkyně lesa (2022) HD CZ'
+[11:28:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31991_720p.mp4
+[11:28:14] step=cdn-resolve done 6.7s → https://online14.sktorrent.eu/media/videos//h264/31991_720p.mp4
+[11:28:14] step=download curl https://online14.sktorrent.eu/media/videos//h264/31991_720p.mp4
+[11:30:15] step=download done cr_film_id=3649 size=967380789 dur=120.6s speed=8.0MB/s
+[11:30:15] step=upload start cr_film_id=3649 size=967380789
+[11:30:49] step=upload done cr_film_id=3649 video_id=23982270 dur=34.4s speed=28.1MB/s
+[11:30:49] step=cleanup unlinked Mavka: Strážkyně lesa (2022) HD CZ.mp4
+[11:30:49] step=film done cr_film_id=3649 total=161.8s (cdn=6.7s + download=120.6s + upload=34.4s)
+[11:30:49] step=state-saved cr_film_id=3649 (total uploads=23)
+[11:30:49] step=iteration 8/10
+[11:30:49] step=film start cr_film_id=1640 name='Tiché místo: Část II (2020) HD CZ'
+[11:30:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18476_720p.mp4
+[11:30:56] step=cdn-resolve done 7.0s → https://online18.sktorrent.eu/media/videos//h264/18476_720p.mp4
+[11:30:56] step=download curl https://online18.sktorrent.eu/media/videos//h264/18476_720p.mp4
+[11:32:16] step=download done cr_film_id=1640 size=606481519 dur=79.7s speed=7.6MB/s
+[11:32:16] step=upload start cr_film_id=1640 size=606481519
+[11:32:52] step=upload done cr_film_id=1640 video_id=23982301 dur=35.6s speed=17.0MB/s
+[11:32:52] step=cleanup unlinked Tiché místo: Část II (2020) HD CZ.mp4
+[11:32:52] step=film done cr_film_id=1640 total=122.4s (cdn=7.0s + download=79.7s + upload=35.6s)
+[11:32:52] step=state-saved cr_film_id=1640 (total uploads=24)
+[11:32:52] step=iteration 9/10
+[11:32:52] step=film start cr_film_id=1643 name='Minamata (2020) HD CZ'
+[11:32:52] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/54562_720p.mp4
+[11:32:57] step=cdn-resolve done 5.8s → https://online13.sktorrent.eu/media/videos//h264/54562_720p.mp4
+[11:32:57] step=download curl https://online13.sktorrent.eu/media/videos//h264/54562_720p.mp4
+[11:34:26] step=download done cr_film_id=1643 size=590633586 dur=88.9s speed=6.6MB/s
+[11:34:26] step=upload start cr_film_id=1643 size=590633586
+[11:34:56] step=upload done cr_film_id=1643 video_id=23982333 dur=29.4s speed=20.1MB/s
+[11:34:56] step=cleanup unlinked Minamata (2020) HD CZ.mp4
+[11:34:56] step=film done cr_film_id=1643 total=124.2s (cdn=5.8s + download=88.9s + upload=29.4s)
+[11:34:56] step=state-saved cr_film_id=1643 (total uploads=25)
+[11:34:56] step=iteration 10/10
+[11:34:56] step=film start cr_film_id=1300 name='Dalva (2022) HD CZ'
+[11:34:56] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/35073_720p.mp4
+[11:35:07] step=cdn-resolve done 10.7s → https://online21.sktorrent.eu/media/videos//h264/35073_720p.mp4
+[11:35:07] step=download curl https://online21.sktorrent.eu/media/videos//h264/35073_720p.mp4
+[11:36:05] step=download done cr_film_id=1300 size=397523788 dur=58.7s speed=6.8MB/s
+[11:36:05] step=upload start cr_film_id=1300 size=397523788
+[11:36:32] step=upload done cr_film_id=1300 video_id=23982359 dur=26.5s speed=15.0MB/s
+[11:36:32] step=cleanup unlinked Dalva (2022) HD CZ.mp4
+[11:36:32] step=film done cr_film_id=1300 total=96.0s (cdn=10.7s + download=58.7s + upload=26.5s)
+[11:36:32] step=state-saved cr_film_id=1300 (total uploads=26)
+[11:36:32] step=batch-end succeeded=10 failed=0 total_uploads=26 batch_dur=2023.0s avg_per_film=202.3s backlog_remaining=986 eta_hours=55.4
