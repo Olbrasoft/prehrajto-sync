@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-19T09:40:59Z",
+  "last_updated": "2026-04-19T09:47:25Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -12,6 +12,17 @@
       "prehrajto_video_id": 23979886,
       "prehrajto_slug_path": "/dj-ahmet-2025-hd-cz-mp4/7e558f299fae2b1b",
       "uploaded_at": "2026-04-19T09:30:00Z",
+      "status": "processing"
+    },
+    {
+      "cr_film_id": 168,
+      "cr_slug": "the-art-of-flight",
+      "title": "Umění létat 3D",
+      "year": 2011,
+      "sktorrent_id": 19988,
+      "prehrajto_video_id": 23980063,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T09:47:25Z",
       "status": "processing"
     }
   ],
