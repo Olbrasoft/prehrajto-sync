@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-19T11:36:32Z",
+  "last_updated": "2026-04-19T13:35:31Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -455,6 +455,186 @@
         "download_sec": 58.7,
         "upload_sec": 26.5,
         "total_sec": 96.0
+      }
+    },
+    {
+      "cr_film_id": 1596,
+      "cr_slug": "profesor-a-silenec",
+      "title": "Profesor a šílenec",
+      "year": 2019,
+      "sktorrent_id": 34333,
+      "prehrajto_video_id": 23984087,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T12:59:11Z",
+      "status": "processing",
+      "size_bytes": 234825613,
+      "timing": {
+        "cdn_resolve_sec": 11.8,
+        "download_sec": 17.1,
+        "upload_sec": 17.1,
+        "total_sec": 46.0
+      }
+    },
+    {
+      "cr_film_id": 6596,
+      "cr_slug": "lakomec",
+      "title": "Radin!",
+      "year": 2020,
+      "sktorrent_id": 37262,
+      "prehrajto_video_id": 23984135,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T13:02:01Z",
+      "status": "processing",
+      "size_bytes": 393550451,
+      "timing": {
+        "cdn_resolve_sec": 6.8,
+        "download_sec": 142.3,
+        "upload_sec": 20.8,
+        "total_sec": 170.0
+      }
+    },
+    {
+      "cr_film_id": 2542,
+      "cr_slug": "the-childe",
+      "title": "귀공자",
+      "year": 2023,
+      "sktorrent_id": 32156,
+      "prehrajto_video_id": 23984163,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T13:04:10Z",
+      "status": "processing",
+      "size_bytes": 583072642,
+      "timing": {
+        "cdn_resolve_sec": 4.2,
+        "download_sec": 87.4,
+        "upload_sec": 37.8,
+        "total_sec": 129.4
+      }
+    },
+    {
+      "cr_film_id": 4617,
+      "cr_slug": "kouzelny-svet-davida-copperfielda",
+      "title": "Kouzelný svět Davida Copperfielda",
+      "year": 2019,
+      "sktorrent_id": 25359,
+      "prehrajto_video_id": 23984198,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T13:07:04Z",
+      "status": "processing",
+      "size_bytes": 841908684,
+      "timing": {
+        "cdn_resolve_sec": 7.7,
+        "download_sec": 108.1,
+        "upload_sec": 58.2,
+        "total_sec": 174.0
+      }
+    },
+    {
+      "cr_film_id": 3117,
+      "cr_slug": "lidice",
+      "title": "Lidice",
+      "year": 2011,
+      "sktorrent_id": 3411,
+      "prehrajto_video_id": 23984367,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T13:18:01Z",
+      "status": "processing",
+      "size_bytes": 3488067896,
+      "timing": {
+        "cdn_resolve_sec": 9.0,
+        "download_sec": 496.4,
+        "upload_sec": 151.5,
+        "total_sec": 657.0
+      }
+    },
+    {
+      "cr_film_id": 3682,
+      "cr_slug": "whitney-houston-i-wanna-dance-with-somebody",
+      "title": "Whitney Houston: I Wanna Dance with Somebody",
+      "year": 2022,
+      "sktorrent_id": 32227,
+      "prehrajto_video_id": 23984470,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T13:21:30Z",
+      "status": "processing",
+      "size_bytes": 991822641,
+      "timing": {
+        "cdn_resolve_sec": 8.9,
+        "download_sec": 149.5,
+        "upload_sec": 50.6,
+        "total_sec": 209.1
+      }
+    },
+    {
+      "cr_film_id": 3560,
+      "cr_slug": "tisnova-linka",
+      "title": "Tísňová linka",
+      "year": 2013,
+      "sktorrent_id": 608,
+      "prehrajto_video_id": 23984487,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T13:22:57Z",
+      "status": "processing",
+      "size_bytes": 396400588,
+      "timing": {
+        "cdn_resolve_sec": 10.2,
+        "download_sec": 57.5,
+        "upload_sec": 19.6,
+        "total_sec": 87.3
+      }
+    },
+    {
+      "cr_film_id": 2814,
+      "cr_slug": "to-se-mi-snad-zda",
+      "title": "To se mi snad zdá",
+      "year": 2023,
+      "sktorrent_id": 39310,
+      "prehrajto_video_id": 23984516,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T13:25:25Z",
+      "status": "processing",
+      "size_bytes": 525300120,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 121.9,
+        "upload_sec": 24.6,
+        "total_sec": 148.0
+      }
+    },
+    {
+      "cr_film_id": 2922,
+      "cr_slug": "utek-z-pretorie",
+      "title": "Útěk z Pretorie",
+      "year": 2020,
+      "sktorrent_id": 15762,
+      "prehrajto_video_id": 23984529,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T13:27:03Z",
+      "status": "processing",
+      "size_bytes": 458325774,
+      "timing": {
+        "cdn_resolve_sec": 4.8,
+        "download_sec": 59.4,
+        "upload_sec": 33.6,
+        "total_sec": 97.9
+      }
+    },
+    {
+      "cr_film_id": 2980,
+      "cr_slug": "aquaman",
+      "title": "Aquaman",
+      "year": 2018,
+      "sktorrent_id": 2647,
+      "prehrajto_video_id": 23984632,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T13:35:31Z",
+      "status": "processing",
+      "size_bytes": 2396855082,
+      "timing": {
+        "cdn_resolve_sec": 4.8,
+        "download_sec": 377.6,
+        "upload_sec": 125.4,
+        "total_sec": 508.0
       }
     }
   ],

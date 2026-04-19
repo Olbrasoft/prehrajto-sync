@@ -329,3 +329,119 @@
 [11:36:32] step=film done cr_film_id=1300 total=96.0s (cdn=10.7s + download=58.7s + upload=26.5s)
 [11:36:32] step=state-saved cr_film_id=1300 (total uploads=26)
 [11:36:32] step=batch-end succeeded=10 failed=0 total_uploads=26 batch_dur=2023.0s avg_per_film=202.3s backlog_remaining=986 eta_hours=55.4
+
+===== run 2026-04-19T12:58:23Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24629654503) =====
+[12:58:23] step=batch-start count=10 backlog=1014 uploads=26 moderated=2
+[12:58:23] step=login
+[12:58:25] step=login done
+[12:58:25] step=iteration 1/10
+[12:58:25] step=film start cr_film_id=1596 name='Profesor a šílenec (2019) HD CZ'
+[12:58:25] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/34333_480p.mp4
+[12:58:36] step=cdn-resolve done 11.8s → https://online24.sktorrent.eu/media/videos//h264/34333_480p.mp4
+[12:58:36] step=download curl https://online24.sktorrent.eu/media/videos//h264/34333_480p.mp4
+[12:58:54] step=download done cr_film_id=1596 size=234825613 dur=17.1s speed=13.7MB/s
+[12:58:54] step=upload start cr_film_id=1596 size=234825613
+[12:59:11] step=upload done cr_film_id=1596 video_id=23984087 dur=17.1s speed=13.7MB/s
+[12:59:11] step=cleanup unlinked Profesor a šílenec (2019) HD CZ.mp4
+[12:59:11] step=film done cr_film_id=1596 total=46.0s (cdn=11.8s + download=17.1s + upload=17.1s)
+[12:59:11] step=state-saved cr_film_id=1596 (total uploads=27)
+[12:59:11] step=iteration 2/10
+[12:59:11] step=film start cr_film_id=6596 name='Radin! (2020) HD CZ'
+[12:59:11] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37262_480p.mp4
+[12:59:17] step=cdn-resolve done 6.8s → https://online15.sktorrent.eu/media/videos//h264/37262_480p.mp4
+[12:59:17] step=download curl https://online15.sktorrent.eu/media/videos//h264/37262_480p.mp4
+[13:01:40] step=download done cr_film_id=6596 size=393550451 dur=142.3s speed=2.8MB/s
+[13:01:40] step=upload start cr_film_id=6596 size=393550451
+[13:02:01] step=upload done cr_film_id=6596 video_id=23984135 dur=20.8s speed=18.9MB/s
+[13:02:01] step=cleanup unlinked Radin! (2020) HD CZ.mp4
+[13:02:01] step=film done cr_film_id=6596 total=170.0s (cdn=6.8s + download=142.3s + upload=20.8s)
+[13:02:01] step=state-saved cr_film_id=6596 (total uploads=28)
+[13:02:01] step=iteration 3/10
+[13:02:01] step=film start cr_film_id=2542 name='귀공자 (2023) HD CZ'
+[13:02:01] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32156_720p.mp4
+[13:02:05] step=cdn-resolve done 4.2s → https://online9.sktorrent.eu/media/videos//h264/32156_720p.mp4
+[13:02:05] step=download curl https://online9.sktorrent.eu/media/videos//h264/32156_720p.mp4
+[13:03:32] step=download done cr_film_id=2542 size=583072642 dur=87.4s speed=6.7MB/s
+[13:03:32] step=upload start cr_film_id=2542 size=583072642
+[13:04:10] step=upload done cr_film_id=2542 video_id=23984163 dur=37.8s speed=15.4MB/s
+[13:04:10] step=cleanup unlinked 귀공자 (2023) HD CZ.mp4
+[13:04:10] step=film done cr_film_id=2542 total=129.4s (cdn=4.2s + download=87.4s + upload=37.8s)
+[13:04:10] step=state-saved cr_film_id=2542 (total uploads=29)
+[13:04:10] step=iteration 4/10
+[13:04:10] step=film start cr_film_id=4617 name='Kouzelný svět Davida Copperfielda (2019) HD CZ'
+[13:04:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25359_720p.mp4
+[13:04:18] step=cdn-resolve done 7.7s → https://online17.sktorrent.eu/media/videos//h264/25359_720p.mp4
+[13:04:18] step=download curl https://online17.sktorrent.eu/media/videos//h264/25359_720p.mp4
+[13:06:06] step=download done cr_film_id=4617 size=841908684 dur=108.1s speed=7.8MB/s
+[13:06:06] step=upload start cr_film_id=4617 size=841908684
+[13:07:04] step=upload done cr_film_id=4617 video_id=23984198 dur=58.2s speed=14.5MB/s
+[13:07:04] step=cleanup unlinked Kouzelný svět Davida Copperfielda (2019) HD CZ.mp4
+[13:07:04] step=film done cr_film_id=4617 total=174.0s (cdn=7.7s + download=108.1s + upload=58.2s)
+[13:07:04] step=state-saved cr_film_id=4617 (total uploads=30)
+[13:07:04] step=iteration 5/10
+[13:07:04] step=film start cr_film_id=3117 name='Lidice (2011) HD CZ'
+[13:07:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/3411_720p.mp4
+[13:07:13] step=cdn-resolve done 9.0s → https://online21.sktorrent.eu/media/videos//h264/3411_720p.mp4
+[13:07:13] step=download curl https://online21.sktorrent.eu/media/videos//h264/3411_720p.mp4
+[13:15:29] step=download done cr_film_id=3117 size=3488067896 dur=496.4s speed=7.0MB/s
+[13:15:29] step=upload start cr_film_id=3117 size=3488067896
+[13:18:01] step=upload done cr_film_id=3117 video_id=23984367 dur=151.5s speed=23.0MB/s
+[13:18:01] step=cleanup unlinked Lidice (2011) HD CZ.mp4
+[13:18:01] step=film done cr_film_id=3117 total=657.0s (cdn=9.0s + download=496.4s + upload=151.5s)
+[13:18:01] step=state-saved cr_film_id=3117 (total uploads=31)
+[13:18:01] step=iteration 6/10
+[13:18:01] step=film start cr_film_id=3682 name='Whitney Houston: I Wanna Dance with Somebody (2022) HD CZ'
+[13:18:01] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32227_720p.mp4
+[13:18:10] step=cdn-resolve done 8.9s → https://online20.sktorrent.eu/media/videos//h264/32227_720p.mp4
+[13:18:10] step=download curl https://online20.sktorrent.eu/media/videos//h264/32227_720p.mp4
+[13:20:39] step=download done cr_film_id=3682 size=991822641 dur=149.5s speed=6.6MB/s
+[13:20:39] step=upload start cr_film_id=3682 size=991822641
+[13:21:30] step=upload done cr_film_id=3682 video_id=23984470 dur=50.6s speed=19.6MB/s
+[13:21:30] step=cleanup unlinked Whitney Houston: I Wanna Dance with Somebody (2022) HD CZ.mp4
+[13:21:30] step=film done cr_film_id=3682 total=209.1s (cdn=8.9s + download=149.5s + upload=50.6s)
+[13:21:30] step=state-saved cr_film_id=3682 (total uploads=32)
+[13:21:30] step=iteration 7/10
+[13:21:30] step=film start cr_film_id=3560 name='Tísňová linka (2013) HD CZ'
+[13:21:30] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/608_480p.mp4
+[13:21:40] step=cdn-resolve done 10.2s → https://online24.sktorrent.eu/media/videos//h264/608_480p.mp4
+[13:21:40] step=download curl https://online24.sktorrent.eu/media/videos//h264/608_480p.mp4
+[13:22:38] step=download done cr_film_id=3560 size=396400588 dur=57.5s speed=6.9MB/s
+[13:22:38] step=upload start cr_film_id=3560 size=396400588
+[13:22:57] step=upload done cr_film_id=3560 video_id=23984487 dur=19.6s speed=20.2MB/s
+[13:22:57] step=cleanup unlinked Tísňová linka (2013) HD CZ.mp4
+[13:22:57] step=film done cr_film_id=3560 total=87.3s (cdn=10.2s + download=57.5s + upload=19.6s)
+[13:22:57] step=state-saved cr_film_id=3560 (total uploads=33)
+[13:22:57] step=iteration 8/10
+[13:22:57] step=film start cr_film_id=2814 name='To se mi snad zdá (2023) HD CZ'
+[13:22:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/39310_720p.mp4
+[13:22:59] step=cdn-resolve done 1.4s → https://online3.sktorrent.eu/media/videos//h264/39310_720p.mp4
+[13:22:59] step=download curl https://online3.sktorrent.eu/media/videos//h264/39310_720p.mp4
+[13:25:01] step=download done cr_film_id=2814 size=525300120 dur=121.9s speed=4.3MB/s
+[13:25:01] step=upload start cr_film_id=2814 size=525300120
+[13:25:25] step=upload done cr_film_id=2814 video_id=23984516 dur=24.6s speed=21.4MB/s
+[13:25:25] step=cleanup unlinked To se mi snad zdá (2023) HD CZ.mp4
+[13:25:25] step=film done cr_film_id=2814 total=148.0s (cdn=1.4s + download=121.9s + upload=24.6s)
+[13:25:25] step=state-saved cr_film_id=2814 (total uploads=34)
+[13:25:25] step=iteration 9/10
+[13:25:25] step=film start cr_film_id=2922 name='Útěk z Pretorie (2020) HD CZ'
+[13:25:25] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/15762_720p.mp4
+[13:25:30] step=cdn-resolve done 4.8s → https://online10.sktorrent.eu/media/videos//h264/15762_720p.mp4
+[13:25:30] step=download curl https://online10.sktorrent.eu/media/videos//h264/15762_720p.mp4
+[13:26:30] step=download done cr_film_id=2922 size=458325774 dur=59.4s speed=7.7MB/s
+[13:26:30] step=upload start cr_film_id=2922 size=458325774
+[13:27:03] step=upload done cr_film_id=2922 video_id=23984529 dur=33.6s speed=13.6MB/s
+[13:27:03] step=cleanup unlinked Útěk z Pretorie (2020) HD CZ.mp4
+[13:27:03] step=film done cr_film_id=2922 total=97.9s (cdn=4.8s + download=59.4s + upload=33.6s)
+[13:27:03] step=state-saved cr_film_id=2922 (total uploads=35)
+[13:27:03] step=iteration 10/10
+[13:27:03] step=film start cr_film_id=2980 name='Aquaman (2018) HD CZ'
+[13:27:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2647_720p.mp4
+[13:27:08] step=cdn-resolve done 4.8s → https://online10.sktorrent.eu/media/videos//h264/2647_720p.mp4
+[13:27:08] step=download curl https://online10.sktorrent.eu/media/videos//h264/2647_720p.mp4
+[13:33:26] step=download done cr_film_id=2980 size=2396855082 dur=377.6s speed=6.3MB/s
+[13:33:26] step=upload start cr_film_id=2980 size=2396855082
+[13:35:31] step=upload done cr_film_id=2980 video_id=23984632 dur=125.4s speed=19.1MB/s
+[13:35:31] step=cleanup unlinked Aquaman (2018) HD CZ.mp4
+[13:35:31] step=film done cr_film_id=2980 total=508.0s (cdn=4.8s + download=377.6s + upload=125.4s)
+[13:35:31] step=state-saved cr_film_id=2980 (total uploads=36)
+[13:35:31] step=batch-end succeeded=10 failed=0 total_uploads=36 batch_dur=2226.5s avg_per_film=222.7s backlog_remaining=976 eta_hours=60.4
