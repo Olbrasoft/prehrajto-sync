@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-19T09:47:25Z",
+  "last_updated": "2026-04-19T10:13:07Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -24,6 +24,96 @@
       "prehrajto_slug_path": null,
       "uploaded_at": "2026-04-19T09:47:25Z",
       "status": "processing"
+    },
+    {
+      "cr_film_id": 632,
+      "cr_slug": "medved",
+      "title": "Medvěd",
+      "year": 1988,
+      "sktorrent_id": 24432,
+      "prehrajto_video_id": 23980148,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T09:57:59Z",
+      "status": "processing",
+      "size_bytes": 710011618,
+      "timing": {
+        "cdn_resolve_sec": 12.7,
+        "download_sec": 143.0,
+        "upload_sec": 45.3,
+        "total_sec": 201.1
+      }
+    },
+    {
+      "cr_film_id": 270,
+      "cr_slug": "pratele-zase-spolu",
+      "title": "Přátelé: Zase spolu",
+      "year": 2021,
+      "sktorrent_id": 18579,
+      "prehrajto_video_id": 23980205,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T10:01:43Z",
+      "status": "processing",
+      "size_bytes": 775606307,
+      "timing": {
+        "cdn_resolve_sec": 11.4,
+        "download_sec": 167.0,
+        "upload_sec": 46.2,
+        "total_sec": 224.7
+      }
+    },
+    {
+      "cr_film_id": 2491,
+      "cr_slug": "blazniva-strela-2-a-12-vune-strachu",
+      "title": "Bláznivá střela 2 a ½: Vůně strachu",
+      "year": 1991,
+      "sktorrent_id": 36287,
+      "prehrajto_video_id": 23980254,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T10:04:38Z",
+      "status": "processing",
+      "size_bytes": 729830068,
+      "timing": {
+        "cdn_resolve_sec": 9.2,
+        "download_sec": 121.7,
+        "upload_sec": 43.2,
+        "total_sec": 174.3
+      }
+    },
+    {
+      "cr_film_id": 675,
+      "cr_slug": "anatomie-padu",
+      "title": "Anatomie pádu",
+      "year": 2023,
+      "sktorrent_id": 37835,
+      "prehrajto_video_id": 23980299,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T10:07:45Z",
+      "status": "processing",
+      "size_bytes": 938199605,
+      "timing": {
+        "cdn_resolve_sec": 12.8,
+        "download_sec": 106.2,
+        "upload_sec": 68.3,
+        "total_sec": 187.4
+      }
+    },
+    {
+      "cr_film_id": 690,
+      "cr_slug": "mission-impossible-odplata-prvni-cast",
+      "title": "Mission: Impossible Odplata – První část",
+      "year": 2023,
+      "sktorrent_id": 32813,
+      "prehrajto_video_id": 23980366,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-19T10:13:07Z",
+      "status": "processing",
+      "size_bytes": 1256642544,
+      "timing": {
+        "cdn_resolve_sec": 12.3,
+        "download_sec": 222.2,
+        "upload_sec": 87.0,
+        "total_sec": 321.7
+      }
     }
   ],
   "moderated_out": [

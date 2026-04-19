@@ -41,3 +41,64 @@
 <stdin>:4: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
 [state] appended cr_film_id=168 video_id=23980063
 [09:47:25] step=commit-back
+
+===== run 2026-04-19T09:54:35Z batch_size=5 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24626343657) =====
+[09:54:36] step=batch-start count=5 backlog=1014 uploads=2 moderated=2
+[09:54:36] step=login
+[09:54:38] step=login done
+[09:54:38] step=iteration 1/5
+[09:54:38] step=film start cr_film_id=632 name='Medvěd (1988) HD CZ'
+[09:54:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24432_720p.mp4
+[09:54:50] step=cdn-resolve done 12.7s → https://online18.sktorrent.eu/media/videos//h264/24432_720p.mp4
+[09:54:50] step=download curl https://online18.sktorrent.eu/media/videos//h264/24432_720p.mp4
+[09:57:13] step=download done cr_film_id=632 size=710011618 dur=143.0s speed=5.0MB/s
+[09:57:13] step=upload start cr_film_id=632 size=710011618
+[09:57:58] step=upload done cr_film_id=632 video_id=23980148 dur=45.3s speed=15.7MB/s
+[09:57:59] step=cleanup unlinked Medvěd (1988) HD CZ.mp4
+[09:57:59] step=film done cr_film_id=632 total=201.1s (cdn=12.7s + download=143.0s + upload=45.3s)
+[09:57:59] step=state-saved cr_film_id=632 (total uploads=3)
+[09:57:59] step=iteration 2/5
+[09:57:59] step=film start cr_film_id=270 name='Přátelé: Zase spolu (2021) HD CZ'
+[09:57:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18579_720p.mp4
+[09:58:10] step=cdn-resolve done 11.4s → https://online18.sktorrent.eu/media/videos//h264/18579_720p.mp4
+[09:58:10] step=download curl https://online18.sktorrent.eu/media/videos//h264/18579_720p.mp4
+[10:00:57] step=download done cr_film_id=270 size=775606307 dur=167.0s speed=4.6MB/s
+[10:00:57] step=upload start cr_film_id=270 size=775606307
+[10:01:43] step=upload done cr_film_id=270 video_id=23980205 dur=46.2s speed=16.8MB/s
+[10:01:43] step=cleanup unlinked Přátelé: Zase spolu (2021) HD CZ.mp4
+[10:01:43] step=film done cr_film_id=270 total=224.7s (cdn=11.4s + download=167.0s + upload=46.2s)
+[10:01:43] step=state-saved cr_film_id=270 (total uploads=4)
+[10:01:43] step=iteration 3/5
+[10:01:43] step=film start cr_film_id=2491 name='Bláznivá střela 2 a ½: Vůně strachu (1991) HD CZ'
+[10:01:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36287_720p.mp4
+[10:01:53] step=cdn-resolve done 9.2s → https://online11.sktorrent.eu/media/videos//h264/36287_720p.mp4
+[10:01:53] step=download curl https://online11.sktorrent.eu/media/videos//h264/36287_720p.mp4
+[10:03:54] step=download done cr_film_id=2491 size=729830068 dur=121.7s speed=6.0MB/s
+[10:03:54] step=upload start cr_film_id=2491 size=729830068
+[10:04:38] step=upload done cr_film_id=2491 video_id=23980254 dur=43.2s speed=16.9MB/s
+[10:04:38] step=cleanup unlinked Bláznivá střela 2 a ½: Vůně strachu (1991) HD CZ.mp4
+[10:04:38] step=film done cr_film_id=2491 total=174.3s (cdn=9.2s + download=121.7s + upload=43.2s)
+[10:04:38] step=state-saved cr_film_id=2491 (total uploads=5)
+[10:04:38] step=iteration 4/5
+[10:04:38] step=film start cr_film_id=675 name='Anatomie pádu (2023) HD CZ'
+[10:04:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37835_720p.mp4
+[10:04:50] step=cdn-resolve done 12.8s → https://online21.sktorrent.eu/media/videos//h264/37835_720p.mp4
+[10:04:50] step=download curl https://online21.sktorrent.eu/media/videos//h264/37835_720p.mp4
+[10:06:37] step=download done cr_film_id=675 size=938199605 dur=106.2s speed=8.8MB/s
+[10:06:37] step=upload start cr_film_id=675 size=938199605
+[10:07:45] step=upload done cr_film_id=675 video_id=23980299 dur=68.3s speed=13.7MB/s
+[10:07:45] step=cleanup unlinked Anatomie pádu (2023) HD CZ.mp4
+[10:07:45] step=film done cr_film_id=675 total=187.4s (cdn=12.8s + download=106.2s + upload=68.3s)
+[10:07:45] step=state-saved cr_film_id=675 (total uploads=6)
+[10:07:45] step=iteration 5/5
+[10:07:45] step=film start cr_film_id=690 name='Mission: Impossible Odplata – První část (2023) HD CZ'
+[10:07:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32813_720p.mp4
+[10:07:57] step=cdn-resolve done 12.3s → https://online18.sktorrent.eu/media/videos//h264/32813_720p.mp4
+[10:07:57] step=download curl https://online18.sktorrent.eu/media/videos//h264/32813_720p.mp4
+[10:11:40] step=download done cr_film_id=690 size=1256642544 dur=222.2s speed=5.7MB/s
+[10:11:40] step=upload start cr_film_id=690 size=1256642544
+[10:13:07] step=upload done cr_film_id=690 video_id=23980366 dur=87.0s speed=14.4MB/s
+[10:13:07] step=cleanup unlinked Mission: Impossible Odplata – První část (2023) HD CZ.mp4
+[10:13:07] step=film done cr_film_id=690 total=321.7s (cdn=12.3s + download=222.2s + upload=87.0s)
+[10:13:07] step=state-saved cr_film_id=690 (total uploads=7)
+[10:13:07] step=batch-end succeeded=5 failed=0 total_uploads=7 batch_dur=1109.2s avg_per_film=221.8s backlog_remaining=1005 eta_hours=61.9
