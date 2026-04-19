@@ -3,23 +3,18 @@ name: sync
 on:
   workflow_dispatch:
     inputs:
-      sktorrent_url:
-        description: "Direct sktorrent .mp4 URL (manual override, skip backlog)"
+      batch_size:
+        description: "Kolik filmů nahrát v jednom běhu (default 5)"
         required: false
-      film_name:
-        description: "Human-readable name for the upload (e.g. 'Lví král (1994) HD CZ')"
-        required: false
-      film_description:
-        description: "Plot description shown on prehraj.to detail page"
-        required: false
+        default: "5"
   # schedule:
   #   - cron: "0 */6 * * *"  # enable once we trust the workflow
 
 jobs:
-  upload-one:
-    name: Upload one missing film
+  upload-batch:
+    name: Upload N missing films
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 350  # GH max je 360 min — necháme rezervu na commit
     permissions:
       contents: write  # commit state + log back to repo
     steps:
@@ -36,7 +31,6 @@ jobs:
         run: pip install requests
 
       - name: Init log entry
-        id: log_init
         run: |
           mkdir -p state
           touch state/sync.log
@@ -44,129 +38,29 @@ jobs:
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           {
             echo ""
-            echo "===== run $RUN_TS ($RUN_URL) ====="
-            echo "[$RUN_TS] step=init github_run_id=${{ github.run_id }} attempt=${{ github.run_attempt }}"
+            echo "===== run $RUN_TS batch_size=${{ inputs.batch_size }} ($RUN_URL) ====="
           } >> state/sync.log
-          echo "run_ts=$RUN_TS" >> $GITHUB_OUTPUT
 
-      - name: Pick next film (manual or backlog)
-        id: pick
-        run: |
-          set -e
-          if [ -n "${{ inputs.sktorrent_url }}" ]; then
-            echo "[$(date -u +%H:%M:%S)] step=pick mode=manual url=${{ inputs.sktorrent_url }}" >> state/sync.log
-            echo "sktorrent_url=${{ inputs.sktorrent_url }}" >> $GITHUB_OUTPUT
-            echo "film_name=${{ inputs.film_name || 'manual-upload' }}" >> $GITHUB_OUTPUT
-            echo "film_description<<EOF_DESC" >> $GITHUB_OUTPUT
-            cat <<'EOF_DESC' >> $GITHUB_OUTPUT
-          ${{ inputs.film_description }}
-          EOF_DESC
-            echo "EOF_DESC" >> $GITHUB_OUTPUT
-            echo "cr_film_id=manual" >> $GITHUB_OUTPUT
-          else
-            echo "[$(date -u +%H:%M:%S)] step=pick mode=auto-backlog" >> state/sync.log
-            python src/pick_next_film.py 2>&1 | tee -a state/sync.log
-          fi
-
-      - name: Resolve sktorrent CDN edge
-        id: cdn
-        run: |
-          set -e
-          echo "[$(date -u +%H:%M:%S)] step=cdn-resolve placeholder=${{ steps.pick.outputs.sktorrent_url }}" >> state/sync.log
-          RESOLVED=$(python src/resolve_sktorrent_cdn.py "${{ steps.pick.outputs.sktorrent_url }}" 2>>state/sync.log)
-          if [ -z "$RESOLVED" ]; then
-            echo "[$(date -u +%H:%M:%S)] step=cdn-resolve FAILED no edge available" >> state/sync.log
-            exit 1
-          fi
-          echo "[$(date -u +%H:%M:%S)] step=cdn-resolve done → $RESOLVED" >> state/sync.log
-          echo "resolved_url=$RESOLVED" >> $GITHUB_OUTPUT
-
-      - name: Download from sktorrent
-        id: download
-        timeout-minutes: 10
-        run: |
-          set -e
-          safe_name=$(echo "${{ steps.pick.outputs.film_name }}" | tr '/' '_')
-          echo "[$(date -u +%H:%M:%S)] step=download start url=${{ steps.cdn.outputs.resolved_url }} safe_name=${safe_name}" >> state/sync.log
-          curl -fL "${{ steps.cdn.outputs.resolved_url }}" \
-            -H "User-Agent: Mozilla/5.0" \
-            -H "Referer: https://sktorrent.eu/" \
-            --max-time 540 \
-            --speed-time 60 --speed-limit 10000 \
-            --progress-bar \
-            -o "/tmp/${safe_name}.mp4" 2>&1 | tail -3 >> state/sync.log || {
-              rc=$?
-              echo "[$(date -u +%H:%M:%S)] step=download FAILED exit=$rc" >> state/sync.log
-              exit 1
-            }
-          size=$(stat -c%s "/tmp/${safe_name}.mp4")
-          echo "[$(date -u +%H:%M:%S)] step=download done size=${size}" >> state/sync.log
-          # Sanity: any real film >> 10MB. Below that is a dead CDN response.
-          if [ "$size" -lt 10000000 ]; then
-            echo "[$(date -u +%H:%M:%S)] step=download FAILED size=${size} too small (<10MB)" >> state/sync.log
-            exit 1
-          fi
-          echo "SAFE_NAME=${safe_name}" >> $GITHUB_ENV
-          echo "FILE_SIZE=${size}" >> $GITHUB_ENV
-
-      - name: Upload to Přehraj.to
-        id: upload
+      - name: Run sync batch
         env:
           PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
         run: |
-          set -e
-          echo "[$(date -u +%H:%M:%S)] step=upload start file=/tmp/${SAFE_NAME}.mp4 size=${FILE_SIZE}" >> state/sync.log
-          python src/prehrajto_upload.py \
-            "/tmp/${SAFE_NAME}.mp4" \
-            "${{ steps.pick.outputs.film_name }}" \
-            "${{ steps.pick.outputs.film_description }}" 2>&1 | tee /tmp/upload.log
-          # Extract video_id from script's stdout: "video_id: 23979886"
-          VIDEO_ID=$(grep -E "^video_id:" /tmp/upload.log | tail -1 | awk '{print $2}')
-          if [ -z "$VIDEO_ID" ]; then
-            echo "[$(date -u +%H:%M:%S)] step=upload FAILED no video_id in stdout" >> state/sync.log
-            exit 1
-          fi
-          echo "[$(date -u +%H:%M:%S)] step=upload done video_id=${VIDEO_ID}" >> state/sync.log
-          echo "video_id=${VIDEO_ID}" >> $GITHUB_OUTPUT
-
-      - name: Update state/uploaded.json
-        if: ${{ steps.pick.outputs.cr_film_id != 'manual' }}
-        run: |
-          set -e
-          python - <<'PY' >> state/sync.log 2>&1
-          import json, datetime, pathlib
-          state_path = pathlib.Path("state/uploaded.json")
-          state = json.loads(state_path.read_text())
-          now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-          entry = {
-              "cr_film_id": int("${{ steps.pick.outputs.cr_film_id }}"),
-              "cr_slug": "${{ steps.pick.outputs.cr_slug }}",
-              "title": """${{ steps.pick.outputs.title }}""",
-              "year": int("${{ steps.pick.outputs.year }}"),
-              "sktorrent_id": int("${{ steps.pick.outputs.sktorrent_id }}"),
-              "prehrajto_video_id": int("${{ steps.upload.outputs.video_id }}"),
-              "prehrajto_slug_path": None,
-              "uploaded_at": now,
-              "status": "processing",
-          }
-          state["uploads"].append(entry)
-          state["last_updated"] = now
-          state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n")
-          print(f"[state] appended cr_film_id={entry['cr_film_id']} video_id={entry['prehrajto_video_id']}")
-          PY
+          python src/sync_batch.py --count "${{ inputs.batch_size }}"
 
       - name: Commit state + log
         if: always()
         run: |
           set -e
-          echo "[$(date -u +%H:%M:%S)] step=commit-back" >> state/sync.log
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/uploaded.json state/sync.log || true
+          git add state/uploaded.json state/sync.log
           if git diff --cached --quiet; then
             echo "no state changes to commit"
           else
-            git commit -m "chore(sync): run ${{ steps.log_init.outputs.run_ts }} — upload ${{ steps.pick.outputs.film_name || 'unknown' }}"
+            UP_COUNT=$(python -c "import json; print(len(json.load(open('state/uploaded.json'))['uploads']))")
+            git commit -m "chore(sync): batch run — total uploads now ${UP_COUNT}"
+            # Pull --rebase v případě, že mezitím přišel jiný commit (závod s jiným runem)
+            git pull --rebase origin main || true
             git push
           fi
