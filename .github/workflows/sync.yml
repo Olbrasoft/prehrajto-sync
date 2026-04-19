@@ -68,25 +68,44 @@ jobs:
             python src/pick_next_film.py 2>&1 | tee -a state/sync.log
           fi
 
+      - name: Resolve sktorrent CDN edge
+        id: cdn
+        run: |
+          set -e
+          echo "[$(date -u +%H:%M:%S)] step=cdn-resolve placeholder=${{ steps.pick.outputs.sktorrent_url }}" >> state/sync.log
+          RESOLVED=$(python src/resolve_sktorrent_cdn.py "${{ steps.pick.outputs.sktorrent_url }}" 2>>state/sync.log)
+          if [ -z "$RESOLVED" ]; then
+            echo "[$(date -u +%H:%M:%S)] step=cdn-resolve FAILED no edge available" >> state/sync.log
+            exit 1
+          fi
+          echo "[$(date -u +%H:%M:%S)] step=cdn-resolve done → $RESOLVED" >> state/sync.log
+          echo "resolved_url=$RESOLVED" >> $GITHUB_OUTPUT
+
       - name: Download from sktorrent
         id: download
         timeout-minutes: 10
         run: |
           set -e
           safe_name=$(echo "${{ steps.pick.outputs.film_name }}" | tr '/' '_')
-          echo "[$(date -u +%H:%M:%S)] step=download start url=${{ steps.pick.outputs.sktorrent_url }} safe_name=${safe_name}" >> state/sync.log
-          curl -L "${{ steps.pick.outputs.sktorrent_url }}" \
+          echo "[$(date -u +%H:%M:%S)] step=download start url=${{ steps.cdn.outputs.resolved_url }} safe_name=${safe_name}" >> state/sync.log
+          curl -fL "${{ steps.cdn.outputs.resolved_url }}" \
             -H "User-Agent: Mozilla/5.0" \
             -H "Referer: https://sktorrent.eu/" \
             --max-time 540 \
             --speed-time 60 --speed-limit 10000 \
             --progress-bar \
             -o "/tmp/${safe_name}.mp4" 2>&1 | tail -3 >> state/sync.log || {
-              echo "[$(date -u +%H:%M:%S)] step=download FAILED exit=$?" >> state/sync.log
+              rc=$?
+              echo "[$(date -u +%H:%M:%S)] step=download FAILED exit=$rc" >> state/sync.log
               exit 1
             }
           size=$(stat -c%s "/tmp/${safe_name}.mp4")
           echo "[$(date -u +%H:%M:%S)] step=download done size=${size}" >> state/sync.log
+          # Sanity: any real film >> 10MB. Below that is a dead CDN response.
+          if [ "$size" -lt 10000000 ]; then
+            echo "[$(date -u +%H:%M:%S)] step=download FAILED size=${size} too small (<10MB)" >> state/sync.log
+            exit 1
+          fi
           echo "SAFE_NAME=${safe_name}" >> $GITHUB_ENV
           echo "FILE_SIZE=${size}" >> $GITHUB_ENV
 
