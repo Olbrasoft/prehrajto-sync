@@ -82,7 +82,7 @@ def download(url: str, dest: Path, timeout_sec: int = 540) -> int:
 def process_one(film: dict, session, state: dict) -> bool:
     """Vrací True při úspěchu, False při chybě (pokračuje se dál)."""
     name = display_name(film)
-    description = film.get("description") or ""
+    description = film.get("prehrajto_description") or film.get("description") or ""
     cr_film_id = film["cr_film_id"]
     t_film_start = time.monotonic()
     log(f"step=film start cr_film_id={cr_film_id} name='{name}'")

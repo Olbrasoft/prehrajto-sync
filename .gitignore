@@ -21,6 +21,9 @@ venv/
 # Playwright MCP working dir (snapshots, console logs)
 .playwright-mcp/
 
+# Local log files
+logs/
+
 # Ad-hoc screenshots from manual verification
 *.png
 *.jpg
