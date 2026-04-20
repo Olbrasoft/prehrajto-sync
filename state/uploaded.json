@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-19T13:35:31Z",
+  "last_updated": "2026-04-20T17:43:02Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -635,6 +635,96 @@
         "download_sec": 377.6,
         "upload_sec": 125.4,
         "total_sec": 508.0
+      }
+    },
+    {
+      "cr_film_id": 1630,
+      "cr_slug": "belfast",
+      "title": "Belfast",
+      "year": 2021,
+      "sktorrent_id": 28875,
+      "prehrajto_video_id": 24019425,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T17:30:35Z",
+      "status": "processing",
+      "size_bytes": 577417898,
+      "timing": {
+        "cdn_resolve_sec": 8.1,
+        "download_sec": 109.2,
+        "upload_sec": 35.1,
+        "total_sec": 152.5
+      }
+    },
+    {
+      "cr_film_id": 4037,
+      "cr_slug": "hrdina-proti-sve-vuli",
+      "title": "Hrdina proti své vůli",
+      "year": 1992,
+      "sktorrent_id": 45192,
+      "prehrajto_video_id": 24019462,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T17:33:47Z",
+      "status": "processing",
+      "size_bytes": 680220370,
+      "timing": {
+        "cdn_resolve_sec": 5.0,
+        "download_sec": 131.5,
+        "upload_sec": 56.2,
+        "total_sec": 192.7
+      }
+    },
+    {
+      "cr_film_id": 3305,
+      "cr_slug": "laska-pod-kapotou",
+      "title": "Láska pod kapotou",
+      "year": 2021,
+      "sktorrent_id": 23621,
+      "prehrajto_video_id": 24019491,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T17:36:05Z",
+      "status": "processing",
+      "size_bytes": 445963333,
+      "timing": {
+        "cdn_resolve_sec": 5.7,
+        "download_sec": 103.4,
+        "upload_sec": 28.3,
+        "total_sec": 137.4
+      }
+    },
+    {
+      "cr_film_id": 2499,
+      "cr_slug": "spolecnik",
+      "title": "Společník",
+      "year": 2025,
+      "sktorrent_id": 44621,
+      "prehrajto_video_id": 24019515,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T17:38:06Z",
+      "status": "processing",
+      "size_bytes": 393745567,
+      "timing": {
+        "cdn_resolve_sec": 8.7,
+        "download_sec": 96.8,
+        "upload_sec": 15.3,
+        "total_sec": 120.8
+      }
+    },
+    {
+      "cr_film_id": 2207,
+      "cr_slug": "muz-ktery-stal-v-ceste",
+      "title": "Muž, který stál v cestě",
+      "year": 2023,
+      "sktorrent_id": 32377,
+      "prehrajto_video_id": 24019573,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T17:43:02Z",
+      "status": "processing",
+      "size_bytes": 597171125,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 271.5,
+        "upload_sec": 24.3,
+        "total_sec": 296.7
       }
     }
   ],

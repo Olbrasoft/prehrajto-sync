@@ -445,3 +445,64 @@
 [13:35:31] step=film done cr_film_id=2980 total=508.0s (cdn=4.8s + download=377.6s + upload=125.4s)
 [13:35:31] step=state-saved cr_film_id=2980 (total uploads=36)
 [13:35:31] step=batch-end succeeded=10 failed=0 total_uploads=36 batch_dur=2226.5s avg_per_film=222.7s backlog_remaining=976 eta_hours=60.4
+
+===== run 2026-04-20T17:28:00Z batch_size=5 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24680691602) =====
+[17:28:01] step=batch-start count=5 backlog=1014 uploads=36 moderated=2
+[17:28:01] step=login
+[17:28:02] step=login done
+[17:28:02] step=iteration 1/5
+[17:28:02] step=film start cr_film_id=1630 name='Belfast (2021) CZ Dabing HD'
+[17:28:02] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28875_720p.mp4
+[17:28:10] step=cdn-resolve done 8.1s → https://online17.sktorrent.eu/media/videos//h264/28875_720p.mp4
+[17:28:10] step=download curl https://online17.sktorrent.eu/media/videos//h264/28875_720p.mp4
+[17:29:59] step=download done cr_film_id=1630 size=577417898 dur=109.2s speed=5.3MB/s
+[17:29:59] step=upload start cr_film_id=1630 size=577417898
+[17:30:34] step=upload done cr_film_id=1630 video_id=24019425 dur=35.1s speed=16.5MB/s
+[17:30:35] step=cleanup unlinked Belfast (2021) CZ Dabing HD.mp4
+[17:30:35] step=film done cr_film_id=1630 total=152.5s (cdn=8.1s + download=109.2s + upload=35.1s)
+[17:30:35] step=state-saved cr_film_id=1630 (total uploads=37)
+[17:30:35] step=iteration 2/5
+[17:30:35] step=film start cr_film_id=4037 name='Hrdina proti své vůli (1992) CZ Dabing HD'
+[17:30:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45192_720p.mp4
+[17:30:40] step=cdn-resolve done 5.0s → https://online12.sktorrent.eu/media/videos//h264/45192_720p.mp4
+[17:30:40] step=download curl https://online12.sktorrent.eu/media/videos//h264/45192_720p.mp4
+[17:32:51] step=download done cr_film_id=4037 size=680220370 dur=131.5s speed=5.2MB/s
+[17:32:51] step=upload start cr_film_id=4037 size=680220370
+[17:33:47] step=upload done cr_film_id=4037 video_id=24019462 dur=56.2s speed=12.1MB/s
+[17:33:47] step=cleanup unlinked Hrdina proti své vůli (1992) CZ Dabing HD.mp4
+[17:33:47] step=film done cr_film_id=4037 total=192.7s (cdn=5.0s + download=131.5s + upload=56.2s)
+[17:33:47] step=state-saved cr_film_id=4037 (total uploads=38)
+[17:33:47] step=iteration 3/5
+[17:33:47] step=film start cr_film_id=3305 name='Láska pod kapotou (2021) CZ HD'
+[17:33:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23621_720p.mp4
+[17:33:53] step=cdn-resolve done 5.7s → https://online12.sktorrent.eu/media/videos//h264/23621_720p.mp4
+[17:33:53] step=download curl https://online12.sktorrent.eu/media/videos//h264/23621_720p.mp4
+[17:35:36] step=download done cr_film_id=3305 size=445963333 dur=103.4s speed=4.3MB/s
+[17:35:36] step=upload start cr_film_id=3305 size=445963333
+[17:36:05] step=upload done cr_film_id=3305 video_id=24019491 dur=28.3s speed=15.8MB/s
+[17:36:05] step=cleanup unlinked Láska pod kapotou (2021) CZ HD.mp4
+[17:36:05] step=film done cr_film_id=3305 total=137.4s (cdn=5.7s + download=103.4s + upload=28.3s)
+[17:36:05] step=state-saved cr_film_id=3305 (total uploads=39)
+[17:36:05] step=iteration 4/5
+[17:36:05] step=film start cr_film_id=2499 name='Společník (2025) CZ Dabing HD'
+[17:36:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44621_720p.mp4
+[17:36:13] step=cdn-resolve done 8.7s → https://online23.sktorrent.eu/media/videos//h264/44621_720p.mp4
+[17:36:13] step=download curl https://online23.sktorrent.eu/media/videos//h264/44621_720p.mp4
+[17:37:50] step=download done cr_film_id=2499 size=393745567 dur=96.8s speed=4.1MB/s
+[17:37:50] step=upload start cr_film_id=2499 size=393745567
+[17:38:06] step=upload done cr_film_id=2499 video_id=24019515 dur=15.3s speed=25.7MB/s
+[17:38:06] step=cleanup unlinked Společník (2025) CZ Dabing HD.mp4
+[17:38:06] step=film done cr_film_id=2499 total=120.8s (cdn=8.7s + download=96.8s + upload=15.3s)
+[17:38:06] step=state-saved cr_film_id=2499 (total uploads=40)
+[17:38:06] step=iteration 5/5
+[17:38:06] step=film start cr_film_id=2207 name='Muž, který stál v cestě (2023) CZ HD'
+[17:38:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32377_720p.mp4
+[17:38:06] step=cdn-resolve done 0.8s → https://online1.sktorrent.eu/media/videos//h264/32377_720p.mp4
+[17:38:06] step=download curl https://online1.sktorrent.eu/media/videos//h264/32377_720p.mp4
+[17:42:38] step=download done cr_film_id=2207 size=597171125 dur=271.5s speed=2.2MB/s
+[17:42:38] step=upload start cr_film_id=2207 size=597171125
+[17:43:02] step=upload done cr_film_id=2207 video_id=24019573 dur=24.3s speed=24.6MB/s
+[17:43:02] step=cleanup unlinked Muž, který stál v cestě (2023) CZ HD.mp4
+[17:43:02] step=film done cr_film_id=2207 total=296.7s (cdn=0.8s + download=271.5s + upload=24.3s)
+[17:43:02] step=state-saved cr_film_id=2207 (total uploads=41)
+[17:43:02] step=batch-end succeeded=5 failed=0 total_uploads=41 batch_dur=900.2s avg_per_film=180.0s backlog_remaining=971 eta_hours=48.5
