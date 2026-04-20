@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-20T17:43:02Z",
+  "last_updated": "2026-04-20T19:11:52Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -726,6 +726,312 @@
         "upload_sec": 24.3,
         "total_sec": 296.7
       }
+    },
+    {
+      "cr_film_id": 3178,
+      "cr_slug": "jedna-ruka-netleska",
+      "title": "Jedna ruka netleská",
+      "year": 2003,
+      "sktorrent_id": 15820,
+      "prehrajto_video_id": 24019852,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:07:40Z",
+      "status": "processing",
+      "size_bytes": 679785210,
+      "timing": {
+        "cdn_resolve_sec": 8.4,
+        "download_sec": 240.4,
+        "upload_sec": 49.1,
+        "total_sec": 298.0
+      }
+    },
+    {
+      "cr_film_id": 4180,
+      "cr_slug": "nicky-larson-agent-amater",
+      "title": "Nicky Larson: Agent amatér",
+      "year": 2018,
+      "sktorrent_id": 18477,
+      "prehrajto_video_id": 24019891,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:10:10Z",
+      "status": "processing",
+      "size_bytes": 570512319,
+      "timing": {
+        "cdn_resolve_sec": 3.6,
+        "download_sec": 116.4,
+        "upload_sec": 30.6,
+        "total_sec": 150.6
+      }
+    },
+    {
+      "cr_film_id": 4596,
+      "cr_slug": "princezna-zakleta-v-case",
+      "title": "Princezna zakletá v čase",
+      "year": 2020,
+      "sktorrent_id": 16646,
+      "prehrajto_video_id": 24019925,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:14:21Z",
+      "status": "processing",
+      "size_bytes": 773303556,
+      "timing": {
+        "cdn_resolve_sec": 7.3,
+        "download_sec": 200.6,
+        "upload_sec": 42.9,
+        "total_sec": 251.0
+      }
+    },
+    {
+      "cr_film_id": 9822,
+      "cr_slug": "xxx-nova-dimenze",
+      "title": "xXx: Nová dimenze",
+      "year": 2005,
+      "sktorrent_id": 1933,
+      "prehrajto_video_id": 24020011,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:22:59Z",
+      "status": "processing",
+      "size_bytes": 448777641,
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 469.3,
+        "upload_sec": 24.8,
+        "total_sec": 497.2
+      }
+    },
+    {
+      "cr_film_id": 5525,
+      "cr_slug": "hastrman",
+      "title": "Hastrman",
+      "year": 2018,
+      "sktorrent_id": 1944,
+      "prehrajto_video_id": 24020108,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:31:46Z",
+      "status": "processing",
+      "size_bytes": 348884616,
+      "timing": {
+        "cdn_resolve_sec": 3.2,
+        "download_sec": 498.6,
+        "upload_sec": 25.2,
+        "total_sec": 527.0
+      }
+    },
+    {
+      "cr_film_id": 4524,
+      "cr_slug": "krakonosuv-poklad",
+      "title": "Krakonošův poklad",
+      "year": 2017,
+      "sktorrent_id": 22293,
+      "prehrajto_video_id": 24020152,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:36:25Z",
+      "status": "processing",
+      "size_bytes": 876986029,
+      "timing": {
+        "cdn_resolve_sec": 5.4,
+        "download_sec": 225.4,
+        "upload_sec": 47.1,
+        "total_sec": 278.1
+      }
+    },
+    {
+      "cr_film_id": 3585,
+      "cr_slug": "fenicke-spiknuti",
+      "title": "Fénické spiknutí",
+      "year": 2025,
+      "sktorrent_id": 48364,
+      "prehrajto_video_id": 24020171,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:38:17Z",
+      "status": "processing",
+      "size_bytes": 442134090,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 85.1,
+        "upload_sec": 26.3,
+        "total_sec": 112.4
+      }
+    },
+    {
+      "cr_film_id": 4494,
+      "cr_slug": "holky-na-tripu-en",
+      "title": "Holky na tripu",
+      "year": 2023,
+      "sktorrent_id": 32596,
+      "prehrajto_video_id": 24020205,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:41:05Z",
+      "status": "processing",
+      "size_bytes": 586393255,
+      "timing": {
+        "cdn_resolve_sec": 13.7,
+        "download_sec": 120.8,
+        "upload_sec": 33.4,
+        "total_sec": 167.9
+      }
+    },
+    {
+      "cr_film_id": 4584,
+      "cr_slug": "svet-podle-muchy",
+      "title": "Svět podle Muchy",
+      "year": 2020,
+      "sktorrent_id": 19319,
+      "prehrajto_video_id": 24020265,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:46:03Z",
+      "status": "processing",
+      "size_bytes": 696333151,
+      "timing": {
+        "cdn_resolve_sec": 5.7,
+        "download_sec": 236.3,
+        "upload_sec": 56.1,
+        "total_sec": 298.3
+      }
+    },
+    {
+      "cr_film_id": 1973,
+      "cr_slug": "kdyby-ulice-beale-mohla-mluvit",
+      "title": "Kdyby ulice Beale mohla mluvit",
+      "year": 2018,
+      "sktorrent_id": 4391,
+      "prehrajto_video_id": 24020326,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:52:50Z",
+      "status": "processing",
+      "size_bytes": 765780418,
+      "timing": {
+        "cdn_resolve_sec": 2.4,
+        "download_sec": 336.8,
+        "upload_sec": 46.0,
+        "total_sec": 385.3
+      }
+    },
+    {
+      "cr_film_id": 3825,
+      "cr_slug": "vinylova-laska",
+      "title": "Vinylová láska",
+      "year": 2018,
+      "sktorrent_id": 32512,
+      "prehrajto_video_id": 24020349,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:54:48Z",
+      "status": "processing",
+      "size_bytes": 517277451,
+      "timing": {
+        "cdn_resolve_sec": 8.7,
+        "download_sec": 80.6,
+        "upload_sec": 28.4,
+        "total_sec": 117.8
+      }
+    },
+    {
+      "cr_film_id": 2861,
+      "cr_slug": "apatykar-melchior-tajemstvi-tallinskeho-vezne",
+      "title": "Apatykář Melchior: Tajemství tallinského vězně",
+      "year": 2022,
+      "sktorrent_id": 42903,
+      "prehrajto_video_id": 24020377,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:57:25Z",
+      "status": "processing",
+      "size_bytes": 441748529,
+      "timing": {
+        "cdn_resolve_sec": 3.6,
+        "download_sec": 109.1,
+        "upload_sec": 23.9,
+        "total_sec": 136.6
+      }
+    },
+    {
+      "cr_film_id": 4199,
+      "cr_slug": "crown-vic",
+      "title": "Crown Vic",
+      "year": 2019,
+      "sktorrent_id": 12472,
+      "prehrajto_video_id": 24020400,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T18:59:20Z",
+      "status": "processing",
+      "size_bytes": 498783972,
+      "timing": {
+        "cdn_resolve_sec": 10.2,
+        "download_sec": 76.4,
+        "upload_sec": 27.5,
+        "total_sec": 114.2
+      }
+    },
+    {
+      "cr_film_id": 4313,
+      "cr_slug": "bobule",
+      "title": "Bobule",
+      "year": 2008,
+      "sktorrent_id": 3843,
+      "prehrajto_video_id": 24020447,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T19:03:49Z",
+      "status": "processing",
+      "size_bytes": 984055668,
+      "timing": {
+        "cdn_resolve_sec": 11.7,
+        "download_sec": 208.3,
+        "upload_sec": 49.5,
+        "total_sec": 269.6
+      }
+    },
+    {
+      "cr_film_id": 8711,
+      "cr_slug": "resident-evil-raccoon-city",
+      "title": "Resident Evil: Raccoon City",
+      "year": 2021,
+      "sktorrent_id": 24495,
+      "prehrajto_video_id": 24020468,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T19:06:22Z",
+      "status": "processing",
+      "size_bytes": 520931128,
+      "timing": {
+        "cdn_resolve_sec": 8.7,
+        "download_sec": 94.4,
+        "upload_sec": 49.2,
+        "total_sec": 152.4
+      }
+    },
+    {
+      "cr_film_id": 2930,
+      "cr_slug": "bachorky",
+      "title": "Báchorky",
+      "year": 2019,
+      "sktorrent_id": 14570,
+      "prehrajto_video_id": 24020487,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T19:08:30Z",
+      "status": "processing",
+      "size_bytes": 476264647,
+      "timing": {
+        "cdn_resolve_sec": 5.8,
+        "download_sec": 95.8,
+        "upload_sec": 26.4,
+        "total_sec": 128.1
+      }
+    },
+    {
+      "cr_film_id": 3748,
+      "cr_slug": "borat-2",
+      "title": "Boratův navázaný telefilm",
+      "year": 2020,
+      "sktorrent_id": 17383,
+      "prehrajto_video_id": 24020513,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-20T19:11:52Z",
+      "status": "processing",
+      "size_bytes": 589979267,
+      "timing": {
+        "cdn_resolve_sec": 7.6,
+        "download_sec": 150.1,
+        "upload_sec": 44.1,
+        "total_sec": 201.9
+      }
     }
   ],
   "moderated_out": [
@@ -757,6 +1063,39 @@
       "timing": {
         "cdn_resolve_sec": 3.6,
         "download_sec": 540.0
+      }
+    },
+    {
+      "cr_film_id": 4959,
+      "cr_slug": "casovy-posun",
+      "title": "Časový posun",
+      "year": 1979,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-20T18:14:42Z",
+      "timing": {
+        "cdn_resolve_sec": 21.1
+      }
+    },
+    {
+      "cr_film_id": 4234,
+      "cr_slug": "zack-a-miri-toci-porno",
+      "title": "Zack a Miri točí porno",
+      "year": 2008,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-20T18:46:25Z",
+      "timing": {
+        "cdn_resolve_sec": 21.5
+      }
+    },
+    {
+      "cr_film_id": 5340,
+      "cr_slug": "zapisnik-alkoholicky",
+      "title": "Zápisník alkoholičky",
+      "year": 2024,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-20T18:55:09Z",
+      "timing": {
+        "cdn_resolve_sec": 21.1
       }
     }
   ]
