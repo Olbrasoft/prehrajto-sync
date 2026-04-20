@@ -39,20 +39,39 @@ def excluded_ids(state: dict, extra: set[int] | None = None) -> set[int]:
     return done | skipped | (extra or set())
 
 
+def _require_cs_audio() -> bool:
+    v = os.environ.get("REQUIRE_CS_AUDIO", "true").strip().lower()
+    return v not in ("0", "false", "no", "off")
+
+
 def pick_next(
     state: dict,
     backlog_rows: list[dict],
     extra_exclude: set[int] | None = None,
 ) -> dict | None:
     excluded = excluded_ids(state, extra_exclude)
-    return next(
-        (r for r in backlog_rows if r.get("cr_film_id") not in excluded),
-        None,
-    )
+    require_cs = _require_cs_audio()
+    for r in backlog_rows:
+        if r.get("cr_film_id") in excluded:
+            continue
+        if require_cs and r.get("detected_language") != "cs":
+            continue
+        return r
+    return None
+
+
+NATIVE_ORIGINS = {"cs", "sk"}
 
 
 def display_name(film: dict) -> str:
-    return f"{film['title']} ({film['year']}) HD CZ"
+    title = film["title"]
+    year = film["year"]
+    orig = film.get("original_language")
+    # Native (Czech/Slovak) or unknown title (TMDB miss) → no "Dabing" label.
+    # Everything else with Czech audio is dubbing.
+    if orig in NATIVE_ORIGINS or orig is None:
+        return f"{title} ({year}) CZ HD"
+    return f"{title} ({year}) CZ Dabing HD"
 
 
 def main() -> int:

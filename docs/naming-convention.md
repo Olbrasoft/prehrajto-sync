@@ -4,21 +4,27 @@ Finální rozhodnutí pro pojmenování souborů, které nahráváme na náš ú
 
 ## Formát
 
-    {Název filmu} ({rok}) HD CZ.mp4
+    {Název filmu} ({rok}) CZ HD.mp4           # původní jazyk filmu je čeština/slovenština
+    {Název filmu} ({rok}) CZ Dabing HD.mp4    # cizí film s českým dabingem
+
+Rozhodování dělá `src/pick_next_film.py:display_name()` podle pole
+`original_language` (z TMDB, doplňuje `src/enrich_origin_language.py`):
+- `cs` nebo `sk` (nebo chybějící TMDB záznam) → `CZ HD`
+- cokoli jiného → `CZ Dabing HD`
 
 ## Příklady
 
 ```
-Lví král (1994) HD CZ.mp4
-Medvěd (1988) HD CZ.mp4
-Oppenheimer (2023) HD CZ.mp4
-Mission Impossible Odplata (2023) HD CZ.mp4
+Kameňák (2003) CZ HD.mp4                     # český film
+Princezna zakletá v čase (2020) CZ HD.mp4    # český film
+Lví král (1994) CZ Dabing HD.mp4             # US film s CZ dabingem
+Medvěd (1988) CZ Dabing HD.mp4               # FR film s CZ dabingem
+Oppenheimer (2023) CZ Dabing HD.mp4          # US film s CZ dabingem
 ```
 
 ## Varianty
 
-- **Titulky místo dabingu**: `{Název} ({rok}) HD CZ titulky.mp4`
-- **SD kvalita (480p, výjimečně)**: `{Název} ({rok}) SD CZ.mp4`
+- **SD kvalita (480p, výjimečně)**: `{Název} ({rok}) CZ SD.mp4` (zatím nepoužíváme)
 
 ## Co jsme zjistili měřením přímo na Přehraj.to
 
