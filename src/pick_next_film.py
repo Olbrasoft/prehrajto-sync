@@ -70,8 +70,8 @@ def display_name(film: dict) -> str:
     # Native (Czech/Slovak) or unknown title (TMDB miss) → no "Dabing" label.
     # Everything else with Czech audio is dubbing.
     if orig in NATIVE_ORIGINS or orig is None:
-        return f"{title} ({year}) CZ HD"
-    return f"{title} ({year}) CZ Dabing HD"
+        return f"{title} ({year}) CZ"
+    return f"{title} ({year}) CZ Dabing"
 
 
 def main() -> int:

@@ -68,7 +68,7 @@ def upload_video(
     size = path.stat().st_size
     final_name = display_name or path.name
     # Přehraj.to prepareVideo/CDN require a name ending in an extension.
-    # If caller wants a clean display name (e.g. "Lví král (1994) HD CZ"),
+    # If caller wants a clean display name (e.g. "Lví král (1994) CZ Dabing"),
     # we upload with ".mp4" appended and strip it via a rename call after.
     upload_name = final_name if "." in final_name else final_name + ".mp4"
     print(f"[upload] Soubor: {path.name} ({size} B), upload name: {upload_name}, final: {final_name}")

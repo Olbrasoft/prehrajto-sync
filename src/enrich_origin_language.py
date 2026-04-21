@@ -4,8 +4,8 @@
 For each film, looks up TMDB by imdb_id via /find and fetches /movie details to
 obtain the ISO 639-1 original language and ISO 3166-1 country list. This lets
 the uploader pick the correct Prehraj.to title suffix:
-- original_language in {cs, sk}  → "CZ HD"        (native Czech/Slovak audio)
-- otherwise (with Czech audio)  → "CZ Dabing HD" (dubbed)
+- original_language in {cs, sk}  → "CZ"        (native Czech/Slovak audio)
+- otherwise (with Czech audio)  → "CZ Dabing" (dubbed)
 
 Uses TMDB_API_KEY from ~/GitHub/Olbrasoft/cr/.env (or prehrajto-sync/.env).
 Safe to resume: already-enriched rows (have `original_language` key) are skipped.

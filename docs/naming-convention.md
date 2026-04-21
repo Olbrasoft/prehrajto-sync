@@ -4,22 +4,25 @@ Finální rozhodnutí pro pojmenování souborů, které nahráváme na náš ú
 
 ## Formát
 
-    {Název filmu} ({rok}) CZ HD.mp4           # původní jazyk filmu je čeština/slovenština
-    {Název filmu} ({rok}) CZ Dabing HD.mp4    # cizí film s českým dabingem
+    {Název filmu} ({rok}) CZ.mp4           # původní jazyk filmu je čeština/slovenština
+    {Název filmu} ({rok}) CZ Dabing.mp4    # cizí film s českým dabingem
 
 Rozhodování dělá `src/pick_next_film.py:display_name()` podle pole
 `original_language` (z TMDB, doplňuje `src/enrich_origin_language.py`):
-- `cs` nebo `sk` (nebo chybějící TMDB záznam) → `CZ HD`
-- cokoli jiného → `CZ Dabing HD`
+- `cs` nebo `sk` (nebo chybějící TMDB záznam) → `CZ`
+- cokoli jiného → `CZ Dabing`
+
+Sufix `HD` jsme odstranili — Přehraj.to si přidává badge „HD" na kartě
+sám podle rozlišení streamu (≥ 720p), takže v názvu je redundantní.
 
 ## Příklady
 
 ```
-Kameňák (2003) CZ HD.mp4                     # český film
-Princezna zakletá v čase (2020) CZ HD.mp4    # český film
-Lví král (1994) CZ Dabing HD.mp4             # US film s CZ dabingem
-Medvěd (1988) CZ Dabing HD.mp4               # FR film s CZ dabingem
-Oppenheimer (2023) CZ Dabing HD.mp4          # US film s CZ dabingem
+Kameňák (2003) CZ.mp4                     # český film
+Princezna zakletá v čase (2020) CZ.mp4    # český film
+Lví král (1994) CZ Dabing.mp4             # US film s CZ dabingem
+Medvěd (1988) CZ Dabing.mp4               # FR film s CZ dabingem
+Oppenheimer (2023) CZ Dabing.mp4          # US film s CZ dabingem
 ```
 
 ## Varianty
@@ -74,22 +77,25 @@ Technicky je to **HD** podle průmyslové definice:
   to není. Navíc by hráč ukázal jen 720p a uživatel by poznal rozpor.
 - **Český název filmu + rok** — Přehraj.to to používá v interním
   vyhledávání a mikrodatech.
-- **„CZ" za HD** — signalizuje, že film je v češtině (dabing nebo titulky);
-  bez toho si někteří uživatelé nejsou jistí.
+- **„CZ" na konci** — signalizuje, že film je v češtině (dabing nebo
+  titulky); bez toho si někteří uživatelé nejsou jistí.
+- **Bez „HD" sufixu** — Přehraj.to si badge „HD" v kartě přidává
+  automaticky podle rozlišení streamu. V názvu to nic nepřidá a kazí
+  čitelnost.
 
 ## Shrnutí
 
-Stáhni ze sktorrentu, pojmenuj `Název (rok) HD CZ.mp4`, nahraj na náš
-Přehraj.to účet. Neřeš čísla. Neřeš cinemascope vs. 16:9. Přehraj.to
-přidá HD badge automaticky a film bude vypadat stejně kvalitně jako
-cokoli jiného, co je tam uploadováno s „1080p" (protože polovina z toho
-je stejně ve skutečnosti 720p).
+Stáhni ze sktorrentu, pojmenuj `Název (rok) CZ.mp4` (nebo `CZ Dabing`),
+nahraj na náš Přehraj.to účet. Neřeš čísla. Neřeš cinemascope vs. 16:9.
+Přehraj.to přidá HD badge automaticky a film bude vypadat stejně
+kvalitně jako cokoli jiného, co je tam uploadováno s „1080p" (protože
+polovina z toho je stejně ve skutečnosti 720p).
 
 ## Edge cases
 
 | Scénář | Filename |
 |--------|----------|
-| Film s diakritikou v názvu | Ponechat diakritiku: `Žižkov 96 (1996) HD CZ.mp4` |
-| Film s dvojtečkou nebo nepovolenými znaky | Dvojtečka → spojovník: `Mission Impossible Odplata — 1. část (2023) HD CZ.mp4` |
-| Serial epizoda (nechystáme, ale pro úplnost) | `{Seriál} SxxExx — {Epizoda} ({rok}) HD CZ.mp4` |
+| Film s diakritikou v názvu | Ponechat diakritiku: `Žižkov 96 (1996) CZ.mp4` |
+| Film s dvojtečkou nebo nepovolenými znaky | Dvojtečka → spojovník: `Mission Impossible Odplata — 1. část (2023) CZ Dabing.mp4` |
+| Serial epizoda (nechystáme, ale pro úplnost) | `{Seriál} SxxExx — {Epizoda} ({rok}) CZ.mp4` |
 | Film bez českého dabingu ani titulků | Nenahrávat. Jsme česká platforma. |

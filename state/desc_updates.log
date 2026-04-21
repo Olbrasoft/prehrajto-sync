@@ -43,3 +43,22 @@
 [03:00:09] OK 225/263 cr_film_id=15405 video=24034541 'An Egypt Affair (2023) CZ Dabing HD' http=200 len=10360
 [03:00:25] OK 250/263 cr_film_id=14916 video=24036357 'Zlodějka života (2021) CZ Dabing HD' http=200 len=10360
 [03:00:33] step=done tasks=263 ok=263 fail=0 dur=164.2s
+[11:28:08] step=start tasks=263 dry_run=False
+[11:28:08] step=login
+[11:28:09] step=login done
+[11:28:09] OK 1/263 cr_film_id=1268 video=23979886 'Диџеј Ахмет (2025) CZ Dabing' http=200 len=10336
+[11:28:09] OK 2/263 cr_film_id=168 video=23980063 'Umění létat 3D (2011) CZ Dabing' http=200 len=10336
+[11:28:10] OK 3/263 cr_film_id=632 video=23980148 'Medvěd (1988) CZ Dabing' http=200 len=10336
+[11:28:10] OK 4/263 cr_film_id=270 video=23980205 'Přátelé: Zase spolu (2021) CZ Dabing' http=200 len=10336
+[11:28:11] OK 5/263 cr_film_id=2491 video=23980254 'Bláznivá střela 2 a ½: Vůně strachu (1991) CZ Dabing' http=200 len=10336
+[11:28:18] OK 25/263 cr_film_id=1643 video=23982333 'Minamata (2020) CZ Dabing' http=200 len=10336
+[11:28:28] OK 50/263 cr_film_id=4584 video=24020265 'Svět podle Muchy (2020) CZ' http=200 len=10332
+[11:28:39] OK 75/263 cr_film_id=6720 video=24021048 'Kajínek (2010) CZ' http=200 len=10332
+[11:28:49] OK 100/263 cr_film_id=5856 video=24022107 'Black Adam (2022) CZ Dabing' http=200 len=10332
+[11:28:59] OK 125/263 cr_film_id=6518 video=24024418 'Blue Beetle (2023) CZ Dabing' http=200 len=10332
+[11:29:09] OK 150/263 cr_film_id=7957 video=24026762 'Vánoční rande mého táty (2020) CZ Dabing' http=200 len=10317
+[11:29:21] OK 175/263 cr_film_id=9530 video=24030678 'Vrátná (2020) CZ Dabing' http=200 len=10317
+[11:29:32] OK 200/263 cr_film_id=10671 video=24032829 'Frigo jako Sherlock Holmes (1924) CZ Dabing' http=200 len=10317
+[11:29:42] OK 225/263 cr_film_id=15405 video=24034541 'An Egypt Affair (2023) CZ Dabing' http=200 len=10317
+[11:29:52] OK 250/263 cr_film_id=14916 video=24036357 'Zlodějka života (2021) CZ Dabing' http=200 len=10317
+[11:29:57] step=done tasks=263 ok=263 fail=0 dur=108.6s
