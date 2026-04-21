@@ -24,3 +24,22 @@
 [01:20:38] OK 125/168 cr_film_id=6518 video=24024418 'Blue Beetle (2023) CZ Dabing HD' http=200 len=10322
 [01:20:54] OK 150/168 cr_film_id=7957 video=24026762 'Vánoční rande mého táty (2020) CZ Dabing HD' http=200 len=10312
 [01:21:07] step=done tasks=168 ok=168 fail=0 dur=111.9s
+[02:57:48] step=start tasks=263 dry_run=False
+[02:57:48] step=login
+[02:57:48] step=login done
+[02:57:48] OK 1/263 cr_film_id=1268 video=23979886 'Диџеј Ахмет (2025) CZ Dabing HD' http=200 len=10360
+[02:57:49] OK 2/263 cr_film_id=168 video=23980063 'Umění létat 3D (2011) CZ Dabing HD' http=200 len=10360
+[02:57:50] OK 3/263 cr_film_id=632 video=23980148 'Medvěd (1988) CZ Dabing HD' http=200 len=10360
+[02:57:50] OK 4/263 cr_film_id=270 video=23980205 'Přátelé: Zase spolu (2021) CZ Dabing HD' http=200 len=10360
+[02:57:51] OK 5/263 cr_film_id=2491 video=23980254 'Bláznivá střela 2 a ½: Vůně strachu (1991) CZ Dabing HD' http=200 len=10360
+[02:58:03] OK 25/263 cr_film_id=1643 video=23982333 'Minamata (2020) CZ Dabing HD' http=200 len=10360
+[02:58:20] OK 50/263 cr_film_id=4584 video=24020265 'Svět podle Muchy (2020) CZ HD' http=200 len=10360
+[02:58:36] OK 75/263 cr_film_id=6720 video=24021048 'Kajínek (2010) CZ HD' http=200 len=10360
+[02:58:52] OK 100/263 cr_film_id=5856 video=24022107 'Black Adam (2022) CZ Dabing HD' http=200 len=10360
+[02:59:08] OK 125/263 cr_film_id=6518 video=24024418 'Blue Beetle (2023) CZ Dabing HD' http=200 len=10360
+[02:59:23] OK 150/263 cr_film_id=7957 video=24026762 'Vánoční rande mého táty (2020) CZ Dabing HD' http=200 len=10360
+[02:59:39] OK 175/263 cr_film_id=9530 video=24030678 'Vrátná (2020) CZ Dabing HD' http=200 len=10360
+[02:59:54] OK 200/263 cr_film_id=10671 video=24032829 'Frigo jako Sherlock Holmes (1924) CZ Dabing HD' http=200 len=10360
+[03:00:09] OK 225/263 cr_film_id=15405 video=24034541 'An Egypt Affair (2023) CZ Dabing HD' http=200 len=10360
+[03:00:25] OK 250/263 cr_film_id=14916 video=24036357 'Zlodějka života (2021) CZ Dabing HD' http=200 len=10360
+[03:00:33] step=done tasks=263 ok=263 fail=0 dur=164.2s
