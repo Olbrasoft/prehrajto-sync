@@ -62,3 +62,26 @@
 [11:29:42] OK 225/263 cr_film_id=15405 video=24034541 'An Egypt Affair (2023) CZ Dabing' http=200 len=10317
 [11:29:52] OK 250/263 cr_film_id=14916 video=24036357 'Zlodějka života (2021) CZ Dabing' http=200 len=10317
 [11:29:57] step=done tasks=263 ok=263 fail=0 dur=108.6s
+[12:09:52] step=start tasks=352 dry_run=False
+[12:09:52] step=login
+[12:09:53] step=login done
+[12:09:53] OK 1/352 cr_film_id=1268 video=23979886 'Диџеј Ахмет (2025) CZ Dabing' http=200 len=10263
+[12:09:53] OK 2/352 cr_film_id=168 video=23980063 'Umění létat 3D (2011) CZ Dabing' http=200 len=10263
+[12:09:54] OK 3/352 cr_film_id=632 video=23980148 'Medvěd (1988) CZ Dabing' http=200 len=10263
+[12:09:54] OK 4/352 cr_film_id=270 video=23980205 'Přátelé: Zase spolu (2021) CZ Dabing' http=200 len=10263
+[12:09:55] OK 5/352 cr_film_id=2491 video=23980254 'Bláznivá střela 2 a ½: Vůně strachu (1991) CZ Dabing' http=200 len=10263
+[12:10:03] OK 25/352 cr_film_id=1643 video=23982333 'Minamata (2020) CZ Dabing' http=200 len=10263
+[12:10:13] OK 50/352 cr_film_id=4584 video=24020265 'Svět podle Muchy (2020) CZ' http=200 len=10263
+[12:10:23] OK 75/352 cr_film_id=6720 video=24021048 'Kajínek (2010) CZ' http=200 len=10263
+[12:10:33] OK 100/352 cr_film_id=5856 video=24022107 'Black Adam (2022) CZ Dabing' http=200 len=10263
+[12:10:43] OK 125/352 cr_film_id=6518 video=24024418 'Blue Beetle (2023) CZ Dabing' http=200 len=10263
+[12:10:54] OK 150/352 cr_film_id=7957 video=24026762 'Vánoční rande mého táty (2020) CZ Dabing' http=200 len=10263
+[12:11:04] OK 175/352 cr_film_id=9530 video=24030678 'Vrátná (2020) CZ Dabing' http=200 len=10263
+[12:11:14] OK 200/352 cr_film_id=10671 video=24032829 'Frigo jako Sherlock Holmes (1924) CZ Dabing' http=200 len=10263
+[12:11:25] OK 225/352 cr_film_id=15405 video=24034541 'An Egypt Affair (2023) CZ Dabing' http=200 len=10263
+[12:11:35] OK 250/352 cr_film_id=14916 video=24036357 'Zlodějka života (2021) CZ Dabing' http=200 len=10263
+[12:11:46] OK 275/352 cr_film_id=10567 video=24046305 'Když promluvila (2022) CZ' http=200 len=10263
+[12:11:56] OK 300/352 cr_film_id=11042 video=24047564 'Banáni (1971) CZ Dabing' http=200 len=10263
+[12:12:06] OK 325/352 cr_film_id=16661 video=24048787 'Dva milenci a medvěd (2016) CZ Dabing' http=200 len=10263
+[12:12:16] OK 350/352 cr_film_id=16982 video=24050618 'Vraždy podle Solveig: Němá svědkyně (2016) CZ Dabing' http=200 len=10239
+[12:12:17] step=done tasks=352 ok=352 fail=0 dur=144.2s
