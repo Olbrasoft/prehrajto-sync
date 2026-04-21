@@ -52,16 +52,26 @@ PAUSE_BETWEEN_BATCHES = 3
 RATE_LIMIT_PAUSE = 60
 
 
-def build_prompt(title: str, year, existing_desc: str) -> str:
+def build_prompt(title: str, year, tmdb_cs: str, tmdb_en: str, existing_desc: str) -> str:
     year_str = f" ({year})" if year else ""
+    # Prefer TMDB Czech overview, fall back to English, last resort the existing desc.
+    if tmdb_cs:
+        plot_label = "Oficiální český popis děje z TMDB (ground truth — nevymýšlej nic navíc):"
+        plot = tmdb_cs
+    elif tmdb_en:
+        plot_label = "Oficiální anglický popis děje z TMDB (ground truth — přelož a nevymýšlej nic navíc):"
+        plot = tmdb_en
+    else:
+        plot_label = "Existující český popis (ground truth — respektuj fakta, nevymýšlej nové):"
+        plot = existing_desc
     return (
         f'Napiš originální český popis filmu "{title}"{year_str} pro katalog videoserveru prehraj.to.\n\n'
-        f"Pro inspiraci máš tento existující popis z jiného webu (NEKOPÍRUJ z něj, používej vlastní slova a jiné obraty):\n"
-        f"---\n{existing_desc}\n---\n\n"
+        f"{plot_label}\n---\n{plot}\n---\n\n"
         "Požadavky:\n"
         "- 3-6 vět, 150-400 znaků\n"
+        "- Drž se pouze dějových informací z výše uvedeného textu — nic si nepřidávej ani nevymýšlej\n"
         "- Poutavý styl pro běžné diváky\n"
-        "- Musí se výrazně lišit formulacemi od výše uvedeného popisu (žádné převzaté věty ani obraty)\n"
+        "- Piš vlastními slovy, ne doslovný překlad/opis (žádné převzaté celé věty)\n"
         "- Piš přímo o ději a postavách, ne o filmu jako díle\n"
         "- Bez nadpisů, odrážek a poznámek\n\n"
         "Odpověz pouze samotným textem popisu:"
@@ -144,7 +154,8 @@ def main():
     for i, r in enumerate(records):
         if not args.force and r.get("prehrajto_description"):
             continue
-        if not (r.get("description") or "").strip():
+        # Need at least ONE source of ground truth: tmdb_cs, tmdb_en, or existing description
+        if not (r.get("tmdb_overview_cs") or r.get("tmdb_overview_en") or (r.get("description") or "").strip()):
             continue
         if only_ids and r.get("cr_film_id") not in only_ids:
             continue
@@ -183,7 +194,13 @@ def main():
             futures = {}
             for i, rec_i in enumerate(batch_idx):
                 r = records[rec_i]
-                prompt = build_prompt(r.get("title", ""), r.get("year"), r["description"])
+                prompt = build_prompt(
+                    r.get("title", ""),
+                    r.get("year"),
+                    r.get("tmdb_overview_cs", ""),
+                    r.get("tmdb_overview_en", ""),
+                    r.get("description", ""),
+                )
                 futures[ex.submit(call_gemma, prompt, i)] = rec_i
             for fut in as_completed(futures):
                 rec_i = futures[fut]

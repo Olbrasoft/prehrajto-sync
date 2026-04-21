@@ -1,0 +1,26 @@
+[01:06:51] step=start tasks=1 dry_run=True
+[01:06:59] step=start tasks=1 dry_run=False
+[01:06:59] step=login
+[01:07:00] step=login done
+[01:07:00] OK 1/1 cr_film_id=632 video=23980148 'Medvěd (1988) CZ Dabing HD' http=200 len=10367
+[01:07:00] step=done tasks=1 ok=1 fail=0 dur=0.1s
+[01:08:12] step=start tasks=1 dry_run=False
+[01:08:12] step=login
+[01:08:13] step=login done
+[01:08:13] OK 1/1 cr_film_id=632 video=23980148 'Medvěd (1988) CZ Dabing HD' http=200 len=10330
+[01:08:13] step=done tasks=1 ok=1 fail=0 dur=0.1s
+[01:19:14] step=start tasks=168 dry_run=False
+[01:19:14] step=login
+[01:19:15] step=login done
+[01:19:15] OK 1/168 cr_film_id=1268 video=23979886 'Диџеј Ахмет (2025) CZ Dabing HD' http=200 len=10317
+[01:19:15] OK 2/168 cr_film_id=168 video=23980063 'Umění létat 3D (2011) CZ Dabing HD' http=200 len=10317
+[01:19:16] OK 3/168 cr_film_id=632 video=23980148 'Medvěd (1988) CZ Dabing HD' http=200 len=10317
+[01:19:17] OK 4/168 cr_film_id=270 video=23980205 'Přátelé: Zase spolu (2021) CZ Dabing HD' http=200 len=10317
+[01:19:17] OK 5/168 cr_film_id=2491 video=23980254 'Bláznivá střela 2 a ½: Vůně strachu (1991) CZ Dabing HD' http=200 len=10317
+[01:19:29] OK 25/168 cr_film_id=1643 video=23982333 'Minamata (2020) CZ Dabing HD' http=200 len=10313
+[01:19:45] OK 50/168 cr_film_id=4584 video=24020265 'Svět podle Muchy (2020) CZ HD' http=200 len=10313
+[01:20:01] OK 75/168 cr_film_id=6720 video=24021048 'Kajínek (2010) CZ HD' http=200 len=10326
+[01:20:23] OK 100/168 cr_film_id=5856 video=24022107 'Black Adam (2022) CZ Dabing HD' http=200 len=10322
+[01:20:38] OK 125/168 cr_film_id=6518 video=24024418 'Blue Beetle (2023) CZ Dabing HD' http=200 len=10322
+[01:20:54] OK 150/168 cr_film_id=7957 video=24026762 'Vánoční rande mého táty (2020) CZ Dabing HD' http=200 len=10312
+[01:21:07] step=done tasks=168 ok=168 fail=0 dur=111.9s
