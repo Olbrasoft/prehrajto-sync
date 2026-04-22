@@ -54,7 +54,7 @@ def pick_next(
     for r in backlog_rows:
         if r.get("cr_film_id") in excluded:
             continue
-        if require_cs and r.get("detected_language") != "cs":
+        if require_cs and r.get("detected_language") not in ("cs", "sk"):
             continue
         return r
     return None
