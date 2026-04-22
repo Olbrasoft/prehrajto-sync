@@ -8718,3 +8718,226 @@
 [19:17:23] step=film done cr_film_id=17123 total=258.1s (cdn=16.7s + download=181.7s + upload=59.5s)
 [19:17:23] step=state-saved cr_film_id=17123 (total uploads=710)
 [19:17:23] step=batch-end succeeded=57 failed=43 total_uploads=710 batch_dur=10658.0s avg_per_film=187.0s backlog_remaining=302 eta_hours=15.7
+
+===== run 2026-04-22T19:36:30Z batch_size=100 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24798641070) =====
+[19:36:31] step=batch-start count=100 backlog=1014 uploads=710 moderated=2
+[19:36:31] step=login
+[19:36:32] step=login done
+[19:36:32] step=iteration 1/100
+[19:36:32] step=film start cr_film_id=4959 name='Časový posun (1979) CZ Dabing'
+[19:36:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12029_480p.mp4
+[19:36:52] step=cdn-resolve FAILED cr_film_id=4959 after 20.2s
+[19:36:52] step=iteration 2/100
+[19:36:52] step=film start cr_film_id=4234 name='Zack a Miri točí porno (2008) CZ Dabing'
+[19:36:52] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31030_480p.mp4
+[19:37:11] step=cdn-resolve FAILED cr_film_id=4234 after 18.5s
+[19:37:11] step=iteration 3/100
+[19:37:11] step=film start cr_film_id=7550 name='Dům na Haunted Hill (1999) CZ Dabing'
+[19:37:11] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22929_480p.mp4
+[19:37:29] step=cdn-resolve FAILED cr_film_id=7550 after 18.3s
+[19:37:29] step=iteration 4/100
+[19:37:29] step=film start cr_film_id=8615 name='S.W.A.T.: Pod palbou (2011) CZ Dabing'
+[19:37:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12988_480p.mp4
+[19:37:47] step=cdn-resolve FAILED cr_film_id=8615 after 18.2s
+[19:37:47] step=iteration 5/100
+[19:37:47] step=film start cr_film_id=12039 name='Ritorno dalla morte (1991) CZ Dabing'
+[19:37:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22944_480p.mp4
+[19:38:05] step=cdn-resolve FAILED cr_film_id=12039 after 18.2s
+[19:38:05] step=iteration 6/100
+[19:38:05] step=film start cr_film_id=16060 name='Resurrection (2025) CZ Dabing'
+[19:38:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19012_480p.mp4
+[19:38:24] step=cdn-resolve FAILED cr_film_id=16060 after 18.3s
+[19:38:24] step=iteration 7/100
+[19:38:24] step=film start cr_film_id=13258 name='Lví král 3 - Hakuna Matata (2004) CZ Dabing'
+[19:38:24] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19171_480p.mp4
+[19:38:42] step=cdn-resolve FAILED cr_film_id=13258 after 18.2s
+[19:38:42] step=iteration 8/100
+[19:38:42] step=film start cr_film_id=16517 name='Pinkie on the One (2014) CZ Dabing'
+[19:38:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24813_480p.mp4
+[19:39:00] step=cdn-resolve FAILED cr_film_id=16517 after 18.3s
+[19:39:00] step=iteration 9/100
+[19:39:00] step=film start cr_film_id=16214 name='Sám mezi všemi (2013) CZ Dabing'
+[19:39:00] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/834_480p.mp4
+[19:39:19] step=cdn-resolve FAILED cr_film_id=16214 after 18.4s
+[19:39:19] step=iteration 10/100
+[19:39:19] step=film start cr_film_id=13762 name='Krycí jméno: Farewell (2009) CZ Dabing'
+[19:39:19] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/623_480p.mp4
+[19:39:37] step=cdn-resolve FAILED cr_film_id=13762 after 18.5s
+[19:39:37] step=iteration 11/100
+[19:39:37] step=film start cr_film_id=13713 name='My Little Pony: Princezna (2006) CZ Dabing'
+[19:39:37] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24821_480p.mp4
+[19:39:56] step=cdn-resolve FAILED cr_film_id=13713 after 18.4s
+[19:39:56] step=iteration 12/100
+[19:39:56] step=film start cr_film_id=12170 name='MacGyver: Ztracený poklad Atlantidy (1994) CZ Dabing'
+[19:39:56] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37547_480p.mp4
+[19:40:14] step=cdn-resolve FAILED cr_film_id=12170 after 18.1s
+[19:40:14] step=iteration 13/100
+[19:40:14] step=film start cr_film_id=11611 name='The Boy Who Could Fly (1986) CZ Dabing'
+[19:40:14] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/10994_480p.mp4
+[19:40:32] step=cdn-resolve FAILED cr_film_id=11611 after 18.3s
+[19:40:32] step=iteration 14/100
+[19:40:32] step=film start cr_film_id=17421 name='Úsměvy smutných mužů (2018) CZ'
+[19:40:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1813_480p.mp4
+[19:40:50] step=cdn-resolve FAILED cr_film_id=17421 after 18.2s
+[19:40:50] step=iteration 15/100
+[19:40:50] step=film start cr_film_id=16755 name='Harry Price: Ghost Hunter (2015) CZ Dabing'
+[19:40:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/817_480p.mp4
+[19:41:09] step=cdn-resolve FAILED cr_film_id=16755 after 18.3s
+[19:41:09] step=iteration 16/100
+[19:41:09] step=film start cr_film_id=15527 name='Prázdniny (2014) CZ Dabing'
+[19:41:09] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/977_480p.mp4
+[19:41:27] step=cdn-resolve FAILED cr_film_id=15527 after 18.3s
+[19:41:27] step=iteration 17/100
+[19:41:27] step=film start cr_film_id=16601 name='Manželská lest (2014) CZ Dabing'
+[19:41:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/10946_480p.mp4
+[19:41:45] step=cdn-resolve FAILED cr_film_id=16601 after 18.2s
+[19:41:45] step=iteration 18/100
+[19:41:45] step=film start cr_film_id=12878 name='Pornografický vztah (1999) CZ Dabing'
+[19:41:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23359_480p.mp4
+[19:42:04] step=cdn-resolve FAILED cr_film_id=12878 after 18.7s
+[19:42:04] step=iteration 19/100
+[19:42:04] step=film start cr_film_id=12164 name='Zabít Zoe (1993) CZ Dabing'
+[19:42:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/887_480p.mp4
+[19:42:22] step=cdn-resolve FAILED cr_film_id=12164 after 18.3s
+[19:42:22] step=iteration 20/100
+[19:42:22] step=film start cr_film_id=10090 name='Ghost Team One (2013) CZ Dabing'
+[19:42:22] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28637_480p.mp4
+[19:42:40] step=cdn-resolve FAILED cr_film_id=10090 after 18.4s
+[19:42:41] step=iteration 21/100
+[19:42:41] step=film start cr_film_id=16093 name='Kdy jindy než o Vánocích (2023) CZ Dabing'
+[19:42:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/54241_720p.mp4
+[19:42:59] step=cdn-resolve FAILED cr_film_id=16093 after 18.4s
+[19:42:59] step=iteration 22/100
+[19:42:59] step=film start cr_film_id=16768 name='Jo Nesbø: Doktor Proktor a vana času (2015) CZ Dabing'
+[19:42:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1753_480p.mp4
+[19:43:17] step=cdn-resolve FAILED cr_film_id=16768 after 18.2s
+[19:43:17] step=iteration 23/100
+[19:43:17] step=film start cr_film_id=16282 name='Prokletý náhrdelník (2024) CZ Dabing'
+[19:43:17] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/46466_720p.mp4
+[19:43:35] step=cdn-resolve FAILED cr_film_id=16282 after 18.3s
+[19:43:35] step=iteration 24/100
+[19:43:35] step=film start cr_film_id=12002 name='Buffy – zabíječka upírů (1992) CZ Dabing'
+[19:43:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29605_480p.mp4
+[19:43:54] step=cdn-resolve FAILED cr_film_id=12002 after 18.4s
+[19:43:54] step=iteration 25/100
+[19:43:54] step=film start cr_film_id=12548 name='Dallas: Válka Ewingů (1998) CZ Dabing'
+[19:43:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27542_480p.mp4
+[19:44:12] step=cdn-resolve FAILED cr_film_id=12548 after 18.3s
+[19:44:12] step=iteration 26/100
+[19:44:12] step=film start cr_film_id=12288 name='Dallas: J. R. se vrací (1996) CZ Dabing'
+[19:44:12] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27541_480p.mp4
+[19:44:30] step=cdn-resolve FAILED cr_film_id=12288 after 18.3s
+[19:44:30] step=iteration 27/100
+[19:44:30] step=film start cr_film_id=16230 name='Dům s tajemstvím (2014) CZ Dabing'
+[19:44:30] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/689_480p.mp4
+[19:44:50] step=cdn-resolve FAILED cr_film_id=16230 after 19.4s
+[19:44:50] step=iteration 28/100
+[19:44:50] step=film start cr_film_id=15644 name='Mrazivé tajemství (2022) CZ Dabing'
+[19:44:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/34275_480p.mp4
+[19:45:08] step=cdn-resolve FAILED cr_film_id=15644 after 18.4s
+[19:45:08] step=iteration 29/100
+[19:45:08] step=film start cr_film_id=14297 name='Vražedná lekce (2020) CZ Dabing'
+[19:45:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33825_480p.mp4
+[19:45:27] step=cdn-resolve FAILED cr_film_id=14297 after 18.3s
+[19:45:27] step=iteration 30/100
+[19:45:27] step=film start cr_film_id=17523 name='Dark Harbor (2019) CZ Dabing'
+[19:45:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/58059_720p.mp4
+[19:45:45] step=cdn-resolve FAILED cr_film_id=17523 after 18.3s
+[19:45:45] step=iteration 31/100
+[19:45:45] step=film start cr_film_id=15666 name='Ozvěny zla (2012) CZ Dabing'
+[19:45:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14148_720p.mp4
+[19:45:48] step=cdn-resolve done 2.8s → https://online5.sktorrent.eu/media/videos//h264/14148_720p.mp4
+[19:45:48] step=download curl https://online5.sktorrent.eu/media/videos//h264/14148_720p.mp4
+[19:54:48] step=download FAILED cr_film_id=15666 after 540.0s err=curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 116604928 out of 538377955 bytes received
+[19:54:48] step=iteration 32/100
+[19:54:48] step=film start cr_film_id=11974 name='Nic než trable (1991) CZ Dabing'
+[19:54:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19217_480p.mp4
+[19:55:06] step=cdn-resolve FAILED cr_film_id=11974 after 18.7s
+[19:55:06] step=iteration 33/100
+[19:55:06] step=film start cr_film_id=12410 name='Zamilovaná čarodějka (1997) CZ Dabing'
+[19:55:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1671_480p.mp4
+[19:55:22] step=cdn-resolve done 15.4s → https://online24.sktorrent.eu/media/videos//h264/1671_480p.mp4
+[19:55:22] step=download curl https://online24.sktorrent.eu/media/videos//h264/1671_480p.mp4
+[19:56:18] step=download done cr_film_id=12410 size=434526823 dur=56.3s speed=7.7MB/s
+[19:56:18] step=upload start cr_film_id=12410 size=434526823
+[19:56:49] step=upload done cr_film_id=12410 video_id=24087903 dur=30.8s speed=14.1MB/s
+[19:56:49] step=cleanup unlinked Zamilovaná čarodějka (1997) CZ Dabing.mp4
+[19:56:49] step=film done cr_film_id=12410 total=102.6s (cdn=15.4s + download=56.3s + upload=30.8s)
+[19:56:49] step=state-saved cr_film_id=12410 (total uploads=711)
+[19:56:49] step=iteration 34/100
+[19:56:49] step=film start cr_film_id=14227 name='Země ledních medvědů (2007) CZ Dabing'
+[19:56:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20633_480p.mp4
+[19:57:07] step=cdn-resolve FAILED cr_film_id=14227 after 18.3s
+[19:57:07] step=iteration 35/100
+[19:57:07] step=film start cr_film_id=15306 name='Strážci pokladu (2011) CZ Dabing'
+[19:57:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19964_480p.mp4
+[19:57:26] step=cdn-resolve FAILED cr_film_id=15306 after 18.4s
+[19:57:26] step=iteration 36/100
+[19:57:26] step=film start cr_film_id=13321 name='Anatomie pekla (2004) CZ Dabing'
+[19:57:26] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37574_480p.mp4
+[19:57:44] step=cdn-resolve FAILED cr_film_id=13321 after 18.5s
+[19:57:44] step=iteration 37/100
+[19:57:44] step=film start cr_film_id=13582 name='Melissa P. (2005) CZ Dabing'
+[19:57:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/742_480p.mp4
+[19:58:03] step=cdn-resolve FAILED cr_film_id=13582 after 18.4s
+[19:58:03] step=iteration 38/100
+[19:58:03] step=film start cr_film_id=12283 name='Kukuřičné děti 4: Zjevení (1996) CZ Dabing'
+[19:58:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23020_480p.mp4
+[19:58:21] step=cdn-resolve FAILED cr_film_id=12283 after 18.4s
+[19:58:21] step=iteration 39/100
+[19:58:21] step=film start cr_film_id=11805 name='C.H.U.D. II - Bud the Chud (1989) CZ Dabing'
+[19:58:21] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18891_480p.mp4
+[19:58:40] step=cdn-resolve FAILED cr_film_id=11805 after 18.5s
+[19:58:40] step=iteration 40/100
+[19:58:40] step=film start cr_film_id=14390 name='Ztracený poklad Aztéků (2008) CZ Dabing'
+[19:58:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25450_480p.mp4
+[19:58:58] step=cdn-resolve FAILED cr_film_id=14390 after 18.3s
+[19:58:58] step=iteration 41/100
+[19:58:58] step=film start cr_film_id=13145 name='Living in Fear (2000) CZ Dabing'
+[19:58:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45860_720p.mp4
+[19:59:16] step=cdn-resolve FAILED cr_film_id=13145 after 18.3s
+[19:59:16] step=iteration 42/100
+[19:59:16] step=film start cr_film_id=16556 name='Vetřelci na Měsíci (2014) CZ Dabing'
+[19:59:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26327_480p.mp4
+[19:59:35] step=cdn-resolve FAILED cr_film_id=16556 after 18.6s
+[19:59:35] step=iteration 43/100
+[19:59:35] step=film start cr_film_id=13668 name='Po hlavě do prdele (2006) CZ'
+[19:59:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36345_480p.mp4
+[19:59:54] step=cdn-resolve FAILED cr_film_id=13668 after 18.8s
+[19:59:54] step=iteration 44/100
+[19:59:54] step=film start cr_film_id=12836 name='Meng hu dou kuang long (1974) CZ Dabing'
+[19:59:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/7831_480p.mp4
+[20:00:12] step=cdn-resolve FAILED cr_film_id=12836 after 18.7s
+[20:00:12] step=iteration 45/100
+[20:00:12] step=film start cr_film_id=17070 name='Bao feng zhou yu (1961) CZ Dabing'
+[20:00:12] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1750_480p.mp4
+[20:00:31] step=cdn-resolve FAILED cr_film_id=17070 after 18.3s
+[20:00:31] step=iteration 46/100
+[20:00:31] step=film start cr_film_id=12597 name='Stříbrná oblaka (1938) CZ'
+[20:00:31] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38027_480p.mp4
+[20:00:35] step=cdn-resolve done 4.3s → https://online9.sktorrent.eu/media/videos//h264/38027_480p.mp4
+[20:00:35] step=download curl https://online9.sktorrent.eu/media/videos//h264/38027_480p.mp4
+[20:01:30] step=download done cr_film_id=12597 size=325286267 dur=55.2s speed=5.9MB/s
+[20:01:30] step=upload start cr_film_id=12597 size=325286267
+[20:01:49] step=upload done cr_film_id=12597 video_id=24087957 dur=19.1s speed=17.0MB/s
+[20:01:49] step=cleanup unlinked Stříbrná oblaka (1938) CZ.mp4
+[20:01:49] step=film done cr_film_id=12597 total=78.6s (cdn=4.3s + download=55.2s + upload=19.1s)
+[20:01:49] step=state-saved cr_film_id=12597 (total uploads=712)
+[20:01:49] step=iteration 47/100
+[20:01:49] step=film start cr_film_id=13557 name='Srdce za písničku (1933) CZ'
+[20:01:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38029_480p.mp4
+[20:02:08] step=cdn-resolve FAILED cr_film_id=13557 after 18.4s
+[20:02:08] step=iteration 48/100
+[20:02:08] step=film start cr_film_id=15404 name='Sňatková kancelář (1932) CZ'
+[20:02:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38039_480p.mp4
+[20:02:17] step=cdn-resolve done 9.1s → https://online21.sktorrent.eu/media/videos//h264/38039_480p.mp4
+[20:02:17] step=download curl https://online21.sktorrent.eu/media/videos//h264/38039_480p.mp4
+[20:04:20] step=download done cr_film_id=15404 size=360628623 dur=123.0s speed=2.9MB/s
+[20:04:20] step=upload start cr_film_id=15404 size=360628623
+[20:04:51] step=upload done cr_film_id=15404 video_id=24087986 dur=31.4s speed=11.5MB/s
+[20:04:51] step=cleanup unlinked Sňatková kancelář (1932) CZ.mp4
+[20:04:51] step=film done cr_film_id=15404 total=163.6s (cdn=9.1s + download=123.0s + upload=31.4s)
+[20:04:51] step=state-saved cr_film_id=15404 (total uploads=713)
+[20:04:51] step=iteration 49/100
+[20:04:51] step=batch-end backlog vyčerpán
+[20:04:51] step=batch-end succeeded=3 failed=45 total_uploads=713 batch_dur=1699.4s avg_per_film=566.5s backlog_remaining=299 eta_hours=47.1
