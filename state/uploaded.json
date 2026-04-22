@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-22T02:27:46Z",
+  "last_updated": "2026-04-22T13:39:21Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -13092,6 +13092,314 @@
       "failed_at": "2026-04-22T02:27:46Z",
       "timing": {
         "cdn_resolve_sec": 14.4
+      }
+    },
+    {
+      "cr_film_id": 4959,
+      "cr_slug": "casovy-posun",
+      "title": "Časový posun",
+      "year": 1979,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:32:55Z",
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
+    },
+    {
+      "cr_film_id": 4234,
+      "cr_slug": "zack-a-miri-toci-porno",
+      "title": "Zack a Miri točí porno",
+      "year": 2008,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:33:10Z",
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
+    },
+    {
+      "cr_film_id": 7550,
+      "cr_slug": "dum-hruzy",
+      "title": "Dům na Haunted Hill",
+      "year": 1999,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:33:24Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 8615,
+      "cr_slug": "swat-pod-palbou",
+      "title": "S.W.A.T.: Pod palbou",
+      "year": 2011,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:33:38Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 12039,
+      "cr_slug": "ritorno-dalla-morte-1991",
+      "title": "Ritorno dalla morte",
+      "year": 1991,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:33:52Z",
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    },
+    {
+      "cr_film_id": 16060,
+      "cr_slug": "film-2025",
+      "title": "狂野时代",
+      "year": 2025,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:34:07Z",
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    },
+    {
+      "cr_film_id": 13258,
+      "cr_slug": "lvi-kral-3-hakuna-matata-2004",
+      "title": "Lví král 3 - Hakuna Matata",
+      "year": 2004,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:34:21Z",
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one-2014",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:34:35Z",
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
+    },
+    {
+      "cr_film_id": 13713,
+      "cr_slug": "my-little-pony-princezna-2006",
+      "title": "My Little Pony: Princezna",
+      "year": 2006,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:34:50Z",
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
+    },
+    {
+      "cr_film_id": 12170,
+      "cr_slug": "macgyver-ztraceny-poklad-atlantidy-1994",
+      "title": "MacGyver: Ztracený poklad Atlantidy",
+      "year": 1994,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:35:04Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly-1986",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:35:18Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 16601,
+      "cr_slug": "manzelska-lest-2014",
+      "title": "Manželská lest",
+      "year": 2014,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:35:32Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 12878,
+      "cr_slug": "pornograficky-vztah-1999",
+      "title": "Pornografický vztah",
+      "year": 1999,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:35:47Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 10090,
+      "cr_slug": "tym-jedna",
+      "title": "Ghost Team One",
+      "year": 2013,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:36:01Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 12002,
+      "cr_slug": "buffy-zabijecka-upiru-1992",
+      "title": "Buffy – zabíječka upírů",
+      "year": 1992,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:36:15Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 12548,
+      "cr_slug": "dallas-valka-ewingu-1998",
+      "title": "Dallas: Válka Ewingů",
+      "year": 1998,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:36:30Z",
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
+    },
+    {
+      "cr_film_id": 12288,
+      "cr_slug": "dallas-j-r-se-vraci-1996",
+      "title": "Dallas: J. R. se vrací",
+      "year": 1996,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:36:44Z",
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    },
+    {
+      "cr_film_id": 11974,
+      "cr_slug": "nic-nez-trable-1991",
+      "title": "Nic než trable",
+      "year": 1991,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:36:59Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 14227,
+      "cr_slug": "zeme-lednich-medvedu-2007",
+      "title": "Země ledních medvědů",
+      "year": 2007,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:37:13Z",
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu-2011",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:37:27Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla-2004",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:37:41Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 12283,
+      "cr_slug": "kukuricne-deti-4-zjeveni-1996",
+      "title": "Kukuřičné děti 4: Zjevení",
+      "year": 1996,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:37:56Z",
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
+    },
+    {
+      "cr_film_id": 11805,
+      "cr_slug": "c-h-u-d-ii-bud-the-chud-1989",
+      "title": "C.H.U.D. II - Bud the Chud",
+      "year": 1989,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:38:10Z",
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
+    },
+    {
+      "cr_film_id": 14390,
+      "cr_slug": "ztraceny-poklad-azteku-2008",
+      "title": "Ztracený poklad Aztéků",
+      "year": 2008,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:38:24Z",
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici-2014",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:38:38Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele-2006",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:38:52Z",
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    },
+    {
+      "cr_film_id": 12836,
+      "cr_slug": "meng-hu-dou-kuang-long-1974",
+      "title": "Meng hu dou kuang long",
+      "year": 1974,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:39:07Z",
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku-1933",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-22T13:39:21Z",
+      "timing": {
+        "cdn_resolve_sec": 14.3
       }
     }
   ]
