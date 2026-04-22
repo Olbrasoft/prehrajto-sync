@@ -72,11 +72,12 @@ Priority podle důležitosti:
    [.github/workflows/test-sktorrent-access.yml](.github/workflows/test-sktorrent-access.yml)
    (manuální dispatch). Pokud 403, musí se použít self-hosted runner v ČR.
 
-2. **Rotovat heslo k Přehraj.to** — heslo `***REDACTED-PASSWORD***` bylo viděno při
-   reverse-engineeringu. `~/Dokumenty/přístupy/prehrajto.md` má poznámku. Po rotaci
-   update secretu v GitHubu.
+2. **Credentials k Přehraj.to** — login/heslo jsou uložené jen v
+   `~/Dokumenty/přístupy/prehrajto.md` a v GitHub Secrets
+   (`PREHRAJTO_EMAIL`, `PREHRAJTO_PASSWORD`). Nikdy je nepiš do kódu ani
+   dokumentace v tomhle repu — repo je **public**.
 
-3. **Přidat GitHub Secrets** — `PREHRAJTO_EMAIL`, `PREHRAJTO_PASSWORD` do
+3. **GitHub Secrets nastaveny** — `PREHRAJTO_EMAIL`, `PREHRAJTO_PASSWORD` v
    `Olbrasoft/prehrajto-sync` → Settings → Secrets and variables → Actions.
 
 ### 🟡 Hlavní implementace
