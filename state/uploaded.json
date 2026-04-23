@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-23T12:26:08Z",
+  "last_updated": "2026-04-23T12:31:38Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -14820,6 +14820,24 @@
         "upload_sec": 28.9,
         "total_sec": 109.3
       }
+    },
+    {
+      "cr_film_id": 16347,
+      "cr_slug": "film-2025-2",
+      "title": "Ghost Killer",
+      "year": 2025,
+      "sktorrent_id": 48745,
+      "prehrajto_video_id": 24116710,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T12:30:55Z",
+      "status": "processing",
+      "size_bytes": 433092223,
+      "timing": {
+        "cdn_resolve_sec": 4.0,
+        "download_sec": 50.9,
+        "upload_sec": 21.0,
+        "total_sec": 76.0
+      }
     }
   ],
   "moderated_out": [
@@ -17924,6 +17942,105 @@
       "failed_at": "2026-04-23T12:26:08Z",
       "timing": {
         "cdn_resolve_sec": 9.1
+      }
+    },
+    {
+      "cr_film_id": 4959,
+      "cr_slug": "casovy-posun",
+      "title": "Časový posun",
+      "year": 1979,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-23T12:28:57Z",
+      "timing": {
+        "cdn_resolve_sec": 12.1
+      }
+    },
+    {
+      "cr_film_id": 4234,
+      "cr_slug": "zack-a-miri-toci-porno",
+      "title": "Zack a Miri točí porno",
+      "year": 2008,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-23T12:29:07Z",
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
+    },
+    {
+      "cr_film_id": 7550,
+      "cr_slug": "dum-hruzy",
+      "title": "Dům na Haunted Hill",
+      "year": 1999,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-23T12:29:17Z",
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
+    },
+    {
+      "cr_film_id": 8615,
+      "cr_slug": "swat-pod-palbou",
+      "title": "S.W.A.T.: Pod palbou",
+      "year": 2011,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-23T12:29:29Z",
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
+    },
+    {
+      "cr_film_id": 12039,
+      "cr_slug": "ritorno-dalla-morte-1991",
+      "title": "Ritorno dalla morte",
+      "year": 1991,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-23T12:29:39Z",
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
+    },
+    {
+      "cr_film_id": 16060,
+      "cr_slug": "film-2025",
+      "title": "Resurrection",
+      "year": 2025,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-23T12:31:05Z",
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
+    },
+    {
+      "cr_film_id": 13258,
+      "cr_slug": "lvi-kral-3-hakuna-matata-2004",
+      "title": "Lví král 3 - Hakuna Matata",
+      "year": 2004,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-23T12:31:16Z",
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one-2014",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-23T12:31:27Z",
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
+    },
+    {
+      "cr_film_id": 13713,
+      "cr_slug": "my-little-pony-princezna-2006",
+      "title": "My Little Pony: Princezna",
+      "year": 2006,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-23T12:31:38Z",
+      "timing": {
+        "cdn_resolve_sec": 11.5
       }
     }
   ]

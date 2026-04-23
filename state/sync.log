@@ -10365,3 +10365,56 @@
 [12:25:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24813_480p.mp4
 [12:26:08] step=cdn-resolve FAILED cr_film_id=16517 after 9.1s
 [12:26:08] step=batch-end succeeded=6 failed=9 total_uploads=824 batch_dur=671.2s avg_per_film=111.9s backlog_remaining=188 eta_hours=5.8
+
+===== run 2026-04-23T12:28:43Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24835214012) =====
+[12:28:43] step=batch-start count=10 backlog=1014 uploads=824 moderated=2
+[12:28:43] step=login
+[12:28:45] step=login done
+[12:28:45] step=iteration 1/10
+[12:28:45] step=film start cr_film_id=4959 name='Časový posun (1979) CZ Dabing'
+[12:28:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12029_480p.mp4
+[12:28:57] step=cdn-resolve FAILED cr_film_id=4959 after 12.1s
+[12:28:57] step=iteration 2/10
+[12:28:57] step=film start cr_film_id=4234 name='Zack a Miri točí porno (2008) CZ Dabing'
+[12:28:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31030_480p.mp4
+[12:29:07] step=cdn-resolve FAILED cr_film_id=4234 after 10.2s
+[12:29:07] step=iteration 3/10
+[12:29:07] step=film start cr_film_id=7550 name='Dům na Haunted Hill (1999) CZ Dabing'
+[12:29:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22929_480p.mp4
+[12:29:17] step=cdn-resolve FAILED cr_film_id=7550 after 10.1s
+[12:29:17] step=iteration 4/10
+[12:29:17] step=film start cr_film_id=8615 name='S.W.A.T.: Pod palbou (2011) CZ Dabing'
+[12:29:17] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12988_480p.mp4
+[12:29:29] step=cdn-resolve FAILED cr_film_id=8615 after 11.7s
+[12:29:29] step=iteration 5/10
+[12:29:29] step=film start cr_film_id=12039 name='Ritorno dalla morte (1991) CZ Dabing'
+[12:29:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22944_480p.mp4
+[12:29:39] step=cdn-resolve FAILED cr_film_id=12039 after 10.2s
+[12:29:39] step=iteration 6/10
+[12:29:39] step=film start cr_film_id=16347 name='Ghost Killer (2025) CZ titulky'
+[12:29:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/48745_720p.mp4
+[12:29:43] step=cdn-resolve done 4.0s → https://online9.sktorrent.eu/media/videos//h264/48745_720p.mp4
+[12:29:43] step=download curl https://online9.sktorrent.eu/media/videos//h264/48745_720p.mp4
+[12:30:34] step=download done cr_film_id=16347 size=433092223 dur=50.9s speed=8.5MB/s
+[12:30:34] step=upload start cr_film_id=16347 size=433092223
+[12:30:55] step=upload done cr_film_id=16347 video_id=24116710 dur=21.0s speed=20.6MB/s
+[12:30:55] step=cleanup unlinked Ghost Killer (2025) CZ titulky.mp4
+[12:30:55] step=film done cr_film_id=16347 total=76.0s (cdn=4.0s + download=50.9s + upload=21.0s)
+[12:30:55] step=state-saved cr_film_id=16347 (total uploads=825)
+[12:30:55] step=iteration 7/10
+[12:30:55] step=film start cr_film_id=16060 name='Resurrection (2025) CZ Dabing'
+[12:30:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19012_480p.mp4
+[12:31:05] step=cdn-resolve FAILED cr_film_id=16060 after 10.2s
+[12:31:05] step=iteration 8/10
+[12:31:05] step=film start cr_film_id=13258 name='Lví král 3 - Hakuna Matata (2004) CZ Dabing'
+[12:31:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19171_480p.mp4
+[12:31:16] step=cdn-resolve FAILED cr_film_id=13258 after 10.2s
+[12:31:16] step=iteration 9/10
+[12:31:16] step=film start cr_film_id=16517 name='Pinkie on the One (2014) CZ Dabing'
+[12:31:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24813_480p.mp4
+[12:31:27] step=cdn-resolve FAILED cr_film_id=16517 after 10.9s
+[12:31:27] step=iteration 10/10
+[12:31:27] step=film start cr_film_id=13713 name='My Little Pony: Princezna (2006) CZ Dabing'
+[12:31:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24821_480p.mp4
+[12:31:38] step=cdn-resolve FAILED cr_film_id=13713 after 11.5s
+[12:31:38] step=batch-end succeeded=1 failed=9 total_uploads=825 batch_dur=173.3s avg_per_film=173.3s backlog_remaining=187 eta_hours=9.0
