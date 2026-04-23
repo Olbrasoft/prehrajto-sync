@@ -10252,3 +10252,116 @@
 [00:29:28] step=film done cr_film_id=17070 total=60.9s (cdn=11.4s + download=17.7s + upload=31.7s)
 [00:29:28] step=state-saved cr_film_id=17070 (total uploads=818)
 [00:29:28] step=batch-end succeeded=73 failed=27 total_uploads=818 batch_dur=7103.7s avg_per_film=97.3s backlog_remaining=194 eta_hours=5.2
+
+===== run 2026-04-23T12:14:53Z batch_size=15 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24834606129) =====
+[12:14:54] step=batch-start count=15 backlog=1014 uploads=818 moderated=2
+[12:14:54] step=login
+[12:14:57] step=login done
+[12:14:57] step=iteration 1/15
+[12:14:57] step=film start cr_film_id=4959 name='Časový posun (1979) CZ Dabing'
+[12:14:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12029_480p.mp4
+[12:15:09] step=cdn-resolve FAILED cr_film_id=4959 after 12.0s
+[12:15:09] step=iteration 2/15
+[12:15:09] step=film start cr_film_id=4234 name='Zack a Miri točí porno (2008) CZ Dabing'
+[12:15:09] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31030_480p.mp4
+[12:15:18] step=cdn-resolve FAILED cr_film_id=4234 after 9.0s
+[12:15:18] step=iteration 3/15
+[12:15:18] step=film start cr_film_id=7550 name='Dům na Haunted Hill (1999) CZ Dabing'
+[12:15:18] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22929_480p.mp4
+[12:15:27] step=cdn-resolve FAILED cr_film_id=7550 after 9.2s
+[12:15:27] step=iteration 4/15
+[12:15:27] step=film start cr_film_id=8103 name='Host (2025) CZ titulky'
+[12:15:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/52771_720p.mp4
+[12:15:32] step=cdn-resolve done 5.4s → https://online14.sktorrent.eu/media/videos//h264/52771_720p.mp4
+[12:15:32] step=download curl https://online14.sktorrent.eu/media/videos//h264/52771_720p.mp4
+[12:16:22] step=download done cr_film_id=8103 size=422876793 dur=49.4s speed=8.6MB/s
+[12:16:22] step=upload start cr_film_id=8103 size=422876793
+[12:16:41] step=upload done cr_film_id=8103 video_id=24116519 dur=19.3s speed=21.9MB/s
+[12:16:41] step=cleanup unlinked Host (2025) CZ titulky.mp4
+[12:16:41] step=film done cr_film_id=8103 total=74.2s (cdn=5.4s + download=49.4s + upload=19.3s)
+[12:16:41] step=state-saved cr_film_id=8103 (total uploads=819)
+[12:16:41] step=iteration 5/15
+[12:16:41] step=film start cr_film_id=8615 name='S.W.A.T.: Pod palbou (2011) CZ Dabing'
+[12:16:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12988_480p.mp4
+[12:16:50] step=cdn-resolve FAILED cr_film_id=8615 after 8.9s
+[12:16:50] step=iteration 6/15
+[12:16:50] step=film start cr_film_id=9300 name='Astronautka (2025) CZ titulky'
+[12:16:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/51238_720p.mp4
+[12:16:56] step=cdn-resolve done 5.9s → https://online14.sktorrent.eu/media/videos//h264/51238_720p.mp4
+[12:16:56] step=download curl https://online14.sktorrent.eu/media/videos//h264/51238_720p.mp4
+[12:17:45] step=download done cr_film_id=9300 size=415717990 dur=48.7s speed=8.5MB/s
+[12:17:45] step=upload start cr_film_id=9300 size=415717990
+[12:18:02] step=upload done cr_film_id=9300 video_id=24116539 dur=17.7s speed=23.5MB/s
+[12:18:02] step=cleanup unlinked Astronautka (2025) CZ titulky.mp4
+[12:18:02] step=film done cr_film_id=9300 total=72.4s (cdn=5.9s + download=48.7s + upload=17.7s)
+[12:18:02] step=state-saved cr_film_id=9300 (total uploads=820)
+[12:18:02] step=iteration 7/15
+[12:18:02] step=film start cr_film_id=15917 name='Кентавр (2023) CZ titulky'
+[12:18:02] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/50661_720p.mp4
+[12:18:08] step=cdn-resolve done 5.9s → https://online16.sktorrent.eu/media/videos//h264/50661_720p.mp4
+[12:18:08] step=download curl https://online16.sktorrent.eu/media/videos//h264/50661_720p.mp4
+[12:19:39] step=download done cr_film_id=15917 size=383504152 dur=90.7s speed=4.2MB/s
+[12:19:39] step=upload start cr_film_id=15917 size=383504152
+[12:19:59] step=upload done cr_film_id=15917 video_id=24116567 dur=20.1s speed=19.1MB/s
+[12:19:59] step=cleanup unlinked Кентавр (2023) CZ titulky.mp4
+[12:19:59] step=film done cr_film_id=15917 total=116.8s (cdn=5.9s + download=90.7s + upload=20.1s)
+[12:19:59] step=state-saved cr_film_id=15917 (total uploads=821)
+[12:19:59] step=iteration 8/15
+[12:19:59] step=film start cr_film_id=17032 name='La Exorcista (2025) CZ titulky'
+[12:19:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/57798_720p.mp4
+[12:20:08] step=cdn-resolve done 9.2s → https://online25.sktorrent.eu/media/videos//h264/57798_720p.mp4
+[12:20:08] step=download curl https://online25.sktorrent.eu/media/videos//h264/57798_720p.mp4
+[12:20:16] step=download done cr_film_id=17032 size=263702369 dur=8.0s speed=33.0MB/s
+[12:20:16] step=upload start cr_film_id=17032 size=263702369
+[12:20:26] step=upload done cr_film_id=17032 video_id=24116576 dur=10.1s speed=26.1MB/s
+[12:20:27] step=cleanup unlinked La Exorcista (2025) CZ titulky.mp4
+[12:20:27] step=film done cr_film_id=17032 total=27.3s (cdn=9.2s + download=8.0s + upload=10.1s)
+[12:20:27] step=state-saved cr_film_id=17032 (total uploads=822)
+[12:20:27] step=iteration 9/15
+[12:20:27] step=film start cr_film_id=15740 name='Лишайся онлайн (2024) CZ titulky'
+[12:20:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56667_720p.mp4
+[12:20:33] step=cdn-resolve done 6.3s → https://online17.sktorrent.eu/media/videos//h264/56667_720p.mp4
+[12:20:33] step=download curl https://online17.sktorrent.eu/media/videos//h264/56667_720p.mp4
+[12:21:54] step=download done cr_film_id=15740 size=531810765 dur=81.6s speed=6.5MB/s
+[12:21:54] step=upload start cr_film_id=15740 size=531810765
+[12:22:35] step=upload done cr_film_id=15740 video_id=24116602 dur=41.0s speed=13.0MB/s
+[12:22:36] step=cleanup unlinked Лишайся онлайн (2024) CZ titulky.mp4
+[12:22:36] step=film done cr_film_id=15740 total=129.0s (cdn=6.3s + download=81.6s + upload=41.0s)
+[12:22:36] step=state-saved cr_film_id=15740 (total uploads=823)
+[12:22:36] step=iteration 10/15
+[12:22:36] step=film start cr_film_id=12039 name='Ritorno dalla morte (1991) CZ Dabing'
+[12:22:36] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22944_480p.mp4
+[12:22:44] step=cdn-resolve FAILED cr_film_id=12039 after 8.9s
+[12:22:44] step=iteration 11/15
+[12:22:44] step=film start cr_film_id=16347 name='Ghost Killer (2025) CZ titulky'
+[12:22:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/48745_720p.mp4
+[12:22:48] step=cdn-resolve done 3.5s → https://online9.sktorrent.eu/media/videos//h264/48745_720p.mp4
+[12:22:48] step=download curl https://online9.sktorrent.eu/media/videos//h264/48745_720p.mp4
+[12:23:50] step=download done cr_film_id=16347 size=433092223 dur=62.5s speed=6.9MB/s
+[12:23:50] step=upload start cr_film_id=16347 size=433092223
+[12:23:50] step=upload FAILED cr_film_id=16347 after 0.0s err=('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[12:23:51] step=cleanup unlinked Ghost Killer (2025) CZ titulky.mp4
+[12:23:51] step=iteration 12/15
+[12:23:51] step=film start cr_film_id=16060 name='Resurrection (2025) CZ Dabing'
+[12:23:51] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19012_480p.mp4
+[12:23:59] step=cdn-resolve FAILED cr_film_id=16060 after 8.8s
+[12:23:59] step=iteration 13/15
+[12:23:59] step=film start cr_film_id=13258 name='Lví král 3 - Hakuna Matata (2004) CZ Dabing'
+[12:23:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19171_480p.mp4
+[12:24:09] step=cdn-resolve FAILED cr_film_id=13258 after 10.0s
+[12:24:09] step=iteration 14/15
+[12:24:09] step=film start cr_film_id=16414 name='Svědectví o Ann Lee (2025) CZ titulky'
+[12:24:09] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/58806_720p.mp4
+[12:24:17] step=cdn-resolve done 7.2s → https://online20.sktorrent.eu/media/videos//h264/58806_720p.mp4
+[12:24:17] step=download curl https://online20.sktorrent.eu/media/videos//h264/58806_720p.mp4
+[12:25:30] step=download done cr_film_id=16414 size=644961072 dur=73.2s speed=8.8MB/s
+[12:25:30] step=upload start cr_film_id=16414 size=644961072
+[12:25:59] step=upload done cr_film_id=16414 video_id=24116645 dur=28.9s speed=22.3MB/s
+[12:25:59] step=cleanup unlinked Svědectví o Ann Lee (2025) CZ titulky.mp4
+[12:25:59] step=film done cr_film_id=16414 total=109.3s (cdn=7.2s + download=73.2s + upload=28.9s)
+[12:25:59] step=state-saved cr_film_id=16414 (total uploads=824)
+[12:25:59] step=iteration 15/15
+[12:25:59] step=film start cr_film_id=16517 name='Pinkie on the One (2014) CZ Dabing'
+[12:25:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24813_480p.mp4
+[12:26:08] step=cdn-resolve FAILED cr_film_id=16517 after 9.1s
+[12:26:08] step=batch-end succeeded=6 failed=9 total_uploads=824 batch_dur=671.2s avg_per_film=111.9s backlog_remaining=188 eta_hours=5.8
