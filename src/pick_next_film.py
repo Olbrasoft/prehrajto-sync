@@ -32,11 +32,19 @@ def load_state(path: Path = STATE) -> dict:
 
 
 def excluded_ids(state: dict, extra: set[int] | None = None) -> set[int]:
-    """cr_film_id které vynecháme: uploaded + moderated_out + dočasné `extra`
-    (např. už vybrané v aktuální batch dávce, ale ještě nezapsané do state)."""
+    """cr_film_id které vynecháme: uploaded + moderated_out + failed_attempts
+    + dočasné `extra` (už vybrané v aktuální batch dávce, ale ještě nezapsané
+    do state).
+
+    Failed attempts are skipped because the common failure mode is a dead
+    sktorrent 480p URL that returns 404 on every CDN node; retrying burns
+    batch slots without progress. If a retry is genuinely wanted the entry
+    can be removed from state/uploaded.json by hand.
+    """
     done = {u["cr_film_id"] for u in state.get("uploads", [])}
     skipped = {u["cr_film_id"] for u in state.get("moderated_out", [])}
-    return done | skipped | (extra or set())
+    failed = {f["cr_film_id"] for f in state.get("failed_attempts", [])}
+    return done | skipped | failed | (extra or set())
 
 
 def _require_cs_audio() -> bool:
