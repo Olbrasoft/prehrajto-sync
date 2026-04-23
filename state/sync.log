@@ -10418,3 +10418,64 @@
 [12:31:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24821_480p.mp4
 [12:31:38] step=cdn-resolve FAILED cr_film_id=13713 after 11.5s
 [12:31:38] step=batch-end succeeded=1 failed=9 total_uploads=825 batch_dur=173.3s avg_per_film=173.3s backlog_remaining=187 eta_hours=9.0
+
+===== run 2026-04-23T12:33:38Z batch_size=5 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24835431424) =====
+[12:33:39] step=batch-start count=5 backlog=1014 uploads=825 moderated=2
+[12:33:39] step=login
+[12:33:40] step=login done
+[12:33:40] step=iteration 1/5
+[12:33:40] step=film start cr_film_id=12471 name='Indián (1999) CZ titulky'
+[12:33:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/54467_720p.mp4
+[12:33:50] step=cdn-resolve done 9.6s → https://online15.sktorrent.eu/media/videos//h264/54467_720p.mp4
+[12:33:50] step=download curl https://online15.sktorrent.eu/media/videos//h264/54467_720p.mp4
+[12:35:19] step=download done cr_film_id=12471 size=643836853 dur=89.4s speed=7.2MB/s
+[12:35:19] step=upload start cr_film_id=12471 size=643836853
+[12:35:54] step=upload done cr_film_id=12471 video_id=24116785 dur=34.7s speed=18.6MB/s
+[12:35:54] step=cleanup unlinked Indián (1999) CZ titulky.mp4
+[12:35:54] step=film done cr_film_id=12471 total=133.8s (cdn=9.6s + download=89.4s + upload=34.7s)
+[12:35:54] step=state-saved cr_film_id=12471 (total uploads=826)
+[12:35:54] step=iteration 2/5
+[12:35:54] step=film start cr_film_id=17600 name='Evil of the Rat (2025) CZ titulky'
+[12:35:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56595_720p.mp4
+[12:36:04] step=cdn-resolve done 10.2s → https://online21.sktorrent.eu/media/videos//h264/56595_720p.mp4
+[12:36:04] step=download curl https://online21.sktorrent.eu/media/videos//h264/56595_720p.mp4
+[12:37:04] step=download done cr_film_id=17600 size=595317203 dur=59.5s speed=10.0MB/s
+[12:37:04] step=upload start cr_film_id=17600 size=595317203
+[12:37:35] step=upload done cr_film_id=17600 video_id=24116808 dur=30.7s speed=19.4MB/s
+[12:37:35] step=cleanup unlinked Evil of the Rat (2025) CZ titulky.mp4
+[12:37:35] step=film done cr_film_id=17600 total=100.6s (cdn=10.2s + download=59.5s + upload=30.7s)
+[12:37:35] step=state-saved cr_film_id=17600 (total uploads=827)
+[12:37:35] step=iteration 3/5
+[12:37:35] step=film start cr_film_id=15881 name='Spring Garden (2024) CZ titulky'
+[12:37:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/49640_720p.mp4
+[12:37:45] step=cdn-resolve done 10.8s → https://online23.sktorrent.eu/media/videos//h264/49640_720p.mp4
+[12:37:45] step=download curl https://online23.sktorrent.eu/media/videos//h264/49640_720p.mp4
+[12:39:19] step=download done cr_film_id=15881 size=392788762 dur=93.9s speed=4.2MB/s
+[12:39:19] step=upload start cr_film_id=15881 size=392788762
+[12:39:41] step=upload done cr_film_id=15881 video_id=24116842 dur=21.2s speed=18.5MB/s
+[12:39:41] step=cleanup unlinked Spring Garden (2024) CZ titulky.mp4
+[12:39:41] step=film done cr_film_id=15881 total=126.0s (cdn=10.8s + download=93.9s + upload=21.2s)
+[12:39:41] step=state-saved cr_film_id=15881 (total uploads=828)
+[12:39:41] step=iteration 4/5
+[12:39:41] step=film start cr_film_id=16379 name='Blazing Fists (2025) CZ titulky'
+[12:39:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59038_720p.mp4
+[12:39:46] step=cdn-resolve done 5.2s → https://online9.sktorrent.eu/media/videos//h264/59038_720p.mp4
+[12:39:46] step=download curl https://online9.sktorrent.eu/media/videos//h264/59038_720p.mp4
+[12:40:49] step=download done cr_film_id=16379 size=560841662 dur=63.0s speed=8.9MB/s
+[12:40:49] step=upload start cr_film_id=16379 size=560841662
+[12:41:23] step=upload done cr_film_id=16379 video_id=24116868 dur=33.9s speed=16.5MB/s
+[12:41:23] step=cleanup unlinked Blazing Fists (2025) CZ titulky.mp4
+[12:41:23] step=film done cr_film_id=16379 total=102.3s (cdn=5.2s + download=63.0s + upload=33.9s)
+[12:41:23] step=state-saved cr_film_id=16379 (total uploads=829)
+[12:41:23] step=iteration 5/5
+[12:41:23] step=film start cr_film_id=10750 name='Murder Reported (1957) CZ titulky'
+[12:41:23] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56482_720p.mp4
+[12:41:25] step=cdn-resolve done 2.6s → https://online5.sktorrent.eu/media/videos//h264/56482_720p.mp4
+[12:41:25] step=download curl https://online5.sktorrent.eu/media/videos//h264/56482_720p.mp4
+[12:42:24] step=download done cr_film_id=10750 size=280332102 dur=58.4s speed=4.8MB/s
+[12:42:24] step=upload start cr_film_id=10750 size=280332102
+[12:42:39] step=upload done cr_film_id=10750 video_id=24116892 dur=14.6s speed=19.2MB/s
+[12:42:39] step=cleanup unlinked Murder Reported (1957) CZ titulky.mp4
+[12:42:39] step=film done cr_film_id=10750 total=75.6s (cdn=2.6s + download=58.4s + upload=14.6s)
+[12:42:39] step=state-saved cr_film_id=10750 (total uploads=830)
+[12:42:39] step=batch-end succeeded=5 failed=0 total_uploads=830 batch_dur=538.3s avg_per_film=107.7s backlog_remaining=182 eta_hours=5.4
