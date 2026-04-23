@@ -44,6 +44,13 @@ def _require_cs_audio() -> bool:
     return v not in ("0", "false", "no", "off")
 
 
+def _has_cz_sk_subtitles(film: dict) -> bool:
+    for t in (film.get("sktorrent_subtitles") or []):
+        if (t.get("lang") or "").lower() in ("cs", "sk"):
+            return True
+    return False
+
+
 def pick_next(
     state: dict,
     backlog_rows: list[dict],
@@ -54,8 +61,10 @@ def pick_next(
     for r in backlog_rows:
         if r.get("cr_film_id") in excluded:
             continue
-        if require_cs and r.get("detected_language") not in ("cs", "sk"):
-            continue
+        if require_cs:
+            has_cs_audio = r.get("detected_language") in ("cs", "sk")
+            if not has_cs_audio and not _has_cz_sk_subtitles(r):
+                continue
         return r
     return None
 
@@ -67,6 +76,11 @@ def display_name(film: dict) -> str:
     title = film["title"]
     year = film["year"]
     orig = film.get("original_language")
+    audio = film.get("detected_language")
+    # Film with foreign audio but Czech/Slovak subtitles from sktorrent —
+    # signal that to the viewer explicitly.
+    if audio not in ("cs", "sk") and _has_cz_sk_subtitles(film):
+        return f"{title} ({year}) CZ titulky"
     # Native (Czech/Slovak) or unknown title (TMDB miss) → no "Dabing" label.
     # Everything else with Czech audio is dubbing.
     if orig in NATIVE_ORIGINS or orig is None:
