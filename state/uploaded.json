@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-24T20:35:30Z",
+  "last_updated": "2026-04-24T21:13:27Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -15558,6 +15558,150 @@
         "upload_sec": 33.2,
         "total_sec": 115.2
       }
+    },
+    {
+      "cr_film_id": 4514,
+      "cr_slug": "nesmirnost",
+      "title": "Nesmírnost",
+      "year": 2022,
+      "sktorrent_id": 31381,
+      "prehrajto_video_id": 24157111,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:47:44Z",
+      "status": "processing",
+      "size_bytes": 544398410,
+      "timing": {
+        "cdn_resolve_sec": 19.4,
+        "download_sec": 88.9,
+        "upload_sec": 23.7,
+        "total_sec": 132.0
+      }
+    },
+    {
+      "cr_film_id": 4521,
+      "cr_slug": "podzimni-sny",
+      "title": "Podzimní sny",
+      "year": 2015,
+      "sktorrent_id": 29532,
+      "prehrajto_video_id": 24157179,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:49:23Z",
+      "status": "processing",
+      "size_bytes": 569811040,
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 68.4,
+        "upload_sec": 22.8,
+        "total_sec": 98.3
+      }
+    },
+    {
+      "cr_film_id": 4581,
+      "cr_slug": "usvit-2020",
+      "title": "Zora",
+      "year": 2020,
+      "sktorrent_id": 33768,
+      "prehrajto_video_id": 24157329,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:53:32Z",
+      "status": "processing",
+      "size_bytes": 558661785,
+      "timing": {
+        "cdn_resolve_sec": 3.3,
+        "download_sec": 191.6,
+        "upload_sec": 37.1,
+        "total_sec": 232.1
+      }
+    },
+    {
+      "cr_film_id": 4587,
+      "cr_slug": "aus-haut-und-knochen",
+      "title": "Jen kost a kůže",
+      "year": 2019,
+      "sktorrent_id": 16431,
+      "prehrajto_video_id": 24157435,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:56:29Z",
+      "status": "processing",
+      "size_bytes": 556744622,
+      "timing": {
+        "cdn_resolve_sec": 4.0,
+        "download_sec": 142.3,
+        "upload_sec": 30.2,
+        "total_sec": 176.6
+      }
+    },
+    {
+      "cr_film_id": 4614,
+      "cr_slug": "muj-andilek",
+      "title": "Můj andílek",
+      "year": 2019,
+      "sktorrent_id": 12956,
+      "prehrajto_video_id": 24157494,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:57:45Z",
+      "status": "processing",
+      "size_bytes": 398963521,
+      "timing": {
+        "cdn_resolve_sec": 2.5,
+        "download_sec": 58.1,
+        "upload_sec": 15.6,
+        "total_sec": 76.3
+      }
+    },
+    {
+      "cr_film_id": 4727,
+      "cr_slug": "unos-2016",
+      "title": "Secuestro",
+      "year": 2016,
+      "sktorrent_id": 32369,
+      "prehrajto_video_id": 24157572,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:59:49Z",
+      "status": "processing",
+      "size_bytes": 679636326,
+      "timing": {
+        "cdn_resolve_sec": 6.6,
+        "download_sec": 88.7,
+        "upload_sec": 28.7,
+        "total_sec": 124.0
+      }
+    },
+    {
+      "cr_film_id": 4776,
+      "cr_slug": "dort",
+      "title": "Dort",
+      "year": 2014,
+      "sktorrent_id": 31768,
+      "prehrajto_video_id": 24157665,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:02:32Z",
+      "status": "processing",
+      "size_bytes": 469285692,
+      "timing": {
+        "cdn_resolve_sec": 3.7,
+        "download_sec": 129.1,
+        "upload_sec": 29.6,
+        "total_sec": 162.4
+      }
+    },
+    {
+      "cr_film_id": 4968,
+      "cr_slug": "m3gan",
+      "title": "M3GAN",
+      "year": 2022,
+      "sktorrent_id": 28927,
+      "prehrajto_video_id": 24158062,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:13:27Z",
+      "status": "processing",
+      "size_bytes": 433142445,
+      "timing": {
+        "cdn_resolve_sec": 5.0,
+        "download_sec": 91.4,
+        "upload_sec": 17.5,
+        "total_sec": 114.0
+      }
     }
   ],
   "moderated_out": [
@@ -18818,6 +18962,29 @@
       "failed_at": "2026-04-24T19:29:46Z",
       "timing": {
         "cdn_resolve_sec": 28.6
+      }
+    },
+    {
+      "cr_film_id": 4559,
+      "cr_slug": "dohoda",
+      "title": "Dohoda",
+      "year": 2021,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-24T20:49:40Z",
+      "timing": {
+        "cdn_resolve_sec": 17.3
+      }
+    },
+    {
+      "cr_film_id": 4962,
+      "cr_slug": "uder",
+      "title": "Úder",
+      "year": 2022,
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 389039952 out of 432916816 bytes received",
+      "failed_at": "2026-04-24T21:11:33Z",
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 540.0
       }
     }
   ]

@@ -10912,3 +10912,107 @@
 [20:35:30] step=film done cr_film_id=4482 total=115.2s (cdn=6.1s + download=75.9s + upload=33.2s)
 [20:35:30] step=state-saved cr_film_id=4482 (total uploads=865)
 [20:35:30] step=batch-end succeeded=10 failed=0 total_uploads=865 batch_dur=2224.1s avg_per_film=222.4s backlog_remaining=644 eta_hours=39.8
+
+===== run 2026-04-24T20:45:29Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24911044548) =====
+[20:45:31] step=batch-start count=10 backlog=1511 uploads=865 moderated=2
+[20:45:31] step=login
+[20:45:32] step=login done
+[20:45:32] step=iteration 1/10
+[20:45:32] step=film start cr_film_id=4514 name='Nesmírnost (2022) CZ Dabing'
+[20:45:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31381_720p.mp4
+[20:45:52] step=cdn-resolve done 19.4s → https://online23.sktorrent.eu/media/videos//h264/31381_720p.mp4
+[20:45:52] step=download curl https://online23.sktorrent.eu/media/videos//h264/31381_720p.mp4
+[20:47:21] step=download done cr_film_id=4514 size=544398410 dur=88.9s speed=6.1MB/s
+[20:47:21] step=upload start cr_film_id=4514 size=544398410
+[20:47:44] step=upload done cr_film_id=4514 video_id=24157111 dur=23.7s speed=23.0MB/s
+[20:47:44] step=cleanup unlinked Nesmírnost (2022) CZ Dabing.mp4
+[20:47:44] step=film done cr_film_id=4514 total=132.0s (cdn=19.4s + download=88.9s + upload=23.7s)
+[20:47:44] step=state-saved cr_film_id=4514 (total uploads=866)
+[20:47:44] step=iteration 2/10
+[20:47:44] step=film start cr_film_id=4521 name='Podzimní sny (2015) CZ Dabing'
+[20:47:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29532_720p.mp4
+[20:47:51] step=cdn-resolve done 7.1s → https://online17.sktorrent.eu/media/videos//h264/29532_720p.mp4
+[20:47:51] step=download curl https://online17.sktorrent.eu/media/videos//h264/29532_720p.mp4
+[20:49:00] step=download done cr_film_id=4521 size=569811040 dur=68.4s speed=8.3MB/s
+[20:49:00] step=upload start cr_film_id=4521 size=569811040
+[20:49:23] step=upload done cr_film_id=4521 video_id=24157179 dur=22.8s speed=25.0MB/s
+[20:49:23] step=cleanup unlinked Podzimní sny (2015) CZ Dabing.mp4
+[20:49:23] step=film done cr_film_id=4521 total=98.3s (cdn=7.1s + download=68.4s + upload=22.8s)
+[20:49:23] step=state-saved cr_film_id=4521 (total uploads=867)
+[20:49:23] step=iteration 3/10
+[20:49:23] step=film start cr_film_id=4559 name='Dohoda (2021) CZ Dabing'
+[20:49:23] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1081_480p.mp4
+[20:49:40] step=cdn-resolve FAILED cr_film_id=4559 after 17.3s
+[20:49:40] step=iteration 4/10
+[20:49:40] step=film start cr_film_id=4581 name='Zora (2020) CZ Dabing'
+[20:49:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33768_720p.mp4
+[20:49:43] step=cdn-resolve done 3.3s → https://online8.sktorrent.eu/media/videos//h264/33768_720p.mp4
+[20:49:43] step=download curl https://online8.sktorrent.eu/media/videos//h264/33768_720p.mp4
+[20:52:55] step=download done cr_film_id=4581 size=558661785 dur=191.6s speed=2.9MB/s
+[20:52:55] step=upload start cr_film_id=4581 size=558661785
+[20:53:32] step=upload done cr_film_id=4581 video_id=24157329 dur=37.1s speed=15.1MB/s
+[20:53:32] step=cleanup unlinked Zora (2020) CZ Dabing.mp4
+[20:53:32] step=film done cr_film_id=4581 total=232.1s (cdn=3.3s + download=191.6s + upload=37.1s)
+[20:53:32] step=state-saved cr_film_id=4581 (total uploads=868)
+[20:53:32] step=iteration 5/10
+[20:53:32] step=film start cr_film_id=4587 name='Jen kost a kůže (2019) CZ Dabing'
+[20:53:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16431_720p.mp4
+[20:53:36] step=cdn-resolve done 4.0s → https://online8.sktorrent.eu/media/videos//h264/16431_720p.mp4
+[20:53:36] step=download curl https://online8.sktorrent.eu/media/videos//h264/16431_720p.mp4
+[20:55:58] step=download done cr_film_id=4587 size=556744622 dur=142.3s speed=3.9MB/s
+[20:55:58] step=upload start cr_film_id=4587 size=556744622
+[20:56:29] step=upload done cr_film_id=4587 video_id=24157435 dur=30.2s speed=18.4MB/s
+[20:56:29] step=cleanup unlinked Jen kost a kůže (2019) CZ Dabing.mp4
+[20:56:29] step=film done cr_film_id=4587 total=176.6s (cdn=4.0s + download=142.3s + upload=30.2s)
+[20:56:29] step=state-saved cr_film_id=4587 (total uploads=869)
+[20:56:29] step=iteration 6/10
+[20:56:29] step=film start cr_film_id=4614 name='Můj andílek (2019) CZ Dabing'
+[20:56:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12956_720p.mp4
+[20:56:31] step=cdn-resolve done 2.5s → https://online6.sktorrent.eu/media/videos//h264/12956_720p.mp4
+[20:56:31] step=download curl https://online6.sktorrent.eu/media/videos//h264/12956_720p.mp4
+[20:57:29] step=download done cr_film_id=4614 size=398963521 dur=58.1s speed=6.9MB/s
+[20:57:29] step=upload start cr_film_id=4614 size=398963521
+[20:57:45] step=upload done cr_film_id=4614 video_id=24157494 dur=15.6s speed=25.6MB/s
+[20:57:45] step=cleanup unlinked Můj andílek (2019) CZ Dabing.mp4
+[20:57:45] step=film done cr_film_id=4614 total=76.3s (cdn=2.5s + download=58.1s + upload=15.6s)
+[20:57:45] step=state-saved cr_film_id=4614 (total uploads=870)
+[20:57:45] step=iteration 7/10
+[20:57:45] step=film start cr_film_id=4727 name='Secuestro (2016) CZ Dabing'
+[20:57:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32369_720p.mp4
+[20:57:52] step=cdn-resolve done 6.6s → https://online14.sktorrent.eu/media/videos//h264/32369_720p.mp4
+[20:57:52] step=download curl https://online14.sktorrent.eu/media/videos//h264/32369_720p.mp4
+[20:59:20] step=download done cr_film_id=4727 size=679636326 dur=88.7s speed=7.7MB/s
+[20:59:20] step=upload start cr_film_id=4727 size=679636326
+[20:59:49] step=upload done cr_film_id=4727 video_id=24157572 dur=28.7s speed=23.7MB/s
+[20:59:49] step=cleanup unlinked Secuestro (2016) CZ Dabing.mp4
+[20:59:49] step=film done cr_film_id=4727 total=124.0s (cdn=6.6s + download=88.7s + upload=28.7s)
+[20:59:49] step=state-saved cr_film_id=4727 (total uploads=871)
+[20:59:49] step=iteration 8/10
+[20:59:49] step=film start cr_film_id=4776 name='Dort (2014) CZ Dabing'
+[20:59:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31768_720p.mp4
+[20:59:53] step=cdn-resolve done 3.7s → https://online8.sktorrent.eu/media/videos//h264/31768_720p.mp4
+[20:59:53] step=download curl https://online8.sktorrent.eu/media/videos//h264/31768_720p.mp4
+[21:02:02] step=download done cr_film_id=4776 size=469285692 dur=129.1s speed=3.6MB/s
+[21:02:02] step=upload start cr_film_id=4776 size=469285692
+[21:02:31] step=upload done cr_film_id=4776 video_id=24157665 dur=29.6s speed=15.9MB/s
+[21:02:32] step=cleanup unlinked Dort (2014) CZ Dabing.mp4
+[21:02:32] step=film done cr_film_id=4776 total=162.4s (cdn=3.7s + download=129.1s + upload=29.6s)
+[21:02:32] step=state-saved cr_film_id=4776 (total uploads=872)
+[21:02:32] step=iteration 9/10
+[21:02:32] step=film start cr_film_id=4962 name='Úder (2022) CZ Dabing'
+[21:02:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/34498_720p.mp4
+[21:02:33] step=cdn-resolve done 1.2s → https://online2.sktorrent.eu/media/videos//h264/34498_720p.mp4
+[21:02:33] step=download curl https://online2.sktorrent.eu/media/videos//h264/34498_720p.mp4
+[21:11:33] step=download FAILED cr_film_id=4962 after 540.0s err=curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 389039952 out of 432916816 bytes received
+[21:11:33] step=iteration 10/10
+[21:11:33] step=film start cr_film_id=4968 name='M3GAN (2022) CZ Dabing'
+[21:11:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28927_720p.mp4
+[21:11:38] step=cdn-resolve done 5.0s → https://online9.sktorrent.eu/media/videos//h264/28927_720p.mp4
+[21:11:38] step=download curl https://online9.sktorrent.eu/media/videos//h264/28927_720p.mp4
+[21:13:09] step=download done cr_film_id=4968 size=433142445 dur=91.4s speed=4.7MB/s
+[21:13:09] step=upload start cr_film_id=4968 size=433142445
+[21:13:27] step=upload done cr_film_id=4968 video_id=24158062 dur=17.5s speed=24.8MB/s
+[21:13:27] step=cleanup unlinked M3GAN (2022) CZ Dabing.mp4
+[21:13:27] step=film done cr_film_id=4968 total=114.0s (cdn=5.0s + download=91.4s + upload=17.5s)
+[21:13:27] step=state-saved cr_film_id=4968 (total uploads=873)
+[21:13:27] step=batch-end succeeded=8 failed=2 total_uploads=873 batch_dur=1674.6s avg_per_film=209.3s backlog_remaining=636 eta_hours=37.0
