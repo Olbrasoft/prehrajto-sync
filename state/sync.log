@@ -11243,3 +11243,119 @@
 [22:30:46] step=film done cr_film_id=6718 total=196.0s (cdn=3.7s + download=144.2s + upload=48.0s)
 [22:30:46] step=state-saved cr_film_id=6718 (total uploads=892)
 [22:30:46] step=batch-end succeeded=10 failed=0 total_uploads=892 batch_dur=1638.9s avg_per_film=163.9s backlog_remaining=617 eta_hours=28.1
+
+===== run 2026-04-24T23:09:39Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24915945326) =====
+[23:09:39] step=batch-start count=10 backlog=1511 uploads=892 moderated=2
+[23:09:39] step=login
+[23:09:41] step=login done
+[23:09:41] step=iteration 1/10
+[23:09:41] step=film start cr_film_id=6770 name='Hračka (1982) CZ Dabing'
+[23:09:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/48368_720p.mp4
+[23:09:45] step=cdn-resolve done 4.6s → https://online6.sktorrent.eu/media/videos//h264/48368_720p.mp4
+[23:09:45] step=download curl https://online6.sktorrent.eu/media/videos//h264/48368_720p.mp4
+[23:11:05] step=download done cr_film_id=6770 size=660333852 dur=80.0s speed=8.3MB/s
+[23:11:05] step=upload start cr_film_id=6770 size=660333852
+[23:11:40] step=upload done cr_film_id=6770 video_id=24163002 dur=35.0s speed=18.9MB/s
+[23:11:40] step=cleanup unlinked Hračka (1982) CZ Dabing.mp4
+[23:11:40] step=film done cr_film_id=6770 total=119.7s (cdn=4.6s + download=80.0s + upload=35.0s)
+[23:11:40] step=state-saved cr_film_id=6770 (total uploads=893)
+[23:11:40] step=iteration 2/10
+[23:11:40] step=film start cr_film_id=6815 name='Odcizení (2024) CZ Dabing'
+[23:11:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36045_720p.mp4
+[23:11:49] step=cdn-resolve done 8.9s → https://online18.sktorrent.eu/media/videos//h264/36045_720p.mp4
+[23:11:49] step=download curl https://online18.sktorrent.eu/media/videos//h264/36045_720p.mp4
+[23:12:58] step=download done cr_film_id=6815 size=599745080 dur=68.7s speed=8.7MB/s
+[23:12:58] step=upload start cr_film_id=6815 size=599745080
+[23:13:29] step=upload done cr_film_id=6815 video_id=24163084 dur=30.8s speed=19.5MB/s
+[23:13:29] step=cleanup unlinked Odcizení (2024) CZ Dabing.mp4
+[23:13:29] step=film done cr_film_id=6815 total=108.5s (cdn=8.9s + download=68.7s + upload=30.8s)
+[23:13:29] step=state-saved cr_film_id=6815 (total uploads=894)
+[23:13:29] step=iteration 3/10
+[23:13:29] step=film start cr_film_id=6985 name='Který je ten pravý? (2017) CZ Dabing'
+[23:13:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16310_720p.mp4
+[23:13:33] step=cdn-resolve done 4.1s → https://online8.sktorrent.eu/media/videos//h264/16310_720p.mp4
+[23:13:33] step=download curl https://online8.sktorrent.eu/media/videos//h264/16310_720p.mp4
+[23:14:52] step=download done cr_film_id=6985 size=624955443 dur=78.4s speed=8.0MB/s
+[23:14:52] step=upload start cr_film_id=6985 size=624955443
+[23:15:35] step=upload done cr_film_id=6985 video_id=24163163 dur=43.1s speed=14.5MB/s
+[23:15:35] step=cleanup unlinked Který je ten pravý? (2017) CZ Dabing.mp4
+[23:15:35] step=film done cr_film_id=6985 total=125.7s (cdn=4.1s + download=78.4s + upload=43.1s)
+[23:15:35] step=state-saved cr_film_id=6985 (total uploads=895)
+[23:15:35] step=iteration 4/10
+[23:15:35] step=film start cr_film_id=7209 name='5 x jinak (2020) CZ Dabing'
+[23:15:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28901_720p.mp4
+[23:15:42] step=cdn-resolve done 7.4s → https://online13.sktorrent.eu/media/videos//h264/28901_720p.mp4
+[23:15:42] step=download curl https://online13.sktorrent.eu/media/videos//h264/28901_720p.mp4
+[23:17:30] step=download done cr_film_id=7209 size=481565207 dur=108.0s speed=4.5MB/s
+[23:17:30] step=upload start cr_film_id=7209 size=481565207
+[23:18:01] step=upload done cr_film_id=7209 video_id=24163289 dur=30.5s speed=15.8MB/s
+[23:18:01] step=cleanup unlinked 5 x jinak (2020) CZ Dabing.mp4
+[23:18:01] step=film done cr_film_id=7209 total=145.9s (cdn=7.4s + download=108.0s + upload=30.5s)
+[23:18:01] step=state-saved cr_film_id=7209 (total uploads=896)
+[23:18:01] step=iteration 5/10
+[23:18:01] step=film start cr_film_id=7231 name='Stín smrti (2022) CZ Dabing'
+[23:18:01] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25152_720p.mp4
+[23:18:06] step=cdn-resolve done 5.0s → https://online9.sktorrent.eu/media/videos//h264/25152_720p.mp4
+[23:18:06] step=download curl https://online9.sktorrent.eu/media/videos//h264/25152_720p.mp4
+[23:20:06] step=download done cr_film_id=7231 size=493394994 dur=120.2s speed=4.1MB/s
+[23:20:06] step=upload start cr_film_id=7231 size=493394994
+[23:20:34] step=upload done cr_film_id=7231 video_id=24163401 dur=28.4s speed=17.4MB/s
+[23:20:34] step=cleanup unlinked Stín smrti (2022) CZ Dabing.mp4
+[23:20:34] step=film done cr_film_id=7231 total=153.7s (cdn=5.0s + download=120.2s + upload=28.4s)
+[23:20:34] step=state-saved cr_film_id=7231 (total uploads=897)
+[23:20:34] step=iteration 6/10
+[23:20:34] step=film start cr_film_id=7443 name='Anakonda (2025) CZ Dabing'
+[23:20:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/57231_720p.mp4
+[23:20:43] step=cdn-resolve done 8.5s → https://online16.sktorrent.eu/media/videos//h264/57231_720p.mp4
+[23:20:43] step=download curl https://online16.sktorrent.eu/media/videos//h264/57231_720p.mp4
+[23:21:37] step=download done cr_film_id=7443 size=559146541 dur=54.1s speed=10.3MB/s
+[23:21:37] step=upload start cr_film_id=7443 size=559146541
+[23:22:03] step=upload done cr_film_id=7443 video_id=24163452 dur=26.3s speed=21.3MB/s
+[23:22:03] step=cleanup unlinked Anakonda (2025) CZ Dabing.mp4
+[23:22:03] step=film done cr_film_id=7443 total=89.1s (cdn=8.5s + download=54.1s + upload=26.3s)
+[23:22:03] step=state-saved cr_film_id=7443 (total uploads=898)
+[23:22:03] step=iteration 7/10
+[23:22:03] step=film start cr_film_id=7512 name='Lovci bizonů (2022) CZ Dabing'
+[23:22:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32597_720p.mp4
+[23:22:12] step=cdn-resolve done 8.9s → https://online18.sktorrent.eu/media/videos//h264/32597_720p.mp4
+[23:22:12] step=download curl https://online18.sktorrent.eu/media/videos//h264/32597_720p.mp4
+[23:23:41] step=download done cr_film_id=7512 size=690391370 dur=88.7s speed=7.8MB/s
+[23:23:41] step=upload start cr_film_id=7512 size=690391370
+[23:24:38] step=upload done cr_film_id=7512 video_id=24163525 dur=57.2s speed=12.1MB/s
+[23:24:38] step=cleanup unlinked Lovci bizonů (2022) CZ Dabing.mp4
+[23:24:38] step=film done cr_film_id=7512 total=154.9s (cdn=8.9s + download=88.7s + upload=57.2s)
+[23:24:38] step=state-saved cr_film_id=7512 (total uploads=899)
+[23:24:38] step=iteration 8/10
+[23:24:38] step=film start cr_film_id=7551 name='Bestie (2022) CZ Dabing'
+[23:24:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26598_720p.mp4
+[23:24:51] step=cdn-resolve done 12.2s → https://online25.sktorrent.eu/media/videos//h264/26598_720p.mp4
+[23:24:51] step=download curl https://online25.sktorrent.eu/media/videos//h264/26598_720p.mp4
+[23:25:15] step=download done cr_film_id=7551 size=690773833 dur=24.6s speed=28.1MB/s
+[23:25:15] step=upload start cr_film_id=7551 size=690773833
+[23:25:48] step=upload done cr_film_id=7551 video_id=24163578 dur=32.8s speed=21.1MB/s
+[23:25:48] step=cleanup unlinked Bestie (2022) CZ Dabing.mp4
+[23:25:48] step=film done cr_film_id=7551 total=69.6s (cdn=12.2s + download=24.6s + upload=32.8s)
+[23:25:48] step=state-saved cr_film_id=7551 (total uploads=900)
+[23:25:48] step=iteration 9/10
+[23:25:48] step=film start cr_film_id=7837 name='Ve vztahu (2018) CZ Dabing'
+[23:25:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24221_720p.mp4
+[23:26:00] step=cdn-resolve done 11.7s → https://online25.sktorrent.eu/media/videos//h264/24221_720p.mp4
+[23:26:00] step=download curl https://online25.sktorrent.eu/media/videos//h264/24221_720p.mp4
+[23:26:17] step=download done cr_film_id=7837 size=451215867 dur=16.9s speed=26.7MB/s
+[23:26:17] step=upload start cr_film_id=7837 size=451215867
+[23:26:49] step=upload done cr_film_id=7837 video_id=24163612 dur=32.2s speed=14.0MB/s
+[23:26:49] step=cleanup unlinked Ve vztahu (2018) CZ Dabing.mp4
+[23:26:49] step=film done cr_film_id=7837 total=60.9s (cdn=11.7s + download=16.9s + upload=32.2s)
+[23:26:49] step=state-saved cr_film_id=7837 (total uploads=901)
+[23:26:49] step=iteration 10/10
+[23:26:49] step=film start cr_film_id=7858 name='Napětí (2021) CZ Dabing'
+[23:26:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33706_720p.mp4
+[23:26:50] step=cdn-resolve done 1.2s → https://online2.sktorrent.eu/media/videos//h264/33706_720p.mp4
+[23:26:50] step=download curl https://online2.sktorrent.eu/media/videos//h264/33706_720p.mp4
+[23:27:30] step=download done cr_film_id=7858 size=230213390 dur=39.7s speed=5.8MB/s
+[23:27:30] step=upload start cr_film_id=7858 size=230213390
+[23:27:45] step=upload done cr_film_id=7858 video_id=24163655 dur=15.2s speed=15.1MB/s
+[23:27:45] step=cleanup unlinked Napětí (2021) CZ Dabing.mp4
+[23:27:45] step=film done cr_film_id=7858 total=56.1s (cdn=1.2s + download=39.7s + upload=15.2s)
+[23:27:45] step=state-saved cr_film_id=7858 (total uploads=902)
+[23:27:45] step=batch-end succeeded=10 failed=0 total_uploads=902 batch_dur=1084.2s avg_per_film=108.4s backlog_remaining=607 eta_hours=18.3
