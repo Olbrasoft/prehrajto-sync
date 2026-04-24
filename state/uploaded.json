@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-23T12:42:39Z",
+  "last_updated": "2026-04-24T16:49:48Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -14928,6 +14928,150 @@
         "upload_sec": 14.6,
         "total_sec": 75.6
       }
+    },
+    {
+      "cr_film_id": 2767,
+      "cr_slug": "letni-skola-2001",
+      "title": "Letní škola, 2001",
+      "year": 2025,
+      "sktorrent_id": 57547,
+      "prehrajto_video_id": 24148892,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:27:12Z",
+      "status": "processing",
+      "size_bytes": 614105380,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 110.9,
+        "upload_sec": 48.1,
+        "total_sec": 164.3
+      }
+    },
+    {
+      "cr_film_id": 2791,
+      "cr_slug": "cernak",
+      "title": "ČERNÁK",
+      "year": 2025,
+      "sktorrent_id": 45782,
+      "prehrajto_video_id": 24148927,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:29:55Z",
+      "status": "processing",
+      "size_bytes": 508891777,
+      "timing": {
+        "cdn_resolve_sec": 9.5,
+        "download_sec": 105.2,
+        "upload_sec": 48.4,
+        "total_sec": 163.1
+      }
+    },
+    {
+      "cr_film_id": 3194,
+      "cr_slug": "mord",
+      "title": "Mord",
+      "year": 2024,
+      "sktorrent_id": 43360,
+      "prehrajto_video_id": 24148972,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:32:02Z",
+      "status": "processing",
+      "size_bytes": 524967749,
+      "timing": {
+        "cdn_resolve_sec": 19.1,
+        "download_sec": 77.0,
+        "upload_sec": 30.7,
+        "total_sec": 126.8
+      }
+    },
+    {
+      "cr_film_id": 6445,
+      "cr_slug": "kridla-vanoc",
+      "title": "Křídla Vánoc",
+      "year": 2013,
+      "sktorrent_id": 16132,
+      "prehrajto_video_id": 24149180,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:42:49Z",
+      "status": "processing",
+      "size_bytes": 608171808,
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 66.1,
+        "upload_sec": 33.8,
+        "total_sec": 106.0
+      }
+    },
+    {
+      "cr_film_id": 6776,
+      "cr_slug": "ticha-posta",
+      "title": "Tichá pošta",
+      "year": 2025,
+      "sktorrent_id": 47497,
+      "prehrajto_video_id": 24149203,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:43:45Z",
+      "status": "processing",
+      "size_bytes": 457042318,
+      "timing": {
+        "cdn_resolve_sec": 10.4,
+        "download_sec": 15.7,
+        "upload_sec": 29.6,
+        "total_sec": 55.7
+      }
+    },
+    {
+      "cr_film_id": 7833,
+      "cr_slug": "smrst",
+      "title": "Smršť",
+      "year": 2024,
+      "sktorrent_id": 37629,
+      "prehrajto_video_id": 24149241,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:45:38Z",
+      "status": "processing",
+      "size_bytes": 476142218,
+      "timing": {
+        "cdn_resolve_sec": 4.6,
+        "download_sec": 80.4,
+        "upload_sec": 27.5,
+        "total_sec": 112.6
+      }
+    },
+    {
+      "cr_film_id": 7898,
+      "cr_slug": "arved",
+      "title": "Arvéd",
+      "year": 2022,
+      "sktorrent_id": 26808,
+      "prehrajto_video_id": 24149259,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:46:32Z",
+      "status": "processing",
+      "size_bytes": 258162801,
+      "timing": {
+        "cdn_resolve_sec": 5.7,
+        "download_sec": 30.1,
+        "upload_sec": 18.3,
+        "total_sec": 54.1
+      }
+    },
+    {
+      "cr_film_id": 8173,
+      "cr_slug": "princ-mamanek",
+      "title": "Princ Mamánek",
+      "year": 2022,
+      "sktorrent_id": 28423,
+      "prehrajto_video_id": 24149284,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:49:48Z",
+      "status": "processing",
+      "size_bytes": 820029157,
+      "timing": {
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 130.7,
+        "upload_sec": 60.9,
+        "total_sec": 196.2
+      }
     }
   ],
   "moderated_out": [
@@ -18131,6 +18275,30 @@
       "failed_at": "2026-04-23T12:31:38Z",
       "timing": {
         "cdn_resolve_sec": 11.5
+      }
+    },
+    {
+      "cr_film_id": 1897,
+      "cr_slug": "drak",
+      "title": "Drak se vrací",
+      "year": 2021,
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 87471952 out of 505629936 bytes received",
+      "failed_at": "2026-04-24T16:24:27Z",
+      "timing": {
+        "cdn_resolve_sec": 10.4,
+        "download_sec": 540.0
+      }
+    },
+    {
+      "cr_film_id": 3917,
+      "cr_slug": "cesta-z-mesta",
+      "title": "Cesta z města",
+      "year": 2000,
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 3063039951 out of 3234023376 bytes received",
+      "failed_at": "2026-04-24T16:41:03Z",
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 540.0
       }
     }
   ]

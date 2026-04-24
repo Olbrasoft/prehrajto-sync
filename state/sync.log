@@ -10479,3 +10479,109 @@
 [12:42:39] step=film done cr_film_id=10750 total=75.6s (cdn=2.6s + download=58.4s + upload=14.6s)
 [12:42:39] step=state-saved cr_film_id=10750 (total uploads=830)
 [12:42:39] step=batch-end succeeded=5 failed=0 total_uploads=830 batch_dur=538.3s avg_per_film=107.7s backlog_remaining=182 eta_hours=5.4
+
+===== run 2026-04-24T16:15:15Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24899721883) =====
+[16:15:16] step=batch-start count=10 backlog=1511 uploads=830 moderated=2
+[16:15:16] step=login
+[16:15:17] step=login done
+[16:15:17] step=iteration 1/10
+[16:15:17] step=film start cr_film_id=1897 name='Drak se vrací (2021) CZ'
+[16:15:17] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31437_720p.mp4
+[16:15:27] step=cdn-resolve done 10.4s → https://online19.sktorrent.eu/media/videos//h264/31437_720p.mp4
+[16:15:27] step=download curl https://online19.sktorrent.eu/media/videos//h264/31437_720p.mp4
+[16:24:27] step=download FAILED cr_film_id=1897 after 540.0s err=curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 87471952 out of 505629936 bytes received
+[16:24:27] step=iteration 2/10
+[16:24:27] step=film start cr_film_id=2767 name='Letní škola, 2001 (2025) CZ'
+[16:24:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/57547_720p.mp4
+[16:24:33] step=cdn-resolve done 5.3s → https://online5.sktorrent.eu/media/videos//h264/57547_720p.mp4
+[16:24:33] step=download curl https://online5.sktorrent.eu/media/videos//h264/57547_720p.mp4
+[16:26:24] step=download done cr_film_id=2767 size=614105380 dur=110.9s speed=5.5MB/s
+[16:26:24] step=upload start cr_film_id=2767 size=614105380
+[16:27:12] step=upload done cr_film_id=2767 video_id=24148892 dur=48.1s speed=12.8MB/s
+[16:27:12] step=cleanup unlinked Letní škola, 2001 (2025) CZ.mp4
+[16:27:12] step=film done cr_film_id=2767 total=164.3s (cdn=5.3s + download=110.9s + upload=48.1s)
+[16:27:12] step=state-saved cr_film_id=2767 (total uploads=831)
+[16:27:12] step=iteration 3/10
+[16:27:12] step=film start cr_film_id=2791 name='ČERNÁK (2025) CZ'
+[16:27:12] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45782_720p.mp4
+[16:27:21] step=cdn-resolve done 9.5s → https://online20.sktorrent.eu/media/videos//h264/45782_720p.mp4
+[16:27:21] step=download curl https://online20.sktorrent.eu/media/videos//h264/45782_720p.mp4
+[16:29:06] step=download done cr_film_id=2791 size=508891777 dur=105.2s speed=4.8MB/s
+[16:29:06] step=upload start cr_film_id=2791 size=508891777
+[16:29:55] step=upload done cr_film_id=2791 video_id=24148927 dur=48.4s speed=10.5MB/s
+[16:29:55] step=cleanup unlinked ČERNÁK (2025) CZ.mp4
+[16:29:55] step=film done cr_film_id=2791 total=163.1s (cdn=9.5s + download=105.2s + upload=48.4s)
+[16:29:55] step=state-saved cr_film_id=2791 (total uploads=832)
+[16:29:55] step=iteration 4/10
+[16:29:55] step=film start cr_film_id=3194 name='Mord (2024) CZ'
+[16:29:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/43360_720p.mp4
+[16:30:14] step=cdn-resolve done 19.1s → https://online23.sktorrent.eu/media/videos//h264/43360_720p.mp4
+[16:30:14] step=download curl https://online23.sktorrent.eu/media/videos//h264/43360_720p.mp4
+[16:31:31] step=download done cr_film_id=3194 size=524967749 dur=77.0s speed=6.8MB/s
+[16:31:31] step=upload start cr_film_id=3194 size=524967749
+[16:32:02] step=upload done cr_film_id=3194 video_id=24148972 dur=30.7s speed=17.1MB/s
+[16:32:02] step=cleanup unlinked Mord (2024) CZ.mp4
+[16:32:02] step=film done cr_film_id=3194 total=126.8s (cdn=19.1s + download=77.0s + upload=30.7s)
+[16:32:02] step=state-saved cr_film_id=3194 (total uploads=833)
+[16:32:02] step=iteration 5/10
+[16:32:02] step=film start cr_film_id=3917 name='Cesta z města (2000) CZ'
+[16:32:02] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/5729_720p.mp4
+[16:32:03] step=cdn-resolve done 1.0s → https://online2.sktorrent.eu/media/videos//h264/5729_720p.mp4
+[16:32:03] step=download curl https://online2.sktorrent.eu/media/videos//h264/5729_720p.mp4
+[16:41:03] step=download FAILED cr_film_id=3917 after 540.0s err=curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 3063039951 out of 3234023376 bytes received
+[16:41:03] step=iteration 6/10
+[16:41:03] step=film start cr_film_id=6445 name='Křídla Vánoc (2013) CZ'
+[16:41:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16132_720p.mp4
+[16:41:09] step=cdn-resolve done 6.1s → https://online12.sktorrent.eu/media/videos//h264/16132_720p.mp4
+[16:41:09] step=download curl https://online12.sktorrent.eu/media/videos//h264/16132_720p.mp4
+[16:42:15] step=download done cr_film_id=6445 size=608171808 dur=66.1s speed=9.2MB/s
+[16:42:15] step=upload start cr_film_id=6445 size=608171808
+[16:42:49] step=upload done cr_film_id=6445 video_id=24149180 dur=33.8s speed=18.0MB/s
+[16:42:49] step=cleanup unlinked Křídla Vánoc (2013) CZ.mp4
+[16:42:49] step=film done cr_film_id=6445 total=106.0s (cdn=6.1s + download=66.1s + upload=33.8s)
+[16:42:49] step=state-saved cr_film_id=6445 (total uploads=834)
+[16:42:49] step=iteration 7/10
+[16:42:49] step=film start cr_film_id=6776 name='Tichá pošta (2025) CZ'
+[16:42:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47497_720p.mp4
+[16:43:00] step=cdn-resolve done 10.4s → https://online25.sktorrent.eu/media/videos//h264/47497_720p.mp4
+[16:43:00] step=download curl https://online25.sktorrent.eu/media/videos//h264/47497_720p.mp4
+[16:43:15] step=download done cr_film_id=6776 size=457042318 dur=15.7s speed=29.1MB/s
+[16:43:15] step=upload start cr_film_id=6776 size=457042318
+[16:43:45] step=upload done cr_film_id=6776 video_id=24149203 dur=29.6s speed=15.4MB/s
+[16:43:45] step=cleanup unlinked Tichá pošta (2025) CZ.mp4
+[16:43:45] step=film done cr_film_id=6776 total=55.7s (cdn=10.4s + download=15.7s + upload=29.6s)
+[16:43:45] step=state-saved cr_film_id=6776 (total uploads=835)
+[16:43:45] step=iteration 8/10
+[16:43:45] step=film start cr_film_id=7833 name='Smršť (2024) CZ'
+[16:43:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37629_720p.mp4
+[16:43:50] step=cdn-resolve done 4.6s → https://online10.sktorrent.eu/media/videos//h264/37629_720p.mp4
+[16:43:50] step=download curl https://online10.sktorrent.eu/media/videos//h264/37629_720p.mp4
+[16:45:10] step=download done cr_film_id=7833 size=476142218 dur=80.4s speed=5.9MB/s
+[16:45:10] step=upload start cr_film_id=7833 size=476142218
+[16:45:38] step=upload done cr_film_id=7833 video_id=24149241 dur=27.5s speed=17.3MB/s
+[16:45:38] step=cleanup unlinked Smršť (2024) CZ.mp4
+[16:45:38] step=film done cr_film_id=7833 total=112.6s (cdn=4.6s + download=80.4s + upload=27.5s)
+[16:45:38] step=state-saved cr_film_id=7833 (total uploads=836)
+[16:45:38] step=iteration 9/10
+[16:45:38] step=film start cr_film_id=7898 name='Arvéd (2022) CZ'
+[16:45:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26808_720p.mp4
+[16:45:43] step=cdn-resolve done 5.7s → https://online11.sktorrent.eu/media/videos//h264/26808_720p.mp4
+[16:45:43] step=download curl https://online11.sktorrent.eu/media/videos//h264/26808_720p.mp4
+[16:46:14] step=download done cr_film_id=7898 size=258162801 dur=30.1s speed=8.6MB/s
+[16:46:14] step=upload start cr_film_id=7898 size=258162801
+[16:46:32] step=upload done cr_film_id=7898 video_id=24149259 dur=18.3s speed=14.1MB/s
+[16:46:32] step=cleanup unlinked Arvéd (2022) CZ.mp4
+[16:46:32] step=film done cr_film_id=7898 total=54.1s (cdn=5.7s + download=30.1s + upload=18.3s)
+[16:46:32] step=state-saved cr_film_id=7898 (total uploads=837)
+[16:46:32] step=iteration 10/10
+[16:46:32] step=film start cr_film_id=8173 name='Princ Mamánek (2022) CZ'
+[16:46:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28423_720p.mp4
+[16:46:36] step=cdn-resolve done 4.5s → https://online8.sktorrent.eu/media/videos//h264/28423_720p.mp4
+[16:46:36] step=download curl https://online8.sktorrent.eu/media/videos//h264/28423_720p.mp4
+[16:48:47] step=download done cr_film_id=8173 size=820029157 dur=130.7s speed=6.3MB/s
+[16:48:47] step=upload start cr_film_id=8173 size=820029157
+[16:49:48] step=upload done cr_film_id=8173 video_id=24149284 dur=60.9s speed=13.5MB/s
+[16:49:48] step=cleanup unlinked Princ Mamánek (2022) CZ.mp4
+[16:49:48] step=film done cr_film_id=8173 total=196.2s (cdn=4.5s + download=130.7s + upload=60.9s)
+[16:49:48] step=state-saved cr_film_id=8173 (total uploads=838)
+[16:49:48] step=batch-end succeeded=8 failed=2 total_uploads=838 batch_dur=2071.0s avg_per_film=258.9s backlog_remaining=671 eta_hours=48.3
