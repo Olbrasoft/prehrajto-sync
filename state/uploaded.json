@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-24T19:09:51Z",
+  "last_updated": "2026-04-24T19:44:19Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -15216,6 +15216,168 @@
         "upload_sec": 27.2,
         "total_sec": 152.2
       }
+    },
+    {
+      "cr_film_id": 2204,
+      "cr_slug": "taxikari",
+      "title": "Taxikáři",
+      "year": 2023,
+      "sktorrent_id": 36556,
+      "prehrajto_video_id": 24152873,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:20:34Z",
+      "status": "processing",
+      "size_bytes": 829108693,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 482.4,
+        "upload_sec": 40.9,
+        "total_sec": 528.8
+      }
+    },
+    {
+      "cr_film_id": 2264,
+      "cr_slug": "navrat-detektiva",
+      "title": "Návrat detektiva",
+      "year": 2020,
+      "sktorrent_id": 20337,
+      "prehrajto_video_id": 24152979,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:25:09Z",
+      "status": "processing",
+      "size_bytes": 354620682,
+      "timing": {
+        "cdn_resolve_sec": 4.7,
+        "download_sec": 253.1,
+        "upload_sec": 16.7,
+        "total_sec": 274.6
+      }
+    },
+    {
+      "cr_film_id": 2275,
+      "cr_slug": "mala-rybka",
+      "title": "Malá rybka",
+      "year": 2020,
+      "sktorrent_id": 20071,
+      "prehrajto_video_id": 24153008,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:26:11Z",
+      "status": "processing",
+      "size_bytes": 382965332,
+      "timing": {
+        "cdn_resolve_sec": 28.5,
+        "download_sec": 13.9,
+        "upload_sec": 19.5,
+        "total_sec": 62.2
+      }
+    },
+    {
+      "cr_film_id": 2488,
+      "cr_slug": "na-samote",
+      "title": "Na samotě",
+      "year": 2024,
+      "sktorrent_id": 47834,
+      "prehrajto_video_id": 24153106,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:29:17Z",
+      "status": "processing",
+      "size_bytes": 534434439,
+      "timing": {
+        "cdn_resolve_sec": 4.9,
+        "download_sec": 154.5,
+        "upload_sec": 26.9,
+        "total_sec": 186.3
+      }
+    },
+    {
+      "cr_film_id": 2884,
+      "cr_slug": "soused",
+      "title": "Soused",
+      "year": 2021,
+      "sktorrent_id": 24915,
+      "prehrajto_video_id": 24153173,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:31:45Z",
+      "status": "processing",
+      "size_bytes": 429769547,
+      "timing": {
+        "cdn_resolve_sec": 5.4,
+        "download_sec": 89.9,
+        "upload_sec": 23.9,
+        "total_sec": 119.2
+      }
+    },
+    {
+      "cr_film_id": 2890,
+      "cr_slug": "mistr",
+      "title": "Šampion z Osvětimi",
+      "year": 2020,
+      "sktorrent_id": 22779,
+      "prehrajto_video_id": 24153463,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:35:01Z",
+      "status": "processing",
+      "size_bytes": 483625263,
+      "timing": {
+        "cdn_resolve_sec": 6.3,
+        "download_sec": 161.6,
+        "upload_sec": 28.2,
+        "total_sec": 196.2
+      }
+    },
+    {
+      "cr_film_id": 3280,
+      "cr_slug": "harry-haft-boxer-z-osvetimi",
+      "title": "Harry Haft: Boxer z Osvětimi",
+      "year": 2021,
+      "sktorrent_id": 28017,
+      "prehrajto_video_id": 24153676,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:37:42Z",
+      "status": "processing",
+      "size_bytes": 627142215,
+      "timing": {
+        "cdn_resolve_sec": 6.2,
+        "download_sec": 127.4,
+        "upload_sec": 27.2,
+        "total_sec": 160.9
+      }
+    },
+    {
+      "cr_film_id": 3333,
+      "cr_slug": "ulice-strachu-2-cast-1978",
+      "title": "Ulice strachu – 2. část: 1978",
+      "year": 2021,
+      "sktorrent_id": 18389,
+      "prehrajto_video_id": 24153916,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:41:09Z",
+      "status": "processing",
+      "size_bytes": 449720814,
+      "timing": {
+        "cdn_resolve_sec": 5.6,
+        "download_sec": 170.4,
+        "upload_sec": 30.4,
+        "total_sec": 206.5
+      }
+    },
+    {
+      "cr_film_id": 3640,
+      "cr_slug": "matka",
+      "title": "Matka",
+      "year": 2019,
+      "sktorrent_id": 30101,
+      "prehrajto_video_id": 24154111,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:44:19Z",
+      "status": "processing",
+      "size_bytes": 586833244,
+      "timing": {
+        "cdn_resolve_sec": 7.9,
+        "download_sec": 153.3,
+        "upload_sec": 29.3,
+        "total_sec": 190.5
+      }
     }
   ],
   "moderated_out": [
@@ -18465,6 +18627,17 @@
       "failed_at": "2026-04-24T18:52:35Z",
       "timing": {
         "cdn_resolve_sec": 30.2
+      }
+    },
+    {
+      "cr_film_id": 2546,
+      "cr_slug": "supernova",
+      "title": "Supernova",
+      "year": 2020,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-24T19:29:46Z",
+      "timing": {
+        "cdn_resolve_sec": 28.6
       }
     }
   ]

@@ -10687,3 +10687,112 @@
 [19:09:51] step=film done cr_film_id=2175 total=152.2s (cdn=8.7s + download=116.3s + upload=27.2s)
 [19:09:51] step=state-saved cr_film_id=2175 (total uploads=846)
 [19:09:51] step=batch-end succeeded=8 failed=2 total_uploads=846 batch_dur=2152.3s avg_per_film=269.0s backlog_remaining=663 eta_hours=49.5
+
+===== run 2026-04-24T19:11:43Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24907278934) =====
+[19:11:44] step=batch-start count=10 backlog=1511 uploads=846 moderated=2
+[19:11:44] step=login
+[19:11:45] step=login done
+[19:11:45] step=iteration 1/10
+[19:11:45] step=film start cr_film_id=2204 name='Taxikáři (2023) CZ Dabing'
+[19:11:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36556_720p.mp4
+[19:11:51] step=cdn-resolve done 5.3s → https://online9.sktorrent.eu/media/videos//h264/36556_720p.mp4
+[19:11:51] step=download curl https://online9.sktorrent.eu/media/videos//h264/36556_720p.mp4
+[19:19:53] step=download done cr_film_id=2204 size=829108693 dur=482.4s speed=1.7MB/s
+[19:19:53] step=upload start cr_film_id=2204 size=829108693
+[19:20:34] step=upload done cr_film_id=2204 video_id=24152873 dur=40.9s speed=20.3MB/s
+[19:20:34] step=cleanup unlinked Taxikáři (2023) CZ Dabing.mp4
+[19:20:34] step=film done cr_film_id=2204 total=528.8s (cdn=5.3s + download=482.4s + upload=40.9s)
+[19:20:34] step=state-saved cr_film_id=2204 (total uploads=847)
+[19:20:34] step=iteration 2/10
+[19:20:34] step=film start cr_film_id=2264 name='Návrat detektiva (2020) CZ Dabing'
+[19:20:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20337_720p.mp4
+[19:20:39] step=cdn-resolve done 4.7s → https://online8.sktorrent.eu/media/videos//h264/20337_720p.mp4
+[19:20:39] step=download curl https://online8.sktorrent.eu/media/videos//h264/20337_720p.mp4
+[19:24:52] step=download done cr_film_id=2264 size=354620682 dur=253.1s speed=1.4MB/s
+[19:24:52] step=upload start cr_film_id=2264 size=354620682
+[19:25:09] step=upload done cr_film_id=2264 video_id=24152979 dur=16.7s speed=21.2MB/s
+[19:25:09] step=cleanup unlinked Návrat detektiva (2020) CZ Dabing.mp4
+[19:25:09] step=film done cr_film_id=2264 total=274.6s (cdn=4.7s + download=253.1s + upload=16.7s)
+[19:25:09] step=state-saved cr_film_id=2264 (total uploads=848)
+[19:25:09] step=iteration 3/10
+[19:25:09] step=film start cr_film_id=2275 name='Malá rybka (2020) CZ Dabing'
+[19:25:09] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20071_720p.mp4
+[19:25:37] step=cdn-resolve done 28.5s → https://online25.sktorrent.eu/media/videos//h264/20071_720p.mp4
+[19:25:37] step=download curl https://online25.sktorrent.eu/media/videos//h264/20071_720p.mp4
+[19:25:51] step=download done cr_film_id=2275 size=382965332 dur=13.9s speed=27.6MB/s
+[19:25:51] step=upload start cr_film_id=2275 size=382965332
+[19:26:11] step=upload done cr_film_id=2275 video_id=24153008 dur=19.5s speed=19.6MB/s
+[19:26:11] step=cleanup unlinked Malá rybka (2020) CZ Dabing.mp4
+[19:26:11] step=film done cr_film_id=2275 total=62.2s (cdn=28.5s + download=13.9s + upload=19.5s)
+[19:26:11] step=state-saved cr_film_id=2275 (total uploads=849)
+[19:26:11] step=iteration 4/10
+[19:26:11] step=film start cr_film_id=2488 name='Na samotě (2024) CZ Dabing'
+[19:26:11] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47834_720p.mp4
+[19:26:16] step=cdn-resolve done 4.9s → https://online9.sktorrent.eu/media/videos//h264/47834_720p.mp4
+[19:26:16] step=download curl https://online9.sktorrent.eu/media/videos//h264/47834_720p.mp4
+[19:28:50] step=download done cr_film_id=2488 size=534434439 dur=154.5s speed=3.5MB/s
+[19:28:50] step=upload start cr_film_id=2488 size=534434439
+[19:29:17] step=upload done cr_film_id=2488 video_id=24153106 dur=26.9s speed=19.9MB/s
+[19:29:17] step=cleanup unlinked Na samotě (2024) CZ Dabing.mp4
+[19:29:17] step=film done cr_film_id=2488 total=186.3s (cdn=4.9s + download=154.5s + upload=26.9s)
+[19:29:17] step=state-saved cr_film_id=2488 (total uploads=850)
+[19:29:17] step=iteration 5/10
+[19:29:17] step=film start cr_film_id=2546 name='Supernova (2020) CZ Dabing'
+[19:29:17] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29642_720p.mp4
+[19:29:46] step=cdn-resolve FAILED cr_film_id=2546 after 28.6s
+[19:29:46] step=iteration 6/10
+[19:29:46] step=film start cr_film_id=2884 name='Soused (2021) CZ Dabing'
+[19:29:46] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24915_720p.mp4
+[19:29:51] step=cdn-resolve done 5.4s → https://online11.sktorrent.eu/media/videos//h264/24915_720p.mp4
+[19:29:51] step=download curl https://online11.sktorrent.eu/media/videos//h264/24915_720p.mp4
+[19:31:21] step=download done cr_film_id=2884 size=429769547 dur=89.9s speed=4.8MB/s
+[19:31:21] step=upload start cr_film_id=2884 size=429769547
+[19:31:45] step=upload done cr_film_id=2884 video_id=24153173 dur=23.9s speed=18.0MB/s
+[19:31:45] step=cleanup unlinked Soused (2021) CZ Dabing.mp4
+[19:31:45] step=film done cr_film_id=2884 total=119.2s (cdn=5.4s + download=89.9s + upload=23.9s)
+[19:31:45] step=state-saved cr_film_id=2884 (total uploads=851)
+[19:31:45] step=iteration 7/10
+[19:31:45] step=film start cr_film_id=2890 name='Šampion z Osvětimi (2020) CZ Dabing'
+[19:31:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22779_720p.mp4
+[19:31:52] step=cdn-resolve done 6.3s → https://online11.sktorrent.eu/media/videos//h264/22779_720p.mp4
+[19:31:52] step=download curl https://online11.sktorrent.eu/media/videos//h264/22779_720p.mp4
+[19:34:33] step=download done cr_film_id=2890 size=483625263 dur=161.6s speed=3.0MB/s
+[19:34:33] step=upload start cr_film_id=2890 size=483625263
+[19:35:01] step=upload done cr_film_id=2890 video_id=24153463 dur=28.2s speed=17.1MB/s
+[19:35:01] step=cleanup unlinked Šampion z Osvětimi (2020) CZ Dabing.mp4
+[19:35:01] step=film done cr_film_id=2890 total=196.2s (cdn=6.3s + download=161.6s + upload=28.2s)
+[19:35:01] step=state-saved cr_film_id=2890 (total uploads=852)
+[19:35:01] step=iteration 8/10
+[19:35:01] step=film start cr_film_id=3280 name='Harry Haft: Boxer z Osvětimi (2021) CZ Dabing'
+[19:35:01] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28017_720p.mp4
+[19:35:08] step=cdn-resolve done 6.2s → https://online11.sktorrent.eu/media/videos//h264/28017_720p.mp4
+[19:35:08] step=download curl https://online11.sktorrent.eu/media/videos//h264/28017_720p.mp4
+[19:37:15] step=download done cr_film_id=3280 size=627142215 dur=127.4s speed=4.9MB/s
+[19:37:15] step=upload start cr_film_id=3280 size=627142215
+[19:37:42] step=upload done cr_film_id=3280 video_id=24153676 dur=27.2s speed=23.1MB/s
+[19:37:42] step=cleanup unlinked Harry Haft: Boxer z Osvětimi (2021) CZ Dabing.mp4
+[19:37:42] step=film done cr_film_id=3280 total=160.9s (cdn=6.2s + download=127.4s + upload=27.2s)
+[19:37:42] step=state-saved cr_film_id=3280 (total uploads=853)
+[19:37:42] step=iteration 9/10
+[19:37:42] step=film start cr_film_id=3333 name='Ulice strachu – 2. část: 1978 (2021) CZ Dabing'
+[19:37:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18389_720p.mp4
+[19:37:48] step=cdn-resolve done 5.6s → https://online8.sktorrent.eu/media/videos//h264/18389_720p.mp4
+[19:37:48] step=download curl https://online8.sktorrent.eu/media/videos//h264/18389_720p.mp4
+[19:40:38] step=download done cr_film_id=3333 size=449720814 dur=170.4s speed=2.6MB/s
+[19:40:38] step=upload start cr_film_id=3333 size=449720814
+[19:41:09] step=upload done cr_film_id=3333 video_id=24153916 dur=30.4s speed=14.8MB/s
+[19:41:09] step=cleanup unlinked Ulice strachu – 2. část: 1978 (2021) CZ Dabing.mp4
+[19:41:09] step=film done cr_film_id=3333 total=206.5s (cdn=5.6s + download=170.4s + upload=30.4s)
+[19:41:09] step=state-saved cr_film_id=3333 (total uploads=854)
+[19:41:09] step=iteration 10/10
+[19:41:09] step=film start cr_film_id=3640 name='Matka (2019) CZ Dabing'
+[19:41:09] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30101_720p.mp4
+[19:41:17] step=cdn-resolve done 7.9s → https://online15.sktorrent.eu/media/videos//h264/30101_720p.mp4
+[19:41:17] step=download curl https://online15.sktorrent.eu/media/videos//h264/30101_720p.mp4
+[19:43:50] step=download done cr_film_id=3640 size=586833244 dur=153.3s speed=3.8MB/s
+[19:43:50] step=upload start cr_film_id=3640 size=586833244
+[19:44:19] step=upload done cr_film_id=3640 video_id=24154111 dur=29.3s speed=20.0MB/s
+[19:44:19] step=cleanup unlinked Matka (2019) CZ Dabing.mp4
+[19:44:19] step=film done cr_film_id=3640 total=190.5s (cdn=7.9s + download=153.3s + upload=29.3s)
+[19:44:19] step=state-saved cr_film_id=3640 (total uploads=855)
+[19:44:19] step=batch-end succeeded=9 failed=1 total_uploads=855 batch_dur=1954.0s avg_per_film=217.1s backlog_remaining=654 eta_hours=39.4
