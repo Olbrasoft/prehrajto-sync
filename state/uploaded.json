@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-24T16:49:48Z",
+  "last_updated": "2026-04-24T19:09:51Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -15072,6 +15072,150 @@
         "upload_sec": 60.9,
         "total_sec": 196.2
       }
+    },
+    {
+      "cr_film_id": 660,
+      "cr_slug": "mnichov-1972",
+      "title": "Munich",
+      "year": 2024,
+      "sktorrent_id": 52446,
+      "prehrajto_video_id": 24152124,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:36:08Z",
+      "status": "processing",
+      "size_bytes": 469906946,
+      "timing": {
+        "cdn_resolve_sec": 4.7,
+        "download_sec": 95.0,
+        "upload_sec": 29.7,
+        "total_sec": 129.4
+      }
+    },
+    {
+      "cr_film_id": 680,
+      "cr_slug": "argentina-1985",
+      "title": "Argentina, 1985",
+      "year": 2022,
+      "sktorrent_id": 37249,
+      "prehrajto_video_id": 24152162,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:39:03Z",
+      "status": "processing",
+      "size_bytes": 702099878,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 132.3,
+        "upload_sec": 42.0,
+        "total_sec": 175.3
+      }
+    },
+    {
+      "cr_film_id": 890,
+      "cr_slug": "ruze",
+      "title": "Růže",
+      "year": 2022,
+      "sktorrent_id": 30126,
+      "prehrajto_video_id": 24152218,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:42:32Z",
+      "status": "processing",
+      "size_bytes": 597085381,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 133.7,
+        "upload_sec": 38.8,
+        "total_sec": 177.8
+      }
+    },
+    {
+      "cr_film_id": 988,
+      "cr_slug": "iluzionista",
+      "title": "Iluzionista",
+      "year": 2006,
+      "sktorrent_id": 17216,
+      "prehrajto_video_id": 24152338,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:49:13Z",
+      "status": "processing",
+      "size_bytes": 528153262,
+      "timing": {
+        "cdn_resolve_sec": 4.8,
+        "download_sec": 350.2,
+        "upload_sec": 45.2,
+        "total_sec": 400.2
+      }
+    },
+    {
+      "cr_film_id": 1105,
+      "cr_slug": "tar",
+      "title": "Tár",
+      "year": 2022,
+      "sktorrent_id": 30267,
+      "prehrajto_video_id": 24152391,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:52:05Z",
+      "status": "processing",
+      "size_bytes": 503635226,
+      "timing": {
+        "cdn_resolve_sec": 10.3,
+        "download_sec": 127.4,
+        "upload_sec": 34.6,
+        "total_sec": 172.5
+      }
+    },
+    {
+      "cr_film_id": 1748,
+      "cr_slug": "wonder-woman-2009",
+      "title": "Wonder Woman",
+      "year": 2009,
+      "sktorrent_id": 1862,
+      "prehrajto_video_id": 24152489,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:02:00Z",
+      "status": "processing",
+      "size_bytes": 569444648,
+      "timing": {
+        "cdn_resolve_sec": 4.1,
+        "download_sec": 515.5,
+        "upload_sec": 45.5,
+        "total_sec": 565.1
+      }
+    },
+    {
+      "cr_film_id": 1929,
+      "cr_slug": "west-side-story",
+      "title": "West Side Story",
+      "year": 2021,
+      "sktorrent_id": 22596,
+      "prehrajto_video_id": 24152558,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:07:19Z",
+      "status": "processing",
+      "size_bytes": 1147647586,
+      "timing": {
+        "cdn_resolve_sec": 20.1,
+        "download_sec": 208.1,
+        "upload_sec": 89.9,
+        "total_sec": 318.3
+      }
+    },
+    {
+      "cr_film_id": 2175,
+      "cr_slug": "heretik",
+      "title": "Heretik",
+      "year": 2024,
+      "sktorrent_id": 44538,
+      "prehrajto_video_id": 24152639,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:09:51Z",
+      "status": "processing",
+      "size_bytes": 364348718,
+      "timing": {
+        "cdn_resolve_sec": 8.7,
+        "download_sec": 116.3,
+        "upload_sec": 27.2,
+        "total_sec": 152.2
+      }
     }
   ],
   "moderated_out": [
@@ -18299,6 +18443,28 @@
       "timing": {
         "cdn_resolve_sec": 1.0,
         "download_sec": 540.0
+      }
+    },
+    {
+      "cr_film_id": 864,
+      "cr_slug": "vrana",
+      "title": "Vrána",
+      "year": 1994,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-24T18:39:34Z",
+      "timing": {
+        "cdn_resolve_sec": 31.1
+      }
+    },
+    {
+      "cr_film_id": 1498,
+      "cr_slug": "mladi",
+      "title": "Mládí",
+      "year": 2015,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-04-24T18:52:35Z",
+      "timing": {
+        "cdn_resolve_sec": 30.2
       }
     }
   ]

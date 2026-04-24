@@ -10585,3 +10585,105 @@
 [16:49:48] step=film done cr_film_id=8173 total=196.2s (cdn=4.5s + download=130.7s + upload=60.9s)
 [16:49:48] step=state-saved cr_film_id=8173 (total uploads=838)
 [16:49:48] step=batch-end succeeded=8 failed=2 total_uploads=838 batch_dur=2071.0s avg_per_film=258.9s backlog_remaining=671 eta_hours=48.3
+
+===== run 2026-04-24T18:33:56Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24905708883) =====
+[18:33:57] step=batch-start count=10 backlog=1511 uploads=838 moderated=2
+[18:33:57] step=login
+[18:33:59] step=login done
+[18:33:59] step=iteration 1/10
+[18:33:59] step=film start cr_film_id=660 name='Munich (2024) CZ Dabing'
+[18:33:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/52446_720p.mp4
+[18:34:03] step=cdn-resolve done 4.7s → https://online6.sktorrent.eu/media/videos//h264/52446_720p.mp4
+[18:34:03] step=download curl https://online6.sktorrent.eu/media/videos//h264/52446_720p.mp4
+[18:35:38] step=download done cr_film_id=660 size=469906946 dur=95.0s speed=4.9MB/s
+[18:35:38] step=upload start cr_film_id=660 size=469906946
+[18:36:08] step=upload done cr_film_id=660 video_id=24152124 dur=29.7s speed=15.8MB/s
+[18:36:08] step=cleanup unlinked Munich (2024) CZ Dabing.mp4
+[18:36:08] step=film done cr_film_id=660 total=129.4s (cdn=4.7s + download=95.0s + upload=29.7s)
+[18:36:08] step=state-saved cr_film_id=660 (total uploads=839)
+[18:36:08] step=iteration 2/10
+[18:36:08] step=film start cr_film_id=680 name='Argentina, 1985 (2022) CZ Dabing'
+[18:36:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37249_720p.mp4
+[18:36:09] step=cdn-resolve done 1.0s → https://online1.sktorrent.eu/media/videos//h264/37249_720p.mp4
+[18:36:09] step=download curl https://online1.sktorrent.eu/media/videos//h264/37249_720p.mp4
+[18:38:21] step=download done cr_film_id=680 size=702099878 dur=132.3s speed=5.3MB/s
+[18:38:21] step=upload start cr_film_id=680 size=702099878
+[18:39:03] step=upload done cr_film_id=680 video_id=24152162 dur=42.0s speed=16.7MB/s
+[18:39:03] step=cleanup unlinked Argentina, 1985 (2022) CZ Dabing.mp4
+[18:39:03] step=film done cr_film_id=680 total=175.3s (cdn=1.0s + download=132.3s + upload=42.0s)
+[18:39:03] step=state-saved cr_film_id=680 (total uploads=840)
+[18:39:03] step=iteration 3/10
+[18:39:03] step=film start cr_film_id=864 name='Vrána (1994) CZ Dabing'
+[18:39:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/41260_720p.mp4
+[18:39:34] step=cdn-resolve FAILED cr_film_id=864 after 31.1s
+[18:39:35] step=iteration 4/10
+[18:39:35] step=film start cr_film_id=890 name='Růže (2022) CZ Dabing'
+[18:39:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30126_720p.mp4
+[18:39:40] step=cdn-resolve done 5.3s → https://online8.sktorrent.eu/media/videos//h264/30126_720p.mp4
+[18:39:40] step=download curl https://online8.sktorrent.eu/media/videos//h264/30126_720p.mp4
+[18:41:53] step=download done cr_film_id=890 size=597085381 dur=133.7s speed=4.5MB/s
+[18:41:53] step=upload start cr_film_id=890 size=597085381
+[18:42:32] step=upload done cr_film_id=890 video_id=24152218 dur=38.8s speed=15.4MB/s
+[18:42:32] step=cleanup unlinked Růže (2022) CZ Dabing.mp4
+[18:42:32] step=film done cr_film_id=890 total=177.8s (cdn=5.3s + download=133.7s + upload=38.8s)
+[18:42:32] step=state-saved cr_film_id=890 (total uploads=841)
+[18:42:32] step=iteration 5/10
+[18:42:32] step=film start cr_film_id=988 name='Iluzionista (2006) CZ Dabing'
+[18:42:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/17216_720p.mp4
+[18:42:37] step=cdn-resolve done 4.8s → https://online7.sktorrent.eu/media/videos//h264/17216_720p.mp4
+[18:42:37] step=download curl https://online7.sktorrent.eu/media/videos//h264/17216_720p.mp4
+[18:48:27] step=download done cr_film_id=988 size=528153262 dur=350.2s speed=1.5MB/s
+[18:48:27] step=upload start cr_film_id=988 size=528153262
+[18:49:12] step=upload done cr_film_id=988 video_id=24152338 dur=45.2s speed=11.7MB/s
+[18:49:13] step=cleanup unlinked Iluzionista (2006) CZ Dabing.mp4
+[18:49:13] step=film done cr_film_id=988 total=400.2s (cdn=4.8s + download=350.2s + upload=45.2s)
+[18:49:13] step=state-saved cr_film_id=988 (total uploads=842)
+[18:49:13] step=iteration 6/10
+[18:49:13] step=film start cr_film_id=1105 name='Tár (2022) CZ Dabing'
+[18:49:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30267_720p.mp4
+[18:49:23] step=cdn-resolve done 10.3s → https://online12.sktorrent.eu/media/videos//h264/30267_720p.mp4
+[18:49:23] step=download curl https://online12.sktorrent.eu/media/videos//h264/30267_720p.mp4
+[18:51:30] step=download done cr_film_id=1105 size=503635226 dur=127.4s speed=4.0MB/s
+[18:51:30] step=upload start cr_film_id=1105 size=503635226
+[18:52:05] step=upload done cr_film_id=1105 video_id=24152391 dur=34.6s speed=14.6MB/s
+[18:52:05] step=cleanup unlinked Tár (2022) CZ Dabing.mp4
+[18:52:05] step=film done cr_film_id=1105 total=172.5s (cdn=10.3s + download=127.4s + upload=34.6s)
+[18:52:05] step=state-saved cr_film_id=1105 (total uploads=843)
+[18:52:05] step=iteration 7/10
+[18:52:05] step=film start cr_film_id=1498 name='Mládí (2015) CZ Dabing'
+[18:52:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/3102_480p.mp4
+[18:52:35] step=cdn-resolve FAILED cr_film_id=1498 after 30.2s
+[18:52:35] step=iteration 8/10
+[18:52:35] step=film start cr_film_id=1748 name='Wonder Woman (2009) CZ Dabing'
+[18:52:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1862_480p.mp4
+[18:52:39] step=cdn-resolve done 4.1s → https://online5.sktorrent.eu/media/videos//h264/1862_480p.mp4
+[18:52:39] step=download curl https://online5.sktorrent.eu/media/videos//h264/1862_480p.mp4
+[19:01:15] step=download done cr_film_id=1748 size=569444648 dur=515.5s speed=1.1MB/s
+[19:01:15] step=upload start cr_film_id=1748 size=569444648
+[19:02:00] step=upload done cr_film_id=1748 video_id=24152489 dur=45.5s speed=12.5MB/s
+[19:02:00] step=cleanup unlinked Wonder Woman (2009) CZ Dabing.mp4
+[19:02:00] step=film done cr_film_id=1748 total=565.1s (cdn=4.1s + download=515.5s + upload=45.5s)
+[19:02:00] step=state-saved cr_film_id=1748 (total uploads=844)
+[19:02:00] step=iteration 9/10
+[19:02:00] step=film start cr_film_id=1929 name='West Side Story (2021) CZ Dabing'
+[19:02:00] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22596_720p.mp4
+[19:02:20] step=cdn-resolve done 20.1s → https://online20.sktorrent.eu/media/videos//h264/22596_720p.mp4
+[19:02:20] step=download curl https://online20.sktorrent.eu/media/videos//h264/22596_720p.mp4
+[19:05:49] step=download done cr_film_id=1929 size=1147647586 dur=208.1s speed=5.5MB/s
+[19:05:49] step=upload start cr_film_id=1929 size=1147647586
+[19:07:18] step=upload done cr_film_id=1929 video_id=24152558 dur=89.9s speed=12.8MB/s
+[19:07:19] step=cleanup unlinked West Side Story (2021) CZ Dabing.mp4
+[19:07:19] step=film done cr_film_id=1929 total=318.3s (cdn=20.1s + download=208.1s + upload=89.9s)
+[19:07:19] step=state-saved cr_film_id=1929 (total uploads=845)
+[19:07:19] step=iteration 10/10
+[19:07:19] step=film start cr_film_id=2175 name='Heretik (2024) CZ Dabing'
+[19:07:19] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44538_720p.mp4
+[19:07:27] step=cdn-resolve done 8.7s → https://online13.sktorrent.eu/media/videos//h264/44538_720p.mp4
+[19:07:27] step=download curl https://online13.sktorrent.eu/media/videos//h264/44538_720p.mp4
+[19:09:24] step=download done cr_film_id=2175 size=364348718 dur=116.3s speed=3.1MB/s
+[19:09:24] step=upload start cr_film_id=2175 size=364348718
+[19:09:51] step=upload done cr_film_id=2175 video_id=24152639 dur=27.2s speed=13.4MB/s
+[19:09:51] step=cleanup unlinked Heretik (2024) CZ Dabing.mp4
+[19:09:51] step=film done cr_film_id=2175 total=152.2s (cdn=8.7s + download=116.3s + upload=27.2s)
+[19:09:51] step=state-saved cr_film_id=2175 (total uploads=846)
+[19:09:51] step=batch-end succeeded=8 failed=2 total_uploads=846 batch_dur=2152.3s avg_per_film=269.0s backlog_remaining=663 eta_hours=49.5
