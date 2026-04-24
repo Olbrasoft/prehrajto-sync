@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-24T21:47:56Z",
+  "last_updated": "2026-04-24T22:30:46Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -15863,6 +15863,186 @@
         "download_sec": 32.7,
         "upload_sec": 12.3,
         "total_sec": 52.5
+      }
+    },
+    {
+      "cr_film_id": 5830,
+      "cr_slug": "operace-napoleon",
+      "title": "Operace Napoleon",
+      "year": 2023,
+      "sktorrent_id": 46540,
+      "prehrajto_video_id": 24159701,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:05:15Z",
+      "status": "processing",
+      "size_bytes": 496886915,
+      "timing": {
+        "cdn_resolve_sec": 13.8,
+        "download_sec": 59.7,
+        "upload_sec": 34.4,
+        "total_sec": 108.0
+      }
+    },
+    {
+      "cr_film_id": 5885,
+      "cr_slug": "barva-z-vesmiru",
+      "title": "Barva z vesmíru",
+      "year": 2019,
+      "sktorrent_id": 22339,
+      "prehrajto_video_id": 24159783,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:07:31Z",
+      "status": "processing",
+      "size_bytes": 511124416,
+      "timing": {
+        "cdn_resolve_sec": 7.0,
+        "download_sec": 95.2,
+        "upload_sec": 33.1,
+        "total_sec": 135.4
+      }
+    },
+    {
+      "cr_film_id": 5916,
+      "cr_slug": "greta-osamela-zena",
+      "title": "Greta - osamělá žena",
+      "year": 2018,
+      "sktorrent_id": 15373,
+      "prehrajto_video_id": 24159856,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:09:10Z",
+      "status": "processing",
+      "size_bytes": 403696052,
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 66.9,
+        "upload_sec": 25.5,
+        "total_sec": 99.6
+      }
+    },
+    {
+      "cr_film_id": 6196,
+      "cr_slug": "strasidelny-dum",
+      "title": "Strašidelný dům",
+      "year": 2023,
+      "sktorrent_id": 32621,
+      "prehrajto_video_id": 24159929,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:11:04Z",
+      "status": "processing",
+      "size_bytes": 547743414,
+      "timing": {
+        "cdn_resolve_sec": 12.2,
+        "download_sec": 66.2,
+        "upload_sec": 35.0,
+        "total_sec": 113.4
+      }
+    },
+    {
+      "cr_film_id": 6229,
+      "cr_slug": "una-notte-da-dottore",
+      "title": "Na noc doktorem",
+      "year": 2021,
+      "sktorrent_id": 25554,
+      "prehrajto_video_id": 24159977,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:12:18Z",
+      "status": "processing",
+      "size_bytes": 344689948,
+      "timing": {
+        "cdn_resolve_sec": 8.3,
+        "download_sec": 41.9,
+        "upload_sec": 24.2,
+        "total_sec": 74.5
+      }
+    },
+    {
+      "cr_film_id": 6564,
+      "cr_slug": "parents-deleves",
+      "title": "Rodiče žáků",
+      "year": 2020,
+      "sktorrent_id": 22211,
+      "prehrajto_video_id": 24160048,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:14:50Z",
+      "status": "processing",
+      "size_bytes": 695458409,
+      "timing": {
+        "cdn_resolve_sec": 9.3,
+        "download_sec": 94.7,
+        "upload_sec": 47.4,
+        "total_sec": 151.5
+      }
+    },
+    {
+      "cr_film_id": 6569,
+      "cr_slug": "tlustoch",
+      "title": "Tlusťoch",
+      "year": 2020,
+      "sktorrent_id": 55134,
+      "prehrajto_video_id": 24160157,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:17:36Z",
+      "status": "processing",
+      "size_bytes": 414070833,
+      "timing": {
+        "cdn_resolve_sec": 11.2,
+        "download_sec": 127.7,
+        "upload_sec": 27.4,
+        "total_sec": 166.3
+      }
+    },
+    {
+      "cr_film_id": 6572,
+      "cr_slug": "po-francouzsku",
+      "title": "Po francouzsku",
+      "year": 2020,
+      "sktorrent_id": 20408,
+      "prehrajto_video_id": 24160213,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:19:06Z",
+      "status": "processing",
+      "size_bytes": 390799906,
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 57.4,
+        "upload_sec": 25.1,
+        "total_sec": 89.8
+      }
+    },
+    {
+      "cr_film_id": 6713,
+      "cr_slug": "2012",
+      "title": "2012",
+      "year": 2009,
+      "sktorrent_id": 1355,
+      "prehrajto_video_id": 24160469,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:27:30Z",
+      "status": "processing",
+      "size_bytes": 1476642679,
+      "timing": {
+        "cdn_resolve_sec": 3.7,
+        "download_sec": 413.4,
+        "upload_sec": 87.2,
+        "total_sec": 504.4
+      }
+    },
+    {
+      "cr_film_id": 6718,
+      "cr_slug": "xxx",
+      "title": "xXx",
+      "year": 2002,
+      "sktorrent_id": 1934,
+      "prehrajto_video_id": 24160595,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T22:30:46Z",
+      "status": "processing",
+      "size_bytes": 620031103,
+      "timing": {
+        "cdn_resolve_sec": 3.7,
+        "download_sec": 144.2,
+        "upload_sec": 48.0,
+        "total_sec": 196.0
       }
     }
   ],

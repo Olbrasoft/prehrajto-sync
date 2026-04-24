@@ -11127,3 +11127,119 @@
 [21:47:56] step=film done cr_film_id=5644 total=52.5s (cdn=7.5s + download=32.7s + upload=12.3s)
 [21:47:56] step=state-saved cr_film_id=5644 (total uploads=882)
 [21:47:56] step=batch-end succeeded=9 failed=1 total_uploads=882 batch_dur=1889.5s avg_per_film=209.9s backlog_remaining=627 eta_hours=36.6
+
+===== run 2026-04-24T22:03:24Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24913903409) =====
+[22:03:25] step=batch-start count=10 backlog=1511 uploads=882 moderated=2
+[22:03:25] step=login
+[22:03:27] step=login done
+[22:03:27] step=iteration 1/10
+[22:03:27] step=film start cr_film_id=5830 name='Operace Napoleon (2023) CZ Dabing'
+[22:03:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/46540_720p.mp4
+[22:03:41] step=cdn-resolve done 13.8s → https://online23.sktorrent.eu/media/videos//h264/46540_720p.mp4
+[22:03:41] step=download curl https://online23.sktorrent.eu/media/videos//h264/46540_720p.mp4
+[22:04:41] step=download done cr_film_id=5830 size=496886915 dur=59.7s speed=8.3MB/s
+[22:04:41] step=upload start cr_film_id=5830 size=496886915
+[22:05:15] step=upload done cr_film_id=5830 video_id=24159701 dur=34.4s speed=14.4MB/s
+[22:05:15] step=cleanup unlinked Operace Napoleon (2023) CZ Dabing.mp4
+[22:05:15] step=film done cr_film_id=5830 total=108.0s (cdn=13.8s + download=59.7s + upload=34.4s)
+[22:05:15] step=state-saved cr_film_id=5830 (total uploads=883)
+[22:05:15] step=iteration 2/10
+[22:05:15] step=film start cr_film_id=5885 name='Barva z vesmíru (2019) CZ Dabing'
+[22:05:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22339_720p.mp4
+[22:05:22] step=cdn-resolve done 7.0s → https://online11.sktorrent.eu/media/videos//h264/22339_720p.mp4
+[22:05:22] step=download curl https://online11.sktorrent.eu/media/videos//h264/22339_720p.mp4
+[22:06:57] step=download done cr_film_id=5885 size=511124416 dur=95.2s speed=5.4MB/s
+[22:06:57] step=upload start cr_film_id=5885 size=511124416
+[22:07:31] step=upload done cr_film_id=5885 video_id=24159783 dur=33.1s speed=15.4MB/s
+[22:07:31] step=cleanup unlinked Barva z vesmíru (2019) CZ Dabing.mp4
+[22:07:31] step=film done cr_film_id=5885 total=135.4s (cdn=7.0s + download=95.2s + upload=33.1s)
+[22:07:31] step=state-saved cr_film_id=5885 (total uploads=884)
+[22:07:31] step=iteration 3/10
+[22:07:31] step=film start cr_film_id=5916 name='Greta - osamělá žena (2018) CZ Dabing'
+[22:07:31] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/15373_720p.mp4
+[22:07:38] step=cdn-resolve done 7.1s → https://online11.sktorrent.eu/media/videos//h264/15373_720p.mp4
+[22:07:38] step=download curl https://online11.sktorrent.eu/media/videos//h264/15373_720p.mp4
+[22:08:45] step=download done cr_film_id=5916 size=403696052 dur=66.9s speed=6.0MB/s
+[22:08:45] step=upload start cr_film_id=5916 size=403696052
+[22:09:10] step=upload done cr_film_id=5916 video_id=24159856 dur=25.5s speed=15.8MB/s
+[22:09:10] step=cleanup unlinked Greta - osamělá žena (2018) CZ Dabing.mp4
+[22:09:10] step=film done cr_film_id=5916 total=99.6s (cdn=7.1s + download=66.9s + upload=25.5s)
+[22:09:10] step=state-saved cr_film_id=5916 (total uploads=885)
+[22:09:10] step=iteration 4/10
+[22:09:10] step=film start cr_film_id=6196 name='Strašidelný dům (2023) CZ Dabing'
+[22:09:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32621_720p.mp4
+[22:09:22] step=cdn-resolve done 12.2s → https://online20.sktorrent.eu/media/videos//h264/32621_720p.mp4
+[22:09:22] step=download curl https://online20.sktorrent.eu/media/videos//h264/32621_720p.mp4
+[22:10:29] step=download done cr_film_id=6196 size=547743414 dur=66.2s speed=8.3MB/s
+[22:10:29] step=upload start cr_film_id=6196 size=547743414
+[22:11:04] step=upload done cr_film_id=6196 video_id=24159929 dur=35.0s speed=15.6MB/s
+[22:11:04] step=cleanup unlinked Strašidelný dům (2023) CZ Dabing.mp4
+[22:11:04] step=film done cr_film_id=6196 total=113.4s (cdn=12.2s + download=66.2s + upload=35.0s)
+[22:11:04] step=state-saved cr_film_id=6196 (total uploads=886)
+[22:11:04] step=iteration 5/10
+[22:11:04] step=film start cr_film_id=6229 name='Na noc doktorem (2021) CZ Dabing'
+[22:11:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25554_720p.mp4
+[22:11:12] step=cdn-resolve done 8.3s → https://online13.sktorrent.eu/media/videos//h264/25554_720p.mp4
+[22:11:12] step=download curl https://online13.sktorrent.eu/media/videos//h264/25554_720p.mp4
+[22:11:54] step=download done cr_film_id=6229 size=344689948 dur=41.9s speed=8.2MB/s
+[22:11:54] step=upload start cr_film_id=6229 size=344689948
+[22:12:18] step=upload done cr_film_id=6229 video_id=24159977 dur=24.2s speed=14.2MB/s
+[22:12:18] step=cleanup unlinked Na noc doktorem (2021) CZ Dabing.mp4
+[22:12:18] step=film done cr_film_id=6229 total=74.5s (cdn=8.3s + download=41.9s + upload=24.2s)
+[22:12:18] step=state-saved cr_film_id=6229 (total uploads=887)
+[22:12:18] step=iteration 6/10
+[22:12:18] step=film start cr_film_id=6564 name='Rodiče žáků (2020) CZ Dabing'
+[22:12:18] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22211_720p.mp4
+[22:12:28] step=cdn-resolve done 9.3s → https://online15.sktorrent.eu/media/videos//h264/22211_720p.mp4
+[22:12:28] step=download curl https://online15.sktorrent.eu/media/videos//h264/22211_720p.mp4
+[22:14:02] step=download done cr_film_id=6564 size=695458409 dur=94.7s speed=7.3MB/s
+[22:14:02] step=upload start cr_film_id=6564 size=695458409
+[22:14:50] step=upload done cr_film_id=6564 video_id=24160048 dur=47.4s speed=14.7MB/s
+[22:14:50] step=cleanup unlinked Rodiče žáků (2020) CZ Dabing.mp4
+[22:14:50] step=film done cr_film_id=6564 total=151.5s (cdn=9.3s + download=94.7s + upload=47.4s)
+[22:14:50] step=state-saved cr_film_id=6564 (total uploads=888)
+[22:14:50] step=iteration 7/10
+[22:14:50] step=film start cr_film_id=6569 name='Tlusťoch (2020) CZ Dabing'
+[22:14:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/55134_720p.mp4
+[22:15:01] step=cdn-resolve done 11.2s → https://online19.sktorrent.eu/media/videos//h264/55134_720p.mp4
+[22:15:01] step=download curl https://online19.sktorrent.eu/media/videos//h264/55134_720p.mp4
+[22:17:09] step=download done cr_film_id=6569 size=414070833 dur=127.7s speed=3.2MB/s
+[22:17:09] step=upload start cr_film_id=6569 size=414070833
+[22:17:36] step=upload done cr_film_id=6569 video_id=24160157 dur=27.4s speed=15.1MB/s
+[22:17:36] step=cleanup unlinked Tlusťoch (2020) CZ Dabing.mp4
+[22:17:36] step=film done cr_film_id=6569 total=166.3s (cdn=11.2s + download=127.7s + upload=27.4s)
+[22:17:36] step=state-saved cr_film_id=6569 (total uploads=889)
+[22:17:36] step=iteration 8/10
+[22:17:36] step=film start cr_film_id=6572 name='Po francouzsku (2020) CZ Dabing'
+[22:17:36] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20408_720p.mp4
+[22:17:43] step=cdn-resolve done 7.1s → https://online11.sktorrent.eu/media/videos//h264/20408_720p.mp4
+[22:17:43] step=download curl https://online11.sktorrent.eu/media/videos//h264/20408_720p.mp4
+[22:18:41] step=download done cr_film_id=6572 size=390799906 dur=57.4s speed=6.8MB/s
+[22:18:41] step=upload start cr_film_id=6572 size=390799906
+[22:19:06] step=upload done cr_film_id=6572 video_id=24160213 dur=25.1s speed=15.6MB/s
+[22:19:06] step=cleanup unlinked Po francouzsku (2020) CZ Dabing.mp4
+[22:19:06] step=film done cr_film_id=6572 total=89.8s (cdn=7.1s + download=57.4s + upload=25.1s)
+[22:19:06] step=state-saved cr_film_id=6572 (total uploads=890)
+[22:19:06] step=iteration 9/10
+[22:19:06] step=film start cr_film_id=6713 name='2012 (2009) CZ Dabing'
+[22:19:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1355_720p.mp4
+[22:19:10] step=cdn-resolve done 3.7s → https://online5.sktorrent.eu/media/videos//h264/1355_720p.mp4
+[22:19:10] step=download curl https://online5.sktorrent.eu/media/videos//h264/1355_720p.mp4
+[22:26:03] step=download done cr_film_id=6713 size=1476642679 dur=413.4s speed=3.6MB/s
+[22:26:03] step=upload start cr_film_id=6713 size=1476642679
+[22:27:30] step=upload done cr_film_id=6713 video_id=24160469 dur=87.2s speed=16.9MB/s
+[22:27:30] step=cleanup unlinked 2012 (2009) CZ Dabing.mp4
+[22:27:30] step=film done cr_film_id=6713 total=504.4s (cdn=3.7s + download=413.4s + upload=87.2s)
+[22:27:30] step=state-saved cr_film_id=6713 (total uploads=891)
+[22:27:30] step=iteration 10/10
+[22:27:30] step=film start cr_film_id=6718 name='xXx (2002) CZ Dabing'
+[22:27:30] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1934_480p.mp4
+[22:27:34] step=cdn-resolve done 3.7s → https://online5.sktorrent.eu/media/videos//h264/1934_480p.mp4
+[22:27:34] step=download curl https://online5.sktorrent.eu/media/videos//h264/1934_480p.mp4
+[22:29:58] step=download done cr_film_id=6718 size=620031103 dur=144.2s speed=4.3MB/s
+[22:29:58] step=upload start cr_film_id=6718 size=620031103
+[22:30:46] step=upload done cr_film_id=6718 video_id=24160595 dur=48.0s speed=12.9MB/s
+[22:30:46] step=cleanup unlinked xXx (2002) CZ Dabing.mp4
+[22:30:46] step=film done cr_film_id=6718 total=196.0s (cdn=3.7s + download=144.2s + upload=48.0s)
+[22:30:46] step=state-saved cr_film_id=6718 (total uploads=892)
+[22:30:46] step=batch-end succeeded=10 failed=0 total_uploads=892 batch_dur=1638.9s avg_per_film=163.9s backlog_remaining=617 eta_hours=28.1
