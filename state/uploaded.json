@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-24T19:44:19Z",
+  "last_updated": "2026-04-24T20:35:30Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -15377,6 +15377,186 @@
         "download_sec": 153.3,
         "upload_sec": 29.3,
         "total_sec": 190.5
+      }
+    },
+    {
+      "cr_film_id": 3743,
+      "cr_slug": "otcovstvi",
+      "title": "Otcovství",
+      "year": 2021,
+      "sktorrent_id": 18136,
+      "prehrajto_video_id": 24154979,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:02:52Z",
+      "status": "processing",
+      "size_bytes": 594258613,
+      "timing": {
+        "cdn_resolve_sec": 11.9,
+        "download_sec": 220.9,
+        "upload_sec": 33.2,
+        "total_sec": 266.1
+      }
+    },
+    {
+      "cr_film_id": 3746,
+      "cr_slug": "vzduchoplavci",
+      "title": "Vzduchoplavci",
+      "year": 2019,
+      "sktorrent_id": 17736,
+      "prehrajto_video_id": 24155159,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:06:42Z",
+      "status": "processing",
+      "size_bytes": 660634644,
+      "timing": {
+        "cdn_resolve_sec": 10.5,
+        "download_sec": 178.4,
+        "upload_sec": 40.7,
+        "total_sec": 229.7
+      }
+    },
+    {
+      "cr_film_id": 3776,
+      "cr_slug": "hnuti-odporu",
+      "title": "Hnutí odporu",
+      "year": 2020,
+      "sktorrent_id": 12405,
+      "prehrajto_video_id": 24155352,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:10:28Z",
+      "status": "processing",
+      "size_bytes": 571848334,
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 183.6,
+        "upload_sec": 40.6,
+        "total_sec": 226.3
+      }
+    },
+    {
+      "cr_film_id": 3847,
+      "cr_slug": "cistokrevni",
+      "title": "Čistokrevní",
+      "year": 2017,
+      "sktorrent_id": 17547,
+      "prehrajto_video_id": 24155443,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:11:53Z",
+      "status": "processing",
+      "size_bytes": 259574099,
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 59.3,
+        "upload_sec": 18.3,
+        "total_sec": 84.7
+      }
+    },
+    {
+      "cr_film_id": 4042,
+      "cr_slug": "novokain",
+      "title": "Novokain",
+      "year": 2025,
+      "sktorrent_id": 46544,
+      "prehrajto_video_id": 24155572,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:14:30Z",
+      "status": "processing",
+      "size_bytes": 435957271,
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 127.7,
+        "upload_sec": 27.2,
+        "total_sec": 157.0
+      }
+    },
+    {
+      "cr_film_id": 4056,
+      "cr_slug": "flash-gordon",
+      "title": "Flash Gordon",
+      "year": 1980,
+      "sktorrent_id": 18555,
+      "prehrajto_video_id": 24155804,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:19:37Z",
+      "status": "processing",
+      "size_bytes": 764411422,
+      "timing": {
+        "cdn_resolve_sec": 5.2,
+        "download_sec": 246.7,
+        "upload_sec": 54.9,
+        "total_sec": 306.9
+      }
+    },
+    {
+      "cr_film_id": 4139,
+      "cr_slug": "princezna-d",
+      "title": "Spencer",
+      "year": 2021,
+      "sktorrent_id": 23295,
+      "prehrajto_video_id": 24155985,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:23:26Z",
+      "status": "processing",
+      "size_bytes": 681407319,
+      "timing": {
+        "cdn_resolve_sec": 8.4,
+        "download_sec": 152.5,
+        "upload_sec": 68.6,
+        "total_sec": 229.7
+      }
+    },
+    {
+      "cr_film_id": 4193,
+      "cr_slug": "humorista",
+      "title": "Humorista",
+      "year": 2019,
+      "sktorrent_id": 13857,
+      "prehrajto_video_id": 24156168,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:26:34Z",
+      "status": "processing",
+      "size_bytes": 374317184,
+      "timing": {
+        "cdn_resolve_sec": 4.9,
+        "download_sec": 159.6,
+        "upload_sec": 23.0,
+        "total_sec": 187.5
+      }
+    },
+    {
+      "cr_film_id": 4481,
+      "cr_slug": "skolni-tajemstvi",
+      "title": "Školní tajemství",
+      "year": 2022,
+      "sktorrent_id": 34539,
+      "prehrajto_video_id": 24156500,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:33:35Z",
+      "status": "processing",
+      "size_bytes": 457739231,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 381.4,
+        "upload_sec": 37.8,
+        "total_sec": 420.8
+      }
+    },
+    {
+      "cr_film_id": 4482,
+      "cr_slug": "les-promesses",
+      "title": "Sliby",
+      "year": 2021,
+      "sktorrent_id": 34420,
+      "prehrajto_video_id": 24156591,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T20:35:30Z",
+      "status": "processing",
+      "size_bytes": 306503761,
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 75.9,
+        "upload_sec": 33.2,
+        "total_sec": 115.2
       }
     }
   ],

@@ -10796,3 +10796,119 @@
 [19:44:19] step=film done cr_film_id=3640 total=190.5s (cdn=7.9s + download=153.3s + upload=29.3s)
 [19:44:19] step=state-saved cr_film_id=3640 (total uploads=855)
 [19:44:19] step=batch-end succeeded=9 failed=1 total_uploads=855 batch_dur=1954.0s avg_per_film=217.1s backlog_remaining=654 eta_hours=39.4
+
+===== run 2026-04-24T19:58:24Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24909151738) =====
+[19:58:24] step=batch-start count=10 backlog=1511 uploads=855 moderated=2
+[19:58:24] step=login
+[19:58:26] step=login done
+[19:58:26] step=iteration 1/10
+[19:58:26] step=film start cr_film_id=3743 name='Otcovství (2021) CZ Dabing'
+[19:58:26] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18136_720p.mp4
+[19:58:38] step=cdn-resolve done 11.9s → https://online18.sktorrent.eu/media/videos//h264/18136_720p.mp4
+[19:58:38] step=download curl https://online18.sktorrent.eu/media/videos//h264/18136_720p.mp4
+[20:02:19] step=download done cr_film_id=3743 size=594258613 dur=220.9s speed=2.7MB/s
+[20:02:19] step=upload start cr_film_id=3743 size=594258613
+[20:02:52] step=upload done cr_film_id=3743 video_id=24154979 dur=33.2s speed=17.9MB/s
+[20:02:52] step=cleanup unlinked Otcovství (2021) CZ Dabing.mp4
+[20:02:52] step=film done cr_film_id=3743 total=266.1s (cdn=11.9s + download=220.9s + upload=33.2s)
+[20:02:52] step=state-saved cr_film_id=3743 (total uploads=856)
+[20:02:52] step=iteration 2/10
+[20:02:52] step=film start cr_film_id=3746 name='Vzduchoplavci (2019) CZ Dabing'
+[20:02:52] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/17736_720p.mp4
+[20:03:03] step=cdn-resolve done 10.5s → https://online18.sktorrent.eu/media/videos//h264/17736_720p.mp4
+[20:03:03] step=download curl https://online18.sktorrent.eu/media/videos//h264/17736_720p.mp4
+[20:06:01] step=download done cr_film_id=3746 size=660634644 dur=178.4s speed=3.7MB/s
+[20:06:01] step=upload start cr_film_id=3746 size=660634644
+[20:06:42] step=upload done cr_film_id=3746 video_id=24155159 dur=40.7s speed=16.2MB/s
+[20:06:42] step=cleanup unlinked Vzduchoplavci (2019) CZ Dabing.mp4
+[20:06:42] step=film done cr_film_id=3746 total=229.7s (cdn=10.5s + download=178.4s + upload=40.7s)
+[20:06:42] step=state-saved cr_film_id=3746 (total uploads=857)
+[20:06:42] step=iteration 3/10
+[20:06:42] step=film start cr_film_id=3776 name='Hnutí odporu (2020) CZ Dabing'
+[20:06:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12405_720p.mp4
+[20:06:44] step=cdn-resolve done 2.0s → https://online3.sktorrent.eu/media/videos//h264/12405_720p.mp4
+[20:06:44] step=download curl https://online3.sktorrent.eu/media/videos//h264/12405_720p.mp4
+[20:09:47] step=download done cr_film_id=3776 size=571848334 dur=183.6s speed=3.1MB/s
+[20:09:47] step=upload start cr_film_id=3776 size=571848334
+[20:10:28] step=upload done cr_film_id=3776 video_id=24155352 dur=40.6s speed=14.1MB/s
+[20:10:28] step=cleanup unlinked Hnutí odporu (2020) CZ Dabing.mp4
+[20:10:28] step=film done cr_film_id=3776 total=226.3s (cdn=2.0s + download=183.6s + upload=40.6s)
+[20:10:28] step=state-saved cr_film_id=3776 (total uploads=858)
+[20:10:28] step=iteration 4/10
+[20:10:28] step=film start cr_film_id=3847 name='Čistokrevní (2017) CZ Dabing'
+[20:10:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/17547_720p.mp4
+[20:10:35] step=cdn-resolve done 7.1s → https://online11.sktorrent.eu/media/videos//h264/17547_720p.mp4
+[20:10:35] step=download curl https://online11.sktorrent.eu/media/videos//h264/17547_720p.mp4
+[20:11:34] step=download done cr_film_id=3847 size=259574099 dur=59.3s speed=4.4MB/s
+[20:11:34] step=upload start cr_film_id=3847 size=259574099
+[20:11:53] step=upload done cr_film_id=3847 video_id=24155443 dur=18.3s speed=14.2MB/s
+[20:11:53] step=cleanup unlinked Čistokrevní (2017) CZ Dabing.mp4
+[20:11:53] step=film done cr_film_id=3847 total=84.7s (cdn=7.1s + download=59.3s + upload=18.3s)
+[20:11:53] step=state-saved cr_film_id=3847 (total uploads=859)
+[20:11:53] step=iteration 5/10
+[20:11:53] step=film start cr_film_id=4042 name='Novokain (2025) CZ Dabing'
+[20:11:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/46544_720p.mp4
+[20:11:55] step=cdn-resolve done 2.0s → https://online3.sktorrent.eu/media/videos//h264/46544_720p.mp4
+[20:11:55] step=download curl https://online3.sktorrent.eu/media/videos//h264/46544_720p.mp4
+[20:14:03] step=download done cr_film_id=4042 size=435957271 dur=127.7s speed=3.4MB/s
+[20:14:03] step=upload start cr_film_id=4042 size=435957271
+[20:14:30] step=upload done cr_film_id=4042 video_id=24155572 dur=27.2s speed=16.0MB/s
+[20:14:30] step=cleanup unlinked Novokain (2025) CZ Dabing.mp4
+[20:14:30] step=film done cr_film_id=4042 total=157.0s (cdn=2.0s + download=127.7s + upload=27.2s)
+[20:14:30] step=state-saved cr_film_id=4042 (total uploads=860)
+[20:14:30] step=iteration 6/10
+[20:14:30] step=film start cr_film_id=4056 name='Flash Gordon (1980) CZ Dabing'
+[20:14:30] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18555_720p.mp4
+[20:14:35] step=cdn-resolve done 5.2s → https://online8.sktorrent.eu/media/videos//h264/18555_720p.mp4
+[20:14:35] step=download curl https://online8.sktorrent.eu/media/videos//h264/18555_720p.mp4
+[20:18:42] step=download done cr_film_id=4056 size=764411422 dur=246.7s speed=3.1MB/s
+[20:18:42] step=upload start cr_film_id=4056 size=764411422
+[20:19:37] step=upload done cr_film_id=4056 video_id=24155804 dur=54.9s speed=13.9MB/s
+[20:19:37] step=cleanup unlinked Flash Gordon (1980) CZ Dabing.mp4
+[20:19:37] step=film done cr_film_id=4056 total=306.9s (cdn=5.2s + download=246.7s + upload=54.9s)
+[20:19:37] step=state-saved cr_film_id=4056 (total uploads=861)
+[20:19:37] step=iteration 7/10
+[20:19:37] step=film start cr_film_id=4139 name='Spencer (2021) CZ Dabing'
+[20:19:37] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23295_720p.mp4
+[20:19:45] step=cdn-resolve done 8.4s → https://online13.sktorrent.eu/media/videos//h264/23295_720p.mp4
+[20:19:45] step=download curl https://online13.sktorrent.eu/media/videos//h264/23295_720p.mp4
+[20:22:18] step=download done cr_film_id=4139 size=681407319 dur=152.5s speed=4.5MB/s
+[20:22:18] step=upload start cr_film_id=4139 size=681407319
+[20:23:26] step=upload done cr_film_id=4139 video_id=24155985 dur=68.6s speed=9.9MB/s
+[20:23:26] step=cleanup unlinked Spencer (2021) CZ Dabing.mp4
+[20:23:26] step=film done cr_film_id=4139 total=229.7s (cdn=8.4s + download=152.5s + upload=68.6s)
+[20:23:26] step=state-saved cr_film_id=4139 (total uploads=862)
+[20:23:26] step=iteration 8/10
+[20:23:26] step=film start cr_film_id=4193 name='Humorista (2019) CZ Dabing'
+[20:23:26] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/13857_720p.mp4
+[20:23:31] step=cdn-resolve done 4.9s → https://online7.sktorrent.eu/media/videos//h264/13857_720p.mp4
+[20:23:31] step=download curl https://online7.sktorrent.eu/media/videos//h264/13857_720p.mp4
+[20:26:11] step=download done cr_film_id=4193 size=374317184 dur=159.6s speed=2.3MB/s
+[20:26:11] step=upload start cr_film_id=4193 size=374317184
+[20:26:34] step=upload done cr_film_id=4193 video_id=24156168 dur=23.0s speed=16.3MB/s
+[20:26:34] step=cleanup unlinked Humorista (2019) CZ Dabing.mp4
+[20:26:34] step=film done cr_film_id=4193 total=187.5s (cdn=4.9s + download=159.6s + upload=23.0s)
+[20:26:34] step=state-saved cr_film_id=4193 (total uploads=863)
+[20:26:34] step=iteration 9/10
+[20:26:34] step=film start cr_film_id=4481 name='Školní tajemství (2022) CZ Dabing'
+[20:26:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/34539_720p.mp4
+[20:26:35] step=cdn-resolve done 1.4s → https://online2.sktorrent.eu/media/videos//h264/34539_720p.mp4
+[20:26:35] step=download curl https://online2.sktorrent.eu/media/videos//h264/34539_720p.mp4
+[20:32:57] step=download done cr_film_id=4481 size=457739231 dur=381.4s speed=1.2MB/s
+[20:32:57] step=upload start cr_film_id=4481 size=457739231
+[20:33:35] step=upload done cr_film_id=4481 video_id=24156500 dur=37.8s speed=12.1MB/s
+[20:33:35] step=cleanup unlinked Školní tajemství (2022) CZ Dabing.mp4
+[20:33:35] step=film done cr_film_id=4481 total=420.8s (cdn=1.4s + download=381.4s + upload=37.8s)
+[20:33:35] step=state-saved cr_film_id=4481 (total uploads=864)
+[20:33:35] step=iteration 10/10
+[20:33:35] step=film start cr_film_id=4482 name='Sliby (2021) CZ Dabing'
+[20:33:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/34420_720p.mp4
+[20:33:41] step=cdn-resolve done 6.1s → https://online9.sktorrent.eu/media/videos//h264/34420_720p.mp4
+[20:33:41] step=download curl https://online9.sktorrent.eu/media/videos//h264/34420_720p.mp4
+[20:34:57] step=download done cr_film_id=4482 size=306503761 dur=75.9s speed=4.0MB/s
+[20:34:57] step=upload start cr_film_id=4482 size=306503761
+[20:35:30] step=upload done cr_film_id=4482 video_id=24156591 dur=33.2s speed=9.2MB/s
+[20:35:30] step=cleanup unlinked Sliby (2021) CZ Dabing.mp4
+[20:35:30] step=film done cr_film_id=4482 total=115.2s (cdn=6.1s + download=75.9s + upload=33.2s)
+[20:35:30] step=state-saved cr_film_id=4482 (total uploads=865)
+[20:35:30] step=batch-end succeeded=10 failed=0 total_uploads=865 batch_dur=2224.1s avg_per_film=222.4s backlog_remaining=644 eta_hours=39.8
