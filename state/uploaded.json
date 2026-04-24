@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-24T21:13:27Z",
+  "last_updated": "2026-04-24T21:47:56Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -15702,6 +15702,168 @@
         "upload_sec": 17.5,
         "total_sec": 114.0
       }
+    },
+    {
+      "cr_film_id": 4969,
+      "cr_slug": "a-do-kuchyne",
+      "title": "A do kuchyně!",
+      "year": 2022,
+      "sktorrent_id": 28800,
+      "prehrajto_video_id": 24158219,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:18:25Z",
+      "status": "processing",
+      "size_bytes": 564455523,
+      "timing": {
+        "cdn_resolve_sec": 8.9,
+        "download_sec": 77.3,
+        "upload_sec": 32.4,
+        "total_sec": 118.8
+      }
+    },
+    {
+      "cr_film_id": 5220,
+      "cr_slug": "pod-palbou",
+      "title": "Under the Gun",
+      "year": 2016,
+      "sktorrent_id": 9756,
+      "prehrajto_video_id": 24158773,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:36:17Z",
+      "status": "processing",
+      "size_bytes": 1143759314,
+      "timing": {
+        "cdn_resolve_sec": 4.1,
+        "download_sec": 468.6,
+        "upload_sec": 50.7,
+        "total_sec": 523.5
+      }
+    },
+    {
+      "cr_film_id": 5347,
+      "cr_slug": "v-haji",
+      "title": "V háji",
+      "year": 2024,
+      "sktorrent_id": 39934,
+      "prehrajto_video_id": 24158875,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:39:05Z",
+      "status": "processing",
+      "size_bytes": 621579201,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 138.2,
+        "upload_sec": 27.9,
+        "total_sec": 167.3
+      }
+    },
+    {
+      "cr_film_id": 5353,
+      "cr_slug": "bob-marley-one-love",
+      "title": "Bob Marley: One Love",
+      "year": 2024,
+      "sktorrent_id": 38576,
+      "prehrajto_video_id": 24158963,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:41:55Z",
+      "status": "processing",
+      "size_bytes": 655414613,
+      "timing": {
+        "cdn_resolve_sec": 9.1,
+        "download_sec": 131.1,
+        "upload_sec": 30.3,
+        "total_sec": 170.7
+      }
+    },
+    {
+      "cr_film_id": 5396,
+      "cr_slug": "pretlak",
+      "title": "Přetlak",
+      "year": 2020,
+      "sktorrent_id": 28700,
+      "prehrajto_video_id": 24159005,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:42:57Z",
+      "status": "processing",
+      "size_bytes": 650098380,
+      "timing": {
+        "cdn_resolve_sec": 10.4,
+        "download_sec": 21.6,
+        "upload_sec": 29.2,
+        "total_sec": 61.4
+      }
+    },
+    {
+      "cr_film_id": 5455,
+      "cr_slug": "ulice-strachu-1-cast-1994",
+      "title": "Ulice strachu – 1. část: 1994",
+      "year": 2021,
+      "sktorrent_id": 51084,
+      "prehrajto_video_id": 24159036,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:43:46Z",
+      "status": "processing",
+      "size_bytes": 282103984,
+      "timing": {
+        "cdn_resolve_sec": 10.3,
+        "download_sec": 11.9,
+        "upload_sec": 26.7,
+        "total_sec": 48.8
+      }
+    },
+    {
+      "cr_film_id": 5459,
+      "cr_slug": "v-dzungli",
+      "title": "V džungli",
+      "year": 2019,
+      "sktorrent_id": 17554,
+      "prehrajto_video_id": 24159092,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:45:12Z",
+      "status": "processing",
+      "size_bytes": 366252071,
+      "timing": {
+        "cdn_resolve_sec": 3.7,
+        "download_sec": 65.0,
+        "upload_sec": 18.1,
+        "total_sec": 86.8
+      }
+    },
+    {
+      "cr_film_id": 5475,
+      "cr_slug": "amundsen",
+      "title": "Amundsen",
+      "year": 2019,
+      "sktorrent_id": 14651,
+      "prehrajto_video_id": 24159154,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:47:04Z",
+      "status": "processing",
+      "size_bytes": 465663480,
+      "timing": {
+        "cdn_resolve_sec": 7.8,
+        "download_sec": 73.4,
+        "upload_sec": 29.8,
+        "total_sec": 111.0
+      }
+    },
+    {
+      "cr_film_id": 5644,
+      "cr_slug": "keanu-kocici-gangsterka",
+      "title": "Keanu - Kočičí gangsterka",
+      "year": 2016,
+      "sktorrent_id": 20525,
+      "prehrajto_video_id": 24159197,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T21:47:56Z",
+      "status": "processing",
+      "size_bytes": 226293212,
+      "timing": {
+        "cdn_resolve_sec": 7.5,
+        "download_sec": 32.7,
+        "upload_sec": 12.3,
+        "total_sec": 52.5
+      }
     }
   ],
   "moderated_out": [
@@ -18984,6 +19146,18 @@
       "failed_at": "2026-04-24T21:11:33Z",
       "timing": {
         "cdn_resolve_sec": 1.2,
+        "download_sec": 540.0
+      }
+    },
+    {
+      "cr_film_id": 4980,
+      "cr_slug": "zabijak-proti-sve-vuli",
+      "title": "Zabiják proti své vůli",
+      "year": 2019,
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 104007952 out of 674916612 bytes received",
+      "failed_at": "2026-04-24T21:27:34Z",
+      "timing": {
+        "cdn_resolve_sec": 8.5,
         "download_sec": 540.0
       }
     }
