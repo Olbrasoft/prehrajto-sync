@@ -11359,3 +11359,119 @@
 [23:27:45] step=film done cr_film_id=7858 total=56.1s (cdn=1.2s + download=39.7s + upload=15.2s)
 [23:27:45] step=state-saved cr_film_id=7858 (total uploads=902)
 [23:27:45] step=batch-end succeeded=10 failed=0 total_uploads=902 batch_dur=1084.2s avg_per_film=108.4s backlog_remaining=607 eta_hours=18.3
+
+===== run 2026-04-24T23:40:21Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24916810130) =====
+[23:40:21] step=batch-start count=10 backlog=1511 uploads=902 moderated=2
+[23:40:21] step=login
+[23:40:23] step=login done
+[23:40:23] step=iteration 1/10
+[23:40:23] step=film start cr_film_id=7902 name='Rivalky (2022) CZ Dabing'
+[23:40:23] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26377_720p.mp4
+[23:40:32] step=cdn-resolve done 9.8s → https://online18.sktorrent.eu/media/videos//h264/26377_720p.mp4
+[23:40:32] step=download curl https://online18.sktorrent.eu/media/videos//h264/26377_720p.mp4
+[23:41:19] step=download done cr_film_id=7902 size=467114364 dur=46.3s speed=10.1MB/s
+[23:41:19] step=upload start cr_film_id=7902 size=467114364
+[23:41:40] step=upload done cr_film_id=7902 video_id=24164103 dur=21.5s speed=21.7MB/s
+[23:41:40] step=cleanup unlinked Rivalky (2022) CZ Dabing.mp4
+[23:41:40] step=film done cr_film_id=7902 total=77.7s (cdn=9.8s + download=46.3s + upload=21.5s)
+[23:41:40] step=state-saved cr_film_id=7902 (total uploads=903)
+[23:41:40] step=iteration 2/10
+[23:41:40] step=film start cr_film_id=7999 name='Vyber si! (2017) CZ Dabing'
+[23:41:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/175_480p.mp4
+[23:41:50] step=cdn-resolve done 9.9s → https://online24.sktorrent.eu/media/videos//h264/175_480p.mp4
+[23:41:50] step=download curl https://online24.sktorrent.eu/media/videos//h264/175_480p.mp4
+[23:42:05] step=download done cr_film_id=7999 size=385709403 dur=15.2s speed=25.4MB/s
+[23:42:05] step=upload start cr_film_id=7999 size=385709403
+[23:42:27] step=upload done cr_film_id=7999 video_id=24164126 dur=22.0s speed=17.5MB/s
+[23:42:27] step=cleanup unlinked Vyber si! (2017) CZ Dabing.mp4
+[23:42:27] step=film done cr_film_id=7999 total=47.2s (cdn=9.9s + download=15.2s + upload=22.0s)
+[23:42:28] step=state-saved cr_film_id=7999 (total uploads=904)
+[23:42:28] step=iteration 3/10
+[23:42:28] step=film start cr_film_id=8142 name='Junioři (2022) CZ Dabing'
+[23:42:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36537_720p.mp4
+[23:42:32] step=cdn-resolve done 4.5s → https://online10.sktorrent.eu/media/videos//h264/36537_720p.mp4
+[23:42:32] step=download curl https://online10.sktorrent.eu/media/videos//h264/36537_720p.mp4
+[23:43:32] step=download done cr_film_id=8142 size=480450915 dur=60.4s speed=8.0MB/s
+[23:43:32] step=upload start cr_film_id=8142 size=480450915
+[23:44:46] step=upload done cr_film_id=8142 video_id=24164165 dur=73.7s speed=6.5MB/s
+[23:44:46] step=cleanup unlinked Junioři (2022) CZ Dabing.mp4
+[23:44:46] step=film done cr_film_id=8142 total=138.7s (cdn=4.5s + download=60.4s + upload=73.7s)
+[23:44:46] step=state-saved cr_film_id=8142 (total uploads=905)
+[23:44:46] step=iteration 4/10
+[23:44:46] step=film start cr_film_id=8201 name='Dračí princezna (2020) CZ Dabing'
+[23:44:46] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22636_720p.mp4
+[23:44:54] step=cdn-resolve done 7.4s → https://online16.sktorrent.eu/media/videos//h264/22636_720p.mp4
+[23:44:54] step=download curl https://online16.sktorrent.eu/media/videos//h264/22636_720p.mp4
+[23:45:31] step=download done cr_film_id=8201 size=379495437 dur=37.1s speed=10.2MB/s
+[23:45:31] step=upload start cr_film_id=8201 size=379495437
+[23:45:48] step=upload done cr_film_id=8201 video_id=24164207 dur=17.2s speed=22.1MB/s
+[23:45:48] step=cleanup unlinked Dračí princezna (2020) CZ Dabing.mp4
+[23:45:48] step=film done cr_film_id=8201 total=61.8s (cdn=7.4s + download=37.1s + upload=17.2s)
+[23:45:48] step=state-saved cr_film_id=8201 (total uploads=906)
+[23:45:48] step=iteration 5/10
+[23:45:48] step=film start cr_film_id=8342 name='Upírky (2012) CZ Dabing'
+[23:45:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/46519_720p.mp4
+[23:45:49] step=cdn-resolve done 1.1s → https://online1.sktorrent.eu/media/videos//h264/46519_720p.mp4
+[23:45:49] step=download curl https://online1.sktorrent.eu/media/videos//h264/46519_720p.mp4
+[23:47:08] step=download done cr_film_id=8342 size=711995632 dur=79.3s speed=9.0MB/s
+[23:47:08] step=upload start cr_film_id=8342 size=711995632
+[23:47:39] step=upload done cr_film_id=8342 video_id=24164257 dur=30.5s speed=23.3MB/s
+[23:47:39] step=cleanup unlinked Upírky (2012) CZ Dabing.mp4
+[23:47:39] step=film done cr_film_id=8342 total=111.0s (cdn=1.1s + download=79.3s + upload=30.5s)
+[23:47:39] step=state-saved cr_film_id=8342 (total uploads=907)
+[23:47:39] step=iteration 6/10
+[23:47:39] step=film start cr_film_id=8398 name='Suprákovi (2022) CZ Dabing'
+[23:47:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37963_720p.mp4
+[23:47:46] step=cdn-resolve done 7.2s → https://online13.sktorrent.eu/media/videos//h264/37963_720p.mp4
+[23:47:46] step=download curl https://online13.sktorrent.eu/media/videos//h264/37963_720p.mp4
+[23:48:31] step=download done cr_film_id=8398 size=453488206 dur=45.2s speed=10.0MB/s
+[23:48:31] step=upload start cr_film_id=8398 size=453488206
+[23:48:53] step=upload done cr_film_id=8398 video_id=24164305 dur=22.0s speed=20.6MB/s
+[23:48:53] step=cleanup unlinked Suprákovi (2022) CZ Dabing.mp4
+[23:48:53] step=film done cr_film_id=8398 total=74.3s (cdn=7.2s + download=45.2s + upload=22.0s)
+[23:48:53] step=state-saved cr_film_id=8398 (total uploads=908)
+[23:48:53] step=iteration 7/10
+[23:48:53] step=film start cr_film_id=8720 name='Schattenstunde (2021) CZ Dabing'
+[23:48:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22757_720p.mp4
+[23:48:59] step=cdn-resolve done 5.9s → https://online12.sktorrent.eu/media/videos//h264/22757_720p.mp4
+[23:48:59] step=download curl https://online12.sktorrent.eu/media/videos//h264/22757_720p.mp4
+[23:49:30] step=download done cr_film_id=8720 size=266000917 dur=31.0s speed=8.6MB/s
+[23:49:30] step=upload start cr_film_id=8720 size=266000917
+[23:49:43] step=upload done cr_film_id=8720 video_id=24164335 dur=12.7s speed=20.9MB/s
+[23:49:43] step=cleanup unlinked Schattenstunde (2021) CZ Dabing.mp4
+[23:49:43] step=film done cr_film_id=8720 total=49.7s (cdn=5.9s + download=31.0s + upload=12.7s)
+[23:49:43] step=state-saved cr_film_id=8720 (total uploads=909)
+[23:49:43] step=iteration 8/10
+[23:49:43] step=film start cr_film_id=9002 name='Oběť (2024) CZ Dabing'
+[23:49:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42666_720p.mp4
+[23:49:52] step=cdn-resolve done 8.9s → https://online18.sktorrent.eu/media/videos//h264/42666_720p.mp4
+[23:49:52] step=download curl https://online18.sktorrent.eu/media/videos//h264/42666_720p.mp4
+[23:50:37] step=download done cr_film_id=9002 size=445592494 dur=45.1s speed=9.9MB/s
+[23:50:37] step=upload start cr_film_id=9002 size=445592494
+[23:51:02] step=upload done cr_film_id=9002 video_id=24164370 dur=24.9s speed=17.9MB/s
+[23:51:02] step=cleanup unlinked Oběť (2024) CZ Dabing.mp4
+[23:51:02] step=film done cr_film_id=9002 total=79.0s (cdn=8.9s + download=45.1s + upload=24.9s)
+[23:51:02] step=state-saved cr_film_id=9002 (total uploads=910)
+[23:51:02] step=iteration 9/10
+[23:51:02] step=film start cr_film_id=9071 name='Rozpolcená (2022) CZ Dabing'
+[23:51:02] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28421_720p.mp4
+[23:51:05] step=cdn-resolve done 3.1s → https://online6.sktorrent.eu/media/videos//h264/28421_720p.mp4
+[23:51:05] step=download curl https://online6.sktorrent.eu/media/videos//h264/28421_720p.mp4
+[23:51:45] step=download done cr_film_id=9071 size=354330407 dur=39.4s speed=9.0MB/s
+[23:51:45] step=upload start cr_film_id=9071 size=354330407
+[23:52:01] step=upload done cr_film_id=9071 video_id=24164403 dur=16.1s speed=22.0MB/s
+[23:52:01] step=cleanup unlinked Rozpolcená (2022) CZ Dabing.mp4
+[23:52:01] step=film done cr_film_id=9071 total=58.7s (cdn=3.1s + download=39.4s + upload=16.1s)
+[23:52:01] step=state-saved cr_film_id=9071 (total uploads=911)
+[23:52:01] step=iteration 10/10
+[23:52:01] step=film start cr_film_id=9196 name='Ukolébavka (2022) CZ Dabing'
+[23:52:01] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32608_720p.mp4
+[23:52:04] step=cdn-resolve done 3.7s → https://online8.sktorrent.eu/media/videos//h264/32608_720p.mp4
+[23:52:04] step=download curl https://online8.sktorrent.eu/media/videos//h264/32608_720p.mp4
+[23:52:56] step=download done cr_film_id=9196 size=509684420 dur=51.5s speed=9.9MB/s
+[23:52:56] step=upload start cr_film_id=9196 size=509684420
+[23:53:23] step=upload done cr_film_id=9196 video_id=24164438 dur=26.8s speed=19.0MB/s
+[23:53:23] step=cleanup unlinked Ukolébavka (2022) CZ Dabing.mp4
+[23:53:23] step=film done cr_film_id=9196 total=82.1s (cdn=3.7s + download=51.5s + upload=26.8s)
+[23:53:23] step=state-saved cr_film_id=9196 (total uploads=912)
+[23:53:23] step=batch-end succeeded=10 failed=0 total_uploads=912 batch_dur=780.3s avg_per_film=78.0s backlog_remaining=597 eta_hours=12.9

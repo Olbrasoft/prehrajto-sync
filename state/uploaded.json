@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-24T23:27:45Z",
+  "last_updated": "2026-04-24T23:53:23Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -16223,6 +16223,186 @@
         "download_sec": 39.7,
         "upload_sec": 15.2,
         "total_sec": 56.1
+      }
+    },
+    {
+      "cr_film_id": 7902,
+      "cr_slug": "rivalky",
+      "title": "Rivalky",
+      "year": 2022,
+      "sktorrent_id": 26377,
+      "prehrajto_video_id": 24164103,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:41:40Z",
+      "status": "processing",
+      "size_bytes": 467114364,
+      "timing": {
+        "cdn_resolve_sec": 9.8,
+        "download_sec": 46.3,
+        "upload_sec": 21.5,
+        "total_sec": 77.7
+      }
+    },
+    {
+      "cr_film_id": 7999,
+      "cr_slug": "vyber-si",
+      "title": "Vyber si!",
+      "year": 2017,
+      "sktorrent_id": 175,
+      "prehrajto_video_id": 24164126,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:42:27Z",
+      "status": "processing",
+      "size_bytes": 385709403,
+      "timing": {
+        "cdn_resolve_sec": 9.9,
+        "download_sec": 15.2,
+        "upload_sec": 22.0,
+        "total_sec": 47.2
+      }
+    },
+    {
+      "cr_film_id": 8142,
+      "cr_slug": "juniori",
+      "title": "Junioři",
+      "year": 2022,
+      "sktorrent_id": 36537,
+      "prehrajto_video_id": 24164165,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:44:46Z",
+      "status": "processing",
+      "size_bytes": 480450915,
+      "timing": {
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 60.4,
+        "upload_sec": 73.7,
+        "total_sec": 138.7
+      }
+    },
+    {
+      "cr_film_id": 8201,
+      "cr_slug": "draci-princezna",
+      "title": "Dračí princezna",
+      "year": 2020,
+      "sktorrent_id": 22636,
+      "prehrajto_video_id": 24164207,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:45:48Z",
+      "status": "processing",
+      "size_bytes": 379495437,
+      "timing": {
+        "cdn_resolve_sec": 7.4,
+        "download_sec": 37.1,
+        "upload_sec": 17.2,
+        "total_sec": 61.8
+      }
+    },
+    {
+      "cr_film_id": 8342,
+      "cr_slug": "upirky",
+      "title": "Upírky",
+      "year": 2012,
+      "sktorrent_id": 46519,
+      "prehrajto_video_id": 24164257,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:47:39Z",
+      "status": "processing",
+      "size_bytes": 711995632,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 79.3,
+        "upload_sec": 30.5,
+        "total_sec": 111.0
+      }
+    },
+    {
+      "cr_film_id": 8398,
+      "cr_slug": "suprakovi",
+      "title": "Suprákovi",
+      "year": 2022,
+      "sktorrent_id": 37963,
+      "prehrajto_video_id": 24164305,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:48:53Z",
+      "status": "processing",
+      "size_bytes": 453488206,
+      "timing": {
+        "cdn_resolve_sec": 7.2,
+        "download_sec": 45.2,
+        "upload_sec": 22.0,
+        "total_sec": 74.3
+      }
+    },
+    {
+      "cr_film_id": 8720,
+      "cr_slug": "hodina-stinu",
+      "title": "Schattenstunde",
+      "year": 2021,
+      "sktorrent_id": 22757,
+      "prehrajto_video_id": 24164335,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:49:43Z",
+      "status": "processing",
+      "size_bytes": 266000917,
+      "timing": {
+        "cdn_resolve_sec": 5.9,
+        "download_sec": 31.0,
+        "upload_sec": 12.7,
+        "total_sec": 49.7
+      }
+    },
+    {
+      "cr_film_id": 9002,
+      "cr_slug": "obet",
+      "title": "Oběť",
+      "year": 2024,
+      "sktorrent_id": 42666,
+      "prehrajto_video_id": 24164370,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:51:02Z",
+      "status": "processing",
+      "size_bytes": 445592494,
+      "timing": {
+        "cdn_resolve_sec": 8.9,
+        "download_sec": 45.1,
+        "upload_sec": 24.9,
+        "total_sec": 79.0
+      }
+    },
+    {
+      "cr_film_id": 9071,
+      "cr_slug": "rozpolcena",
+      "title": "Rozpolcená",
+      "year": 2022,
+      "sktorrent_id": 28421,
+      "prehrajto_video_id": 24164403,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:52:01Z",
+      "status": "processing",
+      "size_bytes": 354330407,
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 39.4,
+        "upload_sec": 16.1,
+        "total_sec": 58.7
+      }
+    },
+    {
+      "cr_film_id": 9196,
+      "cr_slug": "ukolebavka-2022",
+      "title": "Ukolébavka",
+      "year": 2022,
+      "sktorrent_id": 32608,
+      "prehrajto_video_id": 24164438,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T23:53:23Z",
+      "status": "processing",
+      "size_bytes": 509684420,
+      "timing": {
+        "cdn_resolve_sec": 3.7,
+        "download_sec": 51.5,
+        "upload_sec": 26.8,
+        "total_sec": 82.1
       }
     }
   ],
