@@ -11475,3 +11475,119 @@
 [23:53:23] step=film done cr_film_id=9196 total=82.1s (cdn=3.7s + download=51.5s + upload=26.8s)
 [23:53:23] step=state-saved cr_film_id=9196 (total uploads=912)
 [23:53:23] step=batch-end succeeded=10 failed=0 total_uploads=912 batch_dur=780.3s avg_per_film=78.0s backlog_remaining=597 eta_hours=12.9
+
+===== run 2026-04-25T00:11:28Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24917597197) =====
+[00:11:29] step=batch-start count=10 backlog=1511 uploads=912 moderated=2
+[00:11:29] step=login
+[00:11:31] step=login done
+[00:11:31] step=iteration 1/10
+[00:11:31] step=film start cr_film_id=9310 name='Vodopád (2023) CZ Dabing'
+[00:11:31] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44089_720p.mp4
+[00:11:33] step=cdn-resolve done 2.5s → https://online3.sktorrent.eu/media/videos//h264/44089_720p.mp4
+[00:11:33] step=download curl https://online3.sktorrent.eu/media/videos//h264/44089_720p.mp4
+[00:12:25] step=download done cr_film_id=9310 size=439777259 dur=51.9s speed=8.5MB/s
+[00:12:25] step=upload start cr_film_id=9310 size=439777259
+[00:12:53] step=upload done cr_film_id=9310 video_id=24164991 dur=28.5s speed=15.4MB/s
+[00:12:54] step=cleanup unlinked Vodopád (2023) CZ Dabing.mp4
+[00:12:54] step=film done cr_film_id=9310 total=83.0s (cdn=2.5s + download=51.9s + upload=28.5s)
+[00:12:54] step=state-saved cr_film_id=9310 (total uploads=913)
+[00:12:54] step=iteration 2/10
+[00:12:54] step=film start cr_film_id=9442 name='Spolubydlící (2011) CZ Dabing'
+[00:12:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24007_720p.mp4
+[00:13:04] step=cdn-resolve done 10.8s → https://online25.sktorrent.eu/media/videos//h264/24007_720p.mp4
+[00:13:04] step=download curl https://online25.sktorrent.eu/media/videos//h264/24007_720p.mp4
+[00:13:17] step=download done cr_film_id=9442 size=446416395 dur=12.7s speed=35.2MB/s
+[00:13:17] step=upload start cr_film_id=9442 size=446416395
+[00:13:41] step=upload done cr_film_id=9442 video_id=24165015 dur=24.2s speed=18.4MB/s
+[00:13:41] step=cleanup unlinked Spolubydlící (2011) CZ Dabing.mp4
+[00:13:41] step=film done cr_film_id=9442 total=47.7s (cdn=10.8s + download=12.7s + upload=24.2s)
+[00:13:41] step=state-saved cr_film_id=9442 (total uploads=914)
+[00:13:41] step=iteration 3/10
+[00:13:41] step=film start cr_film_id=9483 name='ONEMANSHOW: The Movie (2023) CZ'
+[00:13:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33269_720p.mp4
+[00:13:45] step=cdn-resolve done 3.9s → https://online10.sktorrent.eu/media/videos//h264/33269_720p.mp4
+[00:13:45] step=download curl https://online10.sktorrent.eu/media/videos//h264/33269_720p.mp4
+[00:15:11] step=download done cr_film_id=9483 size=732045767 dur=86.0s speed=8.5MB/s
+[00:15:11] step=upload start cr_film_id=9483 size=732045767
+[00:15:49] step=upload done cr_film_id=9483 video_id=24165074 dur=37.9s speed=19.3MB/s
+[00:15:49] step=cleanup unlinked ONEMANSHOW: The Movie (2023) CZ.mp4
+[00:15:49] step=film done cr_film_id=9483 total=127.9s (cdn=3.9s + download=86.0s + upload=37.9s)
+[00:15:49] step=state-saved cr_film_id=9483 (total uploads=915)
+[00:15:49] step=iteration 4/10
+[00:15:49] step=film start cr_film_id=9865 name='#Loupež (2020) CZ Dabing'
+[00:15:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29098_720p.mp4
+[00:15:55] step=cdn-resolve done 5.6s → https://online15.sktorrent.eu/media/videos//h264/29098_720p.mp4
+[00:15:55] step=download curl https://online15.sktorrent.eu/media/videos//h264/29098_720p.mp4
+[00:16:58] step=download done cr_film_id=9865 size=649244709 dur=63.0s speed=10.3MB/s
+[00:16:58] step=upload start cr_film_id=9865 size=649244709
+[00:17:39] step=upload done cr_film_id=9865 video_id=24165112 dur=40.9s speed=15.9MB/s
+[00:17:39] step=cleanup unlinked #Loupež (2020) CZ Dabing.mp4
+[00:17:39] step=film done cr_film_id=9865 total=109.6s (cdn=5.6s + download=63.0s + upload=40.9s)
+[00:17:39] step=state-saved cr_film_id=9865 (total uploads=916)
+[00:17:39] step=iteration 5/10
+[00:17:39] step=film start cr_film_id=10113 name='Srdeční záležitost (2022) CZ Dabing'
+[00:17:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28983_720p.mp4
+[00:17:46] step=cdn-resolve done 7.2s → https://online20.sktorrent.eu/media/videos//h264/28983_720p.mp4
+[00:17:46] step=download curl https://online20.sktorrent.eu/media/videos//h264/28983_720p.mp4
+[00:18:54] step=download done cr_film_id=10113 size=650815746 dur=68.5s speed=9.5MB/s
+[00:18:54] step=upload start cr_film_id=10113 size=650815746
+[00:19:25] step=upload done cr_film_id=10113 video_id=24165167 dur=30.2s speed=21.6MB/s
+[00:19:25] step=cleanup unlinked Srdeční záležitost (2022) CZ Dabing.mp4
+[00:19:25] step=film done cr_film_id=10113 total=106.0s (cdn=7.2s + download=68.5s + upload=30.2s)
+[00:19:25] step=state-saved cr_film_id=10113 (total uploads=917)
+[00:19:25] step=iteration 6/10
+[00:19:25] step=film start cr_film_id=10338 name='Panama (2022) CZ Dabing'
+[00:19:25] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25104_720p.mp4
+[00:19:30] step=cdn-resolve done 5.4s → https://online14.sktorrent.eu/media/videos//h264/25104_720p.mp4
+[00:19:30] step=download curl https://online14.sktorrent.eu/media/videos//h264/25104_720p.mp4
+[00:20:41] step=download done cr_film_id=10338 size=766774150 dur=71.0s speed=10.8MB/s
+[00:20:41] step=upload start cr_film_id=10338 size=766774150
+[00:21:19] step=upload done cr_film_id=10338 video_id=24165216 dur=37.7s speed=20.3MB/s
+[00:21:19] step=cleanup unlinked Panama (2022) CZ Dabing.mp4
+[00:21:19] step=film done cr_film_id=10338 total=114.3s (cdn=5.4s + download=71.0s + upload=37.7s)
+[00:21:19] step=state-saved cr_film_id=10338 (total uploads=918)
+[00:21:19] step=iteration 7/10
+[00:21:19] step=film start cr_film_id=10339 name='V létě ti řeknu, jak se mám (2022) CZ'
+[00:21:19] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28360_720p.mp4
+[00:21:21] step=cdn-resolve done 2.3s → https://online6.sktorrent.eu/media/videos//h264/28360_720p.mp4
+[00:21:21] step=download curl https://online6.sktorrent.eu/media/videos//h264/28360_720p.mp4
+[00:22:19] step=download done cr_film_id=10339 size=602778544 dur=57.3s speed=10.5MB/s
+[00:22:19] step=upload start cr_film_id=10339 size=602778544
+[00:22:56] step=upload done cr_film_id=10339 video_id=24165264 dur=37.0s speed=16.3MB/s
+[00:22:56] step=cleanup unlinked V létě ti řeknu, jak se mám (2022) CZ.mp4
+[00:22:56] step=film done cr_film_id=10339 total=96.7s (cdn=2.3s + download=57.3s + upload=37.0s)
+[00:22:56] step=state-saved cr_film_id=10339 (total uploads=919)
+[00:22:56] step=iteration 8/10
+[00:22:56] step=film start cr_film_id=10552 name='Tátové (2023) CZ Dabing'
+[00:22:56] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56722_720p.mp4
+[00:23:04] step=cdn-resolve done 8.3s → https://online24.sktorrent.eu/media/videos//h264/56722_720p.mp4
+[00:23:04] step=download curl https://online24.sktorrent.eu/media/videos//h264/56722_720p.mp4
+[00:23:20] step=download done cr_film_id=10552 size=438888992 dur=15.9s speed=27.6MB/s
+[00:23:20] step=upload start cr_film_id=10552 size=438888992
+[00:23:58] step=upload done cr_film_id=10552 video_id=24165296 dur=38.0s speed=11.5MB/s
+[00:23:58] step=cleanup unlinked Tátové (2023) CZ Dabing.mp4
+[00:23:58] step=film done cr_film_id=10552 total=62.3s (cdn=8.3s + download=15.9s + upload=38.0s)
+[00:23:58] step=state-saved cr_film_id=10552 (total uploads=920)
+[00:23:58] step=iteration 9/10
+[00:23:58] step=film start cr_film_id=10695 name='The Body Snatcher (1945) CZ Dabing'
+[00:23:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42888_720p.mp4
+[00:24:04] step=cdn-resolve done 5.5s → https://online15.sktorrent.eu/media/videos//h264/42888_720p.mp4
+[00:24:04] step=download curl https://online15.sktorrent.eu/media/videos//h264/42888_720p.mp4
+[00:24:50] step=download done cr_film_id=10695 size=482814241 dur=46.4s speed=10.4MB/s
+[00:24:50] step=upload start cr_film_id=10695 size=482814241
+[00:25:09] step=upload done cr_film_id=10695 video_id=24165345 dur=19.1s speed=25.3MB/s
+[00:25:09] step=cleanup unlinked The Body Snatcher (1945) CZ Dabing.mp4
+[00:25:09] step=film done cr_film_id=10695 total=71.1s (cdn=5.5s + download=46.4s + upload=19.1s)
+[00:25:09] step=state-saved cr_film_id=10695 (total uploads=921)
+[00:25:09] step=iteration 10/10
+[00:25:09] step=film start cr_film_id=10745 name='Útok! (1956) CZ Dabing'
+[00:25:09] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47901_720p.mp4
+[00:25:10] step=cdn-resolve done 0.6s → https://online1.sktorrent.eu/media/videos//h264/47901_720p.mp4
+[00:25:10] step=download curl https://online1.sktorrent.eu/media/videos//h264/47901_720p.mp4
+[00:26:17] step=download done cr_film_id=10745 size=698283510 dur=67.4s speed=10.4MB/s
+[00:26:17] step=upload start cr_film_id=10745 size=698283510
+[00:26:50] step=upload done cr_film_id=10745 video_id=24165385 dur=33.1s speed=21.1MB/s
+[00:26:50] step=cleanup unlinked Útok! (1956) CZ Dabing.mp4
+[00:26:50] step=film done cr_film_id=10745 total=101.2s (cdn=0.6s + download=67.4s + upload=33.1s)
+[00:26:50] step=state-saved cr_film_id=10745 (total uploads=922)
+[00:26:50] step=batch-end succeeded=10 failed=0 total_uploads=922 batch_dur=919.8s avg_per_film=92.0s backlog_remaining=587 eta_hours=15.0
