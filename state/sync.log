@@ -11707,3 +11707,119 @@
 [01:00:12] step=film done cr_film_id=11407 total=67.5s (cdn=7.7s + download=32.0s + upload=27.8s)
 [01:00:12] step=state-saved cr_film_id=11407 (total uploads=932)
 [01:00:12] step=batch-end succeeded=10 failed=0 total_uploads=932 batch_dur=1067.6s avg_per_film=106.8s backlog_remaining=577 eta_hours=17.1
+
+===== run 2026-04-25T01:09:47Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24918912858) =====
+[01:09:47] step=batch-start count=10 backlog=1511 uploads=932 moderated=2
+[01:09:47] step=login
+[01:09:49] step=login done
+[01:09:49] step=iteration 1/10
+[01:09:49] step=film start cr_film_id=11419 name='Texasští gladiátoři 2020 (1983) CZ Dabing'
+[01:09:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/43995_720p.mp4
+[01:09:51] step=cdn-resolve done 2.3s → https://online5.sktorrent.eu/media/videos//h264/43995_720p.mp4
+[01:09:51] step=download curl https://online5.sktorrent.eu/media/videos//h264/43995_720p.mp4
+[01:11:03] step=download done cr_film_id=11419 size=661974198 dur=71.9s speed=9.2MB/s
+[01:11:03] step=upload start cr_film_id=11419 size=661974198
+[01:12:15] step=upload done cr_film_id=11419 video_id=24166529 dur=72.3s speed=9.2MB/s
+[01:12:15] step=cleanup unlinked Texasští gladiátoři 2020 (1983) CZ Dabing.mp4
+[01:12:15] step=film done cr_film_id=11419 total=146.6s (cdn=2.3s + download=71.9s + upload=72.3s)
+[01:12:15] step=state-saved cr_film_id=11419 (total uploads=933)
+[01:12:15] step=iteration 2/10
+[01:12:15] step=film start cr_film_id=11435 name='The Hunchback of Notre Dame (1982) CZ Dabing'
+[01:12:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/48319_720p.mp4
+[01:12:19] step=cdn-resolve done 4.0s → https://online8.sktorrent.eu/media/videos//h264/48319_720p.mp4
+[01:12:19] step=download curl https://online8.sktorrent.eu/media/videos//h264/48319_720p.mp4
+[01:13:05] step=download done cr_film_id=11435 size=466058493 dur=45.7s speed=10.2MB/s
+[01:13:05] step=upload start cr_film_id=11435 size=466058493
+[01:13:22] step=upload done cr_film_id=11435 video_id=24166572 dur=17.5s speed=26.6MB/s
+[01:13:23] step=cleanup unlinked The Hunchback of Notre Dame (1982) CZ Dabing.mp4
+[01:13:23] step=film done cr_film_id=11435 total=67.3s (cdn=4.0s + download=45.7s + upload=17.5s)
+[01:13:23] step=state-saved cr_film_id=11435 (total uploads=934)
+[01:13:23] step=iteration 3/10
+[01:13:23] step=film start cr_film_id=11460 name='Otec & otec (1983) CZ Dabing'
+[01:13:23] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/7410_720p.mp4
+[01:13:23] step=cdn-resolve done 0.6s → https://online1.sktorrent.eu/media/videos//h264/7410_720p.mp4
+[01:13:23] step=download curl https://online1.sktorrent.eu/media/videos//h264/7410_720p.mp4
+[01:15:48] step=download done cr_film_id=11460 size=1533314239 dur=145.3s speed=10.6MB/s
+[01:15:48] step=upload start cr_film_id=11460 size=1533314239
+[01:17:01] step=upload done cr_film_id=11460 video_id=24166650 dur=72.3s speed=21.2MB/s
+[01:17:01] step=cleanup unlinked Otec & otec (1983) CZ Dabing.mp4
+[01:17:01] step=film done cr_film_id=11460 total=218.4s (cdn=0.6s + download=145.3s + upload=72.3s)
+[01:17:01] step=state-saved cr_film_id=11460 (total uploads=935)
+[01:17:01] step=iteration 4/10
+[01:17:01] step=film start cr_film_id=11773 name='Saigon (1988) CZ Dabing'
+[01:17:01] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/15615_720p.mp4
+[01:17:07] step=cdn-resolve done 6.1s → https://online12.sktorrent.eu/media/videos//h264/15615_720p.mp4
+[01:17:07] step=download curl https://online12.sktorrent.eu/media/videos//h264/15615_720p.mp4
+[01:18:22] step=download done cr_film_id=11773 size=673422318 dur=74.4s speed=9.1MB/s
+[01:18:22] step=upload start cr_film_id=11773 size=673422318
+[01:18:49] step=upload done cr_film_id=11773 video_id=24166714 dur=27.6s speed=24.4MB/s
+[01:18:49] step=cleanup unlinked Saigon (1988) CZ Dabing.mp4
+[01:18:49] step=film done cr_film_id=11773 total=108.2s (cdn=6.1s + download=74.4s + upload=27.6s)
+[01:18:49] step=state-saved cr_film_id=11773 (total uploads=936)
+[01:18:49] step=iteration 5/10
+[01:18:49] step=film start cr_film_id=11896 name='Vnitřní záležitosti (1990) CZ Dabing'
+[01:18:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14665_720p.mp4
+[01:18:51] step=cdn-resolve done 1.9s → https://online5.sktorrent.eu/media/videos//h264/14665_720p.mp4
+[01:18:51] step=download curl https://online5.sktorrent.eu/media/videos//h264/14665_720p.mp4
+[01:20:04] step=download done cr_film_id=11896 size=645046262 dur=72.8s speed=8.9MB/s
+[01:20:04] step=upload start cr_film_id=11896 size=645046262
+[01:21:32] step=upload done cr_film_id=11896 video_id=24166757 dur=87.6s speed=7.4MB/s
+[01:21:32] step=cleanup unlinked Vnitřní záležitosti (1990) CZ Dabing.mp4
+[01:21:32] step=film done cr_film_id=11896 total=162.4s (cdn=1.9s + download=72.8s + upload=87.6s)
+[01:21:32] step=state-saved cr_film_id=11896 (total uploads=937)
+[01:21:32] step=iteration 6/10
+[01:21:32] step=film start cr_film_id=11965 name='Knight Rider 2000 (1991) CZ Dabing'
+[01:21:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47898_480p.mp4
+[01:21:42] step=cdn-resolve done 10.6s → https://online23.sktorrent.eu/media/videos//h264/47898_480p.mp4
+[01:21:42] step=download curl https://online23.sktorrent.eu/media/videos//h264/47898_480p.mp4
+[01:22:21] step=download done cr_film_id=11965 size=398495143 dur=39.2s speed=10.2MB/s
+[01:22:21] step=upload start cr_film_id=11965 size=398495143
+[01:22:52] step=upload done cr_film_id=11965 video_id=24166806 dur=30.9s speed=12.9MB/s
+[01:22:52] step=cleanup unlinked Knight Rider 2000 (1991) CZ Dabing.mp4
+[01:22:52] step=film done cr_film_id=11965 total=80.7s (cdn=10.6s + download=39.2s + upload=30.9s)
+[01:22:52] step=state-saved cr_film_id=11965 (total uploads=938)
+[01:22:52] step=iteration 7/10
+[01:22:52] step=film start cr_film_id=11968 name='Závod lásky (1991) CZ Dabing'
+[01:22:52] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/39989_720p.mp4
+[01:22:56] step=cdn-resolve done 4.1s → https://online10.sktorrent.eu/media/videos//h264/39989_720p.mp4
+[01:22:56] step=download curl https://online10.sktorrent.eu/media/videos//h264/39989_720p.mp4
+[01:24:29] step=download done cr_film_id=11968 size=925682594 dur=92.8s speed=10.0MB/s
+[01:24:29] step=upload start cr_film_id=11968 size=925682594
+[01:25:16] step=upload done cr_film_id=11968 video_id=24166852 dur=46.5s speed=19.9MB/s
+[01:25:16] step=cleanup unlinked Závod lásky (1991) CZ Dabing.mp4
+[01:25:16] step=film done cr_film_id=11968 total=143.5s (cdn=4.1s + download=92.8s + upload=46.5s)
+[01:25:16] step=state-saved cr_film_id=11968 (total uploads=939)
+[01:25:16] step=iteration 8/10
+[01:25:16] step=film start cr_film_id=12056 name='Msta (1992) CZ Dabing'
+[01:25:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36102_720p.mp4
+[01:25:22] step=cdn-resolve done 5.7s → https://online13.sktorrent.eu/media/videos//h264/36102_720p.mp4
+[01:25:22] step=download curl https://online13.sktorrent.eu/media/videos//h264/36102_720p.mp4
+[01:26:14] step=download done cr_film_id=12056 size=543732256 dur=53.0s speed=10.3MB/s
+[01:26:14] step=upload start cr_film_id=12056 size=543732256
+[01:26:38] step=upload done cr_film_id=12056 video_id=24166905 dur=23.3s speed=23.3MB/s
+[01:26:38] step=cleanup unlinked Msta (1992) CZ Dabing.mp4
+[01:26:38] step=film done cr_film_id=12056 total=82.0s (cdn=5.7s + download=53.0s + upload=23.3s)
+[01:26:38] step=state-saved cr_film_id=12056 (total uploads=940)
+[01:26:38] step=iteration 9/10
+[01:26:38] step=film start cr_film_id=12057 name='Sledování (1993) CZ Dabing'
+[01:26:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/50866_720p.mp4
+[01:26:48] step=cdn-resolve done 9.8s → https://online24.sktorrent.eu/media/videos//h264/50866_720p.mp4
+[01:26:48] step=download curl https://online24.sktorrent.eu/media/videos//h264/50866_720p.mp4
+[01:27:13] step=download done cr_film_id=12057 size=713329109 dur=25.6s speed=27.9MB/s
+[01:27:13] step=upload start cr_film_id=12057 size=713329109
+[01:27:50] step=upload done cr_film_id=12057 video_id=24166931 dur=36.6s speed=19.5MB/s
+[01:27:50] step=cleanup unlinked Sledování (1993) CZ Dabing.mp4
+[01:27:50] step=film done cr_film_id=12057 total=72.0s (cdn=9.8s + download=25.6s + upload=36.6s)
+[01:27:50] step=state-saved cr_film_id=12057 (total uploads=941)
+[01:27:50] step=iteration 10/10
+[01:27:50] step=film start cr_film_id=12071 name='Úsvit (1993) CZ Dabing'
+[01:27:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23023_720p.mp4
+[01:27:53] step=cdn-resolve done 3.1s → https://online8.sktorrent.eu/media/videos//h264/23023_720p.mp4
+[01:27:53] step=download curl https://online8.sktorrent.eu/media/videos//h264/23023_720p.mp4
+[01:28:52] step=download done cr_film_id=12071 size=616079802 dur=59.0s speed=10.4MB/s
+[01:28:52] step=upload start cr_film_id=12071 size=616079802
+[01:29:17] step=upload done cr_film_id=12071 video_id=24166978 dur=24.6s speed=25.0MB/s
+[01:29:17] step=cleanup unlinked Úsvit (1993) CZ Dabing.mp4
+[01:29:17] step=film done cr_film_id=12071 total=86.8s (cdn=3.1s + download=59.0s + upload=24.6s)
+[01:29:17] step=state-saved cr_film_id=12071 (total uploads=942)
+[01:29:17] step=batch-end succeeded=10 failed=0 total_uploads=942 batch_dur=1168.1s avg_per_film=116.8s backlog_remaining=567 eta_hours=18.4
