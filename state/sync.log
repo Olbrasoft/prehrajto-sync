@@ -11823,3 +11823,559 @@
 [01:29:17] step=film done cr_film_id=12071 total=86.8s (cdn=3.1s + download=59.0s + upload=24.6s)
 [01:29:17] step=state-saved cr_film_id=12071 (total uploads=942)
 [01:29:17] step=batch-end succeeded=10 failed=0 total_uploads=942 batch_dur=1168.1s avg_per_film=116.8s backlog_remaining=567 eta_hours=18.4
+
+===== run 2026-04-25T01:55:30Z batch_size=50 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24919820715) =====
+[01:55:30] step=batch-start count=50 backlog=1511 uploads=942 moderated=2
+[01:55:30] step=login
+[01:55:32] step=login done
+[01:55:32] step=iteration 1/50
+[01:55:32] step=film start cr_film_id=12128 name='Pistolnice (1994) CZ Dabing'
+[01:55:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/15194_720p.mp4
+[01:55:38] step=cdn-resolve done 5.6s → https://online8.sktorrent.eu/media/videos//h264/15194_720p.mp4
+[01:55:38] step=download curl https://online8.sktorrent.eu/media/videos//h264/15194_720p.mp4
+[01:56:56] step=download done cr_film_id=12128 size=799417064 dur=78.4s speed=10.2MB/s
+[01:56:56] step=upload start cr_film_id=12128 size=799417064
+[01:57:44] step=upload done cr_film_id=12128 video_id=24167559 dur=47.5s speed=16.8MB/s
+[01:57:44] step=cleanup unlinked Pistolnice (1994) CZ Dabing.mp4
+[01:57:44] step=film done cr_film_id=12128 total=131.7s (cdn=5.6s + download=78.4s + upload=47.5s)
+[01:57:44] step=state-saved cr_film_id=12128 (total uploads=943)
+[01:57:44] step=iteration 2/50
+[01:57:44] step=film start cr_film_id=12171 name='Monstrum (1994) CZ Dabing'
+[01:57:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32733_720p.mp4
+[01:57:54] step=cdn-resolve done 10.3s → https://online17.sktorrent.eu/media/videos//h264/32733_720p.mp4
+[01:57:54] step=download curl https://online17.sktorrent.eu/media/videos//h264/32733_720p.mp4
+[01:59:13] step=download done cr_film_id=12171 size=872939991 dur=78.8s speed=11.1MB/s
+[01:59:13] step=upload start cr_film_id=12171 size=872939991
+[02:00:18] step=upload done cr_film_id=12171 video_id=24167607 dur=64.6s speed=13.5MB/s
+[02:00:18] step=cleanup unlinked Monstrum (1994) CZ Dabing.mp4
+[02:00:18] step=film done cr_film_id=12171 total=153.9s (cdn=10.3s + download=78.8s + upload=64.6s)
+[02:00:18] step=state-saved cr_film_id=12171 (total uploads=944)
+[02:00:18] step=iteration 3/50
+[02:00:18] step=film start cr_film_id=12287 name='Daddy's Girl (1996) CZ Dabing'
+[02:00:18] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1848_480p.mp4
+[02:00:21] step=cdn-resolve done 3.1s → https://online5.sktorrent.eu/media/videos//h264/1848_480p.mp4
+[02:00:21] step=download curl https://online5.sktorrent.eu/media/videos//h264/1848_480p.mp4
+[02:01:48] step=download done cr_film_id=12287 size=630019654 dur=87.4s speed=7.2MB/s
+[02:01:48] step=upload start cr_film_id=12287 size=630019654
+[02:02:29] step=upload done cr_film_id=12287 video_id=24167658 dur=40.6s speed=15.5MB/s
+[02:02:29] step=cleanup unlinked Daddy's Girl (1996) CZ Dabing.mp4
+[02:02:29] step=film done cr_film_id=12287 total=131.1s (cdn=3.1s + download=87.4s + upload=40.6s)
+[02:02:29] step=state-saved cr_film_id=12287 (total uploads=945)
+[02:02:29] step=iteration 4/50
+[02:02:29] step=film start cr_film_id=12321 name='Lekce (1996) CZ Dabing'
+[02:02:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23024_720p.mp4
+[02:02:35] step=cdn-resolve done 6.4s → https://online9.sktorrent.eu/media/videos//h264/23024_720p.mp4
+[02:02:35] step=download curl https://online9.sktorrent.eu/media/videos//h264/23024_720p.mp4
+[02:03:33] step=download done cr_film_id=12321 size=601746249 dur=57.6s speed=10.4MB/s
+[02:03:33] step=upload start cr_film_id=12321 size=601746249
+[02:04:13] step=upload done cr_film_id=12321 video_id=24167696 dur=39.8s speed=15.1MB/s
+[02:04:13] step=cleanup unlinked Lekce (1996) CZ Dabing.mp4
+[02:04:13] step=film done cr_film_id=12321 total=103.8s (cdn=6.4s + download=57.6s + upload=39.8s)
+[02:04:13] step=state-saved cr_film_id=12321 (total uploads=946)
+[02:04:13] step=iteration 5/50
+[02:04:13] step=film start cr_film_id=12468 name='Hasiči (1985) CZ Dabing'
+[02:04:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/55707_720p.mp4
+[02:04:16] step=cdn-resolve done 3.6s → https://online5.sktorrent.eu/media/videos//h264/55707_720p.mp4
+[02:04:16] step=download curl https://online5.sktorrent.eu/media/videos//h264/55707_720p.mp4
+[02:05:44] step=download done cr_film_id=12468 size=878789657 dur=87.5s speed=10.0MB/s
+[02:05:44] step=upload start cr_film_id=12468 size=878789657
+[02:06:39] step=upload done cr_film_id=12468 video_id=24167755 dur=54.9s speed=16.0MB/s
+[02:06:39] step=cleanup unlinked Hasiči (1985) CZ Dabing.mp4
+[02:06:39] step=film done cr_film_id=12468 total=146.2s (cdn=3.6s + download=87.5s + upload=54.9s)
+[02:06:39] step=state-saved cr_film_id=12468 (total uploads=947)
+[02:06:39] step=iteration 6/50
+[02:06:39] step=film start cr_film_id=12484 name='Ukradnutý biely slon (1988) CZ'
+[02:06:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27495_720p.mp4
+[02:06:47] step=cdn-resolve done 7.7s → https://online12.sktorrent.eu/media/videos//h264/27495_720p.mp4
+[02:06:47] step=download curl https://online12.sktorrent.eu/media/videos//h264/27495_720p.mp4
+[02:07:36] step=download done cr_film_id=12484 size=382627413 dur=49.8s speed=7.7MB/s
+[02:07:36] step=upload start cr_film_id=12484 size=382627413
+[02:08:13] step=upload done cr_film_id=12484 video_id=24167804 dur=36.4s speed=10.5MB/s
+[02:08:13] step=cleanup unlinked Ukradnutý biely slon (1988) CZ.mp4
+[02:08:13] step=film done cr_film_id=12484 total=94.0s (cdn=7.7s + download=49.8s + upload=36.4s)
+[02:08:13] step=state-saved cr_film_id=12484 (total uploads=948)
+[02:08:13] step=iteration 7/50
+[02:08:13] step=film start cr_film_id=12610 name='Citová výchova jednej Dáše (1982) CZ'
+[02:08:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47928_720p.mp4
+[02:08:17] step=cdn-resolve done 3.9s → https://online5.sktorrent.eu/media/videos//h264/47928_720p.mp4
+[02:08:17] step=download curl https://online5.sktorrent.eu/media/videos//h264/47928_720p.mp4
+[02:09:20] step=download done cr_film_id=12610 size=586243262 dur=63.0s speed=9.3MB/s
+[02:09:20] step=upload start cr_film_id=12610 size=586243262
+[02:09:58] step=upload done cr_film_id=12610 video_id=24167838 dur=38.1s speed=15.4MB/s
+[02:09:58] step=cleanup unlinked Citová výchova jednej Dáše (1982) CZ.mp4
+[02:09:58] step=film done cr_film_id=12610 total=105.1s (cdn=3.9s + download=63.0s + upload=38.1s)
+[02:09:58] step=state-saved cr_film_id=12610 (total uploads=949)
+[02:09:58] step=iteration 8/50
+[02:09:58] step=film start cr_film_id=12623 name='Dentista 2 (1998) CZ Dabing'
+[02:09:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22884_480p.mp4
+[02:10:07] step=cdn-resolve done 9.2s → https://online15.sktorrent.eu/media/videos//h264/22884_480p.mp4
+[02:10:07] step=download curl https://online15.sktorrent.eu/media/videos//h264/22884_480p.mp4
+[02:10:32] step=download done cr_film_id=12623 size=256817929 dur=24.6s speed=10.4MB/s
+[02:10:32] step=upload start cr_film_id=12623 size=256817929
+[02:10:54] step=upload done cr_film_id=12623 video_id=24167870 dur=22.2s speed=11.6MB/s
+[02:10:54] step=cleanup unlinked Dentista 2 (1998) CZ Dabing.mp4
+[02:10:54] step=film done cr_film_id=12623 total=56.1s (cdn=9.2s + download=24.6s + upload=22.2s)
+[02:10:54] step=state-saved cr_film_id=12623 (total uploads=950)
+[02:10:54] step=iteration 9/50
+[02:10:54] step=film start cr_film_id=12625 name='Guinea Pig Part 2: Flower of Flesh and Blood (1985) CZ Dabing'
+[02:10:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1368_480p.mp4
+[02:10:57] step=cdn-resolve done 3.1s → https://online5.sktorrent.eu/media/videos//h264/1368_480p.mp4
+[02:10:57] step=download curl https://online5.sktorrent.eu/media/videos//h264/1368_480p.mp4
+[02:12:17] step=download done cr_film_id=12625 size=753874481 dur=79.9s speed=9.4MB/s
+[02:12:17] step=upload start cr_film_id=12625 size=753874481
+[02:13:10] step=upload done cr_film_id=12625 video_id=24167910 dur=53.1s speed=14.2MB/s
+[02:13:10] step=cleanup unlinked Guinea Pig Part 2: Flower of Flesh and Blood (1985) CZ Dabing.mp4
+[02:13:10] step=film done cr_film_id=12625 total=136.2s (cdn=3.1s + download=79.9s + upload=53.1s)
+[02:13:10] step=state-saved cr_film_id=12625 (total uploads=951)
+[02:13:10] step=iteration 10/50
+[02:13:10] step=film start cr_film_id=12678 name='Svatebčané (1999) CZ Dabing'
+[02:13:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/34320_720p.mp4
+[02:13:19] step=cdn-resolve done 8.2s → https://online13.sktorrent.eu/media/videos//h264/34320_720p.mp4
+[02:13:19] step=download curl https://online13.sktorrent.eu/media/videos//h264/34320_720p.mp4
+[02:15:46] step=download done cr_film_id=12678 size=993414284 dur=147.8s speed=6.7MB/s
+[02:15:46] step=upload start cr_film_id=12678 size=993414284
+[02:17:04] step=upload done cr_film_id=12678 video_id=24168003 dur=77.9s speed=12.8MB/s
+[02:17:04] step=cleanup unlinked Svatebčané (1999) CZ Dabing.mp4
+[02:17:04] step=film done cr_film_id=12678 total=234.1s (cdn=8.2s + download=147.8s + upload=77.9s)
+[02:17:04] step=state-saved cr_film_id=12678 (total uploads=952)
+[02:17:04] step=iteration 11/50
+[02:17:04] step=film start cr_film_id=12791 name='Fáma (2000) CZ Dabing'
+[02:17:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56719_720p.mp4
+[02:17:17] step=cdn-resolve done 12.3s → https://online21.sktorrent.eu/media/videos//h264/56719_720p.mp4
+[02:17:17] step=download curl https://online21.sktorrent.eu/media/videos//h264/56719_720p.mp4
+[02:17:57] step=download done cr_film_id=12791 size=441735765 dur=40.0s speed=11.0MB/s
+[02:17:57] step=upload start cr_film_id=12791 size=441735765
+[02:18:26] step=upload done cr_film_id=12791 video_id=24168058 dur=28.9s speed=15.3MB/s
+[02:18:26] step=cleanup unlinked Fáma (2000) CZ Dabing.mp4
+[02:18:26] step=film done cr_film_id=12791 total=81.3s (cdn=12.3s + download=40.0s + upload=28.9s)
+[02:18:26] step=state-saved cr_film_id=12791 (total uploads=953)
+[02:18:26] step=iteration 12/50
+[02:18:26] step=film start cr_film_id=12886 name='Kamene (1989) CZ'
+[02:18:26] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20070_720p.mp4
+[02:18:29] step=cdn-resolve done 3.8s → https://online6.sktorrent.eu/media/videos//h264/20070_720p.mp4
+[02:18:29] step=download curl https://online6.sktorrent.eu/media/videos//h264/20070_720p.mp4
+[02:18:56] step=download done cr_film_id=12886 size=260106545 dur=26.8s speed=9.7MB/s
+[02:18:56] step=upload start cr_film_id=12886 size=260106545
+[02:19:16] step=upload done cr_film_id=12886 video_id=24168087 dur=19.3s speed=13.5MB/s
+[02:19:16] step=cleanup unlinked Kamene (1989) CZ.mp4
+[02:19:16] step=film done cr_film_id=12886 total=50.0s (cdn=3.8s + download=26.8s + upload=19.3s)
+[02:19:16] step=state-saved cr_film_id=12886 (total uploads=954)
+[02:19:16] step=iteration 13/50
+[02:19:16] step=film start cr_film_id=12890 name='Skinheads (1993) CZ Dabing'
+[02:19:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44699_480p.mp4
+[02:19:19] step=cdn-resolve done 3.1s → https://online5.sktorrent.eu/media/videos//h264/44699_480p.mp4
+[02:19:19] step=download curl https://online5.sktorrent.eu/media/videos//h264/44699_480p.mp4
+[02:19:53] step=download done cr_film_id=12890 size=325383760 dur=34.3s speed=9.5MB/s
+[02:19:53] step=upload start cr_film_id=12890 size=325383760
+[02:20:22] step=upload done cr_film_id=12890 video_id=24168111 dur=29.0s speed=11.2MB/s
+[02:20:22] step=cleanup unlinked Skinheads (1993) CZ Dabing.mp4
+[02:20:22] step=film done cr_film_id=12890 total=66.5s (cdn=3.1s + download=34.3s + upload=29.0s)
+[02:20:22] step=state-saved cr_film_id=12890 (total uploads=955)
+[02:20:22] step=iteration 14/50
+[02:20:22] step=film start cr_film_id=12924 name='Špinavý prachy (2001) CZ Dabing'
+[02:20:22] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14463_720p.mp4
+[02:20:25] step=cdn-resolve done 2.7s → https://online4.sktorrent.eu/media/videos//h264/14463_720p.mp4
+[02:20:25] step=download curl https://online4.sktorrent.eu/media/videos//h264/14463_720p.mp4
+[02:21:46] step=download done cr_film_id=12924 size=580516697 dur=81.0s speed=7.2MB/s
+[02:21:46] step=upload start cr_film_id=12924 size=580516697
+[02:22:24] step=upload done cr_film_id=12924 video_id=24168166 dur=38.0s speed=15.3MB/s
+[02:22:24] step=cleanup unlinked Špinavý prachy (2001) CZ Dabing.mp4
+[02:22:24] step=film done cr_film_id=12924 total=121.7s (cdn=2.7s + download=81.0s + upload=38.0s)
+[02:22:24] step=state-saved cr_film_id=12924 (total uploads=956)
+[02:22:24] step=iteration 15/50
+[02:22:24] step=film start cr_film_id=12935 name='DS-70 nevyjíždí (1951) CZ'
+[02:22:24] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38004_480p.mp4
+[02:22:30] step=cdn-resolve done 5.8s → https://online9.sktorrent.eu/media/videos//h264/38004_480p.mp4
+[02:22:30] step=download curl https://online9.sktorrent.eu/media/videos//h264/38004_480p.mp4
+[02:22:53] step=download done cr_film_id=12935 size=207506118 dur=22.8s speed=9.1MB/s
+[02:22:53] step=upload start cr_film_id=12935 size=207506118
+[02:23:10] step=upload done cr_film_id=12935 video_id=24168206 dur=17.4s speed=11.9MB/s
+[02:23:10] step=cleanup unlinked DS-70 nevyjíždí (1951) CZ.mp4
+[02:23:10] step=film done cr_film_id=12935 total=46.0s (cdn=5.8s + download=22.8s + upload=17.4s)
+[02:23:10] step=state-saved cr_film_id=12935 (total uploads=957)
+[02:23:10] step=iteration 16/50
+[02:23:10] step=film start cr_film_id=12948 name='Novokain (2001) CZ Dabing'
+[02:23:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38501_720p.mp4
+[02:23:19] step=cdn-resolve done 8.7s → https://online13.sktorrent.eu/media/videos//h264/38501_720p.mp4
+[02:23:19] step=download curl https://online13.sktorrent.eu/media/videos//h264/38501_720p.mp4
+[02:24:33] step=download done cr_film_id=12948 size=601182178 dur=74.0s speed=8.1MB/s
+[02:24:33] step=upload start cr_film_id=12948 size=601182178
+[02:25:12] step=upload done cr_film_id=12948 video_id=24168269 dur=39.0s speed=15.4MB/s
+[02:25:12] step=cleanup unlinked Novokain (2001) CZ Dabing.mp4
+[02:25:12] step=film done cr_film_id=12948 total=121.7s (cdn=8.7s + download=74.0s + upload=39.0s)
+[02:25:12] step=state-saved cr_film_id=12948 (total uploads=958)
+[02:25:12] step=iteration 17/50
+[02:25:12] step=film start cr_film_id=12953 name='Prozacový národ (2003) CZ Dabing'
+[02:25:12] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47966_HD.mp4
+[02:25:23] step=cdn-resolve done 11.1s → https://online19.sktorrent.eu/media/videos//h264/47966_HD.mp4
+[02:25:23] step=download curl https://online19.sktorrent.eu/media/videos//h264/47966_HD.mp4
+[02:26:30] step=download done cr_film_id=12953 size=304315259 dur=66.9s speed=4.5MB/s
+[02:26:30] step=upload start cr_film_id=12953 size=304315259
+[02:26:53] step=upload done cr_film_id=12953 video_id=24168338 dur=23.1s speed=13.2MB/s
+[02:26:53] step=cleanup unlinked Prozacový národ (2003) CZ Dabing.mp4
+[02:26:53] step=film done cr_film_id=12953 total=101.1s (cdn=11.1s + download=66.9s + upload=23.1s)
+[02:26:53] step=state-saved cr_film_id=12953 (total uploads=959)
+[02:26:53] step=iteration 18/50
+[02:26:53] step=film start cr_film_id=13059 name='Nepovedený večírek (2001) CZ Dabing'
+[02:26:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/15329_720p.mp4
+[02:27:00] step=cdn-resolve done 6.9s → https://online11.sktorrent.eu/media/videos//h264/15329_720p.mp4
+[02:27:00] step=download curl https://online11.sktorrent.eu/media/videos//h264/15329_720p.mp4
+[02:28:00] step=download done cr_film_id=13059 size=644411612 dur=60.5s speed=10.7MB/s
+[02:28:00] step=upload start cr_film_id=13059 size=644411612
+[02:28:49] step=upload done cr_film_id=13059 video_id=24168383 dur=48.8s speed=13.2MB/s
+[02:28:49] step=cleanup unlinked Nepovedený večírek (2001) CZ Dabing.mp4
+[02:28:49] step=film done cr_film_id=13059 total=116.3s (cdn=6.9s + download=60.5s + upload=48.8s)
+[02:28:49] step=state-saved cr_film_id=13059 (total uploads=960)
+[02:28:49] step=iteration 19/50
+[02:28:49] step=film start cr_film_id=13083 name='2001 maniaků (2005) CZ Dabing'
+[02:28:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22129_720p.mp4
+[02:28:57] step=cdn-resolve done 7.8s → https://online12.sktorrent.eu/media/videos//h264/22129_720p.mp4
+[02:28:57] step=download curl https://online12.sktorrent.eu/media/videos//h264/22129_720p.mp4
+[02:31:04] step=download done cr_film_id=13083 size=1127792246 dur=126.7s speed=8.9MB/s
+[02:31:04] step=upload start cr_film_id=13083 size=1127792246
+[02:32:18] step=upload done cr_film_id=13083 video_id=24168459 dur=74.7s speed=15.1MB/s
+[02:32:19] step=cleanup unlinked 2001 maniaků (2005) CZ Dabing.mp4
+[02:32:19] step=film done cr_film_id=13083 total=209.4s (cdn=7.8s + download=126.7s + upload=74.7s)
+[02:32:19] step=state-saved cr_film_id=13083 (total uploads=961)
+[02:32:19] step=iteration 20/50
+[02:32:19] step=film start cr_film_id=13140 name='Nahota na prodej (1993) CZ'
+[02:32:19] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1257_720p.mp4
+[02:32:30] step=cdn-resolve done 11.2s → https://online19.sktorrent.eu/media/videos//h264/1257_720p.mp4
+[02:32:30] step=download curl https://online19.sktorrent.eu/media/videos//h264/1257_720p.mp4
+[02:38:56] step=download done cr_film_id=13140 size=1414537781 dur=386.8s speed=3.7MB/s
+[02:38:56] step=upload start cr_film_id=13140 size=1414537781
+[02:40:28] step=upload done cr_film_id=13140 video_id=24168621 dur=91.7s speed=15.4MB/s
+[02:40:28] step=cleanup unlinked Nahota na prodej (1993) CZ.mp4
+[02:40:28] step=film done cr_film_id=13140 total=489.9s (cdn=11.2s + download=386.8s + upload=91.7s)
+[02:40:28] step=state-saved cr_film_id=13140 (total uploads=962)
+[02:40:28] step=iteration 21/50
+[02:40:28] step=film start cr_film_id=13154 name='Tesáky (2002) CZ Dabing'
+[02:40:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/52632_720p.mp4
+[02:40:42] step=cdn-resolve done 14.0s → https://online23.sktorrent.eu/media/videos//h264/52632_720p.mp4
+[02:40:42] step=download curl https://online23.sktorrent.eu/media/videos//h264/52632_720p.mp4
+[02:41:27] step=download done cr_film_id=13154 size=493422688 dur=44.3s speed=11.1MB/s
+[02:41:27] step=upload start cr_film_id=13154 size=493422688
+[02:42:01] step=upload done cr_film_id=13154 video_id=24168667 dur=33.9s speed=14.6MB/s
+[02:42:01] step=cleanup unlinked Tesáky (2002) CZ Dabing.mp4
+[02:42:01] step=film done cr_film_id=13154 total=92.3s (cdn=14.0s + download=44.3s + upload=33.9s)
+[02:42:01] step=state-saved cr_film_id=13154 (total uploads=963)
+[02:42:01] step=iteration 22/50
+[02:42:01] step=film start cr_film_id=13176 name='Kairo (2001) CZ Dabing'
+[02:42:01] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38470_480p.mp4
+[02:42:14] step=cdn-resolve done 13.7s → https://online24.sktorrent.eu/media/videos//h264/38470_480p.mp4
+[02:42:14] step=download curl https://online24.sktorrent.eu/media/videos//h264/38470_480p.mp4
+[02:42:29] step=download done cr_film_id=13176 size=258302616 dur=14.7s speed=17.6MB/s
+[02:42:29] step=upload start cr_film_id=13176 size=258302616
+[02:42:48] step=upload done cr_film_id=13176 video_id=24168689 dur=18.5s speed=14.0MB/s
+[02:42:48] step=cleanup unlinked Kairo (2001) CZ Dabing.mp4
+[02:42:48] step=film done cr_film_id=13176 total=47.0s (cdn=13.7s + download=14.7s + upload=18.5s)
+[02:42:48] step=state-saved cr_film_id=13176 (total uploads=964)
+[02:42:48] step=iteration 23/50
+[02:42:48] step=film start cr_film_id=13179 name='Chtíč (2002) CZ Dabing'
+[02:42:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/46439_720p.mp4
+[02:43:00] step=cdn-resolve done 12.2s → https://online20.sktorrent.eu/media/videos//h264/46439_720p.mp4
+[02:43:00] step=download curl https://online20.sktorrent.eu/media/videos//h264/46439_720p.mp4
+[02:43:48] step=download done cr_film_id=13179 size=398828565 dur=48.4s speed=8.2MB/s
+[02:43:48] step=upload start cr_film_id=13179 size=398828565
+[02:44:22] step=upload done cr_film_id=13179 video_id=24168712 dur=33.9s speed=11.8MB/s
+[02:44:22] step=cleanup unlinked Chtíč (2002) CZ Dabing.mp4
+[02:44:22] step=film done cr_film_id=13179 total=94.7s (cdn=12.2s + download=48.4s + upload=33.9s)
+[02:44:22] step=state-saved cr_film_id=13179 (total uploads=965)
+[02:44:22] step=iteration 24/50
+[02:44:22] step=film start cr_film_id=13215 name='Oheň (2002) CZ Dabing'
+[02:44:22] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26645_720p.mp4
+[02:44:26] step=cdn-resolve done 3.9s → https://online6.sktorrent.eu/media/videos//h264/26645_720p.mp4
+[02:44:26] step=download curl https://online6.sktorrent.eu/media/videos//h264/26645_720p.mp4
+[02:46:16] step=download done cr_film_id=13215 size=1168805449 dur=109.6s speed=10.7MB/s
+[02:46:16] step=upload start cr_film_id=13215 size=1168805449
+[02:47:37] step=upload done cr_film_id=13215 video_id=24168765 dur=81.3s speed=14.4MB/s
+[02:47:37] step=cleanup unlinked Oheň (2002) CZ Dabing.mp4
+[02:47:37] step=film done cr_film_id=13215 total=194.9s (cdn=3.9s + download=109.6s + upload=81.3s)
+[02:47:37] step=state-saved cr_film_id=13215 (total uploads=966)
+[02:47:37] step=iteration 25/50
+[02:47:37] step=film start cr_film_id=13278 name='Sbohem, pane profesore (2002) CZ Dabing'
+[02:47:37] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42817_720p.mp4
+[02:47:48] step=cdn-resolve done 10.9s → https://online18.sktorrent.eu/media/videos//h264/42817_720p.mp4
+[02:47:48] step=download curl https://online18.sktorrent.eu/media/videos//h264/42817_720p.mp4
+[02:49:47] step=download done cr_film_id=13278 size=667904033 dur=118.5s speed=5.6MB/s
+[02:49:47] step=upload start cr_film_id=13278 size=667904033
+[02:50:44] step=upload done cr_film_id=13278 video_id=24168829 dur=57.1s speed=11.7MB/s
+[02:50:44] step=cleanup unlinked Sbohem, pane profesore (2002) CZ Dabing.mp4
+[02:50:44] step=film done cr_film_id=13278 total=186.7s (cdn=10.9s + download=118.5s + upload=57.1s)
+[02:50:44] step=state-saved cr_film_id=13278 (total uploads=967)
+[02:50:44] step=iteration 26/50
+[02:50:44] step=film start cr_film_id=13308 name='Řezníci (2003) CZ Dabing'
+[02:50:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/40379_720p.mp4
+[02:50:53] step=cdn-resolve done 9.2s → https://online15.sktorrent.eu/media/videos//h264/40379_720p.mp4
+[02:50:53] step=download curl https://online15.sktorrent.eu/media/videos//h264/40379_720p.mp4
+[02:51:35] step=download done cr_film_id=13308 size=414463464 dur=41.5s speed=10.0MB/s
+[02:51:35] step=upload start cr_film_id=13308 size=414463464
+[02:52:05] step=upload done cr_film_id=13308 video_id=24168863 dur=29.9s speed=13.9MB/s
+[02:52:05] step=cleanup unlinked Řezníci (2003) CZ Dabing.mp4
+[02:52:05] step=film done cr_film_id=13308 total=80.7s (cdn=9.2s + download=41.5s + upload=29.9s)
+[02:52:05] step=state-saved cr_film_id=13308 (total uploads=968)
+[02:52:05] step=iteration 27/50
+[02:52:05] step=film start cr_film_id=13317 name='Perfectly Legal (2002) CZ Dabing'
+[02:52:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/39130_480p.mp4
+[02:52:18] step=cdn-resolve done 13.4s → https://online22.sktorrent.eu/media/videos//h264/39130_480p.mp4
+[02:52:18] step=download curl https://online22.sktorrent.eu/media/videos//h264/39130_480p.mp4
+[02:52:52] step=download done cr_film_id=13317 size=355620893 dur=33.5s speed=10.6MB/s
+[02:52:52] step=upload start cr_film_id=13317 size=355620893
+[02:53:16] step=upload done cr_film_id=13317 video_id=24168887 dur=24.0s speed=14.8MB/s
+[02:53:16] step=cleanup unlinked Perfectly Legal (2002) CZ Dabing.mp4
+[02:53:16] step=film done cr_film_id=13317 total=71.0s (cdn=13.4s + download=33.5s + upload=24.0s)
+[02:53:16] step=state-saved cr_film_id=13317 (total uploads=969)
+[02:53:16] step=iteration 28/50
+[02:53:16] step=film start cr_film_id=13367 name='Dva lidi v zoo (1990) CZ'
+[02:53:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12090_480p.mp4
+[02:53:21] step=cdn-resolve done 5.1s → https://online8.sktorrent.eu/media/videos//h264/12090_480p.mp4
+[02:53:21] step=download curl https://online8.sktorrent.eu/media/videos//h264/12090_480p.mp4
+[02:54:08] step=download done cr_film_id=13367 size=443417515 dur=46.8s speed=9.5MB/s
+[02:54:08] step=upload start cr_film_id=13367 size=443417515
+[02:54:37] step=upload done cr_film_id=13367 video_id=24168911 dur=29.6s speed=15.0MB/s
+[02:54:37] step=cleanup unlinked Dva lidi v zoo (1990) CZ.mp4
+[02:54:37] step=film done cr_film_id=13367 total=81.5s (cdn=5.1s + download=46.8s + upload=29.6s)
+[02:54:37] step=state-saved cr_film_id=13367 (total uploads=970)
+[02:54:37] step=iteration 29/50
+[02:54:37] step=film start cr_film_id=13412 name='Why Me, Sweetie?! (2003) CZ Dabing'
+[02:54:37] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42407_720p.mp4
+[02:54:40] step=cdn-resolve done 3.1s → https://online5.sktorrent.eu/media/videos//h264/42407_720p.mp4
+[02:54:40] step=download curl https://online5.sktorrent.eu/media/videos//h264/42407_720p.mp4
+[02:55:45] step=download done cr_film_id=13412 size=653270724 dur=64.4s speed=10.1MB/s
+[02:55:45] step=upload start cr_film_id=13412 size=653270724
+[02:56:31] step=upload done cr_film_id=13412 video_id=24168941 dur=46.5s speed=14.0MB/s
+[02:56:31] step=cleanup unlinked Why Me, Sweetie?! (2003) CZ Dabing.mp4
+[02:56:31] step=film done cr_film_id=13412 total=114.1s (cdn=3.1s + download=64.4s + upload=46.5s)
+[02:56:31] step=state-saved cr_film_id=13412 (total uploads=971)
+[02:56:31] step=iteration 30/50
+[02:56:31] step=film start cr_film_id=13479 name='Skřítek (2005) CZ'
+[02:56:31] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16400_720p.mp4
+[02:56:36] step=cdn-resolve done 4.4s → https://online7.sktorrent.eu/media/videos//h264/16400_720p.mp4
+[02:56:36] step=download curl https://online7.sktorrent.eu/media/videos//h264/16400_720p.mp4
+[02:59:56] step=download done cr_film_id=13479 size=1012631857 dur=200.8s speed=5.0MB/s
+[02:59:56] step=upload start cr_film_id=13479 size=1012631857
+[03:01:02] step=upload done cr_film_id=13479 video_id=24169015 dur=65.5s speed=15.5MB/s
+[03:01:02] step=cleanup unlinked Skřítek (2005) CZ.mp4
+[03:01:02] step=film done cr_film_id=13479 total=270.8s (cdn=4.4s + download=200.8s + upload=65.5s)
+[03:01:02] step=state-saved cr_film_id=13479 (total uploads=972)
+[03:01:02] step=iteration 31/50
+[03:01:02] step=film start cr_film_id=13491 name='Lakomec (2003) CZ'
+[03:01:02] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12903_720p.mp4
+[03:01:13] step=cdn-resolve done 10.8s → https://online18.sktorrent.eu/media/videos//h264/12903_720p.mp4
+[03:01:13] step=download curl https://online18.sktorrent.eu/media/videos//h264/12903_720p.mp4
+[03:04:33] step=download done cr_film_id=13491 size=1180093243 dur=200.0s speed=5.9MB/s
+[03:04:33] step=upload start cr_film_id=13491 size=1180093243
+[03:05:54] step=upload done cr_film_id=13491 video_id=24169099 dur=81.2s speed=14.5MB/s
+[03:05:54] step=cleanup unlinked Lakomec (2003) CZ.mp4
+[03:05:54] step=film done cr_film_id=13491 total=292.2s (cdn=10.8s + download=200.0s + upload=81.2s)
+[03:05:54] step=state-saved cr_film_id=13491 (total uploads=973)
+[03:05:54] step=iteration 32/50
+[03:05:54] step=film start cr_film_id=13637 name='Caffeine (2006) CZ Dabing'
+[03:05:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20678_720p.mp4
+[03:06:09] step=cdn-resolve done 14.3s → https://online25.sktorrent.eu/media/videos//h264/20678_720p.mp4
+[03:06:09] step=download curl https://online25.sktorrent.eu/media/videos//h264/20678_720p.mp4
+[03:06:31] step=download done cr_film_id=13637 size=497575057 dur=22.6s speed=22.0MB/s
+[03:06:31] step=upload start cr_film_id=13637 size=497575057
+[03:07:04] step=upload done cr_film_id=13637 video_id=24169137 dur=33.3s speed=14.9MB/s
+[03:07:05] step=cleanup unlinked Caffeine (2006) CZ Dabing.mp4
+[03:07:05] step=film done cr_film_id=13637 total=70.2s (cdn=14.3s + download=22.6s + upload=33.3s)
+[03:07:05] step=state-saved cr_film_id=13637 (total uploads=974)
+[03:07:05] step=iteration 33/50
+[03:07:05] step=film start cr_film_id=13662 name='Brouk (2007) CZ Dabing'
+[03:07:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23767_720p.mp4
+[03:07:15] step=cdn-resolve done 10.7s → https://online18.sktorrent.eu/media/videos//h264/23767_720p.mp4
+[03:07:15] step=download curl https://online18.sktorrent.eu/media/videos//h264/23767_720p.mp4
+[03:09:55] step=download done cr_film_id=13662 size=642843495 dur=159.4s speed=4.0MB/s
+[03:09:55] step=upload start cr_film_id=13662 size=642843495
+[03:10:36] step=upload done cr_film_id=13662 video_id=24169198 dur=41.6s speed=15.5MB/s
+[03:10:36] step=cleanup unlinked Brouk (2007) CZ Dabing.mp4
+[03:10:36] step=film done cr_film_id=13662 total=211.8s (cdn=10.7s + download=159.4s + upload=41.6s)
+[03:10:36] step=state-saved cr_film_id=13662 (total uploads=975)
+[03:10:36] step=iteration 34/50
+[03:10:36] step=film start cr_film_id=13671 name='Kempink (2006) CZ Dabing'
+[03:10:36] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/34989_720p.mp4
+[03:10:37] step=cdn-resolve done 0.9s → https://online1.sktorrent.eu/media/videos//h264/34989_720p.mp4
+[03:10:37] step=download curl https://online1.sktorrent.eu/media/videos//h264/34989_720p.mp4
+[03:12:21] step=download done cr_film_id=13671 size=691130712 dur=104.2s speed=6.6MB/s
+[03:12:21] step=upload start cr_film_id=13671 size=691130712
+[03:13:20] step=upload done cr_film_id=13671 video_id=24169250 dur=58.8s speed=11.8MB/s
+[03:13:20] step=cleanup unlinked Kempink (2006) CZ Dabing.mp4
+[03:13:20] step=film done cr_film_id=13671 total=164.0s (cdn=0.9s + download=104.2s + upload=58.8s)
+[03:13:20] step=state-saved cr_film_id=13671 (total uploads=976)
+[03:13:20] step=iteration 35/50
+[03:13:20] step=film start cr_film_id=13715 name='On the Doll (2007) CZ Dabing'
+[03:13:20] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26683_720p.mp4
+[03:13:29] step=cdn-resolve done 8.9s → https://online13.sktorrent.eu/media/videos//h264/26683_720p.mp4
+[03:13:29] step=download curl https://online13.sktorrent.eu/media/videos//h264/26683_720p.mp4
+[03:15:05] step=download done cr_film_id=13715 size=1019229161 dur=95.8s speed=10.6MB/s
+[03:15:05] step=upload start cr_film_id=13715 size=1019229161
+[03:16:29] step=upload done cr_film_id=13715 video_id=24169304 dur=83.9s speed=12.1MB/s
+[03:16:29] step=cleanup unlinked On the Doll (2007) CZ Dabing.mp4
+[03:16:29] step=film done cr_film_id=13715 total=188.8s (cdn=8.9s + download=95.8s + upload=83.9s)
+[03:16:29] step=state-saved cr_film_id=13715 (total uploads=977)
+[03:16:29] step=iteration 36/50
+[03:16:29] step=film start cr_film_id=13748 name='Getting Home (2007) CZ Dabing'
+[03:16:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/54421_720p.mp4
+[03:16:39] step=cdn-resolve done 10.3s → https://online17.sktorrent.eu/media/videos//h264/54421_720p.mp4
+[03:16:39] step=download curl https://online17.sktorrent.eu/media/videos//h264/54421_720p.mp4
+[03:17:27] step=download done cr_film_id=13748 size=492133006 dur=47.6s speed=10.3MB/s
+[03:17:27] step=upload start cr_film_id=13748 size=492133006
+[03:18:08] step=upload done cr_film_id=13748 video_id=24169351 dur=40.6s speed=12.1MB/s
+[03:18:08] step=cleanup unlinked Getting Home (2007) CZ Dabing.mp4
+[03:18:08] step=film done cr_film_id=13748 total=98.6s (cdn=10.3s + download=47.6s + upload=40.6s)
+[03:18:08] step=state-saved cr_film_id=13748 (total uploads=978)
+[03:18:08] step=iteration 37/50
+[03:18:08] step=film start cr_film_id=13768 name='Jarní prázdniny (2009) CZ Dabing'
+[03:18:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26228_720p.mp4
+[03:18:12] step=cdn-resolve done 3.7s → https://online6.sktorrent.eu/media/videos//h264/26228_720p.mp4
+[03:18:12] step=download curl https://online6.sktorrent.eu/media/videos//h264/26228_720p.mp4
+[03:19:50] step=download done cr_film_id=13768 size=1064924741 dur=98.8s speed=10.8MB/s
+[03:19:50] step=upload start cr_film_id=13768 size=1064924741
+[03:21:00] step=upload done cr_film_id=13768 video_id=24169394 dur=69.2s speed=15.4MB/s
+[03:21:00] step=cleanup unlinked Jarní prázdniny (2009) CZ Dabing.mp4
+[03:21:00] step=film done cr_film_id=13768 total=171.8s (cdn=3.7s + download=98.8s + upload=69.2s)
+[03:21:00] step=state-saved cr_film_id=13768 (total uploads=979)
+[03:21:00] step=iteration 38/50
+[03:21:00] step=film start cr_film_id=13777 name='Úlovek (2008) CZ Dabing'
+[03:21:00] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/41812_HD.mp4
+[03:21:09] step=cdn-resolve done 9.2s → https://online13.sktorrent.eu/media/videos//h264/41812_HD.mp4
+[03:21:09] step=download curl https://online13.sktorrent.eu/media/videos//h264/41812_HD.mp4
+[03:23:21] step=download done cr_film_id=13777 size=362932251 dur=132.5s speed=2.7MB/s
+[03:23:21] step=upload start cr_film_id=13777 size=362932251
+[03:23:48] step=upload done cr_film_id=13777 video_id=24169461 dur=26.3s speed=13.8MB/s
+[03:23:48] step=cleanup unlinked Úlovek (2008) CZ Dabing.mp4
+[03:23:48] step=film done cr_film_id=13777 total=168.1s (cdn=9.2s + download=132.5s + upload=26.3s)
+[03:23:48] step=state-saved cr_film_id=13777 (total uploads=980)
+[03:23:48] step=iteration 39/50
+[03:23:48] step=film start cr_film_id=13779 name='Lora (2007) CZ Dabing'
+[03:23:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22794_720p.mp4
+[03:23:57] step=cdn-resolve done 9.3s → https://online15.sktorrent.eu/media/videos//h264/22794_720p.mp4
+[03:23:57] step=download curl https://online15.sktorrent.eu/media/videos//h264/22794_720p.mp4
+[03:25:09] step=download done cr_film_id=13779 size=777575903 dur=71.9s speed=10.8MB/s
+[03:25:09] step=upload start cr_film_id=13779 size=777575903
+[03:26:15] step=upload done cr_film_id=13779 video_id=24169495 dur=66.2s speed=11.7MB/s
+[03:26:15] step=cleanup unlinked Lora (2007) CZ Dabing.mp4
+[03:26:15] step=film done cr_film_id=13779 total=147.5s (cdn=9.3s + download=71.9s + upload=66.2s)
+[03:26:15] step=state-saved cr_film_id=13779 (total uploads=981)
+[03:26:15] step=iteration 40/50
+[03:26:15] step=film start cr_film_id=13794 name='Sólista (2007) CZ Dabing'
+[03:26:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24980_720p.mp4
+[03:26:22] step=cdn-resolve done 6.3s → https://online9.sktorrent.eu/media/videos//h264/24980_720p.mp4
+[03:26:22] step=download curl https://online9.sktorrent.eu/media/videos//h264/24980_720p.mp4
+[03:27:24] step=download done cr_film_id=13794 size=583422114 dur=62.0s speed=9.4MB/s
+[03:27:24] step=upload start cr_film_id=13794 size=583422114
+[03:28:14] step=upload done cr_film_id=13794 video_id=24169533 dur=50.2s speed=11.6MB/s
+[03:28:14] step=cleanup unlinked Sólista (2007) CZ Dabing.mp4
+[03:28:14] step=film done cr_film_id=13794 total=118.7s (cdn=6.3s + download=62.0s + upload=50.2s)
+[03:28:14] step=state-saved cr_film_id=13794 (total uploads=982)
+[03:28:14] step=iteration 41/50
+[03:28:14] step=film start cr_film_id=13844 name='Zašlá sláva Marca Pease (2009) CZ Dabing'
+[03:28:14] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27757_720p.mp4
+[03:28:23] step=cdn-resolve done 9.4s → https://online14.sktorrent.eu/media/videos//h264/27757_720p.mp4
+[03:28:23] step=download curl https://online14.sktorrent.eu/media/videos//h264/27757_720p.mp4
+[03:30:05] step=download done cr_film_id=13844 size=643415644 dur=101.6s speed=6.3MB/s
+[03:30:05] step=upload start cr_film_id=13844 size=643415644
+[03:31:44] step=upload done cr_film_id=13844 video_id=24169589 dur=99.4s speed=6.5MB/s
+[03:31:45] step=cleanup unlinked Zašlá sláva Marca Pease (2009) CZ Dabing.mp4
+[03:31:45] step=film done cr_film_id=13844 total=210.6s (cdn=9.4s + download=101.6s + upload=99.4s)
+[03:31:45] step=state-saved cr_film_id=13844 (total uploads=983)
+[03:31:45] step=iteration 42/50
+[03:31:45] step=film start cr_film_id=13917 name='Salt-N-Pepa (2021) CZ Dabing'
+[03:31:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23123_720p.mp4
+[03:31:48] step=cdn-resolve done 3.9s → https://online6.sktorrent.eu/media/videos//h264/23123_720p.mp4
+[03:31:48] step=download curl https://online6.sktorrent.eu/media/videos//h264/23123_720p.mp4
+[03:34:08] step=download done cr_film_id=13917 size=1213252590 dur=139.7s speed=8.7MB/s
+[03:34:08] step=upload start cr_film_id=13917 size=1213252590
+[03:35:42] step=upload done cr_film_id=13917 video_id=24169659 dur=94.1s speed=12.9MB/s
+[03:35:42] step=cleanup unlinked Salt-N-Pepa (2021) CZ Dabing.mp4
+[03:35:42] step=film done cr_film_id=13917 total=237.9s (cdn=3.9s + download=139.7s + upload=94.1s)
+[03:35:42] step=state-saved cr_film_id=13917 (total uploads=984)
+[03:35:42] step=iteration 43/50
+[03:35:42] step=film start cr_film_id=13973 name='Zhoubná posedlost (2022) CZ Dabing'
+[03:35:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22015_720p.mp4
+[03:35:50] step=cdn-resolve done 7.5s → https://online11.sktorrent.eu/media/videos//h264/22015_720p.mp4
+[03:35:50] step=download curl https://online11.sktorrent.eu/media/videos//h264/22015_720p.mp4
+[03:36:44] step=download done cr_film_id=13973 size=490144643 dur=53.6s speed=9.1MB/s
+[03:36:44] step=upload start cr_film_id=13973 size=490144643
+[03:37:43] step=upload done cr_film_id=13973 video_id=24169716 dur=59.7s speed=8.2MB/s
+[03:37:43] step=cleanup unlinked Zhoubná posedlost (2022) CZ Dabing.mp4
+[03:37:43] step=film done cr_film_id=13973 total=120.9s (cdn=7.5s + download=53.6s + upload=59.7s)
+[03:37:43] step=state-saved cr_film_id=13973 (total uploads=985)
+[03:37:43] step=iteration 44/50
+[03:37:43] step=film start cr_film_id=13999 name='Ztracená sestra (2020) CZ Dabing'
+[03:37:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23122_720p.mp4
+[03:37:53] step=cdn-resolve done 9.9s → https://online16.sktorrent.eu/media/videos//h264/23122_720p.mp4
+[03:37:53] step=download curl https://online16.sktorrent.eu/media/videos//h264/23122_720p.mp4
+[03:40:02] step=download done cr_film_id=13999 size=526722360 dur=128.5s speed=4.1MB/s
+[03:40:02] step=upload start cr_film_id=13999 size=526722360
+[03:40:39] step=upload done cr_film_id=13999 video_id=24169781 dur=37.3s speed=14.1MB/s
+[03:40:39] step=cleanup unlinked Ztracená sestra (2020) CZ Dabing.mp4
+[03:40:39] step=film done cr_film_id=13999 total=175.8s (cdn=9.9s + download=128.5s + upload=37.3s)
+[03:40:39] step=state-saved cr_film_id=13999 (total uploads=986)
+[03:40:39] step=iteration 45/50
+[03:40:39] step=film start cr_film_id=14007 name='Dívky (2020) CZ Dabing'
+[03:40:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18349_720p.mp4
+[03:40:43] step=cdn-resolve done 3.8s → https://online6.sktorrent.eu/media/videos//h264/18349_720p.mp4
+[03:40:43] step=download curl https://online6.sktorrent.eu/media/videos//h264/18349_720p.mp4
+[03:41:35] step=download done cr_film_id=14007 size=521816186 dur=51.9s speed=10.1MB/s
+[03:41:35] step=upload start cr_film_id=14007 size=521816186
+[03:42:08] step=upload done cr_film_id=14007 video_id=24169812 dur=33.4s speed=15.6MB/s
+[03:42:08] step=cleanup unlinked Dívky (2020) CZ Dabing.mp4
+[03:42:08] step=film done cr_film_id=14007 total=89.2s (cdn=3.8s + download=51.9s + upload=33.4s)
+[03:42:08] step=state-saved cr_film_id=14007 (total uploads=987)
+[03:42:08] step=iteration 46/50
+[03:42:08] step=film start cr_film_id=14028 name='Šampaňské! (2022) CZ Dabing'
+[03:42:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32206_720p.mp4
+[03:42:17] step=cdn-resolve done 8.7s → https://online14.sktorrent.eu/media/videos//h264/32206_720p.mp4
+[03:42:17] step=download curl https://online14.sktorrent.eu/media/videos//h264/32206_720p.mp4
+[03:45:22] step=download done cr_film_id=14028 size=655113776 dur=185.1s speed=3.5MB/s
+[03:45:22] step=upload start cr_film_id=14028 size=655113776
+[03:46:04] step=upload done cr_film_id=14028 video_id=24169904 dur=42.3s speed=15.5MB/s
+[03:46:04] step=cleanup unlinked Šampaňské! (2022) CZ Dabing.mp4
+[03:46:04] step=film done cr_film_id=14028 total=236.2s (cdn=8.7s + download=185.1s + upload=42.3s)
+[03:46:05] step=state-saved cr_film_id=14028 (total uploads=988)
+[03:46:05] step=iteration 47/50
+[03:46:05] step=film start cr_film_id=14049 name='301 (2011) CZ Dabing'
+[03:46:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27021_720p.mp4
+[03:46:12] step=cdn-resolve done 7.1s → https://online11.sktorrent.eu/media/videos//h264/27021_720p.mp4
+[03:46:12] step=download curl https://online11.sktorrent.eu/media/videos//h264/27021_720p.mp4
+[03:47:27] step=download done cr_film_id=14049 size=736769118 dur=75.0s speed=9.8MB/s
+[03:47:27] step=upload start cr_film_id=14049 size=736769118
+[03:48:13] step=upload done cr_film_id=14049 video_id=24169959 dur=46.5s speed=15.8MB/s
+[03:48:13] step=cleanup unlinked 301 (2011) CZ Dabing.mp4
+[03:48:13] step=film done cr_film_id=14049 total=128.7s (cdn=7.1s + download=75.0s + upload=46.5s)
+[03:48:13] step=state-saved cr_film_id=14049 (total uploads=989)
+[03:48:13] step=iteration 48/50
+[03:48:13] step=film start cr_film_id=14136 name='Stíny smrti: Vražda bez chuti (2020) CZ Dabing'
+[03:48:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45492_720p.mp4
+[03:48:27] step=cdn-resolve done 13.3s → https://online23.sktorrent.eu/media/videos//h264/45492_720p.mp4
+[03:48:27] step=download curl https://online23.sktorrent.eu/media/videos//h264/45492_720p.mp4
+[03:49:30] step=download done cr_film_id=14136 size=635978891 dur=63.9s speed=10.0MB/s
+[03:49:30] step=upload start cr_film_id=14136 size=635978891
+[03:50:16] step=upload done cr_film_id=14136 video_id=24170021 dur=45.7s speed=13.9MB/s
+[03:50:16] step=cleanup unlinked Stíny smrti: Vražda bez chuti (2020) CZ Dabing.mp4
+[03:50:16] step=film done cr_film_id=14136 total=123.0s (cdn=13.3s + download=63.9s + upload=45.7s)
+[03:50:16] step=state-saved cr_film_id=14136 (total uploads=990)
+[03:50:16] step=iteration 49/50
+[03:50:16] step=film start cr_film_id=14144 name='Belle Fille (2020) CZ Dabing'
+[03:50:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42207_720p.mp4
+[03:50:19] step=cdn-resolve done 3.1s → https://online5.sktorrent.eu/media/videos//h264/42207_720p.mp4
+[03:50:19] step=download curl https://online5.sktorrent.eu/media/videos//h264/42207_720p.mp4
+[03:51:03] step=download done cr_film_id=14144 size=417336487 dur=43.5s speed=9.6MB/s
+[03:51:03] step=upload start cr_film_id=14144 size=417336487
+[03:51:29] step=upload done cr_film_id=14144 video_id=24170076 dur=26.0s speed=16.1MB/s
+[03:51:29] step=cleanup unlinked Belle Fille (2020) CZ Dabing.mp4
+[03:51:29] step=film done cr_film_id=14144 total=72.7s (cdn=3.1s + download=43.5s + upload=26.0s)
+[03:51:29] step=state-saved cr_film_id=14144 (total uploads=991)
+[03:51:29] step=iteration 50/50
+[03:51:29] step=film start cr_film_id=14151 name='Stíny smrti: Prokletí města Provins (2019) CZ Dabing'
+[03:51:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45626_720p.mp4
+[03:51:37] step=cdn-resolve done 8.3s → https://online12.sktorrent.eu/media/videos//h264/45626_720p.mp4
+[03:51:37] step=download curl https://online12.sktorrent.eu/media/videos//h264/45626_720p.mp4
+[03:52:24] step=download done cr_film_id=14151 size=495927536 dur=47.2s speed=10.5MB/s
+[03:52:24] step=upload start cr_film_id=14151 size=495927536
+[03:52:55] step=upload done cr_film_id=14151 video_id=24170116 dur=30.3s speed=16.4MB/s
+[03:52:55] step=cleanup unlinked Stíny smrti: Prokletí města Provins (2019) CZ Dabing.mp4
+[03:52:55] step=film done cr_film_id=14151 total=85.8s (cdn=8.3s + download=47.2s + upload=30.3s)
+[03:52:55] step=state-saved cr_film_id=14151 (total uploads=992)
+[03:52:55] step=batch-end succeeded=50 failed=0 total_uploads=992 batch_dur=7042.6s avg_per_film=140.9s backlog_remaining=517 eta_hours=20.2
