@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-25T05:07:44Z",
+  "last_updated": "2026-04-25T06:32:14Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -18743,6 +18743,906 @@
         "download_sec": 86.2,
         "upload_sec": 49.8,
         "total_sec": 141.1
+      }
+    },
+    {
+      "cr_film_id": 15272,
+      "cr_slug": "americano-2011",
+      "title": "Americano",
+      "year": 2011,
+      "sktorrent_id": 45495,
+      "prehrajto_video_id": 24171830,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:09:12Z",
+      "status": "processing",
+      "size_bytes": 294197816,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 31.2,
+        "upload_sec": 14.5,
+        "total_sec": 46.8
+      }
+    },
+    {
+      "cr_film_id": 15291,
+      "cr_slug": "jack-of-diamonds-2011",
+      "title": "Jack of Diamonds",
+      "year": 2011,
+      "sktorrent_id": 45242,
+      "prehrajto_video_id": 24171852,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:11:13Z",
+      "status": "processing",
+      "size_bytes": 744599440,
+      "timing": {
+        "cdn_resolve_sec": 6.7,
+        "download_sec": 83.1,
+        "upload_sec": 30.8,
+        "total_sec": 120.6
+      }
+    },
+    {
+      "cr_film_id": 15320,
+      "cr_slug": "zlomeny-muz-2022",
+      "title": "Zlomený muž",
+      "year": 2022,
+      "sktorrent_id": 52540,
+      "prehrajto_video_id": 24171872,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:12:15Z",
+      "status": "processing",
+      "size_bytes": 428082004,
+      "timing": {
+        "cdn_resolve_sec": 1.8,
+        "download_sec": 40.5,
+        "upload_sec": 19.4,
+        "total_sec": 61.8
+      }
+    },
+    {
+      "cr_film_id": 15324,
+      "cr_slug": "my-lai-2010",
+      "title": "My Lai",
+      "year": 2010,
+      "sktorrent_id": 21346,
+      "prehrajto_video_id": 24171907,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:14:07Z",
+      "status": "processing",
+      "size_bytes": 756110356,
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 72.1,
+        "upload_sec": 33.3,
+        "total_sec": 112.4
+      }
+    },
+    {
+      "cr_film_id": 15339,
+      "cr_slug": "zari-2022",
+      "title": "Září",
+      "year": 2022,
+      "sktorrent_id": 37654,
+      "prehrajto_video_id": 24171939,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:15:26Z",
+      "status": "processing",
+      "size_bytes": 412210419,
+      "timing": {
+        "cdn_resolve_sec": 5.7,
+        "download_sec": 43.7,
+        "upload_sec": 28.9,
+        "total_sec": 78.4
+      }
+    },
+    {
+      "cr_film_id": 15376,
+      "cr_slug": "marisa-1984",
+      "title": "Mariša",
+      "year": 1984,
+      "sktorrent_id": 30848,
+      "prehrajto_video_id": 24171974,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:16:42Z",
+      "status": "processing",
+      "size_bytes": 407617805,
+      "timing": {
+        "cdn_resolve_sec": 3.5,
+        "download_sec": 45.0,
+        "upload_sec": 27.9,
+        "total_sec": 76.5
+      }
+    },
+    {
+      "cr_film_id": 15446,
+      "cr_slug": "final-fantasy-vii-on-the-way-to-a-smile-episode-denzel-2009",
+      "title": "Final Fantasy VII: On the Way to a Smile - Episode: Denzel",
+      "year": 2009,
+      "sktorrent_id": 19780,
+      "prehrajto_video_id": 24172017,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:18:41Z",
+      "status": "processing",
+      "size_bytes": 648707936,
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 72.7,
+        "upload_sec": 39.8,
+        "total_sec": 118.7
+      }
+    },
+    {
+      "cr_film_id": 15454,
+      "cr_slug": "nedotknutelni-2019",
+      "title": "Nedotknutelní",
+      "year": 2019,
+      "sktorrent_id": 3449,
+      "prehrajto_video_id": 24172118,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:25:09Z",
+      "status": "processing",
+      "size_bytes": 2568765938,
+      "timing": {
+        "cdn_resolve_sec": 9.3,
+        "download_sec": 256.1,
+        "upload_sec": 122.6,
+        "total_sec": 388.4
+      }
+    },
+    {
+      "cr_film_id": 15458,
+      "cr_slug": "za-francii-2023",
+      "title": "Za Francii",
+      "year": 2023,
+      "sktorrent_id": 44457,
+      "prehrajto_video_id": 24172170,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:26:19Z",
+      "status": "processing",
+      "size_bytes": 439992992,
+      "timing": {
+        "cdn_resolve_sec": 3.0,
+        "download_sec": 45.8,
+        "upload_sec": 21.1,
+        "total_sec": 69.9
+      }
+    },
+    {
+      "cr_film_id": 15473,
+      "cr_slug": "co-to-s-tebou-je-2024",
+      "title": "Co to s tebou je?!",
+      "year": 2024,
+      "sktorrent_id": 39135,
+      "prehrajto_video_id": 24172189,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:27:08Z",
+      "status": "processing",
+      "size_bytes": 232845087,
+      "timing": {
+        "cdn_resolve_sec": 11.0,
+        "download_sec": 25.9,
+        "upload_sec": 11.6,
+        "total_sec": 48.5
+      }
+    },
+    {
+      "cr_film_id": 15474,
+      "cr_slug": "internat-2024",
+      "title": "Internát",
+      "year": 2024,
+      "sktorrent_id": 45678,
+      "prehrajto_video_id": 24172217,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:28:39Z",
+      "status": "processing",
+      "size_bytes": 614079835,
+      "timing": {
+        "cdn_resolve_sec": 6.5,
+        "download_sec": 56.9,
+        "upload_sec": 27.6,
+        "total_sec": 91.0
+      }
+    },
+    {
+      "cr_film_id": 15492,
+      "cr_slug": "apatykar-melchior-katova-dcera-2023",
+      "title": "Apatykář Melchior: Katova dcera",
+      "year": 2023,
+      "sktorrent_id": 42905,
+      "prehrajto_video_id": 24172261,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:30:10Z",
+      "status": "processing",
+      "size_bytes": 448229306,
+      "timing": {
+        "cdn_resolve_sec": 4.0,
+        "download_sec": 65.0,
+        "upload_sec": 22.0,
+        "total_sec": 91.0
+      }
+    },
+    {
+      "cr_film_id": 15504,
+      "cr_slug": "hromadeni-2024",
+      "title": "Hromadění",
+      "year": 2024,
+      "sktorrent_id": 38619,
+      "prehrajto_video_id": 24172316,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:32:32Z",
+      "status": "processing",
+      "size_bytes": 976212895,
+      "timing": {
+        "cdn_resolve_sec": 9.2,
+        "download_sec": 88.4,
+        "upload_sec": 44.5,
+        "total_sec": 142.3
+      }
+    },
+    {
+      "cr_film_id": 15551,
+      "cr_slug": "malicke-2023",
+      "title": "Maličké",
+      "year": 2023,
+      "sktorrent_id": 36043,
+      "prehrajto_video_id": 24172352,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:34:03Z",
+      "status": "processing",
+      "size_bytes": 594555421,
+      "timing": {
+        "cdn_resolve_sec": 9.1,
+        "download_sec": 55.8,
+        "upload_sec": 25.8,
+        "total_sec": 90.8
+      }
+    },
+    {
+      "cr_film_id": 15552,
+      "cr_slug": "boure-2022",
+      "title": "Bouře",
+      "year": 2022,
+      "sktorrent_id": 46539,
+      "prehrajto_video_id": 24172402,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:36:15Z",
+      "status": "processing",
+      "size_bytes": 803760474,
+      "timing": {
+        "cdn_resolve_sec": 9.4,
+        "download_sec": 82.2,
+        "upload_sec": 40.5,
+        "total_sec": 132.2
+      }
+    },
+    {
+      "cr_film_id": 15606,
+      "cr_slug": "zakleta-2023",
+      "title": "Zakletá",
+      "year": 2023,
+      "sktorrent_id": 37834,
+      "prehrajto_video_id": 24172450,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:37:52Z",
+      "status": "processing",
+      "size_bytes": 547239376,
+      "timing": {
+        "cdn_resolve_sec": 9.9,
+        "download_sec": 59.1,
+        "upload_sec": 28.2,
+        "total_sec": 97.2
+      }
+    },
+    {
+      "cr_film_id": 15647,
+      "cr_slug": "eyjafjallajokull-2013",
+      "title": "Eyjafjallajökull",
+      "year": 2013,
+      "sktorrent_id": 16136,
+      "prehrajto_video_id": 24172488,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:39:32Z",
+      "status": "processing",
+      "size_bytes": 615509368,
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 68.4,
+        "upload_sec": 28.5,
+        "total_sec": 100.1
+      }
+    },
+    {
+      "cr_film_id": 15667,
+      "cr_slug": "jevida-2023",
+      "title": "Jevida",
+      "year": 2023,
+      "sktorrent_id": 44780,
+      "prehrajto_video_id": 24172524,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:41:34Z",
+      "status": "processing",
+      "size_bytes": 670416162,
+      "timing": {
+        "cdn_resolve_sec": 5.4,
+        "download_sec": 65.2,
+        "upload_sec": 51.2,
+        "total_sec": 122.0
+      }
+    },
+    {
+      "cr_film_id": 15678,
+      "cr_slug": "dokud-nas-laska-nerozdeli-2024",
+      "title": "Dokud nás láska nerozdělí",
+      "year": 2024,
+      "sktorrent_id": 44618,
+      "prehrajto_video_id": 24172566,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:43:53Z",
+      "status": "processing",
+      "size_bytes": 750287929,
+      "timing": {
+        "cdn_resolve_sec": 10.6,
+        "download_sec": 87.0,
+        "upload_sec": 40.7,
+        "total_sec": 138.3
+      }
+    },
+    {
+      "cr_film_id": 15686,
+      "cr_slug": "supernova-2023",
+      "title": "Supernova",
+      "year": 2023,
+      "sktorrent_id": 33490,
+      "prehrajto_video_id": 24172593,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:45:05Z",
+      "status": "processing",
+      "size_bytes": 407210415,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 48.2,
+        "upload_sec": 19.0,
+        "total_sec": 72.4
+      }
+    },
+    {
+      "cr_film_id": 15698,
+      "cr_slug": "stiny-smrti-vrazda-v-pont-aven-2023",
+      "title": "Stíny smrti: Vražda v Pont-Aven",
+      "year": 2023,
+      "sktorrent_id": 45514,
+      "prehrajto_video_id": 24172622,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:46:33Z",
+      "status": "processing",
+      "size_bytes": 566597363,
+      "timing": {
+        "cdn_resolve_sec": 8.6,
+        "download_sec": 51.6,
+        "upload_sec": 27.2,
+        "total_sec": 87.6
+      }
+    },
+    {
+      "cr_film_id": 15715,
+      "cr_slug": "stiny-smrti-vrazedne-prazdniny-2023",
+      "title": "Stíny smrti: Vražedné prázdniny",
+      "year": 2023,
+      "sktorrent_id": 22002,
+      "prehrajto_video_id": 24172643,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:47:37Z",
+      "status": "processing",
+      "size_bytes": 363780397,
+      "timing": {
+        "cdn_resolve_sec": 4.0,
+        "download_sec": 39.7,
+        "upload_sec": 19.9,
+        "total_sec": 63.7
+      }
+    },
+    {
+      "cr_film_id": 15735,
+      "cr_slug": "jake-a-jake-2014",
+      "title": "Jake a Jake",
+      "year": 2014,
+      "sktorrent_id": 16254,
+      "prehrajto_video_id": 24172661,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:48:21Z",
+      "status": "processing",
+      "size_bytes": 240282638,
+      "timing": {
+        "cdn_resolve_sec": 4.2,
+        "download_sec": 27.9,
+        "upload_sec": 12.0,
+        "total_sec": 44.1
+      }
+    },
+    {
+      "cr_film_id": 15819,
+      "cr_slug": "judge-archer",
+      "title": "Judge Archer",
+      "year": 2016,
+      "sktorrent_id": 18439,
+      "prehrajto_video_id": 24172692,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:50:00Z",
+      "status": "processing",
+      "size_bytes": 538466319,
+      "timing": {
+        "cdn_resolve_sec": 6.2,
+        "download_sec": 59.4,
+        "upload_sec": 33.5,
+        "total_sec": 99.1
+      }
+    },
+    {
+      "cr_film_id": 15827,
+      "cr_slug": "suddenly-2013",
+      "title": "Suddenly",
+      "year": 2013,
+      "sktorrent_id": 2421,
+      "prehrajto_video_id": 24172733,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:52:39Z",
+      "status": "processing",
+      "size_bytes": 913430329,
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 102.1,
+        "upload_sec": 50.4,
+        "total_sec": 158.7
+      }
+    },
+    {
+      "cr_film_id": 15844,
+      "cr_slug": "vanice-2024",
+      "title": "Vánice",
+      "year": 2024,
+      "sktorrent_id": 47319,
+      "prehrajto_video_id": 24172782,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:54:00Z",
+      "status": "processing",
+      "size_bytes": 400519586,
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 56.5,
+        "upload_sec": 21.9,
+        "total_sec": 81.5
+      }
+    },
+    {
+      "cr_film_id": 15852,
+      "cr_slug": "sep-2013",
+      "title": "Sęp",
+      "year": 2013,
+      "sktorrent_id": 18236,
+      "prehrajto_video_id": 24172851,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:56:02Z",
+      "status": "processing",
+      "size_bytes": 737925521,
+      "timing": {
+        "cdn_resolve_sec": 5.8,
+        "download_sec": 82.0,
+        "upload_sec": 33.7,
+        "total_sec": 121.5
+      }
+    },
+    {
+      "cr_film_id": 15894,
+      "cr_slug": "citronovnik-2023",
+      "title": "Citrónovník",
+      "year": 2023,
+      "sktorrent_id": 47838,
+      "prehrajto_video_id": 24172881,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:57:49Z",
+      "status": "processing",
+      "size_bytes": 511342708,
+      "timing": {
+        "cdn_resolve_sec": 5.9,
+        "download_sec": 61.3,
+        "upload_sec": 39.6,
+        "total_sec": 106.9
+      }
+    },
+    {
+      "cr_film_id": 15899,
+      "cr_slug": "vzmuzme-se-2024",
+      "title": "Vzmužme se",
+      "year": 2024,
+      "sktorrent_id": 35884,
+      "prehrajto_video_id": 24172908,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T05:58:50Z",
+      "status": "processing",
+      "size_bytes": 351026601,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 40.5,
+        "upload_sec": 19.3,
+        "total_sec": 61.2
+      }
+    },
+    {
+      "cr_film_id": 15905,
+      "cr_slug": "skutecne-vrazdy-ztraceny-snoubenec-2023",
+      "title": "Skutečné vraždy: Ztracený snoubenec",
+      "year": 2023,
+      "sktorrent_id": 56635,
+      "prehrajto_video_id": 24172939,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:00:39Z",
+      "status": "processing",
+      "size_bytes": 391303533,
+      "timing": {
+        "cdn_resolve_sec": 5.0,
+        "download_sec": 43.1,
+        "upload_sec": 60.9,
+        "total_sec": 108.9
+      }
+    },
+    {
+      "cr_film_id": 15912,
+      "cr_slug": "on-the-job-2013",
+      "title": "On the Job",
+      "year": 2013,
+      "sktorrent_id": 7620,
+      "prehrajto_video_id": 24172990,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:04:03Z",
+      "status": "processing",
+      "size_bytes": 1262213065,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 144.0,
+        "upload_sec": 59.5,
+        "total_sec": 204.3
+      }
+    },
+    {
+      "cr_film_id": 15964,
+      "cr_slug": "hypnoza-2024",
+      "title": "Hypnóza",
+      "year": 2024,
+      "sktorrent_id": 42079,
+      "prehrajto_video_id": 24173027,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:05:17Z",
+      "status": "processing",
+      "size_bytes": 370078095,
+      "timing": {
+        "cdn_resolve_sec": 12.2,
+        "download_sec": 34.8,
+        "upload_sec": 26.9,
+        "total_sec": 74.0
+      }
+    },
+    {
+      "cr_film_id": 15973,
+      "cr_slug": "mleko-2024",
+      "title": "Mléko",
+      "year": 2024,
+      "sktorrent_id": 44175,
+      "prehrajto_video_id": 24173055,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:06:24Z",
+      "status": "processing",
+      "size_bytes": 393478042,
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 37.5,
+        "upload_sec": 22.2,
+        "total_sec": 66.6
+      }
+    },
+    {
+      "cr_film_id": 15975,
+      "cr_slug": "stiny-smrti-tajemstvi-finistere-2023",
+      "title": "Stíny smrti: Tajemství Finistère",
+      "year": 2023,
+      "sktorrent_id": 47282,
+      "prehrajto_video_id": 24173091,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:08:05Z",
+      "status": "processing",
+      "size_bytes": 505271534,
+      "timing": {
+        "cdn_resolve_sec": 6.5,
+        "download_sec": 51.5,
+        "upload_sec": 43.3,
+        "total_sec": 101.4
+      }
+    },
+    {
+      "cr_film_id": 16007,
+      "cr_slug": "labyrint-2014",
+      "title": "Labyrint",
+      "year": 2014,
+      "sktorrent_id": 35048,
+      "prehrajto_video_id": 24173139,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:10:12Z",
+      "status": "processing",
+      "size_bytes": 776921315,
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 76.2,
+        "upload_sec": 43.1,
+        "total_sec": 126.5
+      }
+    },
+    {
+      "cr_film_id": 16039,
+      "cr_slug": "pane-krali-jdeme-zdali-1990",
+      "title": "Pane králi, jdeme zdáli",
+      "year": 1990,
+      "sktorrent_id": 46920,
+      "prehrajto_video_id": 24173169,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:11:07Z",
+      "status": "processing",
+      "size_bytes": 302954737,
+      "timing": {
+        "cdn_resolve_sec": 5.9,
+        "download_sec": 33.2,
+        "upload_sec": 16.5,
+        "total_sec": 55.6
+      }
+    },
+    {
+      "cr_film_id": 16053,
+      "cr_slug": "crater-2020",
+      "title": "Cráter",
+      "year": 2020,
+      "sktorrent_id": 30117,
+      "prehrajto_video_id": 24173192,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:12:25Z",
+      "status": "processing",
+      "size_bytes": 524792432,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 49.4,
+        "upload_sec": 27.3,
+        "total_sec": 77.4
+      }
+    },
+    {
+      "cr_film_id": 16058,
+      "cr_slug": "labut-2023",
+      "title": "Labuť",
+      "year": 2023,
+      "sktorrent_id": 32570,
+      "prehrajto_video_id": 24173209,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:12:48Z",
+      "status": "processing",
+      "size_bytes": 90195038,
+      "timing": {
+        "cdn_resolve_sec": 5.4,
+        "download_sec": 12.1,
+        "upload_sec": 5.9,
+        "total_sec": 23.5
+      }
+    },
+    {
+      "cr_film_id": 16069,
+      "cr_slug": "kdo-je-kdo-2024",
+      "title": "Kdo je kdo?",
+      "year": 2024,
+      "sktorrent_id": 52114,
+      "prehrajto_video_id": 24173241,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:14:46Z",
+      "status": "processing",
+      "size_bytes": 632359200,
+      "timing": {
+        "cdn_resolve_sec": 5.7,
+        "download_sec": 70.8,
+        "upload_sec": 40.9,
+        "total_sec": 117.5
+      }
+    },
+    {
+      "cr_film_id": 16126,
+      "cr_slug": "mozzarella-2024",
+      "title": "Mozzarella",
+      "year": 2024,
+      "sktorrent_id": 53670,
+      "prehrajto_video_id": 24173287,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:16:55Z",
+      "status": "processing",
+      "size_bytes": 792507742,
+      "timing": {
+        "cdn_resolve_sec": 5.4,
+        "download_sec": 78.6,
+        "upload_sec": 45.2,
+        "total_sec": 129.2
+      }
+    },
+    {
+      "cr_film_id": 16155,
+      "cr_slug": "bidnici-od-romanu-k-filmu-a-muzikalu-2013",
+      "title": "Bídníci: od románu k filmu a muzikálu",
+      "year": 2013,
+      "sktorrent_id": 20634,
+      "prehrajto_video_id": 24173310,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:17:50Z",
+      "status": "processing",
+      "size_bytes": 155892555,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 40.6,
+        "upload_sec": 9.1,
+        "total_sec": 55.1
+      }
+    },
+    {
+      "cr_film_id": 16170,
+      "cr_slug": "influencerky-2024",
+      "title": "Influencerky",
+      "year": 2024,
+      "sktorrent_id": 41684,
+      "prehrajto_video_id": 24173346,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:20:13Z",
+      "status": "processing",
+      "size_bytes": 694144349,
+      "timing": {
+        "cdn_resolve_sec": 8.0,
+        "download_sec": 104.1,
+        "upload_sec": 30.4,
+        "total_sec": 142.6
+      }
+    },
+    {
+      "cr_film_id": 16221,
+      "cr_slug": "vrazedna-sezona-pomsta-podle-bible-2014",
+      "title": "Vražedná sezóna: Pomsta podle Bible",
+      "year": 2014,
+      "sktorrent_id": 4986,
+      "prehrajto_video_id": 24173362,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:21:15Z",
+      "status": "processing",
+      "size_bytes": 350269872,
+      "timing": {
+        "cdn_resolve_sec": 1.7,
+        "download_sec": 40.8,
+        "upload_sec": 19.4,
+        "total_sec": 61.9
+      }
+    },
+    {
+      "cr_film_id": 16235,
+      "cr_slug": "je-to-na-tobe-2024",
+      "title": "Je to na tobě",
+      "year": 2024,
+      "sktorrent_id": 35608,
+      "prehrajto_video_id": 24173395,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:23:39Z",
+      "status": "processing",
+      "size_bytes": 794183641,
+      "timing": {
+        "cdn_resolve_sec": 5.0,
+        "download_sec": 101.3,
+        "upload_sec": 37.4,
+        "total_sec": 143.8
+      }
+    },
+    {
+      "cr_film_id": 16274,
+      "cr_slug": "temne-dedictvi-2024",
+      "title": "Temné dědictví",
+      "year": 2024,
+      "sktorrent_id": 54991,
+      "prehrajto_video_id": 24173424,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:24:42Z",
+      "status": "processing",
+      "size_bytes": 407464714,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 43.3,
+        "upload_sec": 19.0,
+        "total_sec": 63.4
+      }
+    },
+    {
+      "cr_film_id": 16299,
+      "cr_slug": "stiny-smrti-vrazda-v-aveyronu-2014",
+      "title": "Stíny smrti: Vražda v Aveyronu",
+      "year": 2014,
+      "sktorrent_id": 45407,
+      "prehrajto_video_id": 24173442,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:25:57Z",
+      "status": "processing",
+      "size_bytes": 808162357,
+      "timing": {
+        "cdn_resolve_sec": 11.6,
+        "download_sec": 26.2,
+        "upload_sec": 37.0,
+        "total_sec": 74.9
+      }
+    },
+    {
+      "cr_film_id": 16343,
+      "cr_slug": "paper-planes-2014",
+      "title": "Paper Planes",
+      "year": 2014,
+      "sktorrent_id": 44366,
+      "prehrajto_video_id": 24173478,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:28:00Z",
+      "status": "processing",
+      "size_bytes": 733553637,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 79.2,
+        "upload_sec": 38.0,
+        "total_sec": 122.6
+      }
+    },
+    {
+      "cr_film_id": 16363,
+      "cr_slug": "skutecne-vrazdy-navod-na-vrazdu-2024",
+      "title": "Skutečné vraždy: Návod na vraždu",
+      "year": 2024,
+      "sktorrent_id": 56643,
+      "prehrajto_video_id": 24173505,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:29:21Z",
+      "status": "processing",
+      "size_bytes": 469723378,
+      "timing": {
+        "cdn_resolve_sec": 7.2,
+        "download_sec": 46.9,
+        "upload_sec": 27.1,
+        "total_sec": 81.3
+      }
+    },
+    {
+      "cr_film_id": 16371,
+      "cr_slug": "skutecne-vrazdy-nuz-v-zadech-2024",
+      "title": "Skutečné vraždy: Nůž v zádech",
+      "year": 2024,
+      "sktorrent_id": 56642,
+      "prehrajto_video_id": 24173525,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:30:33Z",
+      "status": "processing",
+      "size_bytes": 390105513,
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 36.7,
+        "upload_sec": 28.0,
+        "total_sec": 71.7
+      }
+    },
+    {
+      "cr_film_id": 16436,
+      "cr_slug": "avignon-2025",
+      "title": "Avignon",
+      "year": 2025,
+      "sktorrent_id": 54526,
+      "prehrajto_video_id": 24173552,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-25T06:32:14Z",
+      "status": "processing",
+      "size_bytes": 625304136,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 73.3,
+        "upload_sec": 27.0,
+        "total_sec": 101.3
       }
     }
   ],

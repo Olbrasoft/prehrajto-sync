@@ -12935,3 +12935,559 @@
 [05:07:44] step=film done cr_film_id=15263 total=141.1s (cdn=5.0s + download=86.2s + upload=49.8s)
 [05:07:44] step=state-saved cr_film_id=15263 (total uploads=1042)
 [05:07:44] step=batch-end succeeded=50 failed=0 total_uploads=1042 batch_dur=4449.1s avg_per_film=89.0s backlog_remaining=467 eta_hours=11.5
+
+===== run 2026-04-25T05:08:23Z batch_size=50 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24923256587) =====
+[05:08:24] step=batch-start count=50 backlog=1511 uploads=1042 moderated=2
+[05:08:24] step=login
+[05:08:25] step=login done
+[05:08:25] step=iteration 1/50
+[05:08:25] step=film start cr_film_id=15272 name='Americano (2011) CZ Dabing'
+[05:08:25] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45495_HD.mp4
+[05:08:27] step=cdn-resolve done 1.1s → https://online1.sktorrent.eu/media/videos//h264/45495_HD.mp4
+[05:08:27] step=download curl https://online1.sktorrent.eu/media/videos//h264/45495_HD.mp4
+[05:08:58] step=download done cr_film_id=15272 size=294197816 dur=31.2s speed=9.4MB/s
+[05:08:58] step=upload start cr_film_id=15272 size=294197816
+[05:09:12] step=upload done cr_film_id=15272 video_id=24171830 dur=14.5s speed=20.3MB/s
+[05:09:12] step=cleanup unlinked Americano (2011) CZ Dabing.mp4
+[05:09:12] step=film done cr_film_id=15272 total=46.8s (cdn=1.1s + download=31.2s + upload=14.5s)
+[05:09:12] step=state-saved cr_film_id=15272 (total uploads=1043)
+[05:09:12] step=iteration 2/50
+[05:09:12] step=film start cr_film_id=15291 name='Jack of Diamonds (2011) CZ Dabing'
+[05:09:12] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45242_720p.mp4
+[05:09:19] step=cdn-resolve done 6.7s → https://online13.sktorrent.eu/media/videos//h264/45242_720p.mp4
+[05:09:19] step=download curl https://online13.sktorrent.eu/media/videos//h264/45242_720p.mp4
+[05:10:42] step=download done cr_film_id=15291 size=744599440 dur=83.1s speed=9.0MB/s
+[05:10:42] step=upload start cr_film_id=15291 size=744599440
+[05:11:13] step=upload done cr_film_id=15291 video_id=24171852 dur=30.8s speed=24.2MB/s
+[05:11:13] step=cleanup unlinked Jack of Diamonds (2011) CZ Dabing.mp4
+[05:11:13] step=film done cr_film_id=15291 total=120.6s (cdn=6.7s + download=83.1s + upload=30.8s)
+[05:11:13] step=state-saved cr_film_id=15291 (total uploads=1044)
+[05:11:13] step=iteration 3/50
+[05:11:13] step=film start cr_film_id=15320 name='Zlomený muž (2022) CZ Dabing'
+[05:11:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/52540_720p.mp4
+[05:11:15] step=cdn-resolve done 1.8s → https://online4.sktorrent.eu/media/videos//h264/52540_720p.mp4
+[05:11:15] step=download curl https://online4.sktorrent.eu/media/videos//h264/52540_720p.mp4
+[05:11:55] step=download done cr_film_id=15320 size=428082004 dur=40.5s speed=10.6MB/s
+[05:11:55] step=upload start cr_film_id=15320 size=428082004
+[05:12:15] step=upload done cr_film_id=15320 video_id=24171872 dur=19.4s speed=22.1MB/s
+[05:12:15] step=cleanup unlinked Zlomený muž (2022) CZ Dabing.mp4
+[05:12:15] step=film done cr_film_id=15320 total=61.8s (cdn=1.8s + download=40.5s + upload=19.4s)
+[05:12:15] step=state-saved cr_film_id=15320 (total uploads=1045)
+[05:12:15] step=iteration 4/50
+[05:12:15] step=film start cr_film_id=15324 name='My Lai (2010) CZ Dabing'
+[05:12:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/21346_720p.mp4
+[05:12:22] step=cdn-resolve done 6.9s → https://online14.sktorrent.eu/media/videos//h264/21346_720p.mp4
+[05:12:22] step=download curl https://online14.sktorrent.eu/media/videos//h264/21346_720p.mp4
+[05:13:34] step=download done cr_film_id=15324 size=756110356 dur=72.1s speed=10.5MB/s
+[05:13:34] step=upload start cr_film_id=15324 size=756110356
+[05:14:07] step=upload done cr_film_id=15324 video_id=24171907 dur=33.3s speed=22.7MB/s
+[05:14:07] step=cleanup unlinked My Lai (2010) CZ Dabing.mp4
+[05:14:07] step=film done cr_film_id=15324 total=112.4s (cdn=6.9s + download=72.1s + upload=33.3s)
+[05:14:07] step=state-saved cr_film_id=15324 (total uploads=1046)
+[05:14:07] step=iteration 5/50
+[05:14:07] step=film start cr_film_id=15339 name='Září (2022) CZ Dabing'
+[05:14:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37654_720p.mp4
+[05:14:13] step=cdn-resolve done 5.7s → https://online12.sktorrent.eu/media/videos//h264/37654_720p.mp4
+[05:14:13] step=download curl https://online12.sktorrent.eu/media/videos//h264/37654_720p.mp4
+[05:14:57] step=download done cr_film_id=15339 size=412210419 dur=43.7s speed=9.4MB/s
+[05:14:57] step=upload start cr_film_id=15339 size=412210419
+[05:15:25] step=upload done cr_film_id=15339 video_id=24171939 dur=28.9s speed=14.3MB/s
+[05:15:26] step=cleanup unlinked Září (2022) CZ Dabing.mp4
+[05:15:26] step=film done cr_film_id=15339 total=78.4s (cdn=5.7s + download=43.7s + upload=28.9s)
+[05:15:26] step=state-saved cr_film_id=15339 (total uploads=1047)
+[05:15:26] step=iteration 6/50
+[05:15:26] step=film start cr_film_id=15376 name='Mariša (1984) CZ'
+[05:15:26] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30848_720p.mp4
+[05:15:29] step=cdn-resolve done 3.5s → https://online6.sktorrent.eu/media/videos//h264/30848_720p.mp4
+[05:15:29] step=download curl https://online6.sktorrent.eu/media/videos//h264/30848_720p.mp4
+[05:16:14] step=download done cr_film_id=15376 size=407617805 dur=45.0s speed=9.1MB/s
+[05:16:14] step=upload start cr_film_id=15376 size=407617805
+[05:16:42] step=upload done cr_film_id=15376 video_id=24171974 dur=27.9s speed=14.6MB/s
+[05:16:42] step=cleanup unlinked Mariša (1984) CZ.mp4
+[05:16:42] step=film done cr_film_id=15376 total=76.5s (cdn=3.5s + download=45.0s + upload=27.9s)
+[05:16:42] step=state-saved cr_film_id=15376 (total uploads=1048)
+[05:16:42] step=iteration 7/50
+[05:16:42] step=film start cr_film_id=15446 name='Final Fantasy VII: On the Way to a Smile - Episode: Denzel (2009) CZ Dabing'
+[05:16:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19780_720p.mp4
+[05:16:48] step=cdn-resolve done 6.1s → https://online12.sktorrent.eu/media/videos//h264/19780_720p.mp4
+[05:16:48] step=download curl https://online12.sktorrent.eu/media/videos//h264/19780_720p.mp4
+[05:18:01] step=download done cr_film_id=15446 size=648707936 dur=72.7s speed=8.9MB/s
+[05:18:01] step=upload start cr_film_id=15446 size=648707936
+[05:18:41] step=upload done cr_film_id=15446 video_id=24172017 dur=39.8s speed=16.3MB/s
+[05:18:41] step=cleanup unlinked Final Fantasy VII: On the Way to a Smile - Episode: Denzel (2009) CZ Dabing.mp4
+[05:18:41] step=film done cr_film_id=15446 total=118.7s (cdn=6.1s + download=72.7s + upload=39.8s)
+[05:18:41] step=state-saved cr_film_id=15446 (total uploads=1049)
+[05:18:41] step=iteration 8/50
+[05:18:41] step=film start cr_film_id=15454 name='Nedotknutelní (2019) CZ Dabing'
+[05:18:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/3449_720p.mp4
+[05:18:50] step=cdn-resolve done 9.3s → https://online21.sktorrent.eu/media/videos//h264/3449_720p.mp4
+[05:18:50] step=download curl https://online21.sktorrent.eu/media/videos//h264/3449_720p.mp4
+[05:23:06] step=download done cr_film_id=15454 size=2568765938 dur=256.1s speed=10.0MB/s
+[05:23:06] step=upload start cr_film_id=15454 size=2568765938
+[05:25:09] step=upload done cr_film_id=15454 video_id=24172118 dur=122.6s speed=21.0MB/s
+[05:25:09] step=cleanup unlinked Nedotknutelní (2019) CZ Dabing.mp4
+[05:25:09] step=film done cr_film_id=15454 total=388.4s (cdn=9.3s + download=256.1s + upload=122.6s)
+[05:25:09] step=state-saved cr_film_id=15454 (total uploads=1050)
+[05:25:09] step=iteration 9/50
+[05:25:09] step=film start cr_film_id=15458 name='Za Francii (2023) CZ Dabing'
+[05:25:09] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44457_720p.mp4
+[05:25:12] step=cdn-resolve done 3.0s → https://online5.sktorrent.eu/media/videos//h264/44457_720p.mp4
+[05:25:12] step=download curl https://online5.sktorrent.eu/media/videos//h264/44457_720p.mp4
+[05:25:58] step=download done cr_film_id=15458 size=439992992 dur=45.8s speed=9.6MB/s
+[05:25:58] step=upload start cr_film_id=15458 size=439992992
+[05:26:19] step=upload done cr_film_id=15458 video_id=24172170 dur=21.1s speed=20.9MB/s
+[05:26:19] step=cleanup unlinked Za Francii (2023) CZ Dabing.mp4
+[05:26:19] step=film done cr_film_id=15458 total=69.9s (cdn=3.0s + download=45.8s + upload=21.1s)
+[05:26:19] step=state-saved cr_film_id=15458 (total uploads=1051)
+[05:26:19] step=iteration 10/50
+[05:26:19] step=film start cr_film_id=15473 name='Co to s tebou je?! (2024) CZ Dabing'
+[05:26:19] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/39135_480p.mp4
+[05:26:30] step=cdn-resolve done 11.0s → https://online24.sktorrent.eu/media/videos//h264/39135_480p.mp4
+[05:26:30] step=download curl https://online24.sktorrent.eu/media/videos//h264/39135_480p.mp4
+[05:26:56] step=download done cr_film_id=15473 size=232845087 dur=25.9s speed=9.0MB/s
+[05:26:56] step=upload start cr_film_id=15473 size=232845087
+[05:27:08] step=upload done cr_film_id=15473 video_id=24172189 dur=11.6s speed=20.1MB/s
+[05:27:08] step=cleanup unlinked Co to s tebou je?! (2024) CZ Dabing.mp4
+[05:27:08] step=film done cr_film_id=15473 total=48.5s (cdn=11.0s + download=25.9s + upload=11.6s)
+[05:27:08] step=state-saved cr_film_id=15473 (total uploads=1052)
+[05:27:08] step=iteration 11/50
+[05:27:08] step=film start cr_film_id=15474 name='Internát (2024) CZ Dabing'
+[05:27:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45678_720p.mp4
+[05:27:14] step=cdn-resolve done 6.5s → https://online15.sktorrent.eu/media/videos//h264/45678_720p.mp4
+[05:27:14] step=download curl https://online15.sktorrent.eu/media/videos//h264/45678_720p.mp4
+[05:28:11] step=download done cr_film_id=15474 size=614079835 dur=56.9s speed=10.8MB/s
+[05:28:11] step=upload start cr_film_id=15474 size=614079835
+[05:28:39] step=upload done cr_film_id=15474 video_id=24172217 dur=27.6s speed=22.2MB/s
+[05:28:39] step=cleanup unlinked Internát (2024) CZ Dabing.mp4
+[05:28:39] step=film done cr_film_id=15474 total=91.0s (cdn=6.5s + download=56.9s + upload=27.6s)
+[05:28:39] step=state-saved cr_film_id=15474 (total uploads=1053)
+[05:28:39] step=iteration 12/50
+[05:28:39] step=film start cr_film_id=15492 name='Apatykář Melchior: Katova dcera (2023) CZ Dabing'
+[05:28:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42905_720p.mp4
+[05:28:43] step=cdn-resolve done 4.0s → https://online8.sktorrent.eu/media/videos//h264/42905_720p.mp4
+[05:28:43] step=download curl https://online8.sktorrent.eu/media/videos//h264/42905_720p.mp4
+[05:29:48] step=download done cr_film_id=15492 size=448229306 dur=65.0s speed=6.9MB/s
+[05:29:48] step=upload start cr_film_id=15492 size=448229306
+[05:30:10] step=upload done cr_film_id=15492 video_id=24172261 dur=22.0s speed=20.4MB/s
+[05:30:10] step=cleanup unlinked Apatykář Melchior: Katova dcera (2023) CZ Dabing.mp4
+[05:30:10] step=film done cr_film_id=15492 total=91.0s (cdn=4.0s + download=65.0s + upload=22.0s)
+[05:30:10] step=state-saved cr_film_id=15492 (total uploads=1054)
+[05:30:10] step=iteration 13/50
+[05:30:10] step=film start cr_film_id=15504 name='Hromadění (2024) CZ Dabing'
+[05:30:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38619_720p.mp4
+[05:30:19] step=cdn-resolve done 9.2s → https://online20.sktorrent.eu/media/videos//h264/38619_720p.mp4
+[05:30:19] step=download curl https://online20.sktorrent.eu/media/videos//h264/38619_720p.mp4
+[05:31:47] step=download done cr_film_id=15504 size=976212895 dur=88.4s speed=11.0MB/s
+[05:31:47] step=upload start cr_film_id=15504 size=976212895
+[05:32:32] step=upload done cr_film_id=15504 video_id=24172316 dur=44.5s speed=21.9MB/s
+[05:32:32] step=cleanup unlinked Hromadění (2024) CZ Dabing.mp4
+[05:32:32] step=film done cr_film_id=15504 total=142.3s (cdn=9.2s + download=88.4s + upload=44.5s)
+[05:32:32] step=state-saved cr_film_id=15504 (total uploads=1055)
+[05:32:32] step=iteration 14/50
+[05:32:32] step=film start cr_film_id=15551 name='Maličké (2023) CZ Dabing'
+[05:32:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36043_720p.mp4
+[05:32:41] step=cdn-resolve done 9.1s → https://online17.sktorrent.eu/media/videos//h264/36043_720p.mp4
+[05:32:41] step=download curl https://online17.sktorrent.eu/media/videos//h264/36043_720p.mp4
+[05:33:37] step=download done cr_film_id=15551 size=594555421 dur=55.8s speed=10.7MB/s
+[05:33:37] step=upload start cr_film_id=15551 size=594555421
+[05:34:03] step=upload done cr_film_id=15551 video_id=24172352 dur=25.8s speed=23.0MB/s
+[05:34:03] step=cleanup unlinked Maličké (2023) CZ Dabing.mp4
+[05:34:03] step=film done cr_film_id=15551 total=90.8s (cdn=9.1s + download=55.8s + upload=25.8s)
+[05:34:03] step=state-saved cr_film_id=15551 (total uploads=1056)
+[05:34:03] step=iteration 15/50
+[05:34:03] step=film start cr_film_id=15552 name='Bouře (2022) CZ Dabing'
+[05:34:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/46539_720p.mp4
+[05:34:12] step=cdn-resolve done 9.4s → https://online22.sktorrent.eu/media/videos//h264/46539_720p.mp4
+[05:34:12] step=download curl https://online22.sktorrent.eu/media/videos//h264/46539_720p.mp4
+[05:35:35] step=download done cr_film_id=15552 size=803760474 dur=82.2s speed=9.8MB/s
+[05:35:35] step=upload start cr_film_id=15552 size=803760474
+[05:36:15] step=upload done cr_film_id=15552 video_id=24172402 dur=40.5s speed=19.8MB/s
+[05:36:15] step=cleanup unlinked Bouře (2022) CZ Dabing.mp4
+[05:36:15] step=film done cr_film_id=15552 total=132.2s (cdn=9.4s + download=82.2s + upload=40.5s)
+[05:36:15] step=state-saved cr_film_id=15552 (total uploads=1057)
+[05:36:15] step=iteration 16/50
+[05:36:15] step=film start cr_film_id=15606 name='Zakletá (2023) CZ Dabing'
+[05:36:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37834_720p.mp4
+[05:36:25] step=cdn-resolve done 9.9s → https://online20.sktorrent.eu/media/videos//h264/37834_720p.mp4
+[05:36:25] step=download curl https://online20.sktorrent.eu/media/videos//h264/37834_720p.mp4
+[05:37:24] step=download done cr_film_id=15606 size=547239376 dur=59.1s speed=9.3MB/s
+[05:37:24] step=upload start cr_film_id=15606 size=547239376
+[05:37:52] step=upload done cr_film_id=15606 video_id=24172450 dur=28.2s speed=19.4MB/s
+[05:37:52] step=cleanup unlinked Zakletá (2023) CZ Dabing.mp4
+[05:37:52] step=film done cr_film_id=15606 total=97.2s (cdn=9.9s + download=59.1s + upload=28.2s)
+[05:37:52] step=state-saved cr_film_id=15606 (total uploads=1058)
+[05:37:52] step=iteration 17/50
+[05:37:52] step=film start cr_film_id=15647 name='Eyjafjallajökull (2013) CZ Dabing'
+[05:37:52] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16136_720p.mp4
+[05:37:56] step=cdn-resolve done 3.1s → https://online7.sktorrent.eu/media/videos//h264/16136_720p.mp4
+[05:37:56] step=download curl https://online7.sktorrent.eu/media/videos//h264/16136_720p.mp4
+[05:39:04] step=download done cr_film_id=15647 size=615509368 dur=68.4s speed=9.0MB/s
+[05:39:04] step=upload start cr_film_id=15647 size=615509368
+[05:39:32] step=upload done cr_film_id=15647 video_id=24172488 dur=28.5s speed=21.6MB/s
+[05:39:32] step=cleanup unlinked Eyjafjallajökull (2013) CZ Dabing.mp4
+[05:39:32] step=film done cr_film_id=15647 total=100.1s (cdn=3.1s + download=68.4s + upload=28.5s)
+[05:39:33] step=state-saved cr_film_id=15647 (total uploads=1059)
+[05:39:33] step=iteration 18/50
+[05:39:33] step=film start cr_film_id=15667 name='Jevida (2023) CZ Dabing'
+[05:39:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44780_720p.mp4
+[05:39:38] step=cdn-resolve done 5.4s → https://online12.sktorrent.eu/media/videos//h264/44780_720p.mp4
+[05:39:38] step=download curl https://online12.sktorrent.eu/media/videos//h264/44780_720p.mp4
+[05:40:43] step=download done cr_film_id=15667 size=670416162 dur=65.2s speed=10.3MB/s
+[05:40:43] step=upload start cr_film_id=15667 size=670416162
+[05:41:34] step=upload done cr_film_id=15667 video_id=24172524 dur=51.2s speed=13.1MB/s
+[05:41:34] step=cleanup unlinked Jevida (2023) CZ Dabing.mp4
+[05:41:34] step=film done cr_film_id=15667 total=122.0s (cdn=5.4s + download=65.2s + upload=51.2s)
+[05:41:34] step=state-saved cr_film_id=15667 (total uploads=1060)
+[05:41:34] step=iteration 19/50
+[05:41:34] step=film start cr_film_id=15678 name='Dokud nás láska nerozdělí (2024) CZ Dabing'
+[05:41:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44618_720p.mp4
+[05:41:45] step=cdn-resolve done 10.6s → https://online20.sktorrent.eu/media/videos//h264/44618_720p.mp4
+[05:41:45] step=download curl https://online20.sktorrent.eu/media/videos//h264/44618_720p.mp4
+[05:43:12] step=download done cr_film_id=15678 size=750287929 dur=87.0s speed=8.6MB/s
+[05:43:12] step=upload start cr_film_id=15678 size=750287929
+[05:43:53] step=upload done cr_film_id=15678 video_id=24172566 dur=40.7s speed=18.4MB/s
+[05:43:53] step=cleanup unlinked Dokud nás láska nerozdělí (2024) CZ Dabing.mp4
+[05:43:53] step=film done cr_film_id=15678 total=138.3s (cdn=10.6s + download=87.0s + upload=40.7s)
+[05:43:53] step=state-saved cr_film_id=15678 (total uploads=1061)
+[05:43:53] step=iteration 20/50
+[05:43:53] step=film start cr_film_id=15686 name='Supernova (2023) CZ Dabing'
+[05:43:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33490_720p.mp4
+[05:43:58] step=cdn-resolve done 5.3s → https://online11.sktorrent.eu/media/videos//h264/33490_720p.mp4
+[05:43:58] step=download curl https://online11.sktorrent.eu/media/videos//h264/33490_720p.mp4
+[05:44:46] step=download done cr_film_id=15686 size=407210415 dur=48.2s speed=8.4MB/s
+[05:44:46] step=upload start cr_film_id=15686 size=407210415
+[05:45:05] step=upload done cr_film_id=15686 video_id=24172593 dur=19.0s speed=21.4MB/s
+[05:45:05] step=cleanup unlinked Supernova (2023) CZ Dabing.mp4
+[05:45:05] step=film done cr_film_id=15686 total=72.4s (cdn=5.3s + download=48.2s + upload=19.0s)
+[05:45:05] step=state-saved cr_film_id=15686 (total uploads=1062)
+[05:45:05] step=iteration 21/50
+[05:45:05] step=film start cr_film_id=15698 name='Stíny smrti: Vražda v Pont-Aven (2023) CZ Dabing'
+[05:45:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45514_720p.mp4
+[05:45:14] step=cdn-resolve done 8.6s → https://online21.sktorrent.eu/media/videos//h264/45514_720p.mp4
+[05:45:14] step=download curl https://online21.sktorrent.eu/media/videos//h264/45514_720p.mp4
+[05:46:06] step=download done cr_film_id=15698 size=566597363 dur=51.6s speed=11.0MB/s
+[05:46:06] step=upload start cr_film_id=15698 size=566597363
+[05:46:33] step=upload done cr_film_id=15698 video_id=24172622 dur=27.2s speed=20.8MB/s
+[05:46:33] step=cleanup unlinked Stíny smrti: Vražda v Pont-Aven (2023) CZ Dabing.mp4
+[05:46:33] step=film done cr_film_id=15698 total=87.6s (cdn=8.6s + download=51.6s + upload=27.2s)
+[05:46:33] step=state-saved cr_film_id=15698 (total uploads=1063)
+[05:46:33] step=iteration 22/50
+[05:46:33] step=film start cr_film_id=15715 name='Stíny smrti: Vražedné prázdniny (2023) CZ Dabing'
+[05:46:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22002_720p.mp4
+[05:46:37] step=cdn-resolve done 4.0s → https://online9.sktorrent.eu/media/videos//h264/22002_720p.mp4
+[05:46:37] step=download curl https://online9.sktorrent.eu/media/videos//h264/22002_720p.mp4
+[05:47:17] step=download done cr_film_id=15715 size=363780397 dur=39.7s speed=9.2MB/s
+[05:47:17] step=upload start cr_film_id=15715 size=363780397
+[05:47:37] step=upload done cr_film_id=15715 video_id=24172643 dur=19.9s speed=18.3MB/s
+[05:47:37] step=cleanup unlinked Stíny smrti: Vražedné prázdniny (2023) CZ Dabing.mp4
+[05:47:37] step=film done cr_film_id=15715 total=63.7s (cdn=4.0s + download=39.7s + upload=19.9s)
+[05:47:37] step=state-saved cr_film_id=15715 (total uploads=1064)
+[05:47:37] step=iteration 23/50
+[05:47:37] step=film start cr_film_id=15735 name='Jake a Jake (2014) CZ Dabing'
+[05:47:37] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16254_480p.mp4
+[05:47:41] step=cdn-resolve done 4.2s → https://online7.sktorrent.eu/media/videos//h264/16254_480p.mp4
+[05:47:41] step=download curl https://online7.sktorrent.eu/media/videos//h264/16254_480p.mp4
+[05:48:09] step=download done cr_film_id=15735 size=240282638 dur=27.9s speed=8.6MB/s
+[05:48:09] step=upload start cr_film_id=15735 size=240282638
+[05:48:21] step=upload done cr_film_id=15735 video_id=24172661 dur=12.0s speed=20.0MB/s
+[05:48:21] step=cleanup unlinked Jake a Jake (2014) CZ Dabing.mp4
+[05:48:21] step=film done cr_film_id=15735 total=44.1s (cdn=4.2s + download=27.9s + upload=12.0s)
+[05:48:21] step=state-saved cr_film_id=15735 (total uploads=1065)
+[05:48:21] step=iteration 24/50
+[05:48:21] step=film start cr_film_id=15819 name='Judge Archer (2016) CZ Dabing'
+[05:48:21] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18439_720p.mp4
+[05:48:27] step=cdn-resolve done 6.2s → https://online13.sktorrent.eu/media/videos//h264/18439_720p.mp4
+[05:48:27] step=download curl https://online13.sktorrent.eu/media/videos//h264/18439_720p.mp4
+[05:49:26] step=download done cr_film_id=15819 size=538466319 dur=59.4s speed=9.1MB/s
+[05:49:26] step=upload start cr_film_id=15819 size=538466319
+[05:50:00] step=upload done cr_film_id=15819 video_id=24172692 dur=33.5s speed=16.1MB/s
+[05:50:00] step=cleanup unlinked Judge Archer (2016) CZ Dabing.mp4
+[05:50:00] step=film done cr_film_id=15819 total=99.1s (cdn=6.2s + download=59.4s + upload=33.5s)
+[05:50:00] step=state-saved cr_film_id=15819 (total uploads=1066)
+[05:50:00] step=iteration 25/50
+[05:50:00] step=film start cr_film_id=15827 name='Suddenly (2013) CZ Dabing'
+[05:50:00] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2421_720p.mp4
+[05:50:06] step=cdn-resolve done 6.1s → https://online11.sktorrent.eu/media/videos//h264/2421_720p.mp4
+[05:50:06] step=download curl https://online11.sktorrent.eu/media/videos//h264/2421_720p.mp4
+[05:51:48] step=download done cr_film_id=15827 size=913430329 dur=102.1s speed=8.9MB/s
+[05:51:48] step=upload start cr_film_id=15827 size=913430329
+[05:52:38] step=upload done cr_film_id=15827 video_id=24172733 dur=50.4s speed=18.1MB/s
+[05:52:39] step=cleanup unlinked Suddenly (2013) CZ Dabing.mp4
+[05:52:39] step=film done cr_film_id=15827 total=158.7s (cdn=6.1s + download=102.1s + upload=50.4s)
+[05:52:39] step=state-saved cr_film_id=15827 (total uploads=1067)
+[05:52:39] step=iteration 26/50
+[05:52:39] step=film start cr_film_id=15844 name='Vánice (2024) CZ Dabing'
+[05:52:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47319_720p.mp4
+[05:52:42] step=cdn-resolve done 3.1s → https://online5.sktorrent.eu/media/videos//h264/47319_720p.mp4
+[05:52:42] step=download curl https://online5.sktorrent.eu/media/videos//h264/47319_720p.mp4
+[05:53:38] step=download done cr_film_id=15844 size=400519586 dur=56.5s speed=7.1MB/s
+[05:53:38] step=upload start cr_film_id=15844 size=400519586
+[05:54:00] step=upload done cr_film_id=15844 video_id=24172782 dur=21.9s speed=18.3MB/s
+[05:54:00] step=cleanup unlinked Vánice (2024) CZ Dabing.mp4
+[05:54:00] step=film done cr_film_id=15844 total=81.5s (cdn=3.1s + download=56.5s + upload=21.9s)
+[05:54:00] step=state-saved cr_film_id=15844 (total uploads=1068)
+[05:54:00] step=iteration 27/50
+[05:54:00] step=film start cr_film_id=15852 name='Sęp (2013) CZ Dabing'
+[05:54:00] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18236_720p.mp4
+[05:54:06] step=cdn-resolve done 5.8s → https://online13.sktorrent.eu/media/videos//h264/18236_720p.mp4
+[05:54:06] step=download curl https://online13.sktorrent.eu/media/videos//h264/18236_720p.mp4
+[05:55:28] step=download done cr_film_id=15852 size=737925521 dur=82.0s speed=9.0MB/s
+[05:55:28] step=upload start cr_film_id=15852 size=737925521
+[05:56:02] step=upload done cr_film_id=15852 video_id=24172851 dur=33.7s speed=21.9MB/s
+[05:56:02] step=cleanup unlinked Sęp (2013) CZ Dabing.mp4
+[05:56:02] step=film done cr_film_id=15852 total=121.5s (cdn=5.8s + download=82.0s + upload=33.7s)
+[05:56:02] step=state-saved cr_film_id=15852 (total uploads=1069)
+[05:56:02] step=iteration 28/50
+[05:56:02] step=film start cr_film_id=15894 name='Citrónovník (2023) CZ Dabing'
+[05:56:02] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47838_720p.mp4
+[05:56:08] step=cdn-resolve done 5.9s → https://online13.sktorrent.eu/media/videos//h264/47838_720p.mp4
+[05:56:08] step=download curl https://online13.sktorrent.eu/media/videos//h264/47838_720p.mp4
+[05:57:09] step=download done cr_film_id=15894 size=511342708 dur=61.3s speed=8.3MB/s
+[05:57:09] step=upload start cr_film_id=15894 size=511342708
+[05:57:48] step=upload done cr_film_id=15894 video_id=24172881 dur=39.6s speed=12.9MB/s
+[05:57:49] step=cleanup unlinked Citrónovník (2023) CZ Dabing.mp4
+[05:57:49] step=film done cr_film_id=15894 total=106.9s (cdn=5.9s + download=61.3s + upload=39.6s)
+[05:57:49] step=state-saved cr_film_id=15894 (total uploads=1070)
+[05:57:49] step=iteration 29/50
+[05:57:49] step=film start cr_film_id=15899 name='Vzmužme se (2024) CZ Dabing'
+[05:57:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/35884_720p.mp4
+[05:57:50] step=cdn-resolve done 1.4s → https://online3.sktorrent.eu/media/videos//h264/35884_720p.mp4
+[05:57:50] step=download curl https://online3.sktorrent.eu/media/videos//h264/35884_720p.mp4
+[05:58:30] step=download done cr_film_id=15899 size=351026601 dur=40.5s speed=8.7MB/s
+[05:58:30] step=upload start cr_film_id=15899 size=351026601
+[05:58:50] step=upload done cr_film_id=15899 video_id=24172908 dur=19.3s speed=18.2MB/s
+[05:58:50] step=cleanup unlinked Vzmužme se (2024) CZ Dabing.mp4
+[05:58:50] step=film done cr_film_id=15899 total=61.2s (cdn=1.4s + download=40.5s + upload=19.3s)
+[05:58:50] step=state-saved cr_film_id=15899 (total uploads=1071)
+[05:58:50] step=iteration 30/50
+[05:58:50] step=film start cr_film_id=15905 name='Skutečné vraždy: Ztracený snoubenec (2023) CZ Dabing'
+[05:58:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56635_720p.mp4
+[05:58:55] step=cdn-resolve done 5.0s → https://online9.sktorrent.eu/media/videos//h264/56635_720p.mp4
+[05:58:55] step=download curl https://online9.sktorrent.eu/media/videos//h264/56635_720p.mp4
+[05:59:38] step=download done cr_film_id=15905 size=391303533 dur=43.1s speed=9.1MB/s
+[05:59:38] step=upload start cr_film_id=15905 size=391303533
+[06:00:39] step=upload done cr_film_id=15905 video_id=24172939 dur=60.9s speed=6.4MB/s
+[06:00:39] step=cleanup unlinked Skutečné vraždy: Ztracený snoubenec (2023) CZ Dabing.mp4
+[06:00:39] step=film done cr_film_id=15905 total=108.9s (cdn=5.0s + download=43.1s + upload=60.9s)
+[06:00:39] step=state-saved cr_film_id=15905 (total uploads=1072)
+[06:00:39] step=iteration 31/50
+[06:00:39] step=film start cr_film_id=15912 name='On the Job (2013) CZ Dabing'
+[06:00:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/7620_720p.mp4
+[06:00:39] step=cdn-resolve done 0.7s → https://online1.sktorrent.eu/media/videos//h264/7620_720p.mp4
+[06:00:39] step=download curl https://online1.sktorrent.eu/media/videos//h264/7620_720p.mp4
+[06:03:03] step=download done cr_film_id=15912 size=1262213065 dur=144.0s speed=8.8MB/s
+[06:03:03] step=upload start cr_film_id=15912 size=1262213065
+[06:04:03] step=upload done cr_film_id=15912 video_id=24172990 dur=59.5s speed=21.2MB/s
+[06:04:03] step=cleanup unlinked On the Job (2013) CZ Dabing.mp4
+[06:04:03] step=film done cr_film_id=15912 total=204.3s (cdn=0.7s + download=144.0s + upload=59.5s)
+[06:04:03] step=state-saved cr_film_id=15912 (total uploads=1073)
+[06:04:03] step=iteration 32/50
+[06:04:03] step=film start cr_film_id=15964 name='Hypnóza (2024) CZ Dabing'
+[06:04:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42079_720p.mp4
+[06:04:15] step=cdn-resolve done 12.2s → https://online22.sktorrent.eu/media/videos//h264/42079_720p.mp4
+[06:04:15] step=download curl https://online22.sktorrent.eu/media/videos//h264/42079_720p.mp4
+[06:04:50] step=download done cr_film_id=15964 size=370078095 dur=34.8s speed=10.6MB/s
+[06:04:50] step=upload start cr_film_id=15964 size=370078095
+[06:05:17] step=upload done cr_film_id=15964 video_id=24173027 dur=26.9s speed=13.8MB/s
+[06:05:17] step=cleanup unlinked Hypnóza (2024) CZ Dabing.mp4
+[06:05:17] step=film done cr_film_id=15964 total=74.0s (cdn=12.2s + download=34.8s + upload=26.9s)
+[06:05:17] step=state-saved cr_film_id=15964 (total uploads=1074)
+[06:05:17] step=iteration 33/50
+[06:05:17] step=film start cr_film_id=15973 name='Mléko (2024) CZ Dabing'
+[06:05:17] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44175_720p.mp4
+[06:05:24] step=cdn-resolve done 6.9s → https://online16.sktorrent.eu/media/videos//h264/44175_720p.mp4
+[06:05:24] step=download curl https://online16.sktorrent.eu/media/videos//h264/44175_720p.mp4
+[06:06:01] step=download done cr_film_id=15973 size=393478042 dur=37.5s speed=10.5MB/s
+[06:06:01] step=upload start cr_film_id=15973 size=393478042
+[06:06:24] step=upload done cr_film_id=15973 video_id=24173055 dur=22.2s speed=17.7MB/s
+[06:06:24] step=cleanup unlinked Mléko (2024) CZ Dabing.mp4
+[06:06:24] step=film done cr_film_id=15973 total=66.6s (cdn=6.9s + download=37.5s + upload=22.2s)
+[06:06:24] step=state-saved cr_film_id=15973 (total uploads=1075)
+[06:06:24] step=iteration 34/50
+[06:06:24] step=film start cr_film_id=15975 name='Stíny smrti: Tajemství Finistère (2023) CZ Dabing'
+[06:06:24] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47282_720p.mp4
+[06:06:30] step=cdn-resolve done 6.5s → https://online15.sktorrent.eu/media/videos//h264/47282_720p.mp4
+[06:06:30] step=download curl https://online15.sktorrent.eu/media/videos//h264/47282_720p.mp4
+[06:07:22] step=download done cr_film_id=15975 size=505271534 dur=51.5s speed=9.8MB/s
+[06:07:22] step=upload start cr_film_id=15975 size=505271534
+[06:08:05] step=upload done cr_film_id=15975 video_id=24173091 dur=43.3s speed=11.7MB/s
+[06:08:05] step=cleanup unlinked Stíny smrti: Tajemství Finistère (2023) CZ Dabing.mp4
+[06:08:05] step=film done cr_film_id=15975 total=101.4s (cdn=6.5s + download=51.5s + upload=43.3s)
+[06:08:05] step=state-saved cr_film_id=15975 (total uploads=1076)
+[06:08:05] step=iteration 35/50
+[06:08:05] step=film start cr_film_id=16007 name='Labyrint (2014) CZ Dabing'
+[06:08:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/35048_720p.mp4
+[06:08:12] step=cdn-resolve done 7.1s → https://online16.sktorrent.eu/media/videos//h264/35048_720p.mp4
+[06:08:12] step=download curl https://online16.sktorrent.eu/media/videos//h264/35048_720p.mp4
+[06:09:29] step=download done cr_film_id=16007 size=776921315 dur=76.2s speed=10.2MB/s
+[06:09:29] step=upload start cr_film_id=16007 size=776921315
+[06:10:12] step=upload done cr_film_id=16007 video_id=24173139 dur=43.1s speed=18.0MB/s
+[06:10:12] step=cleanup unlinked Labyrint (2014) CZ Dabing.mp4
+[06:10:12] step=film done cr_film_id=16007 total=126.5s (cdn=7.1s + download=76.2s + upload=43.1s)
+[06:10:12] step=state-saved cr_film_id=16007 (total uploads=1077)
+[06:10:12] step=iteration 36/50
+[06:10:12] step=film start cr_film_id=16039 name='Pane králi, jdeme zdáli (1990) CZ'
+[06:10:12] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/46920_720p.mp4
+[06:10:18] step=cdn-resolve done 5.9s → https://online13.sktorrent.eu/media/videos//h264/46920_720p.mp4
+[06:10:18] step=download curl https://online13.sktorrent.eu/media/videos//h264/46920_720p.mp4
+[06:10:51] step=download done cr_film_id=16039 size=302954737 dur=33.2s speed=9.1MB/s
+[06:10:51] step=upload start cr_film_id=16039 size=302954737
+[06:11:07] step=upload done cr_film_id=16039 video_id=24173169 dur=16.5s speed=18.4MB/s
+[06:11:07] step=cleanup unlinked Pane králi, jdeme zdáli (1990) CZ.mp4
+[06:11:07] step=film done cr_film_id=16039 total=55.6s (cdn=5.9s + download=33.2s + upload=16.5s)
+[06:11:07] step=state-saved cr_film_id=16039 (total uploads=1078)
+[06:11:07] step=iteration 37/50
+[06:11:07] step=film start cr_film_id=16053 name='Cráter (2020) CZ Dabing'
+[06:11:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30117_720p.mp4
+[06:11:08] step=cdn-resolve done 0.7s → https://online1.sktorrent.eu/media/videos//h264/30117_720p.mp4
+[06:11:08] step=download curl https://online1.sktorrent.eu/media/videos//h264/30117_720p.mp4
+[06:11:57] step=download done cr_film_id=16053 size=524792432 dur=49.4s speed=10.6MB/s
+[06:11:57] step=upload start cr_film_id=16053 size=524792432
+[06:12:25] step=upload done cr_film_id=16053 video_id=24173192 dur=27.3s speed=19.2MB/s
+[06:12:25] step=cleanup unlinked Cráter (2020) CZ Dabing.mp4
+[06:12:25] step=film done cr_film_id=16053 total=77.4s (cdn=0.7s + download=49.4s + upload=27.3s)
+[06:12:25] step=state-saved cr_film_id=16053 (total uploads=1079)
+[06:12:25] step=iteration 38/50
+[06:12:25] step=film start cr_film_id=16058 name='Labuť (2023) CZ Dabing'
+[06:12:25] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32570_720p.mp4
+[06:12:30] step=cdn-resolve done 5.4s → https://online12.sktorrent.eu/media/videos//h264/32570_720p.mp4
+[06:12:30] step=download curl https://online12.sktorrent.eu/media/videos//h264/32570_720p.mp4
+[06:12:42] step=download done cr_film_id=16058 size=90195038 dur=12.1s speed=7.5MB/s
+[06:12:42] step=upload start cr_film_id=16058 size=90195038
+[06:12:48] step=upload done cr_film_id=16058 video_id=24173209 dur=5.9s speed=15.3MB/s
+[06:12:48] step=cleanup unlinked Labuť (2023) CZ Dabing.mp4
+[06:12:48] step=film done cr_film_id=16058 total=23.5s (cdn=5.4s + download=12.1s + upload=5.9s)
+[06:12:48] step=state-saved cr_film_id=16058 (total uploads=1080)
+[06:12:48] step=iteration 39/50
+[06:12:48] step=film start cr_film_id=16069 name='Kdo je kdo? (2024) CZ Dabing'
+[06:12:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/52114_720p.mp4
+[06:12:54] step=cdn-resolve done 5.7s → https://online12.sktorrent.eu/media/videos//h264/52114_720p.mp4
+[06:12:54] step=download curl https://online12.sktorrent.eu/media/videos//h264/52114_720p.mp4
+[06:14:05] step=download done cr_film_id=16069 size=632359200 dur=70.8s speed=8.9MB/s
+[06:14:05] step=upload start cr_film_id=16069 size=632359200
+[06:14:46] step=upload done cr_film_id=16069 video_id=24173241 dur=40.9s speed=15.5MB/s
+[06:14:46] step=cleanup unlinked Kdo je kdo? (2024) CZ Dabing.mp4
+[06:14:46] step=film done cr_film_id=16069 total=117.5s (cdn=5.7s + download=70.8s + upload=40.9s)
+[06:14:46] step=state-saved cr_film_id=16069 (total uploads=1081)
+[06:14:46] step=iteration 40/50
+[06:14:46] step=film start cr_film_id=16126 name='Mozzarella (2024) CZ Dabing'
+[06:14:46] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/53670_720p.mp4
+[06:14:51] step=cdn-resolve done 5.4s → https://online12.sktorrent.eu/media/videos//h264/53670_720p.mp4
+[06:14:51] step=download curl https://online12.sktorrent.eu/media/videos//h264/53670_720p.mp4
+[06:16:10] step=download done cr_film_id=16126 size=792507742 dur=78.6s speed=10.1MB/s
+[06:16:10] step=upload start cr_film_id=16126 size=792507742
+[06:16:55] step=upload done cr_film_id=16126 video_id=24173287 dur=45.2s speed=17.5MB/s
+[06:16:55] step=cleanup unlinked Mozzarella (2024) CZ Dabing.mp4
+[06:16:55] step=film done cr_film_id=16126 total=129.2s (cdn=5.4s + download=78.6s + upload=45.2s)
+[06:16:55] step=state-saved cr_film_id=16126 (total uploads=1082)
+[06:16:55] step=iteration 41/50
+[06:16:55] step=film start cr_film_id=16155 name='Bídníci: od románu k filmu a muzikálu (2013) CZ Dabing'
+[06:16:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20634_720p.mp4
+[06:17:00] step=cdn-resolve done 5.3s → https://online8.sktorrent.eu/media/videos//h264/20634_720p.mp4
+[06:17:00] step=download curl https://online8.sktorrent.eu/media/videos//h264/20634_720p.mp4
+[06:17:41] step=download done cr_film_id=16155 size=155892555 dur=40.6s speed=3.8MB/s
+[06:17:41] step=upload start cr_film_id=16155 size=155892555
+[06:17:50] step=upload done cr_film_id=16155 video_id=24173310 dur=9.1s speed=17.1MB/s
+[06:17:50] step=cleanup unlinked Bídníci: od románu k filmu a muzikálu (2013) CZ Dabing.mp4
+[06:17:50] step=film done cr_film_id=16155 total=55.1s (cdn=5.3s + download=40.6s + upload=9.1s)
+[06:17:50] step=state-saved cr_film_id=16155 (total uploads=1083)
+[06:17:50] step=iteration 42/50
+[06:17:50] step=film start cr_film_id=16170 name='Influencerky (2024) CZ Dabing'
+[06:17:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/41684_720p.mp4
+[06:17:58] step=cdn-resolve done 8.0s → https://online18.sktorrent.eu/media/videos//h264/41684_720p.mp4
+[06:17:58] step=download curl https://online18.sktorrent.eu/media/videos//h264/41684_720p.mp4
+[06:19:42] step=download done cr_film_id=16170 size=694144349 dur=104.1s speed=6.7MB/s
+[06:19:42] step=upload start cr_film_id=16170 size=694144349
+[06:20:13] step=upload done cr_film_id=16170 video_id=24173346 dur=30.4s speed=22.8MB/s
+[06:20:13] step=cleanup unlinked Influencerky (2024) CZ Dabing.mp4
+[06:20:13] step=film done cr_film_id=16170 total=142.6s (cdn=8.0s + download=104.1s + upload=30.4s)
+[06:20:13] step=state-saved cr_film_id=16170 (total uploads=1084)
+[06:20:13] step=iteration 43/50
+[06:20:13] step=film start cr_film_id=16221 name='Vražedná sezóna: Pomsta podle Bible (2014) CZ Dabing'
+[06:20:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/4986_480p.mp4
+[06:20:15] step=cdn-resolve done 1.7s → https://online3.sktorrent.eu/media/videos//h264/4986_480p.mp4
+[06:20:15] step=download curl https://online3.sktorrent.eu/media/videos//h264/4986_480p.mp4
+[06:20:55] step=download done cr_film_id=16221 size=350269872 dur=40.8s speed=8.6MB/s
+[06:20:55] step=upload start cr_film_id=16221 size=350269872
+[06:21:15] step=upload done cr_film_id=16221 video_id=24173362 dur=19.4s speed=18.1MB/s
+[06:21:15] step=cleanup unlinked Vražedná sezóna: Pomsta podle Bible (2014) CZ Dabing.mp4
+[06:21:15] step=film done cr_film_id=16221 total=61.9s (cdn=1.7s + download=40.8s + upload=19.4s)
+[06:21:15] step=state-saved cr_film_id=16221 (total uploads=1085)
+[06:21:15] step=iteration 44/50
+[06:21:15] step=film start cr_film_id=16235 name='Je to na tobě (2024) CZ Dabing'
+[06:21:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/35608_720p.mp4
+[06:21:20] step=cdn-resolve done 5.0s → https://online11.sktorrent.eu/media/videos//h264/35608_720p.mp4
+[06:21:20] step=download curl https://online11.sktorrent.eu/media/videos//h264/35608_720p.mp4
+[06:23:01] step=download done cr_film_id=16235 size=794183641 dur=101.3s speed=7.8MB/s
+[06:23:01] step=upload start cr_film_id=16235 size=794183641
+[06:23:39] step=upload done cr_film_id=16235 video_id=24173395 dur=37.4s speed=21.2MB/s
+[06:23:39] step=cleanup unlinked Je to na tobě (2024) CZ Dabing.mp4
+[06:23:39] step=film done cr_film_id=16235 total=143.8s (cdn=5.0s + download=101.3s + upload=37.4s)
+[06:23:39] step=state-saved cr_film_id=16235 (total uploads=1086)
+[06:23:39] step=iteration 45/50
+[06:23:39] step=film start cr_film_id=16274 name='Temné dědictví (2024) CZ Dabing'
+[06:23:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/54991_720p.mp4
+[06:23:40] step=cdn-resolve done 1.1s → https://online1.sktorrent.eu/media/videos//h264/54991_720p.mp4
+[06:23:40] step=download curl https://online1.sktorrent.eu/media/videos//h264/54991_720p.mp4
+[06:24:23] step=download done cr_film_id=16274 size=407464714 dur=43.3s speed=9.4MB/s
+[06:24:23] step=upload start cr_film_id=16274 size=407464714
+[06:24:42] step=upload done cr_film_id=16274 video_id=24173424 dur=19.0s speed=21.4MB/s
+[06:24:42] step=cleanup unlinked Temné dědictví (2024) CZ Dabing.mp4
+[06:24:42] step=film done cr_film_id=16274 total=63.4s (cdn=1.1s + download=43.3s + upload=19.0s)
+[06:24:42] step=state-saved cr_film_id=16274 (total uploads=1087)
+[06:24:42] step=iteration 46/50
+[06:24:42] step=film start cr_film_id=16299 name='Stíny smrti: Vražda v Aveyronu (2014) CZ Dabing'
+[06:24:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45407_720p.mp4
+[06:24:54] step=cdn-resolve done 11.6s → https://online25.sktorrent.eu/media/videos//h264/45407_720p.mp4
+[06:24:54] step=download curl https://online25.sktorrent.eu/media/videos//h264/45407_720p.mp4
+[06:25:20] step=download done cr_film_id=16299 size=808162357 dur=26.2s speed=30.8MB/s
+[06:25:20] step=upload start cr_film_id=16299 size=808162357
+[06:25:57] step=upload done cr_film_id=16299 video_id=24173442 dur=37.0s speed=21.8MB/s
+[06:25:57] step=cleanup unlinked Stíny smrti: Vražda v Aveyronu (2014) CZ Dabing.mp4
+[06:25:57] step=film done cr_film_id=16299 total=74.9s (cdn=11.6s + download=26.2s + upload=37.0s)
+[06:25:57] step=state-saved cr_film_id=16299 (total uploads=1088)
+[06:25:57] step=iteration 47/50
+[06:25:57] step=film start cr_film_id=16343 name='Paper Planes (2014) CZ Dabing'
+[06:25:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44366_720p.mp4
+[06:26:02] step=cdn-resolve done 5.3s → https://online12.sktorrent.eu/media/videos//h264/44366_720p.mp4
+[06:26:02] step=download curl https://online12.sktorrent.eu/media/videos//h264/44366_720p.mp4
+[06:27:21] step=download done cr_film_id=16343 size=733553637 dur=79.2s speed=9.3MB/s
+[06:27:21] step=upload start cr_film_id=16343 size=733553637
+[06:28:00] step=upload done cr_film_id=16343 video_id=24173478 dur=38.0s speed=19.3MB/s
+[06:28:00] step=cleanup unlinked Paper Planes (2014) CZ Dabing.mp4
+[06:28:00] step=film done cr_film_id=16343 total=122.6s (cdn=5.3s + download=79.2s + upload=38.0s)
+[06:28:00] step=state-saved cr_film_id=16343 (total uploads=1089)
+[06:28:00] step=iteration 48/50
+[06:28:00] step=film start cr_film_id=16363 name='Skutečné vraždy: Návod na vraždu (2024) CZ Dabing'
+[06:28:00] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56643_720p.mp4
+[06:28:07] step=cdn-resolve done 7.2s → https://online17.sktorrent.eu/media/videos//h264/56643_720p.mp4
+[06:28:07] step=download curl https://online17.sktorrent.eu/media/videos//h264/56643_720p.mp4
+[06:28:54] step=download done cr_film_id=16363 size=469723378 dur=46.9s speed=10.0MB/s
+[06:28:54] step=upload start cr_film_id=16363 size=469723378
+[06:29:21] step=upload done cr_film_id=16363 video_id=24173505 dur=27.1s speed=17.3MB/s
+[06:29:21] step=cleanup unlinked Skutečné vraždy: Návod na vraždu (2024) CZ Dabing.mp4
+[06:29:21] step=film done cr_film_id=16363 total=81.3s (cdn=7.2s + download=46.9s + upload=27.1s)
+[06:29:21] step=state-saved cr_film_id=16363 (total uploads=1090)
+[06:29:21] step=iteration 49/50
+[06:29:21] step=film start cr_film_id=16371 name='Skutečné vraždy: Nůž v zádech (2024) CZ Dabing'
+[06:29:21] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56642_720p.mp4
+[06:29:28] step=cdn-resolve done 6.9s → https://online16.sktorrent.eu/media/videos//h264/56642_720p.mp4
+[06:29:28] step=download curl https://online16.sktorrent.eu/media/videos//h264/56642_720p.mp4
+[06:30:05] step=download done cr_film_id=16371 size=390105513 dur=36.7s speed=10.6MB/s
+[06:30:05] step=upload start cr_film_id=16371 size=390105513
+[06:30:33] step=upload done cr_film_id=16371 video_id=24173525 dur=28.0s speed=13.9MB/s
+[06:30:33] step=cleanup unlinked Skutečné vraždy: Nůž v zádech (2024) CZ Dabing.mp4
+[06:30:33] step=film done cr_film_id=16371 total=71.7s (cdn=6.9s + download=36.7s + upload=28.0s)
+[06:30:33] step=state-saved cr_film_id=16371 (total uploads=1091)
+[06:30:33] step=iteration 50/50
+[06:30:33] step=film start cr_film_id=16436 name='Avignon (2025) CZ Dabing'
+[06:30:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/54526_720p.mp4
+[06:30:34] step=cdn-resolve done 0.9s → https://online1.sktorrent.eu/media/videos//h264/54526_720p.mp4
+[06:30:34] step=download curl https://online1.sktorrent.eu/media/videos//h264/54526_720p.mp4
+[06:31:47] step=download done cr_film_id=16436 size=625304136 dur=73.3s speed=8.5MB/s
+[06:31:47] step=upload start cr_film_id=16436 size=625304136
+[06:32:14] step=upload done cr_film_id=16436 video_id=24173552 dur=27.0s speed=23.2MB/s
+[06:32:14] step=cleanup unlinked Avignon (2025) CZ Dabing.mp4
+[06:32:14] step=film done cr_film_id=16436 total=101.3s (cdn=0.9s + download=73.3s + upload=27.0s)
+[06:32:14] step=state-saved cr_film_id=16436 (total uploads=1092)
+[06:32:14] step=batch-end succeeded=50 failed=0 total_uploads=1092 batch_dur=5028.6s avg_per_film=100.6s backlog_remaining=417 eta_hours=11.7
