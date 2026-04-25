@@ -11591,3 +11591,119 @@
 [00:26:50] step=film done cr_film_id=10745 total=101.2s (cdn=0.6s + download=67.4s + upload=33.1s)
 [00:26:50] step=state-saved cr_film_id=10745 (total uploads=922)
 [00:26:50] step=batch-end succeeded=10 failed=0 total_uploads=922 batch_dur=919.8s avg_per_film=92.0s backlog_remaining=587 eta_hours=15.0
+
+===== run 2026-04-25T00:42:22Z batch_size=10 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/24918308925) =====
+[00:42:23] step=batch-start count=10 backlog=1511 uploads=922 moderated=2
+[00:42:23] step=login
+[00:42:25] step=login done
+[00:42:25] step=iteration 1/10
+[00:42:25] step=film start cr_film_id=10758 name='Fire Down Below (1957) CZ Dabing'
+[00:42:25] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/3228_480p.mp4
+[00:42:26] step=cdn-resolve done 1.3s → https://online2.sktorrent.eu/media/videos//h264/3228_480p.mp4
+[00:42:26] step=download curl https://online2.sktorrent.eu/media/videos//h264/3228_480p.mp4
+[00:43:21] step=download done cr_film_id=10758 size=532403797 dur=54.8s speed=9.7MB/s
+[00:43:21] step=upload start cr_film_id=10758 size=532403797
+[00:44:07] step=upload done cr_film_id=10758 video_id=24165803 dur=46.1s speed=11.5MB/s
+[00:44:07] step=cleanup unlinked Fire Down Below (1957) CZ Dabing.mp4
+[00:44:07] step=film done cr_film_id=10758 total=102.2s (cdn=1.3s + download=54.8s + upload=46.1s)
+[00:44:07] step=state-saved cr_film_id=10758 (total uploads=923)
+[00:44:07] step=iteration 2/10
+[00:44:07] step=film start cr_film_id=10816 name='Den Triffidů (1963) CZ Dabing'
+[00:44:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1518_480p.mp4
+[00:44:16] step=cdn-resolve done 9.2s → https://online24.sktorrent.eu/media/videos//h264/1518_480p.mp4
+[00:44:16] step=download curl https://online24.sktorrent.eu/media/videos//h264/1518_480p.mp4
+[00:44:33] step=download done cr_film_id=10816 size=466831469 dur=17.3s speed=27.0MB/s
+[00:44:33] step=upload start cr_film_id=10816 size=466831469
+[00:44:51] step=upload done cr_film_id=10816 video_id=24165829 dur=18.1s speed=25.8MB/s
+[00:44:52] step=cleanup unlinked Den Triffidů (1963) CZ Dabing.mp4
+[00:44:52] step=film done cr_film_id=10816 total=44.8s (cdn=9.2s + download=17.3s + upload=18.1s)
+[00:44:52] step=state-saved cr_film_id=10816 (total uploads=924)
+[00:44:52] step=iteration 3/10
+[00:44:52] step=film start cr_film_id=10824 name='Divotvůrkyně (1962) CZ Dabing'
+[00:44:52] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42829_720p.mp4
+[00:44:54] step=cdn-resolve done 1.9s → https://online5.sktorrent.eu/media/videos//h264/42829_720p.mp4
+[00:44:54] step=download curl https://online5.sktorrent.eu/media/videos//h264/42829_720p.mp4
+[00:46:32] step=download done cr_film_id=10824 size=820543396 dur=98.6s speed=8.3MB/s
+[00:46:32] step=upload start cr_film_id=10824 size=820543396
+[00:47:38] step=upload done cr_film_id=10824 video_id=24165878 dur=65.5s speed=12.5MB/s
+[00:47:38] step=cleanup unlinked Divotvůrkyně (1962) CZ Dabing.mp4
+[00:47:38] step=film done cr_film_id=10824 total=166.2s (cdn=1.9s + download=98.6s + upload=65.5s)
+[00:47:38] step=state-saved cr_film_id=10824 (total uploads=925)
+[00:47:38] step=iteration 4/10
+[00:47:38] step=film start cr_film_id=11029 name='Zlom (1970) CZ Dabing'
+[00:47:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42895_720p.mp4
+[00:47:46] step=cdn-resolve done 8.1s → https://online22.sktorrent.eu/media/videos//h264/42895_720p.mp4
+[00:47:46] step=download curl https://online22.sktorrent.eu/media/videos//h264/42895_720p.mp4
+[00:49:04] step=download done cr_film_id=11029 size=863010048 dur=78.4s speed=11.0MB/s
+[00:49:04] step=upload start cr_film_id=11029 size=863010048
+[00:49:38] step=upload done cr_film_id=11029 video_id=24165953 dur=33.6s speed=25.7MB/s
+[00:49:38] step=cleanup unlinked Zlom (1970) CZ Dabing.mp4
+[00:49:38] step=film done cr_film_id=11029 total=120.2s (cdn=8.1s + download=78.4s + upload=33.6s)
+[00:49:38] step=state-saved cr_film_id=11029 (total uploads=926)
+[00:49:38] step=iteration 5/10
+[00:49:38] step=film start cr_film_id=11132 name='Všechny velké a malé bytosti (1975) CZ Dabing'
+[00:49:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31440_720p.mp4
+[00:49:46] step=cdn-resolve done 8.1s → https://online23.sktorrent.eu/media/videos//h264/31440_720p.mp4
+[00:49:46] step=download curl https://online23.sktorrent.eu/media/videos//h264/31440_720p.mp4
+[00:50:49] step=download done cr_film_id=11132 size=610752981 dur=62.7s speed=9.7MB/s
+[00:50:49] step=upload start cr_film_id=11132 size=610752981
+[00:51:12] step=upload done cr_film_id=11132 video_id=24166015 dur=22.9s speed=26.7MB/s
+[00:51:12] step=cleanup unlinked Všechny velké a malé bytosti (1975) CZ Dabing.mp4
+[00:51:12] step=film done cr_film_id=11132 total=93.8s (cdn=8.1s + download=62.7s + upload=22.9s)
+[00:51:12] step=state-saved cr_film_id=11132 (total uploads=927)
+[00:51:12] step=iteration 6/10
+[00:51:12] step=film start cr_film_id=11304 name='Pomsta (1979) CZ Dabing'
+[00:51:12] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/3984_480p.mp4
+[00:51:19] step=cdn-resolve done 7.3s → https://online21.sktorrent.eu/media/videos//h264/3984_480p.mp4
+[00:51:19] step=download curl https://online21.sktorrent.eu/media/videos//h264/3984_480p.mp4
+[00:52:04] step=download done cr_film_id=11304 size=481308533 dur=45.0s speed=10.7MB/s
+[00:52:04] step=upload start cr_film_id=11304 size=481308533
+[00:52:25] step=upload done cr_film_id=11304 video_id=24166047 dur=21.1s speed=22.8MB/s
+[00:52:25] step=cleanup unlinked Pomsta (1979) CZ Dabing.mp4
+[00:52:25] step=film done cr_film_id=11304 total=73.5s (cdn=7.3s + download=45.0s + upload=21.1s)
+[00:52:25] step=state-saved cr_film_id=11304 (total uploads=928)
+[00:52:25] step=iteration 7/10
+[00:52:25] step=film start cr_film_id=11308 name='Panelstory aneb Jak se rodí sídliště (1981) CZ'
+[00:52:25] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/5380_720p.mp4
+[00:52:26] step=cdn-resolve done 0.7s → https://online1.sktorrent.eu/media/videos//h264/5380_720p.mp4
+[00:52:26] step=download curl https://online1.sktorrent.eu/media/videos//h264/5380_720p.mp4
+[00:54:58] step=download done cr_film_id=11308 size=1655552525 dur=152.1s speed=10.9MB/s
+[00:54:58] step=upload start cr_film_id=11308 size=1655552525
+[00:56:04] step=upload done cr_film_id=11308 video_id=24166142 dur=65.5s speed=25.3MB/s
+[00:56:04] step=cleanup unlinked Panelstory aneb Jak se rodí sídliště (1981) CZ.mp4
+[00:56:04] step=film done cr_film_id=11308 total=218.6s (cdn=0.7s + download=152.1s + upload=65.5s)
+[00:56:04] step=state-saved cr_film_id=11308 (total uploads=929)
+[00:56:04] step=iteration 8/10
+[00:56:04] step=film start cr_film_id=11325 name='Black Cat: Gatto nero (1981) CZ Dabing'
+[00:56:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/39428_720p.mp4
+[00:56:08] step=cdn-resolve done 4.3s → https://online11.sktorrent.eu/media/videos//h264/39428_720p.mp4
+[00:56:08] step=download curl https://online11.sktorrent.eu/media/videos//h264/39428_720p.mp4
+[00:57:08] step=download done cr_film_id=11325 size=544818178 dur=59.6s speed=9.1MB/s
+[00:57:08] step=upload start cr_film_id=11325 size=544818178
+[00:57:43] step=upload done cr_film_id=11325 video_id=24166201 dur=34.9s speed=15.6MB/s
+[00:57:43] step=cleanup unlinked Black Cat: Gatto nero (1981) CZ Dabing.mp4
+[00:57:43] step=film done cr_film_id=11325 total=98.8s (cdn=4.3s + download=59.6s + upload=34.9s)
+[00:57:43] step=state-saved cr_film_id=11325 (total uploads=930)
+[00:57:43] step=iteration 9/10
+[00:57:43] step=film start cr_film_id=11381 name='Svědek (1981) CZ Dabing'
+[00:57:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/48092_720p.mp4
+[00:57:49] step=cdn-resolve done 6.5s → https://online18.sktorrent.eu/media/videos//h264/48092_720p.mp4
+[00:57:49] step=download curl https://online18.sktorrent.eu/media/videos//h264/48092_720p.mp4
+[00:58:40] step=download done cr_film_id=11381 size=503501886 dur=50.8s speed=9.9MB/s
+[00:58:40] step=upload start cr_film_id=11381 size=503501886
+[00:59:04] step=upload done cr_film_id=11381 video_id=24166238 dur=24.4s speed=20.6MB/s
+[00:59:05] step=cleanup unlinked Svědek (1981) CZ Dabing.mp4
+[00:59:05] step=film done cr_film_id=11381 total=81.7s (cdn=6.5s + download=50.8s + upload=24.4s)
+[00:59:05] step=state-saved cr_film_id=11381 (total uploads=931)
+[00:59:05] step=iteration 10/10
+[00:59:05] step=film start cr_film_id=11407 name='Roar (1981) CZ Dabing'
+[00:59:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/57643_HD.mp4
+[00:59:12] step=cdn-resolve done 7.7s → https://online22.sktorrent.eu/media/videos//h264/57643_HD.mp4
+[00:59:12] step=download curl https://online22.sktorrent.eu/media/videos//h264/57643_HD.mp4
+[00:59:44] step=download done cr_film_id=11407 size=360629186 dur=32.0s speed=11.3MB/s
+[00:59:44] step=upload start cr_film_id=11407 size=360629186
+[01:00:12] step=upload done cr_film_id=11407 video_id=24166261 dur=27.8s speed=13.0MB/s
+[01:00:12] step=cleanup unlinked Roar (1981) CZ Dabing.mp4
+[01:00:12] step=film done cr_film_id=11407 total=67.5s (cdn=7.7s + download=32.0s + upload=27.8s)
+[01:00:12] step=state-saved cr_film_id=11407 (total uploads=932)
+[01:00:12] step=batch-end succeeded=10 failed=0 total_uploads=932 batch_dur=1067.6s avg_per_film=106.8s backlog_remaining=577 eta_hours=17.1
