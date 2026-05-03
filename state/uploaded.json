@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-04-25T08:03:38Z",
+  "last_updated": "2026-05-03T22:14:17Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -20526,6 +20526,528 @@
         "upload_sec": 18.9,
         "total_sec": 43.1
       }
+    },
+    {
+      "cr_film_id": 6515,
+      "cr_slug": "tlapkova-patrola-ve-velkofilmu",
+      "title": "Tlapková patrola ve velkofilmu",
+      "year": 2023,
+      "sktorrent_id": 33116,
+      "prehrajto_video_id": 24470917,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T20:33:50Z",
+      "status": "processing",
+      "size_bytes": 710951277,
+      "timing": {
+        "cdn_resolve_sec": 9.5,
+        "download_sec": 137.6,
+        "upload_sec": 54.0,
+        "total_sec": 201.2
+      }
+    },
+    {
+      "cr_film_id": 14808,
+      "cr_slug": "jizda-na-hrane-2021",
+      "title": "Jízda na hraně",
+      "year": 2021,
+      "sktorrent_id": 46130,
+      "prehrajto_video_id": 24471174,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T20:42:07Z",
+      "status": "processing",
+      "size_bytes": 574893621,
+      "timing": {
+        "cdn_resolve_sec": 5.2,
+        "download_sec": 430.8,
+        "upload_sec": 37.9,
+        "total_sec": 474.0
+      }
+    },
+    {
+      "cr_film_id": 15440,
+      "cr_slug": "la-certosa-di-parma-2012",
+      "title": "La Certosa di Parma",
+      "year": 2012,
+      "sktorrent_id": 49812,
+      "prehrajto_video_id": 24471329,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T20:46:41Z",
+      "status": "processing",
+      "size_bytes": 768822580,
+      "timing": {
+        "cdn_resolve_sec": 12.0,
+        "download_sec": 215.4,
+        "upload_sec": 46.9,
+        "total_sec": 274.3
+      }
+    },
+    {
+      "cr_film_id": 14324,
+      "cr_slug": "love-in-the-forecast-2020",
+      "title": "Love in the Forecast",
+      "year": 2020,
+      "sktorrent_id": 45363,
+      "prehrajto_video_id": 24471395,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T20:49:17Z",
+      "status": "processing",
+      "size_bytes": 637443980,
+      "timing": {
+        "cdn_resolve_sec": 9.1,
+        "download_sec": 108.2,
+        "upload_sec": 38.6,
+        "total_sec": 156.0
+      }
+    },
+    {
+      "cr_film_id": 13590,
+      "cr_slug": "die-abtei-des-verbrechens-umberto-ecos-der-name-der-rose-wird-verfilmt-1986",
+      "title": "Die Abtei des Verbrechens - Umberto Ecos „Der Name der Rose“ wird verfilmt",
+      "year": 1986,
+      "sktorrent_id": 93,
+      "prehrajto_video_id": 24471460,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T20:51:30Z",
+      "status": "processing",
+      "size_bytes": 515754907,
+      "timing": {
+        "cdn_resolve_sec": 6.8,
+        "download_sec": 93.4,
+        "upload_sec": 32.4,
+        "total_sec": 132.7
+      }
+    },
+    {
+      "cr_film_id": 11110,
+      "cr_slug": "the-men-who-made-the-movies-george-cukor-1973",
+      "title": "The Men Who Made the Movies: George Cukor",
+      "year": 1973,
+      "sktorrent_id": 21135,
+      "prehrajto_video_id": 24471706,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:01:01Z",
+      "status": "processing",
+      "size_bytes": 960775425,
+      "timing": {
+        "cdn_resolve_sec": 8.0,
+        "download_sec": 475.8,
+        "upload_sec": 63.5,
+        "total_sec": 547.5
+      }
+    },
+    {
+      "cr_film_id": 15265,
+      "cr_slug": "heroes-verdaderos-2010",
+      "title": "Heroes Verdaderos",
+      "year": 2010,
+      "sktorrent_id": 48893,
+      "prehrajto_video_id": 24471814,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:04:59Z",
+      "status": "processing",
+      "size_bytes": 699358253,
+      "timing": {
+        "cdn_resolve_sec": 3.5,
+        "download_sec": 191.6,
+        "upload_sec": 42.2,
+        "total_sec": 237.3
+      }
+    },
+    {
+      "cr_film_id": 13508,
+      "cr_slug": "deadly-visions-2004",
+      "title": "Deadly Visions",
+      "year": 2004,
+      "sktorrent_id": 45025,
+      "prehrajto_video_id": 24471897,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:07:47Z",
+      "status": "processing",
+      "size_bytes": 492009293,
+      "timing": {
+        "cdn_resolve_sec": 8.8,
+        "download_sec": 60.9,
+        "upload_sec": 31.7,
+        "total_sec": 101.5
+      }
+    },
+    {
+      "cr_film_id": 15072,
+      "cr_slug": "the-kane-files-life-of-trial-2010",
+      "title": "The Kane Files: Life of Trial",
+      "year": 2010,
+      "sktorrent_id": 45472,
+      "prehrajto_video_id": 24472231,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:19:44Z",
+      "status": "processing",
+      "size_bytes": 562405257,
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 105.4,
+        "upload_sec": 44.3,
+        "total_sec": 151.7
+      }
+    },
+    {
+      "cr_film_id": 13427,
+      "cr_slug": "pribuzenstvo-ameriky-2003",
+      "title": "Příbuzenstvo Ameriky",
+      "year": 2003,
+      "sktorrent_id": 24913,
+      "prehrajto_video_id": 24472317,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:23:07Z",
+      "status": "processing",
+      "size_bytes": 546266926,
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 144.1,
+        "upload_sec": 34.5,
+        "total_sec": 184.6
+      }
+    },
+    {
+      "cr_film_id": 16360,
+      "cr_slug": "valecny-zpravodaj-2024",
+      "title": "Válečný zpravodaj",
+      "year": 2024,
+      "sktorrent_id": 24600,
+      "prehrajto_video_id": 24472390,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:26:02Z",
+      "status": "processing",
+      "size_bytes": 745665158,
+      "timing": {
+        "cdn_resolve_sec": 9.5,
+        "download_sec": 97.9,
+        "upload_sec": 48.0,
+        "total_sec": 155.6
+      }
+    },
+    {
+      "cr_film_id": 16615,
+      "cr_slug": "the-belisarius-chronicles-2017",
+      "title": "The Belisarius Chronicles",
+      "year": 2017,
+      "sktorrent_id": 26043,
+      "prehrajto_video_id": 24472434,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:27:18Z",
+      "status": "processing",
+      "size_bytes": 299442323,
+      "timing": {
+        "cdn_resolve_sec": 6.6,
+        "download_sec": 48.0,
+        "upload_sec": 21.5,
+        "total_sec": 76.1
+      }
+    },
+    {
+      "cr_film_id": 15599,
+      "cr_slug": "ultimate-armored-car-the-presidential-beast-2012",
+      "title": "Ultimate Armored Car: The Presidential Beast",
+      "year": 2012,
+      "sktorrent_id": 40929,
+      "prehrajto_video_id": 24472492,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:29:31Z",
+      "status": "processing",
+      "size_bytes": 451816079,
+      "timing": {
+        "cdn_resolve_sec": 14.1,
+        "download_sec": 74.0,
+        "upload_sec": 30.0,
+        "total_sec": 118.2
+      }
+    },
+    {
+      "cr_film_id": 15254,
+      "cr_slug": "film-1981",
+      "title": "Акмаль, дракон и принцесса",
+      "year": 1981,
+      "sktorrent_id": 2850,
+      "prehrajto_video_id": 24472579,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:32:13Z",
+      "status": "processing",
+      "size_bytes": 417642528,
+      "timing": {
+        "cdn_resolve_sec": 7.9,
+        "download_sec": 128.0,
+        "upload_sec": 26.6,
+        "total_sec": 162.6
+      }
+    },
+    {
+      "cr_film_id": 1736,
+      "cr_slug": "spacewalker",
+      "title": "Čas dobyvatelů",
+      "year": 2017,
+      "sktorrent_id": 16950,
+      "prehrajto_video_id": 24472648,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:35:25Z",
+      "status": "processing",
+      "size_bytes": 775638386,
+      "timing": {
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 124.3,
+        "upload_sec": 47.2,
+        "total_sec": 176.2
+      }
+    },
+    {
+      "cr_film_id": 11125,
+      "cr_slug": "masakr-v-san-franciscu-1974",
+      "title": "Masakr v San Franciscu",
+      "year": 1974,
+      "sktorrent_id": 3671,
+      "prehrajto_video_id": 24472711,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:37:51Z",
+      "status": "processing",
+      "size_bytes": 519977293,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 83.1,
+        "upload_sec": 32.2,
+        "total_sec": 116.9
+      }
+    },
+    {
+      "cr_film_id": 11294,
+      "cr_slug": "elvis-presley-1979",
+      "title": "Elvis Presley",
+      "year": 1979,
+      "sktorrent_id": 24984,
+      "prehrajto_video_id": 24472794,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:41:48Z",
+      "status": "processing",
+      "size_bytes": 1158623706,
+      "timing": {
+        "cdn_resolve_sec": 8.3,
+        "download_sec": 162.8,
+        "upload_sec": 65.4,
+        "total_sec": 236.7
+      }
+    },
+    {
+      "cr_film_id": 12851,
+      "cr_slug": "snake-in-the-eagles-shadow-2",
+      "title": "Snake In The Eagles Shadow 2",
+      "year": 1978,
+      "sktorrent_id": 55750,
+      "prehrajto_video_id": 24472858,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:44:04Z",
+      "status": "processing",
+      "size_bytes": 651600998,
+      "timing": {
+        "cdn_resolve_sec": 13.8,
+        "download_sec": 36.3,
+        "upload_sec": 40.3,
+        "total_sec": 90.5
+      }
+    },
+    {
+      "cr_film_id": 14360,
+      "cr_slug": "o-sipkove-ruzence-2009",
+      "title": "O Šípkové Růžence",
+      "year": 2009,
+      "sktorrent_id": 47554,
+      "prehrajto_video_id": 24472923,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:46:25Z",
+      "status": "processing",
+      "size_bytes": 481570359,
+      "timing": {
+        "cdn_resolve_sec": 12.1,
+        "download_sec": 68.7,
+        "upload_sec": 31.2,
+        "total_sec": 112.0
+      }
+    },
+    {
+      "cr_film_id": 14484,
+      "cr_slug": "thorn-of-war-2021",
+      "title": "Thorn of War",
+      "year": 2021,
+      "sktorrent_id": 39601,
+      "prehrajto_video_id": 24472965,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:48:21Z",
+      "status": "processing",
+      "size_bytes": 748378694,
+      "timing": {
+        "cdn_resolve_sec": 13.8,
+        "download_sec": 36.2,
+        "upload_sec": 51.7,
+        "total_sec": 101.8
+      }
+    },
+    {
+      "cr_film_id": 15063,
+      "cr_slug": "in-the-morning-of-la-petite-mort",
+      "title": "In the Morning of La Petite Mort",
+      "year": 2023,
+      "sktorrent_id": 38552,
+      "prehrajto_video_id": 24473028,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:50:19Z",
+      "status": "processing",
+      "size_bytes": 456889477,
+      "timing": {
+        "cdn_resolve_sec": 11.4,
+        "download_sec": 61.2,
+        "upload_sec": 29.0,
+        "total_sec": 101.6
+      }
+    },
+    {
+      "cr_film_id": 16722,
+      "cr_slug": "stiny-smrti-vrazda-v-aigues-mortes-2015",
+      "title": "Stíny smrti: Vražda v Aigues-Mortes",
+      "year": 2015,
+      "sktorrent_id": 45368,
+      "prehrajto_video_id": 24473107,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:53:49Z",
+      "status": "processing",
+      "size_bytes": 819563641,
+      "timing": {
+        "cdn_resolve_sec": 11.4,
+        "download_sec": 148.8,
+        "upload_sec": 49.0,
+        "total_sec": 209.3
+      }
+    },
+    {
+      "cr_film_id": 16871,
+      "cr_slug": "stiny-smrti-vrazedny-les-broceliande-2016",
+      "title": "Stíny smrti: Vražedný les Brocéliande",
+      "year": 2016,
+      "sktorrent_id": 45336,
+      "prehrajto_video_id": 24473182,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:56:26Z",
+      "status": "processing",
+      "size_bytes": 496385027,
+      "timing": {
+        "cdn_resolve_sec": 7.3,
+        "download_sec": 118.1,
+        "upload_sec": 32.3,
+        "total_sec": 157.8
+      }
+    },
+    {
+      "cr_film_id": 17514,
+      "cr_slug": "stiny-smrti-vrazda-na-plazi-2018",
+      "title": "Stíny smrti: Vražda na pláži",
+      "year": 2018,
+      "sktorrent_id": 45534,
+      "prehrajto_video_id": 24473233,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T21:58:49Z",
+      "status": "processing",
+      "size_bytes": 635559446,
+      "timing": {
+        "cdn_resolve_sec": 11.0,
+        "download_sec": 92.3,
+        "upload_sec": 39.5,
+        "total_sec": 142.9
+      }
+    },
+    {
+      "cr_film_id": 17521,
+      "cr_slug": "wet-red-rose",
+      "title": "Wet Red Rose",
+      "year": 1972,
+      "sktorrent_id": 48484,
+      "prehrajto_video_id": 24473286,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T22:01:18Z",
+      "status": "processing",
+      "size_bytes": 576466360,
+      "timing": {
+        "cdn_resolve_sec": 11.8,
+        "download_sec": 72.4,
+        "upload_sec": 64.6,
+        "total_sec": 149.0
+      }
+    },
+    {
+      "cr_film_id": 15353,
+      "cr_slug": "stylova-romance-2023",
+      "title": "Stylová romance",
+      "year": 2023,
+      "sktorrent_id": 33282,
+      "prehrajto_video_id": 24473364,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T22:04:19Z",
+      "status": "processing",
+      "size_bytes": 582664696,
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 143.3,
+        "upload_sec": 35.8,
+        "total_sec": 181.2
+      }
+    },
+    {
+      "cr_film_id": 15282,
+      "cr_slug": "the-wedding-veil-unveiled-2022",
+      "title": "The Wedding Veil Unveiled",
+      "year": 2022,
+      "sktorrent_id": 47368,
+      "prehrajto_video_id": 24473488,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T22:09:20Z",
+      "status": "processing",
+      "size_bytes": 531195421,
+      "timing": {
+        "cdn_resolve_sec": 3.6,
+        "download_sec": 261.3,
+        "upload_sec": 35.8,
+        "total_sec": 300.7
+      }
+    },
+    {
+      "cr_film_id": 13568,
+      "cr_slug": "the-way-back-home-2006",
+      "title": "The Way Back Home",
+      "year": 2006,
+      "sktorrent_id": 18405,
+      "prehrajto_video_id": 24473582,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T22:12:24Z",
+      "status": "processing",
+      "size_bytes": 658787694,
+      "timing": {
+        "cdn_resolve_sec": 4.7,
+        "download_sec": 137.7,
+        "upload_sec": 41.9,
+        "total_sec": 184.3
+      }
+    },
+    {
+      "cr_film_id": 12942,
+      "cr_slug": "3000-mil-na-uteku-2001",
+      "title": "3000 mil na útěku",
+      "year": 2001,
+      "sktorrent_id": 1805,
+      "prehrajto_video_id": 24473622,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-03T22:14:17Z",
+      "status": "processing",
+      "size_bytes": 718679175,
+      "timing": {
+        "cdn_resolve_sec": 14.2,
+        "download_sec": 37.5,
+        "upload_sec": 60.9,
+        "total_sec": 112.7
+      }
     }
   ],
   "moderated_out": [
@@ -23821,6 +24343,238 @@
       "timing": {
         "cdn_resolve_sec": 8.5,
         "download_sec": 540.0
+      }
+    },
+    {
+      "cr_film_id": 5615,
+      "cr_slug": "bezva-zenska-na-krku",
+      "title": "Bezva ženská na krku",
+      "year": 2016,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T20:30:28Z",
+      "timing": {
+        "cdn_resolve_sec": 23.1
+      }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T20:34:13Z",
+      "timing": {
+        "cdn_resolve_sec": 23.1
+      }
+    },
+    {
+      "cr_film_id": 13118,
+      "cr_slug": "poolhall-junkies-2002",
+      "title": "Poolhall Junkies",
+      "year": 2002,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T20:51:54Z",
+      "timing": {
+        "cdn_resolve_sec": 24.1
+      }
+    },
+    {
+      "cr_film_id": 16591,
+      "cr_slug": "byla-si-uz-na-mesici-2015",
+      "title": "Byla si už na měsíci?",
+      "year": 2015,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:05:21Z",
+      "timing": {
+        "cdn_resolve_sec": 22.5
+      }
+    },
+    {
+      "cr_film_id": 16512,
+      "cr_slug": "zdanlive-bezpeci-2014",
+      "title": "Zdánlivé bezpečí",
+      "year": 2014,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:05:43Z",
+      "timing": {
+        "cdn_resolve_sec": 22.2
+      }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi-1935",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:06:06Z",
+      "timing": {
+        "cdn_resolve_sec": 22.2
+      }
+    },
+    {
+      "cr_film_id": 16232,
+      "cr_slug": "franny-2015",
+      "title": "Franny",
+      "year": 2015,
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 333479936 out of 422692290 bytes received",
+      "failed_at": "2026-05-03T21:16:50Z",
+      "timing": {
+        "cdn_resolve_sec": 2.5,
+        "download_sec": 540.0
+      }
+    },
+    {
+      "cr_film_id": 14723,
+      "cr_slug": "krev-na-kridlech-2011",
+      "title": "Krev na křídlech",
+      "year": 2011,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:17:13Z",
+      "timing": {
+        "cdn_resolve_sec": 22.8
+      }
+    },
+    {
+      "cr_film_id": 13493,
+      "cr_slug": "hrubes-a-mares-jsou-kamaradi-do-deste-2004",
+      "title": "Hrubeš a Mareš jsou kamarádi do deště",
+      "year": 2004,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:20:03Z",
+      "timing": {
+        "cdn_resolve_sec": 18.5
+      }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus-1995",
+      "title": "Proteus",
+      "year": 1995,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:23:26Z",
+      "timing": {
+        "cdn_resolve_sec": 18.6
+      }
+    },
+    {
+      "cr_film_id": 16810,
+      "cr_slug": "how-to-act-on-reality-tv-2016",
+      "title": "How to Act on Reality TV",
+      "year": 2016,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:27:32Z",
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    },
+    {
+      "cr_film_id": 13280,
+      "cr_slug": "tvoje-srdce-inkognito-1936",
+      "title": "Tvoje srdce inkognito",
+      "year": 1936,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:32:29Z",
+      "timing": {
+        "cdn_resolve_sec": 15.3
+      }
+    },
+    {
+      "cr_film_id": 7365,
+      "cr_slug": "monster-trucks",
+      "title": "Monster Trucks",
+      "year": 2016,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:35:39Z",
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci-1935",
+      "title": "Křižáci",
+      "year": 1935,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:35:54Z",
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
+    },
+    {
+      "cr_film_id": 11952,
+      "cr_slug": "delta-force-commando-ii-priority-red-one-1990",
+      "title": "Delta Force Commando II: Priority Red One",
+      "year": 1990,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:42:04Z",
+      "timing": {
+        "cdn_resolve_sec": 16.2
+      }
+    },
+    {
+      "cr_film_id": 12286,
+      "cr_slug": "vrana-mesto-andelu-1996",
+      "title": "Vrána: Město andělů",
+      "year": 1996,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:42:19Z",
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat-2000",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:42:33Z",
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    },
+    {
+      "cr_film_id": 13328,
+      "cr_slug": "vrana-4-pekelny-knez-2005",
+      "title": "Vrána 4: Pekelný kněz",
+      "year": 2005,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:44:18Z",
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba-2005",
+      "title": "Malá ryba",
+      "year": 2005,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:44:33Z",
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play-2008",
+      "title": "Cold Play",
+      "year": 2008,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:46:39Z",
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    },
+    {
+      "cr_film_id": 14852,
+      "cr_slug": "sci-fi-high-the-movie-musical-2010",
+      "title": "Sci-Fi High: The Movie Musical",
+      "year": 2010,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-05-03T21:48:38Z",
+      "timing": {
+        "cdn_resolve_sec": 16.4
       }
     }
   ]
