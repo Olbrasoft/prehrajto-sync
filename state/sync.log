@@ -16213,3 +16213,559 @@
 [07:05:01] step=film done cr_film_id=17601 total=83.1s (cdn=7.0s + download=49.4s + upload=26.7s)
 [07:05:01] step=state-saved cr_film_id=17601 (total uploads=1328)
 [07:05:01] step=batch-end succeeded=50 failed=0 total_uploads=1328 batch_dur=5769.0s avg_per_film=115.4s backlog_remaining=299 eta_hours=9.6
+
+===== run 2026-05-04T07:25:38Z batch_size=50 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/25306458981) =====
+[07:25:39] step=batch-start count=50 backlog=1629 uploads=1328 moderated=2
+[07:25:39] step=login
+[07:25:40] step=login done
+[07:25:40] step=iteration 1/50
+[07:25:40] step=film start cr_film_id=16542 name='The Deadly Little Mermaid (2026) CZ titulky'
+[07:25:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31882_720p.mp4
+[07:25:54] step=cdn-resolve done 13.7s → https://online24.sktorrent.eu/media/videos//h264/31882_720p.mp4
+[07:25:54] step=download curl https://online24.sktorrent.eu/media/videos//h264/31882_720p.mp4
+[07:26:56] step=download done cr_film_id=16542 size=1174439852 dur=61.5s speed=19.1MB/s
+[07:26:56] step=upload start cr_film_id=16542 size=1174439852
+[07:27:54] step=upload done cr_film_id=16542 video_id=24485914 dur=58.7s speed=20.0MB/s
+[07:27:54] step=cleanup unlinked The Deadly Little Mermaid (2026) CZ titulky.mp4
+[07:27:54] step=film done cr_film_id=16542 total=134.1s (cdn=13.7s + download=61.5s + upload=58.7s)
+[07:27:54] step=state-saved cr_film_id=16542 (total uploads=1329)
+[07:27:54] step=iteration 2/50
+[07:27:54] step=film start cr_film_id=17148 name='Dabangg 3 (2019) CZ titulky'
+[07:27:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29463_720p.mp4
+[07:28:01] step=cdn-resolve done 6.5s → https://online10.sktorrent.eu/media/videos//h264/29463_720p.mp4
+[07:28:01] step=download curl https://online10.sktorrent.eu/media/videos//h264/29463_720p.mp4
+[07:28:58] step=download done cr_film_id=17148 size=572703809 dur=56.6s speed=10.1MB/s
+[07:28:58] step=upload start cr_film_id=17148 size=572703809
+[07:29:30] step=upload done cr_film_id=17148 video_id=24485945 dur=32.1s speed=17.8MB/s
+[07:29:30] step=cleanup unlinked Dabangg 3 (2019) CZ titulky.mp4
+[07:29:30] step=film done cr_film_id=17148 total=95.3s (cdn=6.5s + download=56.6s + upload=32.1s)
+[07:29:30] step=state-saved cr_film_id=17148 (total uploads=1330)
+[07:29:30] step=iteration 3/50
+[07:29:30] step=film start cr_film_id=14051 name='Cysta (2020) CZ titulky'
+[07:29:30] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19836_720p.mp4
+[07:29:40] step=cdn-resolve done 10.4s → https://online18.sktorrent.eu/media/videos//h264/19836_720p.mp4
+[07:29:40] step=download curl https://online18.sktorrent.eu/media/videos//h264/19836_720p.mp4
+[07:30:20] step=download done cr_film_id=14051 size=380383139 dur=39.8s speed=9.6MB/s
+[07:30:20] step=upload start cr_film_id=14051 size=380383139
+[07:30:41] step=upload done cr_film_id=14051 video_id=24485979 dur=21.2s speed=17.9MB/s
+[07:30:41] step=cleanup unlinked Cysta (2020) CZ titulky.mp4
+[07:30:41] step=film done cr_film_id=14051 total=71.5s (cdn=10.4s + download=39.8s + upload=21.2s)
+[07:30:41] step=state-saved cr_film_id=14051 (total uploads=1331)
+[07:30:41] step=iteration 4/50
+[07:30:41] step=film start cr_film_id=15621 name='Letní mráz (2023) CZ titulky'
+[07:30:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28331_720p.mp4
+[07:30:46] step=cdn-resolve done 5.1s → https://online8.sktorrent.eu/media/videos//h264/28331_720p.mp4
+[07:30:46] step=download curl https://online8.sktorrent.eu/media/videos//h264/28331_720p.mp4
+[07:32:27] step=download done cr_film_id=15621 size=513285880 dur=100.5s speed=5.1MB/s
+[07:32:27] step=upload start cr_film_id=15621 size=513285880
+[07:32:56] step=upload done cr_film_id=15621 video_id=24486007 dur=29.1s speed=17.6MB/s
+[07:32:56] step=cleanup unlinked Letní mráz (2023) CZ titulky.mp4
+[07:32:56] step=film done cr_film_id=15621 total=134.8s (cdn=5.1s + download=100.5s + upload=29.1s)
+[07:32:56] step=state-saved cr_film_id=15621 (total uploads=1332)
+[07:32:56] step=iteration 5/50
+[07:32:56] step=film start cr_film_id=15337 name='Krize ve středu země (2023) CZ titulky'
+[07:32:56] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36400_720p.mp4
+[07:33:08] step=cdn-resolve done 11.9s → https://online21.sktorrent.eu/media/videos//h264/36400_720p.mp4
+[07:33:08] step=download curl https://online21.sktorrent.eu/media/videos//h264/36400_720p.mp4
+[07:34:35] step=download done cr_film_id=15337 size=621656348 dur=87.2s speed=7.1MB/s
+[07:34:35] step=upload start cr_film_id=15337 size=621656348
+[07:35:11] step=upload done cr_film_id=15337 video_id=24486041 dur=36.0s speed=17.3MB/s
+[07:35:11] step=cleanup unlinked Krize ve středu země (2023) CZ titulky.mp4
+[07:35:11] step=film done cr_film_id=15337 total=135.2s (cdn=11.9s + download=87.2s + upload=36.0s)
+[07:35:11] step=state-saved cr_film_id=15337 (total uploads=1333)
+[07:35:11] step=iteration 6/50
+[07:35:11] step=film start cr_film_id=13398 name='Anatomy of a Shark Bite (2005) CZ titulky'
+[07:35:11] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23247_720p.mp4
+[07:35:17] step=cdn-resolve done 5.5s → https://online9.sktorrent.eu/media/videos//h264/23247_720p.mp4
+[07:35:17] step=download curl https://online9.sktorrent.eu/media/videos//h264/23247_720p.mp4
+[07:37:14] step=download done cr_film_id=13398 size=1003232596 dur=117.0s speed=8.6MB/s
+[07:37:14] step=upload start cr_film_id=13398 size=1003232596
+[07:38:07] step=upload done cr_film_id=13398 video_id=24486076 dur=53.7s speed=18.7MB/s
+[07:38:08] step=cleanup unlinked Anatomy of a Shark Bite (2005) CZ titulky.mp4
+[07:38:08] step=film done cr_film_id=13398 total=176.3s (cdn=5.5s + download=117.0s + upload=53.7s)
+[07:38:08] step=state-saved cr_film_id=13398 (total uploads=1334)
+[07:38:08] step=iteration 7/50
+[07:38:08] step=film start cr_film_id=15316 name='Die fremde Familie (2011) CZ titulky'
+[07:38:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45168_HD.mp4
+[07:38:15] step=cdn-resolve done 7.7s → https://online12.sktorrent.eu/media/videos//h264/45168_HD.mp4
+[07:38:15] step=download curl https://online12.sktorrent.eu/media/videos//h264/45168_HD.mp4
+[07:38:51] step=download done cr_film_id=15316 size=264719805 dur=35.8s speed=7.4MB/s
+[07:38:51] step=upload start cr_film_id=15316 size=264719805
+[07:39:08] step=upload done cr_film_id=15316 video_id=24486107 dur=16.5s speed=16.0MB/s
+[07:39:08] step=cleanup unlinked Die fremde Familie (2011) CZ titulky.mp4
+[07:39:08] step=film done cr_film_id=15316 total=60.0s (cdn=7.7s + download=35.8s + upload=16.5s)
+[07:39:08] step=state-saved cr_film_id=15316 (total uploads=1335)
+[07:39:08] step=iteration 8/50
+[07:39:08] step=film start cr_film_id=15670 name='Benim Babam Bir Kahraman (2023) CZ titulky'
+[07:39:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30737_HD.mp4
+[07:39:18] step=cdn-resolve done 10.4s → https://online18.sktorrent.eu/media/videos//h264/30737_HD.mp4
+[07:39:18] step=download curl https://online18.sktorrent.eu/media/videos//h264/30737_HD.mp4
+[07:39:57] step=download done cr_film_id=15670 size=402198507 dur=38.5s speed=10.4MB/s
+[07:39:57] step=upload start cr_film_id=15670 size=402198507
+[07:40:24] step=upload done cr_film_id=15670 video_id=24486122 dur=27.8s speed=14.5MB/s
+[07:40:24] step=cleanup unlinked Benim Babam Bir Kahraman (2023) CZ titulky.mp4
+[07:40:24] step=film done cr_film_id=15670 total=76.8s (cdn=10.4s + download=38.5s + upload=27.8s)
+[07:40:24] step=state-saved cr_film_id=15670 (total uploads=1336)
+[07:40:24] step=iteration 9/50
+[07:40:24] step=film start cr_film_id=16734 name='Strip Club Massacre (2019) CZ titulky'
+[07:40:24] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/15893_720p.mp4
+[07:40:32] step=cdn-resolve done 7.3s → https://online12.sktorrent.eu/media/videos//h264/15893_720p.mp4
+[07:40:32] step=download curl https://online12.sktorrent.eu/media/videos//h264/15893_720p.mp4
+[07:41:40] step=download done cr_film_id=16734 size=661031562 dur=67.9s speed=9.7MB/s
+[07:41:40] step=upload start cr_film_id=16734 size=661031562
+[07:42:14] step=upload done cr_film_id=16734 video_id=24486141 dur=34.8s speed=19.0MB/s
+[07:42:14] step=cleanup unlinked Strip Club Massacre (2019) CZ titulky.mp4
+[07:42:14] step=film done cr_film_id=16734 total=110.1s (cdn=7.3s + download=67.9s + upload=34.8s)
+[07:42:14] step=state-saved cr_film_id=16734 (total uploads=1337)
+[07:42:14] step=iteration 10/50
+[07:42:14] step=film start cr_film_id=15703 name='Killing Bagheera (2022) CZ titulky'
+[07:42:14] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42797_720p.mp4
+[07:42:27] step=cdn-resolve done 12.7s → https://online22.sktorrent.eu/media/videos//h264/42797_720p.mp4
+[07:42:27] step=download curl https://online22.sktorrent.eu/media/videos//h264/42797_720p.mp4
+[07:44:06] step=download done cr_film_id=15703 size=1008083803 dur=98.7s speed=10.2MB/s
+[07:44:06] step=upload start cr_film_id=15703 size=1008083803
+[07:45:00] step=upload done cr_film_id=15703 video_id=24486178 dur=54.4s speed=18.5MB/s
+[07:45:00] step=cleanup unlinked Killing Bagheera (2022) CZ titulky.mp4
+[07:45:00] step=film done cr_film_id=15703 total=166.0s (cdn=12.7s + download=98.7s + upload=54.4s)
+[07:45:00] step=state-saved cr_film_id=15703 (total uploads=1338)
+[07:45:00] step=iteration 11/50
+[07:45:00] step=film start cr_film_id=15076 name='Origins Unknown: The Alien Presence on Earth (2021) CZ titulky'
+[07:45:00] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12638_720p.mp4
+[07:45:13] step=cdn-resolve done 12.5s → https://online22.sktorrent.eu/media/videos//h264/12638_720p.mp4
+[07:45:13] step=download curl https://online22.sktorrent.eu/media/videos//h264/12638_720p.mp4
+[07:46:27] step=download done cr_film_id=15076 size=583693316 dur=74.3s speed=7.9MB/s
+[07:46:27] step=upload start cr_film_id=15076 size=583693316
+[07:46:59] step=upload done cr_film_id=15076 video_id=24486216 dur=31.5s speed=18.5MB/s
+[07:46:59] step=cleanup unlinked Origins Unknown: The Alien Presence on Earth (2021) CZ titulky.mp4
+[07:46:59] step=film done cr_film_id=15076 total=118.3s (cdn=12.5s + download=74.3s + upload=31.5s)
+[07:46:59] step=state-saved cr_film_id=15076 (total uploads=1339)
+[07:46:59] step=iteration 12/50
+[07:46:59] step=film start cr_film_id=16402 name='Sukob interesa: Ljubavna priča (2013) CZ titulky'
+[07:46:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22743_720p.mp4
+[07:47:04] step=cdn-resolve done 5.5s → https://online9.sktorrent.eu/media/videos//h264/22743_720p.mp4
+[07:47:04] step=download curl https://online9.sktorrent.eu/media/videos//h264/22743_720p.mp4
+[07:48:56] step=download done cr_film_id=16402 size=1015295164 dur=112.1s speed=9.1MB/s
+[07:48:56] step=upload start cr_film_id=16402 size=1015295164
+[07:49:49] step=upload done cr_film_id=16402 video_id=24486255 dur=52.6s speed=19.3MB/s
+[07:49:49] step=cleanup unlinked Sukob interesa: Ljubavna priča (2013) CZ titulky.mp4
+[07:49:49] step=film done cr_film_id=16402 total=170.4s (cdn=5.5s + download=112.1s + upload=52.6s)
+[07:49:49] step=state-saved cr_film_id=16402 (total uploads=1340)
+[07:49:49] step=iteration 13/50
+[07:49:49] step=film start cr_film_id=15155 name='Upcoming Remake of 'Riders of Justice' (None) CZ titulky'
+[07:49:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16439_720p.mp4
+[07:49:54] step=cdn-resolve done 4.4s → https://online7.sktorrent.eu/media/videos//h264/16439_720p.mp4
+[07:49:54] step=download curl https://online7.sktorrent.eu/media/videos//h264/16439_720p.mp4
+[07:50:51] step=download done cr_film_id=15155 size=525565191 dur=57.7s speed=9.1MB/s
+[07:50:51] step=upload start cr_film_id=15155 size=525565191
+[07:51:20] step=upload done cr_film_id=15155 video_id=24486284 dur=28.4s speed=18.5MB/s
+[07:51:20] step=cleanup unlinked Upcoming Remake of 'Riders of Justice' (None) CZ titulky.mp4
+[07:51:20] step=film done cr_film_id=15155 total=90.6s (cdn=4.4s + download=57.7s + upload=28.4s)
+[07:51:20] step=state-saved cr_film_id=15155 (total uploads=1341)
+[07:51:20] step=iteration 14/50
+[07:51:20] step=film start cr_film_id=16539 name='Bechara Dil (None) CZ titulky'
+[07:51:20] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12639_720p.mp4
+[07:51:22] step=cdn-resolve done 2.1s → https://online3.sktorrent.eu/media/videos//h264/12639_720p.mp4
+[07:51:22] step=download curl https://online3.sktorrent.eu/media/videos//h264/12639_720p.mp4
+[07:52:57] step=download done cr_film_id=16539 size=658263121 dur=95.3s speed=6.9MB/s
+[07:52:57] step=upload start cr_film_id=16539 size=658263121
+[07:53:36] step=upload done cr_film_id=16539 video_id=24486320 dur=38.9s speed=16.9MB/s
+[07:53:36] step=cleanup unlinked Bechara Dil (None) CZ titulky.mp4
+[07:53:36] step=film done cr_film_id=16539 total=136.4s (cdn=2.1s + download=95.3s + upload=38.9s)
+[07:53:36] step=state-saved cr_film_id=16539 (total uploads=1342)
+[07:53:36] step=iteration 15/50
+[07:53:36] step=film start cr_film_id=3302 name='South Park: Streamovací války 2. část (2022) CZ titulky'
+[07:53:36] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25187_720p.mp4
+[07:53:47] step=cdn-resolve done 10.5s → https://online18.sktorrent.eu/media/videos//h264/25187_720p.mp4
+[07:53:47] step=download curl https://online18.sktorrent.eu/media/videos//h264/25187_720p.mp4
+[07:54:13] step=download done cr_film_id=3302 size=221364890 dur=26.3s speed=8.4MB/s
+[07:54:13] step=upload start cr_film_id=3302 size=221364890
+[07:54:28] step=upload done cr_film_id=3302 video_id=24486342 dur=15.2s speed=14.6MB/s
+[07:54:28] step=cleanup unlinked South Park: Streamovací války 2. část (2022) CZ titulky.mp4
+[07:54:28] step=film done cr_film_id=3302 total=52.1s (cdn=10.5s + download=26.3s + upload=15.2s)
+[07:54:28] step=state-saved cr_film_id=3302 (total uploads=1343)
+[07:54:28] step=iteration 16/50
+[07:54:28] step=film start cr_film_id=4611 name='V úskalí (2020) CZ titulky'
+[07:54:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/13303_720p.mp4
+[07:54:30] step=cdn-resolve done 1.9s → https://online3.sktorrent.eu/media/videos//h264/13303_720p.mp4
+[07:54:30] step=download curl https://online3.sktorrent.eu/media/videos//h264/13303_720p.mp4
+[07:56:23] step=download done cr_film_id=4611 size=461866618 dur=112.7s speed=4.1MB/s
+[07:56:23] step=upload start cr_film_id=4611 size=461866618
+[07:56:48] step=upload done cr_film_id=4611 video_id=24486386 dur=25.5s speed=18.1MB/s
+[07:56:49] step=cleanup unlinked V úskalí (2020) CZ titulky.mp4
+[07:56:49] step=film done cr_film_id=4611 total=140.2s (cdn=1.9s + download=112.7s + upload=25.5s)
+[07:56:49] step=state-saved cr_film_id=4611 (total uploads=1344)
+[07:56:49] step=iteration 17/50
+[07:56:49] step=film start cr_film_id=6209 name='Noc má oči (2022) CZ titulky'
+[07:56:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30436_720p.mp4
+[07:56:59] step=cdn-resolve done 10.9s → https://online17.sktorrent.eu/media/videos//h264/30436_720p.mp4
+[07:56:59] step=download curl https://online17.sktorrent.eu/media/videos//h264/30436_720p.mp4
+[07:57:55] step=download done cr_film_id=6209 size=521157292 dur=55.2s speed=9.4MB/s
+[07:57:55] step=upload start cr_film_id=6209 size=521157292
+[07:58:23] step=upload done cr_film_id=6209 video_id=24486415 dur=28.6s speed=18.2MB/s
+[07:58:23] step=cleanup unlinked Noc má oči (2022) CZ titulky.mp4
+[07:58:23] step=film done cr_film_id=6209 total=94.8s (cdn=10.9s + download=55.2s + upload=28.6s)
+[07:58:23] step=state-saved cr_film_id=6209 (total uploads=1345)
+[07:58:23] step=iteration 18/50
+[07:58:23] step=film start cr_film_id=6968 name='Godzilla: City on the Edge of Battle (2018) CZ titulky'
+[07:58:23] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1100_720p.mp4
+[07:58:37] step=cdn-resolve done 13.3s → https://online24.sktorrent.eu/media/videos//h264/1100_720p.mp4
+[07:58:37] step=download curl https://online24.sktorrent.eu/media/videos//h264/1100_720p.mp4
+[07:59:23] step=download done cr_film_id=6968 size=956138677 dur=46.3s speed=20.7MB/s
+[07:59:23] step=upload start cr_film_id=6968 size=956138677
+[08:00:21] step=upload done cr_film_id=6968 video_id=24486440 dur=57.7s speed=16.6MB/s
+[08:00:21] step=cleanup unlinked Godzilla: City on the Edge of Battle (2018) CZ titulky.mp4
+[08:00:21] step=film done cr_film_id=6968 total=117.4s (cdn=13.3s + download=46.3s + upload=57.7s)
+[08:00:21] step=state-saved cr_film_id=6968 (total uploads=1346)
+[08:00:21] step=iteration 19/50
+[08:00:21] step=film start cr_film_id=9072 name='Poslední přeživší (2021) CZ titulky'
+[08:00:21] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/21449_720p.mp4
+[08:00:29] step=cdn-resolve done 8.5s → https://online14.sktorrent.eu/media/videos//h264/21449_720p.mp4
+[08:00:29] step=download curl https://online14.sktorrent.eu/media/videos//h264/21449_720p.mp4
+[08:01:10] step=download done cr_film_id=9072 size=340059793 dur=40.7s speed=8.4MB/s
+[08:01:10] step=upload start cr_film_id=9072 size=340059793
+[08:01:29] step=upload done cr_film_id=9072 video_id=24486463 dur=19.2s speed=17.7MB/s
+[08:01:29] step=cleanup unlinked Poslední přeživší (2021) CZ titulky.mp4
+[08:01:29] step=film done cr_film_id=9072 total=68.4s (cdn=8.5s + download=40.7s + upload=19.2s)
+[08:01:29] step=state-saved cr_film_id=9072 (total uploads=1347)
+[08:01:29] step=iteration 20/50
+[08:01:29] step=film start cr_film_id=9848 name='2029 (2024) CZ titulky'
+[08:01:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/39987_720p.mp4
+[08:01:42] step=cdn-resolve done 13.2s → https://online24.sktorrent.eu/media/videos//h264/39987_720p.mp4
+[08:01:42] step=download curl https://online24.sktorrent.eu/media/videos//h264/39987_720p.mp4
+[08:02:22] step=download done cr_film_id=9848 size=655650793 dur=39.6s speed=16.6MB/s
+[08:02:22] step=upload start cr_film_id=9848 size=655650793
+[08:02:56] step=upload done cr_film_id=9848 video_id=24486480 dur=34.3s speed=19.1MB/s
+[08:02:57] step=cleanup unlinked 2029 (2024) CZ titulky.mp4
+[08:02:57] step=film done cr_film_id=9848 total=87.3s (cdn=13.2s + download=39.6s + upload=34.3s)
+[08:02:57] step=state-saved cr_film_id=9848 (total uploads=1348)
+[08:02:57] step=iteration 21/50
+[08:02:57] step=film start cr_film_id=9868 name='Section 8 (2022) CZ titulky'
+[08:02:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27342_720p.mp4
+[08:03:04] step=cdn-resolve done 7.9s → https://online13.sktorrent.eu/media/videos//h264/27342_720p.mp4
+[08:03:04] step=download curl https://online13.sktorrent.eu/media/videos//h264/27342_720p.mp4
+[08:04:10] step=download done cr_film_id=9868 size=604734735 dur=65.8s speed=9.2MB/s
+[08:04:10] step=upload start cr_film_id=9868 size=604734735
+[08:05:00] step=upload done cr_film_id=9868 video_id=24486514 dur=50.1s speed=12.1MB/s
+[08:05:00] step=cleanup unlinked Section 8 (2022) CZ titulky.mp4
+[08:05:00] step=film done cr_film_id=9868 total=123.9s (cdn=7.9s + download=65.8s + upload=50.1s)
+[08:05:00] step=state-saved cr_film_id=9868 (total uploads=1349)
+[08:05:00] step=iteration 22/50
+[08:05:00] step=film start cr_film_id=10697 name='Night in Paradise (1946) CZ titulky'
+[08:05:00] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/17182_720p.mp4
+[08:05:11] step=cdn-resolve done 10.5s → https://online18.sktorrent.eu/media/videos//h264/17182_720p.mp4
+[08:05:11] step=download curl https://online18.sktorrent.eu/media/videos//h264/17182_720p.mp4
+[08:06:42] step=download done cr_film_id=10697 size=727709486 dur=91.3s speed=8.0MB/s
+[08:06:42] step=upload start cr_film_id=10697 size=727709486
+[08:07:25] step=upload done cr_film_id=10697 video_id=24486555 dur=42.8s speed=17.0MB/s
+[08:07:25] step=cleanup unlinked Night in Paradise (1946) CZ titulky.mp4
+[08:07:25] step=film done cr_film_id=10697 total=144.7s (cdn=10.5s + download=91.3s + upload=42.8s)
+[08:07:25] step=state-saved cr_film_id=10697 (total uploads=1350)
+[08:07:25] step=iteration 23/50
+[08:07:25] step=film start cr_film_id=11083 name='The Lift (1972) CZ titulky'
+[08:07:25] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18261_720p.mp4
+[08:07:30] step=cdn-resolve done 5.1s → https://online8.sktorrent.eu/media/videos//h264/18261_720p.mp4
+[08:07:30] step=download curl https://online8.sktorrent.eu/media/videos//h264/18261_720p.mp4
+[08:08:05] step=download done cr_film_id=11083 size=344862932 dur=34.3s speed=10.1MB/s
+[08:08:05] step=upload start cr_film_id=11083 size=344862932
+[08:08:24] step=upload done cr_film_id=11083 video_id=24486588 dur=19.7s speed=17.5MB/s
+[08:08:24] step=cleanup unlinked The Lift (1972) CZ titulky.mp4
+[08:08:24] step=film done cr_film_id=11083 total=59.1s (cdn=5.1s + download=34.3s + upload=19.7s)
+[08:08:24] step=state-saved cr_film_id=11083 (total uploads=1351)
+[08:08:24] step=iteration 24/50
+[08:08:24] step=film start cr_film_id=11370 name='Ohnivé vozy (1981) CZ titulky'
+[08:08:24] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/21152_720p.mp4
+[08:08:29] step=cdn-resolve done 4.2s → https://online6.sktorrent.eu/media/videos//h264/21152_720p.mp4
+[08:08:29] step=download curl https://online6.sktorrent.eu/media/videos//h264/21152_720p.mp4
+[08:10:05] step=download done cr_film_id=11370 size=873517287 dur=96.7s speed=9.0MB/s
+[08:10:05] step=upload start cr_film_id=11370 size=873517287
+[08:10:55] step=upload done cr_film_id=11370 video_id=24486620 dur=49.5s speed=17.6MB/s
+[08:10:55] step=cleanup unlinked Ohnivé vozy (1981) CZ titulky.mp4
+[08:10:55] step=film done cr_film_id=11370 total=150.5s (cdn=4.2s + download=96.7s + upload=49.5s)
+[08:10:55] step=state-saved cr_film_id=11370 (total uploads=1352)
+[08:10:55] step=iteration 25/50
+[08:10:55] step=film start cr_film_id=11819 name='Godzilla vs. Biollante (1989) CZ titulky'
+[08:10:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/13167_720p.mp4
+[08:10:57] step=cdn-resolve done 1.8s → https://online3.sktorrent.eu/media/videos//h264/13167_720p.mp4
+[08:10:57] step=download curl https://online3.sktorrent.eu/media/videos//h264/13167_720p.mp4
+[08:14:20] step=download done cr_film_id=11819 size=906034462 dur=202.9s speed=4.5MB/s
+[08:14:20] step=upload start cr_film_id=11819 size=906034462
+[08:15:10] step=upload done cr_film_id=11819 video_id=24486695 dur=50.4s speed=18.0MB/s
+[08:15:10] step=cleanup unlinked Godzilla vs. Biollante (1989) CZ titulky.mp4
+[08:15:10] step=film done cr_film_id=11819 total=255.3s (cdn=1.8s + download=202.9s + upload=50.4s)
+[08:15:10] step=state-saved cr_film_id=11819 (total uploads=1353)
+[08:15:10] step=iteration 26/50
+[08:15:10] step=film start cr_film_id=11959 name='Godzilla vs. King Ghidorah (1991) CZ titulky'
+[08:15:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/3332_720p.mp4
+[08:15:23] step=cdn-resolve done 13.2s → https://online23.sktorrent.eu/media/videos//h264/3332_720p.mp4
+[08:15:23] step=download curl https://online23.sktorrent.eu/media/videos//h264/3332_720p.mp4
+[08:22:53] step=download done cr_film_id=11959 size=3967410705 dur=449.2s speed=8.8MB/s
+[08:22:53] step=upload start cr_film_id=11959 size=3967410705
+[08:26:25] step=upload done cr_film_id=11959 video_id=24486832 dur=212.5s speed=18.7MB/s
+[08:26:26] step=cleanup unlinked Godzilla vs. King Ghidorah (1991) CZ titulky.mp4
+[08:26:26] step=film done cr_film_id=11959 total=675.5s (cdn=13.2s + download=449.2s + upload=212.5s)
+[08:26:26] step=state-saved cr_film_id=11959 (total uploads=1354)
+[08:26:26] step=iteration 27/50
+[08:26:26] step=film start cr_film_id=12266 name='Undercover (1995) CZ titulky'
+[08:26:26] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44356_720p.mp4
+[08:26:27] step=cdn-resolve done 1.0s → https://online1.sktorrent.eu/media/videos//h264/44356_720p.mp4
+[08:26:27] step=download curl https://online1.sktorrent.eu/media/videos//h264/44356_720p.mp4
+[08:27:33] step=download done cr_film_id=12266 size=570954543 dur=66.3s speed=8.6MB/s
+[08:27:33] step=upload start cr_film_id=12266 size=570954543
+[08:28:06] step=upload done cr_film_id=12266 video_id=24486939 dur=33.2s speed=17.2MB/s
+[08:28:06] step=cleanup unlinked Undercover (1995) CZ titulky.mp4
+[08:28:06] step=film done cr_film_id=12266 total=100.7s (cdn=1.0s + download=66.3s + upload=33.2s)
+[08:28:06] step=state-saved cr_film_id=12266 (total uploads=1355)
+[08:28:06] step=iteration 28/50
+[08:28:06] step=film start cr_film_id=12481 name='Mark of the Devil (1984) CZ titulky'
+[08:28:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/8025_720p.mp4
+[08:28:11] step=cdn-resolve done 4.2s → https://online6.sktorrent.eu/media/videos//h264/8025_720p.mp4
+[08:28:11] step=download curl https://online6.sktorrent.eu/media/videos//h264/8025_720p.mp4
+[08:31:26] step=download done cr_film_id=12481 size=1327887423 dur=195.7s speed=6.8MB/s
+[08:31:26] step=upload start cr_film_id=12481 size=1327887423
+[08:32:42] step=upload done cr_film_id=12481 video_id=24487052 dur=75.8s speed=17.5MB/s
+[08:32:42] step=cleanup unlinked Mark of the Devil (1984) CZ titulky.mp4
+[08:32:42] step=film done cr_film_id=12481 total=275.9s (cdn=4.2s + download=195.7s + upload=75.8s)
+[08:32:42] step=state-saved cr_film_id=12481 (total uploads=1356)
+[08:32:42] step=iteration 29/50
+[08:32:42] step=film start cr_film_id=12919 name='Cirque du Soleil: Quidam (1999) CZ titulky'
+[08:32:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22278_480p.mp4
+[08:32:53] step=cdn-resolve done 10.5s → https://online16.sktorrent.eu/media/videos//h264/22278_480p.mp4
+[08:32:53] step=download curl https://online16.sktorrent.eu/media/videos//h264/22278_480p.mp4
+[08:33:38] step=download done cr_film_id=12919 size=439381286 dur=45.1s speed=9.7MB/s
+[08:33:38] step=upload start cr_film_id=12919 size=439381286
+[08:34:08] step=upload done cr_film_id=12919 video_id=24487103 dur=30.5s speed=14.4MB/s
+[08:34:08] step=cleanup unlinked Cirque du Soleil: Quidam (1999) CZ titulky.mp4
+[08:34:08] step=film done cr_film_id=12919 total=86.1s (cdn=10.5s + download=45.1s + upload=30.5s)
+[08:34:08] step=state-saved cr_film_id=12919 (total uploads=1357)
+[08:34:08] step=iteration 30/50
+[08:34:08] step=film start cr_film_id=13254 name='The Platform (2001) CZ titulky'
+[08:34:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16422_720p.mp4
+[08:34:14] step=cdn-resolve done 5.1s → https://online8.sktorrent.eu/media/videos//h264/16422_720p.mp4
+[08:34:14] step=download curl https://online8.sktorrent.eu/media/videos//h264/16422_720p.mp4
+[08:34:53] step=download done cr_film_id=13254 size=353982900 dur=39.5s speed=9.0MB/s
+[08:34:53] step=upload start cr_film_id=13254 size=353982900
+[08:35:15] step=upload done cr_film_id=13254 video_id=24487132 dur=21.7s speed=16.3MB/s
+[08:35:15] step=cleanup unlinked The Platform (2001) CZ titulky.mp4
+[08:35:15] step=film done cr_film_id=13254 total=66.3s (cdn=5.1s + download=39.5s + upload=21.7s)
+[08:35:15] step=state-saved cr_film_id=13254 (total uploads=1358)
+[08:35:15] step=iteration 31/50
+[08:35:15] step=film start cr_film_id=13407 name='Dhamaka (1980) CZ titulky'
+[08:35:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19990_720p.mp4
+[08:35:23] step=cdn-resolve done 7.9s → https://online13.sktorrent.eu/media/videos//h264/19990_720p.mp4
+[08:35:23] step=download curl https://online13.sktorrent.eu/media/videos//h264/19990_720p.mp4
+[08:36:36] step=download done cr_film_id=13407 size=660142126 dur=73.0s speed=9.0MB/s
+[08:36:36] step=upload start cr_film_id=13407 size=660142126
+[08:37:14] step=upload done cr_film_id=13407 video_id=24487158 dur=37.9s speed=17.4MB/s
+[08:37:14] step=cleanup unlinked Dhamaka (1980) CZ titulky.mp4
+[08:37:14] step=film done cr_film_id=13407 total=118.9s (cdn=7.9s + download=73.0s + upload=37.9s)
+[08:37:14] step=state-saved cr_film_id=13407 (total uploads=1359)
+[08:37:14] step=iteration 32/50
+[08:37:14] step=film start cr_film_id=13532 name='Büyü (2004) CZ titulky'
+[08:37:14] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18417_720p.mp4
+[08:37:19] step=cdn-resolve done 5.5s → https://online9.sktorrent.eu/media/videos//h264/18417_720p.mp4
+[08:37:19] step=download curl https://online9.sktorrent.eu/media/videos//h264/18417_720p.mp4
+[08:38:06] step=download done cr_film_id=13532 size=373758380 dur=46.3s speed=8.1MB/s
+[08:38:06] step=upload start cr_film_id=13532 size=373758380
+[08:38:28] step=upload done cr_film_id=13532 video_id=24487178 dur=22.2s speed=16.8MB/s
+[08:38:28] step=cleanup unlinked Büyü (2004) CZ titulky.mp4
+[08:38:28] step=film done cr_film_id=13532 total=74.1s (cdn=5.5s + download=46.3s + upload=22.2s)
+[08:38:28] step=state-saved cr_film_id=13532 (total uploads=1360)
+[08:38:28] step=iteration 33/50
+[08:38:28] step=film start cr_film_id=13648 name='Pravednik (1974) CZ titulky'
+[08:38:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32962_720p.mp4
+[08:38:42] step=cdn-resolve done 14.3s → https://online24.sktorrent.eu/media/videos//h264/32962_720p.mp4
+[08:38:42] step=download curl https://online24.sktorrent.eu/media/videos//h264/32962_720p.mp4
+[08:39:36] step=download done cr_film_id=13648 size=976037032 dur=53.5s speed=18.2MB/s
+[08:39:36] step=upload start cr_film_id=13648 size=976037032
+[08:40:27] step=upload done cr_film_id=13648 video_id=24487208 dur=51.5s speed=19.0MB/s
+[08:40:27] step=cleanup unlinked Pravednik (1974) CZ titulky.mp4
+[08:40:27] step=film done cr_film_id=13648 total=119.5s (cdn=14.3s + download=53.5s + upload=51.5s)
+[08:40:27] step=state-saved cr_film_id=13648 (total uploads=1361)
+[08:40:27] step=iteration 34/50
+[08:40:27] step=film start cr_film_id=13687 name='Knocking (2006) CZ titulky'
+[08:40:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19818_720p.mp4
+[08:40:32] step=cdn-resolve done 5.0s → https://online8.sktorrent.eu/media/videos//h264/19818_720p.mp4
+[08:40:32] step=download curl https://online8.sktorrent.eu/media/videos//h264/19818_720p.mp4
+[08:41:18] step=download done cr_film_id=13687 size=350893169 dur=45.5s speed=7.7MB/s
+[08:41:18] step=upload start cr_film_id=13687 size=350893169
+[08:41:39] step=upload done cr_film_id=13687 video_id=24487240 dur=21.5s speed=16.3MB/s
+[08:41:39] step=cleanup unlinked Knocking (2006) CZ titulky.mp4
+[08:41:39] step=film done cr_film_id=13687 total=72.0s (cdn=5.0s + download=45.5s + upload=21.5s)
+[08:41:39] step=state-saved cr_film_id=13687 (total uploads=1362)
+[08:41:39] step=iteration 35/50
+[08:41:39] step=film start cr_film_id=13880 name='Case Closed: The Fourteenth Target (1998) CZ titulky'
+[08:41:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31731_480p.mp4
+[08:41:49] step=cdn-resolve done 9.3s → https://online16.sktorrent.eu/media/videos//h264/31731_480p.mp4
+[08:41:49] step=download curl https://online16.sktorrent.eu/media/videos//h264/31731_480p.mp4
+[08:42:16] step=download done cr_film_id=13880 size=246255377 dur=27.0s speed=9.1MB/s
+[08:42:16] step=upload start cr_film_id=13880 size=246255377
+[08:42:31] step=upload done cr_film_id=13880 video_id=24487255 dur=15.0s speed=16.4MB/s
+[08:42:31] step=cleanup unlinked Case Closed: The Fourteenth Target (1998) CZ titulky.mp4
+[08:42:31] step=film done cr_film_id=13880 total=51.4s (cdn=9.3s + download=27.0s + upload=15.0s)
+[08:42:31] step=state-saved cr_film_id=13880 (total uploads=1363)
+[08:42:31] step=iteration 36/50
+[08:42:31] step=film start cr_film_id=14245 name='Broken Bird (2020) CZ titulky'
+[08:42:31] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42907_720p.mp4
+[08:42:45] step=cdn-resolve done 13.8s → https://online25.sktorrent.eu/media/videos//h264/42907_720p.mp4
+[08:42:45] step=download curl https://online25.sktorrent.eu/media/videos//h264/42907_720p.mp4
+[08:43:05] step=download done cr_film_id=14245 size=455469257 dur=19.9s speed=22.9MB/s
+[08:43:05] step=upload start cr_film_id=14245 size=455469257
+[08:43:32] step=upload done cr_film_id=14245 video_id=24487265 dur=27.0s speed=16.9MB/s
+[08:43:32] step=cleanup unlinked Broken Bird (2020) CZ titulky.mp4
+[08:43:32] step=film done cr_film_id=14245 total=60.9s (cdn=13.8s + download=19.9s + upload=27.0s)
+[08:43:32] step=state-saved cr_film_id=14245 (total uploads=1364)
+[08:43:32] step=iteration 37/50
+[08:43:32] step=film start cr_film_id=14295 name='Soudcova dcera (2020) CZ titulky'
+[08:43:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12503_720p.mp4
+[08:43:35] step=cdn-resolve done 3.8s → https://online6.sktorrent.eu/media/videos//h264/12503_720p.mp4
+[08:43:35] step=download curl https://online6.sktorrent.eu/media/videos//h264/12503_720p.mp4
+[08:44:35] step=download done cr_film_id=14295 size=502038971 dur=59.1s speed=8.5MB/s
+[08:44:35] step=upload start cr_film_id=14295 size=502038971
+[08:45:03] step=upload done cr_film_id=14295 video_id=24487288 dur=28.2s speed=17.8MB/s
+[08:45:03] step=cleanup unlinked Soudcova dcera (2020) CZ titulky.mp4
+[08:45:03] step=film done cr_film_id=14295 total=91.1s (cdn=3.8s + download=59.1s + upload=28.2s)
+[08:45:03] step=state-saved cr_film_id=14295 (total uploads=1365)
+[08:45:03] step=iteration 38/50
+[08:45:03] step=film start cr_film_id=14312 name='Shocking Kung Fu of Huo's (2018) CZ titulky'
+[08:45:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2783_720p.mp4
+[08:45:10] step=cdn-resolve done 7.6s → https://online12.sktorrent.eu/media/videos//h264/2783_720p.mp4
+[08:45:10] step=download curl https://online12.sktorrent.eu/media/videos//h264/2783_720p.mp4
+[08:46:10] step=download done cr_film_id=14312 size=569275020 dur=59.3s speed=9.6MB/s
+[08:46:10] step=upload start cr_film_id=14312 size=569275020
+[08:46:41] step=upload done cr_film_id=14312 video_id=24487310 dur=31.6s speed=18.0MB/s
+[08:46:41] step=cleanup unlinked Shocking Kung Fu of Huo's (2018) CZ titulky.mp4
+[08:46:41] step=film done cr_film_id=14312 total=98.5s (cdn=7.6s + download=59.3s + upload=31.6s)
+[08:46:41] step=state-saved cr_film_id=14312 (total uploads=1366)
+[08:46:41] step=iteration 39/50
+[08:46:41] step=film start cr_film_id=14342 name='Confession (2023) CZ titulky'
+[08:46:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45454_720p.mp4
+[08:46:47] step=cdn-resolve done 5.7s → https://online9.sktorrent.eu/media/videos//h264/45454_720p.mp4
+[08:46:47] step=download curl https://online9.sktorrent.eu/media/videos//h264/45454_720p.mp4
+[08:47:22] step=download done cr_film_id=14342 size=221778608 dur=34.5s speed=6.4MB/s
+[08:47:22] step=upload start cr_film_id=14342 size=221778608
+[08:47:36] step=upload done cr_film_id=14342 video_id=24487328 dur=14.6s speed=15.2MB/s
+[08:47:36] step=cleanup unlinked Confession (2023) CZ titulky.mp4
+[08:47:36] step=film done cr_film_id=14342 total=54.8s (cdn=5.7s + download=34.5s + upload=14.6s)
+[08:47:36] step=state-saved cr_film_id=14342 (total uploads=1367)
+[08:47:36] step=iteration 40/50
+[08:47:36] step=film start cr_film_id=14416 name='Kingdom II: Far and Away (2022) CZ titulky'
+[08:47:36] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30157_720p.mp4
+[08:47:41] step=cdn-resolve done 4.9s → https://online8.sktorrent.eu/media/videos//h264/30157_720p.mp4
+[08:47:41] step=download curl https://online8.sktorrent.eu/media/videos//h264/30157_720p.mp4
+[08:49:36] step=download done cr_film_id=14416 size=893074385 dur=114.6s speed=7.8MB/s
+[08:49:36] step=upload start cr_film_id=14416 size=893074385
+[08:50:28] step=upload done cr_film_id=14416 video_id=24487366 dur=52.0s speed=17.2MB/s
+[08:50:28] step=cleanup unlinked Kingdom II: Far and Away (2022) CZ titulky.mp4
+[08:50:28] step=film done cr_film_id=14416 total=171.7s (cdn=4.9s + download=114.6s + upload=52.0s)
+[08:50:28] step=state-saved cr_film_id=14416 (total uploads=1368)
+[08:50:28] step=iteration 41/50
+[08:50:28] step=film start cr_film_id=14875 name='Chernobyl: Hour by Hour (2020) CZ titulky'
+[08:50:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18337_720p.mp4
+[08:50:36] step=cdn-resolve done 7.7s → https://online12.sktorrent.eu/media/videos//h264/18337_720p.mp4
+[08:50:36] step=download curl https://online12.sktorrent.eu/media/videos//h264/18337_720p.mp4
+[08:51:51] step=download done cr_film_id=14875 size=758434713 dur=75.4s speed=10.1MB/s
+[08:51:51] step=upload start cr_film_id=14875 size=758434713
+[08:52:40] step=upload done cr_film_id=14875 video_id=24487397 dur=48.9s speed=15.5MB/s
+[08:52:40] step=cleanup unlinked Chernobyl: Hour by Hour (2020) CZ titulky.mp4
+[08:52:40] step=film done cr_film_id=14875 total=132.1s (cdn=7.7s + download=75.4s + upload=48.9s)
+[08:52:40] step=state-saved cr_film_id=14875 (total uploads=1369)
+[08:52:40] step=iteration 42/50
+[08:52:40] step=film start cr_film_id=15081 name='Blowback (2022) CZ titulky'
+[08:52:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/41361_720p.mp4
+[08:52:53] step=cdn-resolve done 13.5s → https://online24.sktorrent.eu/media/videos//h264/41361_720p.mp4
+[08:52:53] step=download curl https://online24.sktorrent.eu/media/videos//h264/41361_720p.mp4
+[08:53:18] step=download done cr_film_id=15081 size=465466722 dur=24.4s speed=19.1MB/s
+[08:53:18] step=upload start cr_film_id=15081 size=465466722
+[08:53:47] step=upload done cr_film_id=15081 video_id=24487424 dur=29.2s speed=15.9MB/s
+[08:53:47] step=cleanup unlinked Blowback (2022) CZ titulky.mp4
+[08:53:47] step=film done cr_film_id=15081 total=67.1s (cdn=13.5s + download=24.4s + upload=29.2s)
+[08:53:47] step=state-saved cr_film_id=15081 (total uploads=1370)
+[08:53:47] step=iteration 43/50
+[08:53:47] step=film start cr_film_id=15098 name='Amigo (2011) CZ titulky'
+[08:53:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22025_720p.mp4
+[08:53:53] step=cdn-resolve done 6.1s → https://online10.sktorrent.eu/media/videos//h264/22025_720p.mp4
+[08:53:53] step=download curl https://online10.sktorrent.eu/media/videos//h264/22025_720p.mp4
+[08:54:28] step=download done cr_film_id=15098 size=265598175 dur=34.8s speed=7.6MB/s
+[08:54:28] step=upload start cr_film_id=15098 size=265598175
+[08:54:49] step=upload done cr_film_id=15098 video_id=24487438 dur=20.7s speed=12.8MB/s
+[08:54:49] step=cleanup unlinked Amigo (2011) CZ titulky.mp4
+[08:54:49] step=film done cr_film_id=15098 total=61.7s (cdn=6.1s + download=34.8s + upload=20.7s)
+[08:54:49] step=state-saved cr_film_id=15098 (total uploads=1371)
+[08:54:49] step=iteration 44/50
+[08:54:49] step=film start cr_film_id=15428 name='U nich doma (2012) CZ titulky'
+[08:54:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/57058_720p.mp4
+[08:55:00] step=cdn-resolve done 11.4s → https://online20.sktorrent.eu/media/videos//h264/57058_720p.mp4
+[08:55:00] step=download curl https://online20.sktorrent.eu/media/videos//h264/57058_720p.mp4
+[08:56:43] step=download done cr_film_id=15428 size=558215649 dur=103.0s speed=5.4MB/s
+[08:56:43] step=upload start cr_film_id=15428 size=558215649
+[08:57:16] step=upload done cr_film_id=15428 video_id=24487475 dur=32.7s speed=17.1MB/s
+[08:57:16] step=cleanup unlinked U nich doma (2012) CZ titulky.mp4
+[08:57:16] step=film done cr_film_id=15428 total=147.3s (cdn=11.4s + download=103.0s + upload=32.7s)
+[08:57:16] step=state-saved cr_film_id=15428 (total uploads=1372)
+[08:57:16] step=iteration 45/50
+[08:57:16] step=film start cr_film_id=15589 name='JFK: The Lost Bullet (2011) CZ titulky'
+[08:57:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/11751_720p.mp4
+[08:57:21] step=cdn-resolve done 5.0s → https://online8.sktorrent.eu/media/videos//h264/11751_720p.mp4
+[08:57:21] step=download curl https://online8.sktorrent.eu/media/videos//h264/11751_720p.mp4
+[08:58:33] step=download done cr_film_id=15589 size=677856963 dur=72.3s speed=9.4MB/s
+[08:58:33] step=upload start cr_film_id=15589 size=677856963
+[08:59:10] step=upload done cr_film_id=15589 video_id=24487508 dur=37.0s speed=18.3MB/s
+[08:59:11] step=cleanup unlinked JFK: The Lost Bullet (2011) CZ titulky.mp4
+[08:59:11] step=film done cr_film_id=15589 total=114.4s (cdn=5.0s + download=72.3s + upload=37.0s)
+[08:59:11] step=state-saved cr_film_id=15589 (total uploads=1373)
+[08:59:11] step=iteration 46/50
+[08:59:11] step=film start cr_film_id=15997 name='Revenger (2024) CZ titulky'
+[08:59:11] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2266_720p.mp4
+[08:59:17] step=cdn-resolve done 6.8s → https://online11.sktorrent.eu/media/videos//h264/2266_720p.mp4
+[08:59:17] step=download curl https://online11.sktorrent.eu/media/videos//h264/2266_720p.mp4
+[09:01:44] step=download done cr_film_id=15997 size=1170930713 dur=146.8s speed=8.0MB/s
+[09:01:44] step=upload start cr_film_id=15997 size=1170930713
+[09:02:44] step=upload done cr_film_id=15997 video_id=24487564 dur=59.4s speed=19.7MB/s
+[09:02:44] step=cleanup unlinked Revenger (2024) CZ titulky.mp4
+[09:02:44] step=film done cr_film_id=15997 total=213.1s (cdn=6.8s + download=146.8s + upload=59.4s)
+[09:02:44] step=state-saved cr_film_id=15997 (total uploads=1374)
+[09:02:44] step=iteration 47/50
+[09:02:44] step=film start cr_film_id=16254 name='Carter (2025) CZ titulky'
+[09:02:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24699_720p.mp4
+[09:02:48] step=cdn-resolve done 4.3s → https://online6.sktorrent.eu/media/videos//h264/24699_720p.mp4
+[09:02:48] step=download curl https://online6.sktorrent.eu/media/videos//h264/24699_720p.mp4
+[09:04:48] step=download done cr_film_id=16254 size=1122950375 dur=119.8s speed=9.4MB/s
+[09:04:48] step=upload start cr_film_id=16254 size=1122950375
+[09:05:50] step=upload done cr_film_id=16254 video_id=24487621 dur=61.7s speed=18.2MB/s
+[09:05:50] step=cleanup unlinked Carter (2025) CZ titulky.mp4
+[09:05:50] step=film done cr_film_id=16254 total=186.0s (cdn=4.3s + download=119.8s + upload=61.7s)
+[09:05:50] step=state-saved cr_film_id=16254 (total uploads=1375)
+[09:05:50] step=iteration 48/50
+[09:05:50] step=film start cr_film_id=16427 name='Photocopier (2007) CZ titulky'
+[09:05:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20853_720p.mp4
+[09:05:59] step=cdn-resolve done 9.2s → https://online15.sktorrent.eu/media/videos//h264/20853_720p.mp4
+[09:05:59] step=download curl https://online15.sktorrent.eu/media/videos//h264/20853_720p.mp4
+[09:07:33] step=download done cr_film_id=16427 size=693720814 dur=94.1s speed=7.4MB/s
+[09:07:33] step=upload start cr_film_id=16427 size=693720814
+[09:08:14] step=upload done cr_film_id=16427 video_id=24487680 dur=40.7s speed=17.0MB/s
+[09:08:14] step=cleanup unlinked Photocopier (2007) CZ titulky.mp4
+[09:08:14] step=film done cr_film_id=16427 total=144.1s (cdn=9.2s + download=94.1s + upload=40.7s)
+[09:08:14] step=state-saved cr_film_id=16427 (total uploads=1376)
+[09:08:14] step=iteration 49/50
+[09:08:14] step=film start cr_film_id=16545 name='The Scary House (2025) CZ titulky'
+[09:08:14] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/17808_720p.mp4
+[09:08:26] step=cdn-resolve done 12.5s → https://online22.sktorrent.eu/media/videos//h264/17808_720p.mp4
+[09:08:26] step=download curl https://online22.sktorrent.eu/media/videos//h264/17808_720p.mp4
+[09:09:18] step=download done cr_film_id=16545 size=489805841 dur=51.5s speed=9.5MB/s
+[09:09:18] step=upload start cr_film_id=16545 size=489805841
+[09:09:48] step=upload done cr_film_id=16545 video_id=24487712 dur=30.2s speed=16.2MB/s
+[09:09:48] step=cleanup unlinked The Scary House (2025) CZ titulky.mp4
+[09:09:48] step=film done cr_film_id=16545 total=94.3s (cdn=12.5s + download=51.5s + upload=30.2s)
+[09:09:48] step=state-saved cr_film_id=16545 (total uploads=1377)
+[09:09:48] step=iteration 50/50
+[09:09:48] step=film start cr_film_id=16619 name='The Binding (2016) CZ titulky'
+[09:09:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12907_720p.mp4
+[09:09:59] step=cdn-resolve done 10.9s → https://online19.sktorrent.eu/media/videos//h264/12907_720p.mp4
+[09:09:59] step=download curl https://online19.sktorrent.eu/media/videos//h264/12907_720p.mp4
+[09:10:54] step=download done cr_film_id=16619 size=459163259 dur=55.0s speed=8.3MB/s
+[09:10:54] step=upload start cr_film_id=16619 size=459163259
+[09:11:21] step=upload done cr_film_id=16619 video_id=24487741 dur=27.0s speed=17.0MB/s
+[09:11:21] step=cleanup unlinked The Binding (2016) CZ titulky.mp4
+[09:11:21] step=film done cr_film_id=16619 total=93.0s (cdn=10.9s + download=55.0s + upload=27.0s)
+[09:11:21] step=state-saved cr_film_id=16619 (total uploads=1378)
+[09:11:21] step=batch-end succeeded=50 failed=0 total_uploads=1378 batch_dur=6340.9s avg_per_film=126.8s backlog_remaining=249 eta_hours=8.8
