@@ -15005,3 +15005,559 @@
 [00:07:37] step=film done cr_film_id=21159 total=91.4s (cdn=9.2s + download=51.1s + upload=30.9s)
 [00:07:37] step=state-saved cr_film_id=21159 (total uploads=1220)
 [00:07:37] step=batch-end succeeded=50 failed=0 total_uploads=1220 batch_dur=5517.6s avg_per_film=110.4s backlog_remaining=401 eta_hours=12.3
+
+===== run 2026-05-04T00:33:33Z batch_size=50 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/25295349519) =====
+[00:33:34] step=batch-start count=50 backlog=1623 uploads=1220 moderated=2
+[00:33:34] step=login
+[00:33:35] step=login done
+[00:33:35] step=iteration 1/50
+[00:33:35] step=film start cr_film_id=15826 name='Talvekummitus (2012) CZ'
+[00:33:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/35454_720p.mp4
+[00:33:45] step=cdn-resolve done 9.3s → https://online15.sktorrent.eu/media/videos//h264/35454_720p.mp4
+[00:33:45] step=download curl https://online15.sktorrent.eu/media/videos//h264/35454_720p.mp4
+[00:33:54] step=download done cr_film_id=15826 size=84017542 dur=9.4s speed=8.9MB/s
+[00:33:54] step=upload start cr_film_id=15826 size=84017542
+[00:34:04] step=upload done cr_film_id=15826 video_id=24477382 dur=10.0s speed=8.4MB/s
+[00:34:04] step=cleanup unlinked Talvekummitus (2012) CZ.mp4
+[00:34:04] step=film done cr_film_id=15826 total=28.7s (cdn=9.3s + download=9.4s + upload=10.0s)
+[00:34:04] step=state-saved cr_film_id=15826 (total uploads=1221)
+[00:34:04] step=iteration 2/50
+[00:34:04] step=film start cr_film_id=33870 name='Kamen Rider OOO Wonderful: The Shogun and the 21 Core Medals (2011) CZ'
+[00:34:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60322_720p.mp4
+[00:34:10] step=cdn-resolve done 6.1s → https://online11.sktorrent.eu/media/videos//h264/60322_720p.mp4
+[00:34:10] step=download curl https://online11.sktorrent.eu/media/videos//h264/60322_720p.mp4
+[00:35:01] step=download done cr_film_id=33870 size=542589525 dur=51.1s speed=10.6MB/s
+[00:35:01] step=upload start cr_film_id=33870 size=542589525
+[00:35:31] step=upload done cr_film_id=33870 video_id=24477408 dur=30.0s speed=18.1MB/s
+[00:35:31] step=cleanup unlinked Kamen Rider OOO Wonderful: The Shogun and the 21 Core Medals (2011) CZ.mp4
+[00:35:31] step=film done cr_film_id=33870 total=87.3s (cdn=6.1s + download=51.1s + upload=30.0s)
+[00:35:31] step=state-saved cr_film_id=33870 (total uploads=1222)
+[00:35:31] step=iteration 3/50
+[00:35:31] step=film start cr_film_id=34910 name='Medvědí msta (2010) CZ'
+[00:35:31] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23418_720p.mp4
+[00:35:38] step=cdn-resolve done 7.1s → https://online13.sktorrent.eu/media/videos//h264/23418_720p.mp4
+[00:35:38] step=download curl https://online13.sktorrent.eu/media/videos//h264/23418_720p.mp4
+[00:36:35] step=download done cr_film_id=34910 size=549793983 dur=56.8s speed=9.7MB/s
+[00:36:35] step=upload start cr_film_id=34910 size=549793983
+[00:37:07] step=upload done cr_film_id=34910 video_id=24477458 dur=31.8s speed=17.3MB/s
+[00:37:07] step=cleanup unlinked Medvědí msta (2010) CZ.mp4
+[00:37:07] step=film done cr_film_id=34910 total=95.8s (cdn=7.1s + download=56.8s + upload=31.8s)
+[00:37:07] step=state-saved cr_film_id=34910 (total uploads=1223)
+[00:37:07] step=iteration 4/50
+[00:37:07] step=film start cr_film_id=32178 name='Ledové ostří 4: Oheň a led (2010) CZ'
+[00:37:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/54221_720p.mp4
+[00:37:12] step=cdn-resolve done 5.0s → https://online9.sktorrent.eu/media/videos//h264/54221_720p.mp4
+[00:37:12] step=download curl https://online9.sktorrent.eu/media/videos//h264/54221_720p.mp4
+[00:38:21] step=download done cr_film_id=32178 size=631296446 dur=69.1s speed=9.1MB/s
+[00:38:21] step=upload start cr_film_id=32178 size=631296446
+[00:38:53] step=upload done cr_film_id=32178 video_id=24477501 dur=31.9s speed=19.8MB/s
+[00:38:53] step=cleanup unlinked Ledové ostří 4: Oheň a led (2010) CZ.mp4
+[00:38:53] step=film done cr_film_id=32178 total=106.1s (cdn=5.0s + download=69.1s + upload=31.9s)
+[00:38:53] step=state-saved cr_film_id=32178 (total uploads=1224)
+[00:38:53] step=iteration 5/50
+[00:38:53] step=film start cr_film_id=34907 name='Krvavá jízda (2009) CZ'
+[00:38:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23443_480p.mp4
+[00:39:03] step=cdn-resolve done 9.3s → https://online16.sktorrent.eu/media/videos//h264/23443_480p.mp4
+[00:39:03] step=download curl https://online16.sktorrent.eu/media/videos//h264/23443_480p.mp4
+[00:39:23] step=download done cr_film_id=34907 size=189855620 dur=20.6s speed=9.2MB/s
+[00:39:23] step=upload start cr_film_id=34907 size=189855620
+[00:39:36] step=upload done cr_film_id=34907 video_id=24477535 dur=12.9s speed=14.7MB/s
+[00:39:36] step=cleanup unlinked Krvavá jízda (2009) CZ.mp4
+[00:39:36] step=film done cr_film_id=34907 total=42.8s (cdn=9.3s + download=20.6s + upload=12.9s)
+[00:39:36] step=state-saved cr_film_id=34907 (total uploads=1225)
+[00:39:36] step=iteration 6/50
+[00:39:36] step=film start cr_film_id=33872 name='Gotta Catch Santa Claus (2008) CZ'
+[00:39:36] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60325_720p.mp4
+[00:39:44] step=cdn-resolve done 7.5s → https://online14.sktorrent.eu/media/videos//h264/60325_720p.mp4
+[00:39:44] step=download curl https://online14.sktorrent.eu/media/videos//h264/60325_720p.mp4
+[00:39:56] step=download done cr_film_id=33872 size=116021414 dur=12.5s speed=9.3MB/s
+[00:39:56] step=upload start cr_film_id=33872 size=116021414
+[00:40:06] step=upload done cr_film_id=33872 video_id=24477548 dur=10.1s speed=11.5MB/s
+[00:40:06] step=cleanup unlinked Gotta Catch Santa Claus (2008) CZ.mp4
+[00:40:06] step=film done cr_film_id=33872 total=30.1s (cdn=7.5s + download=12.5s + upload=10.1s)
+[00:40:06] step=state-saved cr_film_id=33872 (total uploads=1226)
+[00:40:06] step=iteration 7/50
+[00:40:06] step=film start cr_film_id=14109 name='Bajky naruby: Zlatovláska a 3 medvědi (2008) CZ'
+[00:40:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18558_720p.mp4
+[00:40:12] step=cdn-resolve done 6.1s → https://online11.sktorrent.eu/media/videos//h264/18558_720p.mp4
+[00:40:12] step=download curl https://online11.sktorrent.eu/media/videos//h264/18558_720p.mp4
+[00:41:19] step=download done cr_film_id=14109 size=686736472 dur=66.8s speed=10.3MB/s
+[00:41:19] step=upload start cr_film_id=14109 size=686736472
+[00:41:53] step=upload done cr_film_id=14109 video_id=24477580 dur=33.9s speed=20.3MB/s
+[00:41:53] step=cleanup unlinked Bajky naruby: Zlatovláska a 3 medvědi (2008) CZ.mp4
+[00:41:53] step=film done cr_film_id=14109 total=106.9s (cdn=6.1s + download=66.8s + upload=33.9s)
+[00:41:53] step=state-saved cr_film_id=14109 (total uploads=1227)
+[00:41:53] step=iteration 8/50
+[00:41:53] step=film start cr_film_id=31631 name='Zákon ulice (2007) CZ'
+[00:41:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60136_720p.mp4
+[00:42:05] step=cdn-resolve done 12.3s → https://online25.sktorrent.eu/media/videos//h264/60136_720p.mp4
+[00:42:05] step=download curl https://online25.sktorrent.eu/media/videos//h264/60136_720p.mp4
+[00:42:30] step=download done cr_film_id=31631 size=625553041 dur=24.7s speed=25.3MB/s
+[00:42:30] step=upload start cr_film_id=31631 size=625553041
+[00:43:04] step=upload done cr_film_id=31631 video_id=24477605 dur=33.9s speed=18.5MB/s
+[00:43:04] step=cleanup unlinked Zákon ulice (2007) CZ.mp4
+[00:43:04] step=film done cr_film_id=31631 total=71.0s (cdn=12.3s + download=24.7s + upload=33.9s)
+[00:43:04] step=state-saved cr_film_id=31631 (total uploads=1228)
+[00:43:04] step=iteration 9/50
+[00:43:04] step=film start cr_film_id=34942 name='Hadi ve vlaku (2006) CZ'
+[00:43:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23069_480p.mp4
+[00:43:09] step=cdn-resolve done 4.4s → https://online8.sktorrent.eu/media/videos//h264/23069_480p.mp4
+[00:43:09] step=download curl https://online8.sktorrent.eu/media/videos//h264/23069_480p.mp4
+[00:43:34] step=download done cr_film_id=34942 size=244161202 dur=25.2s speed=9.7MB/s
+[00:43:34] step=upload start cr_film_id=34942 size=244161202
+[00:43:49] step=upload done cr_film_id=34942 video_id=24477632 dur=14.8s speed=16.5MB/s
+[00:43:49] step=cleanup unlinked Hadi ve vlaku (2006) CZ.mp4
+[00:43:49] step=film done cr_film_id=34942 total=44.5s (cdn=4.4s + download=25.2s + upload=14.8s)
+[00:43:49] step=state-saved cr_film_id=34942 (total uploads=1229)
+[00:43:49] step=iteration 10/50
+[00:43:49] step=film start cr_film_id=34741 name='Vánoční pohlednice (2006) CZ'
+[00:43:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27350_720p.mp4
+[00:43:52] step=cdn-resolve done 3.4s → https://online6.sktorrent.eu/media/videos//h264/27350_720p.mp4
+[00:43:52] step=download curl https://online6.sktorrent.eu/media/videos//h264/27350_720p.mp4
+[00:44:30] step=download done cr_film_id=34741 size=381102398 dur=37.5s speed=10.2MB/s
+[00:44:30] step=upload start cr_film_id=34741 size=381102398
+[00:44:53] step=upload done cr_film_id=34741 video_id=24477653 dur=23.0s speed=16.6MB/s
+[00:44:53] step=cleanup unlinked Vánoční pohlednice (2006) CZ.mp4
+[00:44:53] step=film done cr_film_id=34741 total=63.9s (cdn=3.4s + download=37.5s + upload=23.0s)
+[00:44:53] step=state-saved cr_film_id=34741 (total uploads=1230)
+[00:44:53] step=iteration 11/50
+[00:44:53] step=film start cr_film_id=21104 name='Deadly Skies (2006) CZ'
+[00:44:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59494_480p.mp4
+[00:45:03] step=cdn-resolve done 10.1s → https://online18.sktorrent.eu/media/videos//h264/59494_480p.mp4
+[00:45:03] step=download curl https://online18.sktorrent.eu/media/videos//h264/59494_480p.mp4
+[00:45:28] step=download done cr_film_id=21104 size=240507286 dur=25.6s speed=9.4MB/s
+[00:45:28] step=upload start cr_film_id=21104 size=240507286
+[00:45:43] step=upload done cr_film_id=21104 video_id=24477677 dur=14.6s speed=16.5MB/s
+[00:45:43] step=cleanup unlinked Deadly Skies (2006) CZ.mp4
+[00:45:43] step=film done cr_film_id=21104 total=50.3s (cdn=10.1s + download=25.6s + upload=14.6s)
+[00:45:43] step=state-saved cr_film_id=21104 (total uploads=1231)
+[00:45:43] step=iteration 12/50
+[00:45:43] step=film start cr_film_id=13531 name='Země dinosaurů 11: Noví sousedé ve velkém údolí (2005) CZ'
+[00:45:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32438_480p.mp4
+[00:45:53] step=cdn-resolve done 9.6s → https://online19.sktorrent.eu/media/videos//h264/32438_480p.mp4
+[00:45:53] step=download curl https://online19.sktorrent.eu/media/videos//h264/32438_480p.mp4
+[00:46:24] step=download done cr_film_id=13531 size=295688600 dur=31.7s speed=9.3MB/s
+[00:46:24] step=upload start cr_film_id=13531 size=295688600
+[00:46:46] step=upload done cr_film_id=13531 video_id=24477701 dur=22.1s speed=13.4MB/s
+[00:46:46] step=cleanup unlinked Země dinosaurů 11: Noví sousedé ve velkém údolí (2005) CZ.mp4
+[00:46:46] step=film done cr_film_id=13531 total=63.4s (cdn=9.6s + download=31.7s + upload=22.1s)
+[00:46:46] step=state-saved cr_film_id=13531 (total uploads=1232)
+[00:46:46] step=iteration 13/50
+[00:46:46] step=film start cr_film_id=34890 name='Remembering 'Battlestar Galactica' (2004) CZ'
+[00:46:46] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23704_480p.mp4
+[00:46:55] step=cdn-resolve done 8.6s → https://online16.sktorrent.eu/media/videos//h264/23704_480p.mp4
+[00:46:55] step=download curl https://online16.sktorrent.eu/media/videos//h264/23704_480p.mp4
+[00:47:44] step=download done cr_film_id=34890 size=503954827 dur=48.7s speed=10.3MB/s
+[00:47:44] step=upload start cr_film_id=34890 size=503954827
+[00:48:17] step=upload done cr_film_id=34890 video_id=24477734 dur=32.8s speed=15.4MB/s
+[00:48:17] step=cleanup unlinked Remembering 'Battlestar Galactica' (2004) CZ.mp4
+[00:48:17] step=film done cr_film_id=34890 total=90.2s (cdn=8.6s + download=48.7s + upload=32.8s)
+[00:48:17] step=state-saved cr_film_id=34890 (total uploads=1233)
+[00:48:17] step=iteration 14/50
+[00:48:17] step=film start cr_film_id=34812 name='Přítel pod stromečkem (2004) CZ'
+[00:48:17] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31729_720p.mp4
+[00:48:24] step=cdn-resolve done 7.6s → https://online14.sktorrent.eu/media/videos//h264/31729_720p.mp4
+[00:48:24] step=download curl https://online14.sktorrent.eu/media/videos//h264/31729_720p.mp4
+[00:49:21] step=download done cr_film_id=34812 size=595976265 dur=56.4s speed=10.6MB/s
+[00:49:21] step=upload start cr_film_id=34812 size=595976265
+[00:49:53] step=upload done cr_film_id=34812 video_id=24477775 dur=32.1s speed=18.6MB/s
+[00:49:53] step=cleanup unlinked Přítel pod stromečkem (2004) CZ.mp4
+[00:49:53] step=film done cr_film_id=34812 total=96.2s (cdn=7.6s + download=56.4s + upload=32.1s)
+[00:49:53] step=state-saved cr_film_id=34812 (total uploads=1234)
+[00:49:53] step=iteration 15/50
+[00:49:53] step=film start cr_film_id=29893 name='Ed Wood: Let's Shoot This @#!% (2004) CZ'
+[00:49:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59681_720p.mp4
+[00:50:04] step=cdn-resolve done 11.5s → https://online23.sktorrent.eu/media/videos//h264/59681_720p.mp4
+[00:50:04] step=download curl https://online23.sktorrent.eu/media/videos//h264/59681_720p.mp4
+[00:51:10] step=download done cr_film_id=29893 size=642825541 dur=65.5s speed=9.8MB/s
+[00:51:10] step=upload start cr_film_id=29893 size=642825541
+[00:51:50] step=upload done cr_film_id=29893 video_id=24477821 dur=40.6s speed=15.8MB/s
+[00:51:51] step=cleanup unlinked Ed Wood: Let's Shoot This @#!% (2004) CZ.mp4
+[00:51:51] step=film done cr_film_id=29893 total=117.7s (cdn=11.5s + download=65.5s + upload=40.6s)
+[00:51:51] step=state-saved cr_film_id=29893 (total uploads=1235)
+[00:51:51] step=iteration 16/50
+[00:51:51] step=film start cr_film_id=21076 name='Welcome to Mooseport (2004) CZ'
+[00:51:51] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59400_720p.mp4
+[00:51:51] step=cdn-resolve done 0.9s → https://online1.sktorrent.eu/media/videos//h264/59400_720p.mp4
+[00:51:51] step=download curl https://online1.sktorrent.eu/media/videos//h264/59400_720p.mp4
+[00:53:17] step=download done cr_film_id=21076 size=928354251 dur=86.0s speed=10.8MB/s
+[00:53:17] step=upload start cr_film_id=21076 size=928354251
+[00:54:08] step=upload done cr_film_id=21076 video_id=24477871 dur=50.6s speed=18.3MB/s
+[00:54:08] step=cleanup unlinked Welcome to Mooseport (2004) CZ.mp4
+[00:54:08] step=film done cr_film_id=21076 total=137.7s (cdn=0.9s + download=86.0s + upload=50.6s)
+[00:54:08] step=state-saved cr_film_id=21076 (total uploads=1236)
+[00:54:08] step=iteration 17/50
+[00:54:08] step=film start cr_film_id=34739 name='Piková trojka (2003) CZ'
+[00:54:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27882_720p.mp4
+[00:54:18] step=cdn-resolve done 9.7s → https://online17.sktorrent.eu/media/videos//h264/27882_720p.mp4
+[00:54:18] step=download curl https://online17.sktorrent.eu/media/videos//h264/27882_720p.mp4
+[00:55:22] step=download done cr_film_id=34739 size=669535430 dur=63.8s speed=10.5MB/s
+[00:55:22] step=upload start cr_film_id=34739 size=669535430
+[00:56:07] step=upload done cr_film_id=34739 video_id=24477913 dur=45.4s speed=14.7MB/s
+[00:56:07] step=cleanup unlinked Piková trojka (2003) CZ.mp4
+[00:56:07] step=film done cr_film_id=34739 total=118.9s (cdn=9.7s + download=63.8s + upload=45.4s)
+[00:56:07] step=state-saved cr_film_id=34739 (total uploads=1237)
+[00:56:07] step=iteration 18/50
+[00:56:07] step=film start cr_film_id=34787 name='Všechno nebo nic (2002) CZ'
+[00:56:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/41110_720p.mp4
+[00:56:16] step=cdn-resolve done 8.5s → https://online16.sktorrent.eu/media/videos//h264/41110_720p.mp4
+[00:56:16] step=download curl https://online16.sktorrent.eu/media/videos//h264/41110_720p.mp4
+[00:57:43] step=download done cr_film_id=34787 size=912828587 dur=87.2s speed=10.5MB/s
+[00:57:43] step=upload start cr_film_id=34787 size=912828587
+[00:58:32] step=upload done cr_film_id=34787 video_id=24477962 dur=49.2s speed=18.6MB/s
+[00:58:32] step=cleanup unlinked Všechno nebo nic (2002) CZ.mp4
+[00:58:32] step=film done cr_film_id=34787 total=145.1s (cdn=8.5s + download=87.2s + upload=49.2s)
+[00:58:32] step=state-saved cr_film_id=34787 (total uploads=1238)
+[00:58:32] step=iteration 19/50
+[00:58:32] step=film start cr_film_id=34718 name='Artists and Orphans: A True Drama (2002) CZ'
+[00:58:32] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25678_480p.mp4
+[00:58:41] step=cdn-resolve done 8.9s → https://online17.sktorrent.eu/media/videos//h264/25678_480p.mp4
+[00:58:41] step=download curl https://online17.sktorrent.eu/media/videos//h264/25678_480p.mp4
+[00:59:04] step=download done cr_film_id=34718 size=234019823 dur=22.6s speed=10.4MB/s
+[00:59:04] step=upload start cr_film_id=34718 size=234019823
+[00:59:18] step=upload done cr_film_id=34718 video_id=24477998 dur=14.4s speed=16.3MB/s
+[00:59:18] step=cleanup unlinked Artists and Orphans: A True Drama (2002) CZ.mp4
+[00:59:18] step=film done cr_film_id=34718 total=45.9s (cdn=8.9s + download=22.6s + upload=14.4s)
+[00:59:18] step=state-saved cr_film_id=34718 (total uploads=1239)
+[00:59:18] step=iteration 20/50
+[00:59:18] step=film start cr_film_id=34952 name='Devil's Prey (2001) CZ'
+[00:59:18] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22892_720p.mp4
+[00:59:25] step=cdn-resolve done 6.9s → https://online12.sktorrent.eu/media/videos//h264/22892_720p.mp4
+[00:59:25] step=download curl https://online12.sktorrent.eu/media/videos//h264/22892_720p.mp4
+[01:00:43] step=download done cr_film_id=34952 size=704306119 dur=77.7s speed=9.1MB/s
+[01:00:43] step=upload start cr_film_id=34952 size=704306119
+[01:01:49] step=upload done cr_film_id=34952 video_id=24478034 dur=65.9s speed=10.7MB/s
+[01:01:49] step=cleanup unlinked Devil's Prey (2001) CZ.mp4
+[01:01:49] step=film done cr_film_id=34952 total=150.6s (cdn=6.9s + download=77.7s + upload=65.9s)
+[01:01:49] step=state-saved cr_film_id=34952 (total uploads=1240)
+[01:01:49] step=iteration 21/50
+[01:01:49] step=film start cr_film_id=13182 name='Barbie v Louskáčku (2001) CZ'
+[01:01:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36376_480p.mp4
+[01:01:59] step=cdn-resolve done 10.5s → https://online20.sktorrent.eu/media/videos//h264/36376_480p.mp4
+[01:01:59] step=download curl https://online20.sktorrent.eu/media/videos//h264/36376_480p.mp4
+[01:02:29] step=download done cr_film_id=13182 size=310933613 dur=29.3s speed=10.6MB/s
+[01:02:29] step=upload start cr_film_id=13182 size=310933613
+[01:02:52] step=upload done cr_film_id=13182 video_id=24478064 dur=23.6s speed=13.2MB/s
+[01:02:52] step=cleanup unlinked Barbie v Louskáčku (2001) CZ.mp4
+[01:02:52] step=film done cr_film_id=13182 total=63.5s (cdn=10.5s + download=29.3s + upload=23.6s)
+[01:02:52] step=state-saved cr_film_id=13182 (total uploads=1241)
+[01:02:52] step=iteration 22/50
+[01:02:52] step=film start cr_film_id=13055 name='Alvin a Chipmunkové - Setkání s vlkodlakem (2000) CZ'
+[01:02:52] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28601_480p.mp4
+[01:03:01] step=cdn-resolve done 8.8s → https://online17.sktorrent.eu/media/videos//h264/28601_480p.mp4
+[01:03:01] step=download curl https://online17.sktorrent.eu/media/videos//h264/28601_480p.mp4
+[01:03:24] step=download done cr_film_id=13055 size=241191957 dur=23.1s speed=10.4MB/s
+[01:03:24] step=upload start cr_film_id=13055 size=241191957
+[01:03:38] step=upload done cr_film_id=13055 video_id=24478078 dur=14.0s speed=17.2MB/s
+[01:03:39] step=cleanup unlinked Alvin a Chipmunkové - Setkání s vlkodlakem (2000) CZ.mp4
+[01:03:39] step=film done cr_film_id=13055 total=46.0s (cdn=8.8s + download=23.1s + upload=14.0s)
+[01:03:39] step=state-saved cr_film_id=13055 (total uploads=1242)
+[01:03:39] step=iteration 23/50
+[01:03:39] step=film start cr_film_id=34819 name='Au Pair aneb Slečna na hlídání (1999) CZ'
+[01:03:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31392_720p.mp4
+[01:03:48] step=cdn-resolve done 9.9s → https://online18.sktorrent.eu/media/videos//h264/31392_720p.mp4
+[01:03:48] step=download curl https://online18.sktorrent.eu/media/videos//h264/31392_720p.mp4
+[01:04:52] step=download done cr_film_id=34819 size=651506653 dur=63.7s speed=10.2MB/s
+[01:04:52] step=upload start cr_film_id=34819 size=651506653
+[01:05:29] step=upload done cr_film_id=34819 video_id=24478106 dur=37.1s speed=17.6MB/s
+[01:05:29] step=cleanup unlinked Au Pair aneb Slečna na hlídání (1999) CZ.mp4
+[01:05:29] step=film done cr_film_id=34819 total=110.8s (cdn=9.9s + download=63.7s + upload=37.1s)
+[01:05:29] step=state-saved cr_film_id=34819 (total uploads=1243)
+[01:05:29] step=iteration 24/50
+[01:05:29] step=film start cr_film_id=31586 name='87. revír: Vlna veder (1997) CZ'
+[01:05:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60006_480p.mp4
+[01:05:40] step=cdn-resolve done 11.0s → https://online21.sktorrent.eu/media/videos//h264/60006_480p.mp4
+[01:05:40] step=download curl https://online21.sktorrent.eu/media/videos//h264/60006_480p.mp4
+[01:06:15] step=download done cr_film_id=31586 size=352647451 dur=34.8s speed=10.1MB/s
+[01:06:15] step=upload start cr_film_id=31586 size=352647451
+[01:06:34] step=upload done cr_film_id=31586 video_id=24478133 dur=18.7s speed=18.9MB/s
+[01:06:34] step=cleanup unlinked 87. revír: Vlna veder (1997) CZ.mp4
+[01:06:34] step=film done cr_film_id=31586 total=64.6s (cdn=11.0s + download=34.8s + upload=18.7s)
+[01:06:34] step=state-saved cr_film_id=31586 (total uploads=1244)
+[01:06:34] step=iteration 25/50
+[01:06:34] step=film start cr_film_id=34838 name='Rosamunde Pilcher: Hra světel (1996) CZ'
+[01:06:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30483_480p.mp4
+[01:06:44] step=cdn-resolve done 10.1s → https://online20.sktorrent.eu/media/videos//h264/30483_480p.mp4
+[01:06:44] step=download curl https://online20.sktorrent.eu/media/videos//h264/30483_480p.mp4
+[01:07:15] step=download done cr_film_id=34838 size=322944257 dur=30.7s speed=10.5MB/s
+[01:07:15] step=upload start cr_film_id=34838 size=322944257
+[01:07:33] step=upload done cr_film_id=34838 video_id=24478154 dur=18.2s speed=17.7MB/s
+[01:07:33] step=cleanup unlinked Rosamunde Pilcher: Hra světel (1996) CZ.mp4
+[01:07:33] step=film done cr_film_id=34838 total=59.1s (cdn=10.1s + download=30.7s + upload=18.2s)
+[01:07:33] step=state-saved cr_film_id=34838 (total uploads=1245)
+[01:07:33] step=iteration 26/50
+[01:07:33] step=film start cr_film_id=34716 name='Božská komedie (1996) CZ'
+[01:07:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25811_720p.mp4
+[01:07:43] step=cdn-resolve done 9.9s → https://online18.sktorrent.eu/media/videos//h264/25811_720p.mp4
+[01:07:43] step=download curl https://online18.sktorrent.eu/media/videos//h264/25811_720p.mp4
+[01:09:07] step=download done cr_film_id=34716 size=906217435 dur=84.4s speed=10.7MB/s
+[01:09:07] step=upload start cr_film_id=34716 size=906217435
+[01:09:59] step=upload done cr_film_id=34716 video_id=24478207 dur=51.3s speed=17.7MB/s
+[01:09:59] step=cleanup unlinked Božská komedie (1996) CZ.mp4
+[01:09:59] step=film done cr_film_id=34716 total=145.7s (cdn=9.9s + download=84.4s + upload=51.3s)
+[01:09:59] step=state-saved cr_film_id=34716 (total uploads=1246)
+[01:09:59] step=iteration 27/50
+[01:09:59] step=film start cr_film_id=31588 name='87. revír: Sníh (1996) CZ'
+[01:09:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60009_480p.mp4
+[01:10:11] step=cdn-resolve done 12.0s → https://online24.sktorrent.eu/media/videos//h264/60009_480p.mp4
+[01:10:11] step=download curl https://online24.sktorrent.eu/media/videos//h264/60009_480p.mp4
+[01:10:25] step=download done cr_film_id=31588 size=292351398 dur=14.5s speed=20.2MB/s
+[01:10:25] step=upload start cr_film_id=31588 size=292351398
+[01:10:42] step=upload done cr_film_id=31588 video_id=24478239 dur=16.9s speed=17.3MB/s
+[01:10:42] step=cleanup unlinked 87. revír: Sníh (1996) CZ.mp4
+[01:10:42] step=film done cr_film_id=31588 total=43.5s (cdn=12.0s + download=14.5s + upload=16.9s)
+[01:10:42] step=state-saved cr_film_id=31588 (total uploads=1247)
+[01:10:42] step=iteration 28/50
+[01:10:42] step=film start cr_film_id=34834 name='Zbožňuju trable (1994) CZ'
+[01:10:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30510_480p.mp4
+[01:10:51] step=cdn-resolve done 8.6s → https://online16.sktorrent.eu/media/videos//h264/30510_480p.mp4
+[01:10:51] step=download curl https://online16.sktorrent.eu/media/videos//h264/30510_480p.mp4
+[01:11:23] step=download done cr_film_id=34834 size=322658671 dur=31.6s speed=10.2MB/s
+[01:11:23] step=upload start cr_film_id=34834 size=322658671
+[01:11:42] step=upload done cr_film_id=34834 video_id=24478265 dur=19.7s speed=16.4MB/s
+[01:11:42] step=cleanup unlinked Zbožňuju trable (1994) CZ.mp4
+[01:11:42] step=film done cr_film_id=34834 total=59.9s (cdn=8.6s + download=31.6s + upload=19.7s)
+[01:11:42] step=state-saved cr_film_id=34834 (total uploads=1248)
+[01:11:42] step=iteration 29/50
+[01:11:42] step=film start cr_film_id=34746 name='Život naruby (1994) CZ'
+[01:11:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26317_720p.mp4
+[01:11:46] step=cdn-resolve done 3.5s → https://online6.sktorrent.eu/media/videos//h264/26317_720p.mp4
+[01:11:46] step=download curl https://online6.sktorrent.eu/media/videos//h264/26317_720p.mp4
+[01:12:48] step=download done cr_film_id=34746 size=633057720 dur=62.3s speed=10.2MB/s
+[01:12:48] step=upload start cr_film_id=34746 size=633057720
+[01:13:27] step=upload done cr_film_id=34746 video_id=24478311 dur=38.5s speed=16.4MB/s
+[01:13:27] step=cleanup unlinked Život naruby (1994) CZ.mp4
+[01:13:27] step=film done cr_film_id=34746 total=104.4s (cdn=3.5s + download=62.3s + upload=38.5s)
+[01:13:27] step=state-saved cr_film_id=34746 (total uploads=1249)
+[01:13:27] step=iteration 30/50
+[01:13:27] step=film start cr_film_id=34978 name='Beyond Justice (1992) CZ'
+[01:13:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/15408_720p.mp4
+[01:13:38] step=cdn-resolve done 11.1s → https://online22.sktorrent.eu/media/videos//h264/15408_720p.mp4
+[01:13:38] step=download curl https://online22.sktorrent.eu/media/videos//h264/15408_720p.mp4
+[01:14:51] step=download done cr_film_id=34978 size=755208253 dur=73.1s speed=10.3MB/s
+[01:14:51] step=upload start cr_film_id=34978 size=755208253
+[01:15:47] step=upload done cr_film_id=34978 video_id=24478345 dur=56.1s speed=13.5MB/s
+[01:15:47] step=cleanup unlinked Beyond Justice (1992) CZ.mp4
+[01:15:47] step=film done cr_film_id=34978 total=140.4s (cdn=11.1s + download=73.1s + upload=56.1s)
+[01:15:47] step=state-saved cr_film_id=34978 (total uploads=1250)
+[01:15:47] step=iteration 31/50
+[01:15:47] step=film start cr_film_id=34717 name='The Strange Tale of Oyuki (1992) CZ'
+[01:15:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25681_720p.mp4
+[01:16:01] step=cdn-resolve done 13.7s → https://online25.sktorrent.eu/media/videos//h264/25681_720p.mp4
+[01:16:01] step=download curl https://online25.sktorrent.eu/media/videos//h264/25681_720p.mp4
+[01:16:23] step=download done cr_film_id=34717 size=508071175 dur=21.9s speed=23.2MB/s
+[01:16:23] step=upload start cr_film_id=34717 size=508071175
+[01:16:50] step=upload done cr_film_id=34717 video_id=24478379 dur=26.9s speed=18.9MB/s
+[01:16:50] step=cleanup unlinked The Strange Tale of Oyuki (1992) CZ.mp4
+[01:16:50] step=film done cr_film_id=34717 total=62.6s (cdn=13.7s + download=21.9s + upload=26.9s)
+[01:16:50] step=state-saved cr_film_id=34717 (total uploads=1251)
+[01:16:50] step=iteration 32/50
+[01:16:50] step=film start cr_film_id=34750 name='Samé štěstí (1991) CZ'
+[01:16:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25941_720p.mp4
+[01:16:57] step=cdn-resolve done 7.2s → https://online13.sktorrent.eu/media/videos//h264/25941_720p.mp4
+[01:16:57] step=download curl https://online13.sktorrent.eu/media/videos//h264/25941_720p.mp4
+[01:18:04] step=download done cr_film_id=34750 size=695263312 dur=67.2s speed=10.3MB/s
+[01:18:04] step=upload start cr_film_id=34750 size=695263312
+[01:18:43] step=upload done cr_film_id=34750 video_id=24478421 dur=39.0s speed=17.8MB/s
+[01:18:43] step=cleanup unlinked Samé štěstí (1991) CZ.mp4
+[01:18:43] step=film done cr_film_id=34750 total=113.5s (cdn=7.2s + download=67.2s + upload=39.0s)
+[01:18:43] step=state-saved cr_film_id=34750 (total uploads=1252)
+[01:18:43] step=iteration 33/50
+[01:18:43] step=film start cr_film_id=34935 name='Do poslední pence (1990) CZ'
+[01:18:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23118_720p.mp4
+[01:18:50] step=cdn-resolve done 6.6s → https://online12.sktorrent.eu/media/videos//h264/23118_720p.mp4
+[01:18:50] step=download curl https://online12.sktorrent.eu/media/videos//h264/23118_720p.mp4
+[01:19:20] step=download done cr_film_id=34935 size=290464107 dur=30.3s speed=9.6MB/s
+[01:19:20] step=upload start cr_film_id=34935 size=290464107
+[01:19:37] step=upload done cr_film_id=34935 video_id=24478443 dur=16.2s speed=17.9MB/s
+[01:19:37] step=cleanup unlinked Do poslední pence (1990) CZ.mp4
+[01:19:37] step=film done cr_film_id=34935 total=53.2s (cdn=6.6s + download=30.3s + upload=16.2s)
+[01:19:37] step=state-saved cr_film_id=34935 (total uploads=1253)
+[01:19:37] step=iteration 34/50
+[01:19:37] step=film start cr_film_id=34829 name='Duo (1990) CZ'
+[01:19:37] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30822_720p.mp4
+[01:19:43] step=cdn-resolve done 6.5s → https://online12.sktorrent.eu/media/videos//h264/30822_720p.mp4
+[01:19:43] step=download curl https://online12.sktorrent.eu/media/videos//h264/30822_720p.mp4
+[01:19:56] step=download done cr_film_id=34829 size=115389285 dur=13.1s speed=8.8MB/s
+[01:19:56] step=upload start cr_film_id=34829 size=115389285
+[01:20:07] step=upload done cr_film_id=34829 video_id=24478453 dur=11.0s speed=10.5MB/s
+[01:20:07] step=cleanup unlinked Duo (1990) CZ.mp4
+[01:20:07] step=film done cr_film_id=34829 total=30.7s (cdn=6.5s + download=13.1s + upload=11.0s)
+[01:20:07] step=state-saved cr_film_id=34829 (total uploads=1254)
+[01:20:07] step=iteration 35/50
+[01:20:07] step=film start cr_film_id=31556 name='Hulk Hogan: Real American (1989) CZ'
+[01:20:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59839_720p.mp4
+[01:20:11] step=cdn-resolve done 3.3s → https://online6.sktorrent.eu/media/videos//h264/59839_720p.mp4
+[01:20:11] step=download curl https://online6.sktorrent.eu/media/videos//h264/59839_720p.mp4
+[01:20:45] step=download done cr_film_id=31556 size=342873800 dur=34.6s speed=9.9MB/s
+[01:20:45] step=upload start cr_film_id=31556 size=342873800
+[01:21:06] step=upload done cr_film_id=31556 video_id=24478467 dur=20.4s speed=16.8MB/s
+[01:21:06] step=cleanup unlinked Hulk Hogan: Real American (1989) CZ.mp4
+[01:21:06] step=film done cr_film_id=31556 total=58.4s (cdn=3.3s + download=34.6s + upload=20.4s)
+[01:21:06] step=state-saved cr_film_id=31556 (total uploads=1255)
+[01:21:06] step=iteration 36/50
+[01:21:06] step=film start cr_film_id=35003 name='Il volpone (1988) CZ'
+[01:21:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60398_720p.mp4
+[01:21:11] step=cdn-resolve done 5.7s → https://online10.sktorrent.eu/media/videos//h264/60398_720p.mp4
+[01:21:11] step=download curl https://online10.sktorrent.eu/media/videos//h264/60398_720p.mp4
+[01:21:59] step=download done cr_film_id=35003 size=511288699 dur=47.6s speed=10.7MB/s
+[01:21:59] step=upload start cr_film_id=35003 size=511288699
+[01:22:35] step=upload done cr_film_id=35003 video_id=24478496 dur=36.1s speed=14.2MB/s
+[01:22:35] step=cleanup unlinked Il volpone (1988) CZ.mp4
+[01:22:35] step=film done cr_film_id=35003 total=89.5s (cdn=5.7s + download=47.6s + upload=36.1s)
+[01:22:35] step=state-saved cr_film_id=35003 (total uploads=1256)
+[01:22:35] step=iteration 37/50
+[01:22:35] step=film start cr_film_id=35051 name='Moonsund (1987) CZ'
+[01:22:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36061_480p.mp4
+[01:22:42] step=cdn-resolve done 7.2s → https://online13.sktorrent.eu/media/videos//h264/36061_480p.mp4
+[01:22:42] step=download curl https://online13.sktorrent.eu/media/videos//h264/36061_480p.mp4
+[01:23:00] step=download done cr_film_id=35051 size=180159420 dur=17.8s speed=10.1MB/s
+[01:23:00] step=upload start cr_film_id=35051 size=180159420
+[01:23:11] step=upload done cr_film_id=35051 video_id=24478517 dur=11.0s speed=16.4MB/s
+[01:23:11] step=cleanup unlinked Moonsund (1987) CZ.mp4
+[01:23:11] step=film done cr_film_id=35051 total=36.0s (cdn=7.2s + download=17.8s + upload=11.0s)
+[01:23:11] step=state-saved cr_film_id=35051 (total uploads=1257)
+[01:23:11] step=iteration 38/50
+[01:23:11] step=film start cr_film_id=31559 name='The Boy Who Loved Trolls (1984) CZ'
+[01:23:11] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59851_720p.mp4
+[01:23:20] step=cdn-resolve done 9.3s → https://online18.sktorrent.eu/media/videos//h264/59851_720p.mp4
+[01:23:21] step=download curl https://online18.sktorrent.eu/media/videos//h264/59851_720p.mp4
+[01:24:44] step=download done cr_film_id=31559 size=884542357 dur=83.1s speed=10.6MB/s
+[01:24:44] step=upload start cr_film_id=31559 size=884542357
+[01:25:27] step=upload done cr_film_id=31559 video_id=24478556 dur=43.8s speed=20.2MB/s
+[01:25:28] step=cleanup unlinked The Boy Who Loved Trolls (1984) CZ.mp4
+[01:25:28] step=film done cr_film_id=31559 total=136.4s (cdn=9.3s + download=83.1s + upload=43.8s)
+[01:25:28] step=state-saved cr_film_id=31559 (total uploads=1258)
+[01:25:28] step=iteration 39/50
+[01:25:28] step=film start cr_film_id=16643 name='Imago (1984) CZ'
+[01:25:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28399_480p.mp4
+[01:25:35] step=cdn-resolve done 7.6s → https://online14.sktorrent.eu/media/videos//h264/28399_480p.mp4
+[01:25:35] step=download curl https://online14.sktorrent.eu/media/videos//h264/28399_480p.mp4
+[01:25:43] step=download done cr_film_id=16643 size=65818778 dur=7.5s speed=8.8MB/s
+[01:25:43] step=upload start cr_film_id=16643 size=65818778
+[01:25:51] step=upload done cr_film_id=16643 video_id=24478577 dur=8.1s speed=8.1MB/s
+[01:25:51] step=cleanup unlinked Imago (1984) CZ.mp4
+[01:25:51] step=film done cr_film_id=16643 total=23.2s (cdn=7.6s + download=7.5s + upload=8.1s)
+[01:25:51] step=state-saved cr_film_id=16643 (total uploads=1259)
+[01:25:51] step=iteration 40/50
+[01:25:51] step=film start cr_film_id=16627 name='Budulínek Mandelinka (1984) CZ'
+[01:25:51] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56132_480p.mp4
+[01:26:00] step=cdn-resolve done 9.7s → https://online19.sktorrent.eu/media/videos//h264/56132_480p.mp4
+[01:26:00] step=download curl https://online19.sktorrent.eu/media/videos//h264/56132_480p.mp4
+[01:26:06] step=download done cr_film_id=16627 size=45588266 dur=5.8s speed=7.9MB/s
+[01:26:06] step=upload start cr_film_id=16627 size=45588266
+[01:26:12] step=upload done cr_film_id=16627 video_id=24478584 dur=5.3s speed=8.6MB/s
+[01:26:12] step=cleanup unlinked Budulínek Mandelinka (1984) CZ.mp4
+[01:26:12] step=film done cr_film_id=16627 total=20.9s (cdn=9.7s + download=5.8s + upload=5.3s)
+[01:26:12] step=state-saved cr_film_id=16627 (total uploads=1260)
+[01:26:12] step=iteration 41/50
+[01:26:12] step=film start cr_film_id=14917 name='Krakonos a skola (1984) CZ'
+[01:26:12] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28363_480p.mp4
+[01:26:17] step=cdn-resolve done 5.7s → https://online9.sktorrent.eu/media/videos//h264/28363_480p.mp4
+[01:26:17] step=download curl https://online9.sktorrent.eu/media/videos//h264/28363_480p.mp4
+[01:26:22] step=download done cr_film_id=14917 size=36829162 dur=4.9s speed=7.5MB/s
+[01:26:22] step=upload start cr_film_id=14917 size=36829162
+[01:26:27] step=upload done cr_film_id=14917 video_id=24478592 dur=4.6s speed=8.0MB/s
+[01:26:27] step=cleanup unlinked Krakonos a skola (1984) CZ.mp4
+[01:26:27] step=film done cr_film_id=14917 total=15.2s (cdn=5.7s + download=4.9s + upload=4.6s)
+[01:26:27] step=state-saved cr_film_id=14917 (total uploads=1261)
+[01:26:27] step=iteration 42/50
+[01:26:27] step=film start cr_film_id=13847 name='Balada o zeleném dřevu (1983) CZ'
+[01:26:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28366_480p.mp4
+[01:26:33] step=cdn-resolve done 6.6s → https://online12.sktorrent.eu/media/videos//h264/28366_480p.mp4
+[01:26:33] step=download curl https://online12.sktorrent.eu/media/videos//h264/28366_480p.mp4
+[01:26:40] step=download done cr_film_id=13847 size=49671221 dur=6.5s speed=7.6MB/s
+[01:26:40] step=upload start cr_film_id=13847 size=49671221
+[01:26:45] step=upload done cr_film_id=13847 video_id=24478597 dur=5.2s speed=9.6MB/s
+[01:26:45] step=cleanup unlinked Balada o zeleném dřevu (1983) CZ.mp4
+[01:26:45] step=film done cr_film_id=13847 total=18.3s (cdn=6.6s + download=6.5s + upload=5.2s)
+[01:26:45] step=state-saved cr_film_id=13847 (total uploads=1262)
+[01:26:45] step=iteration 43/50
+[01:26:45] step=film start cr_film_id=13336 name='Mindrák (1982) CZ'
+[01:26:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28415_480p.mp4
+[01:26:53] step=cdn-resolve done 7.9s → https://online15.sktorrent.eu/media/videos//h264/28415_480p.mp4
+[01:26:53] step=download curl https://online15.sktorrent.eu/media/videos//h264/28415_480p.mp4
+[01:26:59] step=download done cr_film_id=13336 size=47219922 dur=5.8s speed=8.1MB/s
+[01:26:59] step=upload start cr_film_id=13336 size=47219922
+[01:27:04] step=upload done cr_film_id=13336 video_id=24478605 dur=5.0s speed=9.4MB/s
+[01:27:04] step=cleanup unlinked Mindrák (1982) CZ.mp4
+[01:27:04] step=film done cr_film_id=13336 total=18.7s (cdn=7.9s + download=5.8s + upload=5.0s)
+[01:27:04] step=state-saved cr_film_id=13336 (total uploads=1263)
+[01:27:04] step=iteration 44/50
+[01:27:04] step=film start cr_film_id=31594 name='Ninja In The Deadly Trap (1981) CZ'
+[01:27:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60034_480p.mp4
+[01:27:16] step=cdn-resolve done 11.9s → https://online24.sktorrent.eu/media/videos//h264/60034_480p.mp4
+[01:27:16] step=download curl https://online24.sktorrent.eu/media/videos//h264/60034_480p.mp4
+[01:27:44] step=download done cr_film_id=31594 size=595720562 dur=28.7s speed=20.8MB/s
+[01:27:44] step=upload start cr_film_id=31594 size=595720562
+[01:28:16] step=upload done cr_film_id=31594 video_id=24478619 dur=31.7s speed=18.8MB/s
+[01:28:16] step=cleanup unlinked Ninja In The Deadly Trap (1981) CZ.mp4
+[01:28:16] step=film done cr_film_id=31594 total=72.3s (cdn=11.9s + download=28.7s + upload=31.7s)
+[01:28:16] step=state-saved cr_film_id=31594 (total uploads=1264)
+[01:28:16] step=iteration 45/50
+[01:28:16] step=film start cr_film_id=35056 name='Anonym (1980) CZ'
+[01:28:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/35611_720p.mp4
+[01:28:24] step=cdn-resolve done 7.6s → https://online14.sktorrent.eu/media/videos//h264/35611_720p.mp4
+[01:28:24] step=download curl https://online14.sktorrent.eu/media/videos//h264/35611_720p.mp4
+[01:29:48] step=download done cr_film_id=35056 size=751614953 dur=84.4s speed=8.9MB/s
+[01:29:48] step=upload start cr_film_id=35056 size=751614953
+[01:30:40] step=upload done cr_film_id=35056 video_id=24478654 dur=51.6s speed=14.6MB/s
+[01:30:40] step=cleanup unlinked Anonym (1980) CZ.mp4
+[01:30:40] step=film done cr_film_id=35056 total=143.8s (cdn=7.6s + download=84.4s + upload=51.6s)
+[01:30:40] step=state-saved cr_film_id=35056 (total uploads=1265)
+[01:30:40] step=iteration 46/50
+[01:30:40] step=film start cr_film_id=14888 name='Krakonos a fousatá Dontovka (1979) CZ'
+[01:30:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28348_480p.mp4
+[01:30:45] step=cdn-resolve done 5.4s → https://online9.sktorrent.eu/media/videos//h264/28348_480p.mp4
+[01:30:45] step=download curl https://online9.sktorrent.eu/media/videos//h264/28348_480p.mp4
+[01:30:53] step=download done cr_film_id=14888 size=63723734 dur=7.6s speed=8.4MB/s
+[01:30:53] step=upload start cr_film_id=14888 size=63723734
+[01:30:59] step=upload done cr_film_id=14888 video_id=24478680 dur=5.8s speed=11.0MB/s
+[01:30:59] step=cleanup unlinked Krakonos a fousatá Dontovka (1979) CZ.mp4
+[01:30:59] step=film done cr_film_id=14888 total=18.9s (cdn=5.4s + download=7.6s + upload=5.8s)
+[01:30:59] step=state-saved cr_film_id=14888 (total uploads=1266)
+[01:30:59] step=iteration 47/50
+[01:30:59] step=film start cr_film_id=14911 name='Krakonos a tovarys (1978) CZ'
+[01:30:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28364_480p.mp4
+[01:31:05] step=cdn-resolve done 5.6s → https://online10.sktorrent.eu/media/videos//h264/28364_480p.mp4
+[01:31:05] step=download curl https://online10.sktorrent.eu/media/videos//h264/28364_480p.mp4
+[01:31:10] step=download done cr_film_id=14911 size=36604071 dur=5.2s speed=7.0MB/s
+[01:31:10] step=upload start cr_film_id=14911 size=36604071
+[01:31:14] step=upload done cr_film_id=14911 video_id=24478684 dur=4.7s speed=7.8MB/s
+[01:31:15] step=cleanup unlinked Krakonos a tovarys (1978) CZ.mp4
+[01:31:15] step=film done cr_film_id=14911 total=15.5s (cdn=5.6s + download=5.2s + upload=4.7s)
+[01:31:15] step=state-saved cr_film_id=14911 (total uploads=1267)
+[01:31:15] step=iteration 48/50
+[01:31:15] step=film start cr_film_id=34830 name='Der amerikanische Soldat (1976) CZ'
+[01:31:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30797_720p.mp4
+[01:31:24] step=cdn-resolve done 9.6s → https://online18.sktorrent.eu/media/videos//h264/30797_720p.mp4
+[01:31:24] step=download curl https://online18.sktorrent.eu/media/videos//h264/30797_720p.mp4
+[01:32:13] step=download done cr_film_id=34830 size=493813372 dur=48.9s speed=10.1MB/s
+[01:32:13] step=upload start cr_film_id=34830 size=493813372
+[01:32:41] step=upload done cr_film_id=34830 video_id=24478706 dur=27.8s speed=17.8MB/s
+[01:32:41] step=cleanup unlinked Der amerikanische Soldat (1976) CZ.mp4
+[01:32:41] step=film done cr_film_id=34830 total=86.4s (cdn=9.6s + download=48.9s + upload=27.8s)
+[01:32:41] step=state-saved cr_film_id=34830 (total uploads=1268)
+[01:32:41] step=iteration 49/50
+[01:32:41] step=film start cr_film_id=14927 name='Krakonos a ovcák (1976) CZ'
+[01:32:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28353_480p.mp4
+[01:32:49] step=cdn-resolve done 7.6s → https://online14.sktorrent.eu/media/videos//h264/28353_480p.mp4
+[01:32:49] step=download curl https://online14.sktorrent.eu/media/videos//h264/28353_480p.mp4
+[01:32:55] step=download done cr_film_id=14927 size=50873324 dur=6.3s speed=8.1MB/s
+[01:32:55] step=upload start cr_film_id=14927 size=50873324
+[01:33:27] step=upload done cr_film_id=14927 video_id=24478720 dur=32.4s speed=1.6MB/s
+[01:33:27] step=cleanup unlinked Krakonos a ovcák (1976) CZ.mp4
+[01:33:27] step=film done cr_film_id=14927 total=46.4s (cdn=7.6s + download=6.3s + upload=32.4s)
+[01:33:27] step=state-saved cr_film_id=14927 (total uploads=1269)
+[01:33:27] step=iteration 50/50
+[01:33:27] step=film start cr_film_id=34805 name='Přehlídka ztracených peněz čili Jak se zachovat? (1973) CZ'
+[01:33:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32026_480p.mp4
+[01:33:37] step=cdn-resolve done 9.4s → https://online18.sktorrent.eu/media/videos//h264/32026_480p.mp4
+[01:33:37] step=download curl https://online18.sktorrent.eu/media/videos//h264/32026_480p.mp4
+[01:33:43] step=download done cr_film_id=34805 size=50642957 dur=6.3s speed=8.0MB/s
+[01:33:43] step=upload start cr_film_id=34805 size=50642957
+[01:33:50] step=upload done cr_film_id=34805 video_id=24478729 dur=6.6s speed=7.7MB/s
+[01:33:50] step=cleanup unlinked Přehlídka ztracených peněz čili Jak se zachovat? (1973) CZ.mp4
+[01:33:50] step=film done cr_film_id=34805 total=22.3s (cdn=9.4s + download=6.3s + upload=6.6s)
+[01:33:50] step=state-saved cr_film_id=34805 (total uploads=1270)
+[01:33:50] step=batch-end succeeded=50 failed=0 total_uploads=1270 batch_dur=3614.4s avg_per_film=72.3s backlog_remaining=351 eta_hours=7.0
