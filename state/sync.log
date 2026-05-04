@@ -14449,3 +14449,559 @@
 [22:14:17] step=film done cr_film_id=12942 total=112.7s (cdn=14.2s + download=37.5s + upload=60.9s)
 [22:14:17] step=state-saved cr_film_id=12942 (total uploads=1170)
 [22:14:17] step=batch-end succeeded=29 failed=21 total_uploads=1170 batch_dur=6252.0s avg_per_film=215.6s backlog_remaining=451 eta_hours=27.0
+
+===== run 2026-05-03T22:35:37Z batch_size=50 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/25292786923) =====
+[22:35:38] step=batch-start count=50 backlog=1623 uploads=1170 moderated=2
+[22:35:38] step=login
+[22:35:40] step=login done
+[22:35:40] step=iteration 1/50
+[22:35:40] step=film start cr_film_id=12418 name='Big Hit (1998) CZ Dabing'
+[22:35:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1647_480p.mp4
+[22:35:55] step=cdn-resolve done 15.5s → https://online24.sktorrent.eu/media/videos//h264/1647_480p.mp4
+[22:35:55] step=download curl https://online24.sktorrent.eu/media/videos//h264/1647_480p.mp4
+[22:36:23] step=download done cr_film_id=12418 size=456504130 dur=28.1s speed=16.2MB/s
+[22:36:23] step=upload start cr_film_id=12418 size=456504130
+[22:36:54] step=upload done cr_film_id=12418 video_id=24474193 dur=30.5s speed=15.0MB/s
+[22:36:54] step=cleanup unlinked Big Hit (1998) CZ Dabing.mp4
+[22:36:54] step=film done cr_film_id=12418 total=74.1s (cdn=15.5s + download=28.1s + upload=30.5s)
+[22:36:54] step=state-saved cr_film_id=12418 (total uploads=1171)
+[22:36:54] step=iteration 2/50
+[22:36:54] step=film start cr_film_id=12124 name='Dračí prsten (1994) CZ Dabing'
+[22:36:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14390_480p.mp4
+[22:36:59] step=cdn-resolve done 5.3s → https://online8.sktorrent.eu/media/videos//h264/14390_480p.mp4
+[22:36:59] step=download curl https://online8.sktorrent.eu/media/videos//h264/14390_480p.mp4
+[22:40:05] step=download done cr_film_id=12124 size=1469381395 dur=185.7s speed=7.9MB/s
+[22:40:05] step=upload start cr_film_id=12124 size=1469381395
+[22:41:34] step=upload done cr_film_id=12124 video_id=24474300 dur=89.5s speed=16.4MB/s
+[22:41:34] step=cleanup unlinked Dračí prsten (1994) CZ Dabing.mp4
+[22:41:34] step=film done cr_film_id=12124 total=280.6s (cdn=5.3s + download=185.7s + upload=89.5s)
+[22:41:34] step=state-saved cr_film_id=12124 (total uploads=1172)
+[22:41:34] step=iteration 3/50
+[22:41:34] step=film start cr_film_id=21095 name='Bricks on Track: Building the LEGO F1 Drivers' Parade (2025) CZ'
+[22:41:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59392_720p.mp4
+[22:41:46] step=cdn-resolve done 11.7s → https://online19.sktorrent.eu/media/videos//h264/59392_720p.mp4
+[22:41:46] step=download curl https://online19.sktorrent.eu/media/videos//h264/59392_720p.mp4
+[22:42:37] step=download done cr_film_id=21095 size=463170480 dur=51.2s speed=9.0MB/s
+[22:42:37] step=upload start cr_film_id=21095 size=463170480
+[22:43:05] step=upload done cr_film_id=21095 video_id=24474376 dur=27.6s speed=16.8MB/s
+[22:43:05] step=cleanup unlinked Bricks on Track: Building the LEGO F1 Drivers' Parade (2025) CZ.mp4
+[22:43:05] step=film done cr_film_id=21095 total=90.6s (cdn=11.7s + download=51.2s + upload=27.6s)
+[22:43:05] step=state-saved cr_film_id=21095 (total uploads=1173)
+[22:43:05] step=iteration 4/50
+[22:43:05] step=film start cr_film_id=31651 name='The Replacement Daughter (2024) CZ'
+[22:43:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60187_480p.mp4
+[22:43:06] step=cdn-resolve done 1.5s → https://online2.sktorrent.eu/media/videos//h264/60187_480p.mp4
+[22:43:06] step=download curl https://online2.sktorrent.eu/media/videos//h264/60187_480p.mp4
+[22:43:31] step=download done cr_film_id=31651 size=180928394 dur=24.8s speed=7.3MB/s
+[22:43:31] step=upload start cr_film_id=31651 size=180928394
+[22:43:44] step=upload done cr_film_id=31651 video_id=24474404 dur=12.8s speed=14.1MB/s
+[22:43:44] step=cleanup unlinked The Replacement Daughter (2024) CZ.mp4
+[22:43:44] step=film done cr_film_id=31651 total=39.2s (cdn=1.5s + download=24.8s + upload=12.8s)
+[22:43:44] step=state-saved cr_film_id=31651 (total uploads=1174)
+[22:43:44] step=iteration 5/50
+[22:43:44] step=film start cr_film_id=34799 name='Já, Nina (2023) CZ'
+[22:43:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33468_720p.mp4
+[22:43:51] step=cdn-resolve done 7.2s → https://online11.sktorrent.eu/media/videos//h264/33468_720p.mp4
+[22:43:51] step=download curl https://online11.sktorrent.eu/media/videos//h264/33468_720p.mp4
+[22:44:58] step=download done cr_film_id=34799 size=466568565 dur=66.4s speed=7.0MB/s
+[22:44:58] step=upload start cr_film_id=34799 size=466568565
+[22:45:25] step=upload done cr_film_id=34799 video_id=24474453 dur=27.8s speed=16.8MB/s
+[22:45:26] step=cleanup unlinked Já, Nina (2023) CZ.mp4
+[22:45:26] step=film done cr_film_id=34799 total=101.4s (cdn=7.2s + download=66.4s + upload=27.8s)
+[22:45:26] step=state-saved cr_film_id=34799 (total uploads=1175)
+[22:45:26] step=iteration 6/50
+[22:45:26] step=film start cr_film_id=34767 name='Dave Chappelle: Snílek (2023) CZ'
+[22:45:26] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/48480_720p.mp4
+[22:45:35] step=cdn-resolve done 9.5s → https://online15.sktorrent.eu/media/videos//h264/48480_720p.mp4
+[22:45:35] step=download curl https://online15.sktorrent.eu/media/videos//h264/48480_720p.mp4
+[22:46:15] step=download done cr_film_id=34767 size=362259152 dur=40.4s speed=9.0MB/s
+[22:46:15] step=upload start cr_film_id=34767 size=362259152
+[22:46:41] step=upload done cr_film_id=34767 video_id=24474499 dur=25.2s speed=14.4MB/s
+[22:46:41] step=cleanup unlinked Dave Chappelle: Snílek (2023) CZ.mp4
+[22:46:41] step=film done cr_film_id=34767 total=75.1s (cdn=9.5s + download=40.4s + upload=25.2s)
+[22:46:41] step=state-saved cr_film_id=34767 (total uploads=1176)
+[22:46:41] step=iteration 7/50
+[22:46:41] step=film start cr_film_id=31674 name='Mission Extreme 2: Black War (2023) CZ'
+[22:46:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60270_720p.mp4
+[22:46:47] step=cdn-resolve done 6.0s → https://online9.sktorrent.eu/media/videos//h264/60270_720p.mp4
+[22:46:47] step=download curl https://online9.sktorrent.eu/media/videos//h264/60270_720p.mp4
+[22:48:11] step=download done cr_film_id=31674 size=693733287 dur=84.1s speed=8.2MB/s
+[22:48:11] step=upload start cr_film_id=31674 size=693733287
+[22:48:56] step=upload done cr_film_id=31674 video_id=24474554 dur=44.8s speed=15.5MB/s
+[22:48:56] step=cleanup unlinked Mission Extreme 2: Black War (2023) CZ.mp4
+[22:48:56] step=film done cr_film_id=31674 total=135.0s (cdn=6.0s + download=84.1s + upload=44.8s)
+[22:48:56] step=state-saved cr_film_id=31674 (total uploads=1177)
+[22:48:56] step=iteration 8/50
+[22:48:56] step=film start cr_film_id=31567 name='Royal Rendezvous (2023) CZ'
+[22:48:56] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59940_480p.mp4
+[22:49:00] step=cdn-resolve done 4.6s → https://online7.sktorrent.eu/media/videos//h264/59940_480p.mp4
+[22:49:00] step=download curl https://online7.sktorrent.eu/media/videos//h264/59940_480p.mp4
+[22:49:27] step=download done cr_film_id=31567 size=210596582 dur=26.6s speed=7.9MB/s
+[22:49:27] step=upload start cr_film_id=31567 size=210596582
+[22:49:42] step=upload done cr_film_id=31567 video_id=24474592 dur=14.7s speed=14.3MB/s
+[22:49:42] step=cleanup unlinked Royal Rendezvous (2023) CZ.mp4
+[22:49:42] step=film done cr_film_id=31567 total=46.0s (cdn=4.6s + download=26.6s + upload=14.7s)
+[22:49:42] step=state-saved cr_film_id=31567 (total uploads=1178)
+[22:49:42] step=iteration 9/50
+[22:49:42] step=film start cr_film_id=16178 name='Mlsné medvědí příběhy: Na pól! (2023) CZ'
+[22:49:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/35900_720p.mp4
+[22:49:54] step=cdn-resolve done 11.8s → https://online19.sktorrent.eu/media/videos//h264/35900_720p.mp4
+[22:49:54] step=download curl https://online19.sktorrent.eu/media/videos//h264/35900_720p.mp4
+[22:50:47] step=download done cr_film_id=16178 size=460402922 dur=53.0s speed=8.7MB/s
+[22:50:47] step=upload start cr_film_id=16178 size=460402922
+[22:51:16] step=upload done cr_film_id=16178 video_id=24474634 dur=29.5s speed=15.6MB/s
+[22:51:16] step=cleanup unlinked Mlsné medvědí příběhy: Na pól! (2023) CZ.mp4
+[22:51:16] step=film done cr_film_id=16178 total=94.4s (cdn=11.8s + download=53.0s + upload=29.5s)
+[22:51:16] step=state-saved cr_film_id=16178 (total uploads=1179)
+[22:51:16] step=iteration 10/50
+[22:51:16] step=film start cr_film_id=34861 name='Pánský klub (2022) CZ'
+[22:51:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25025_720p.mp4
+[22:51:26] step=cdn-resolve done 9.9s → https://online15.sktorrent.eu/media/videos//h264/25025_720p.mp4
+[22:51:26] step=download curl https://online15.sktorrent.eu/media/videos//h264/25025_720p.mp4
+[22:52:11] step=download done cr_film_id=34861 size=408731362 dur=45.0s speed=9.1MB/s
+[22:52:11] step=upload start cr_film_id=34861 size=408731362
+[22:52:47] step=upload done cr_film_id=34861 video_id=24474679 dur=36.2s speed=11.3MB/s
+[22:52:47] step=cleanup unlinked Pánský klub (2022) CZ.mp4
+[22:52:47] step=film done cr_film_id=34861 total=91.1s (cdn=9.9s + download=45.0s + upload=36.2s)
+[22:52:47] step=state-saved cr_film_id=34861 (total uploads=1180)
+[22:52:47] step=iteration 11/50
+[22:52:47] step=film start cr_film_id=34773 name='Old Flames Never Die (2022) CZ'
+[22:52:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45859_720p.mp4
+[22:53:01] step=cdn-resolve done 13.8s → https://online23.sktorrent.eu/media/videos//h264/45859_720p.mp4
+[22:53:01] step=download curl https://online23.sktorrent.eu/media/videos//h264/45859_720p.mp4
+[22:53:59] step=download done cr_film_id=34773 size=548489465 dur=57.5s speed=9.5MB/s
+[22:53:59] step=upload start cr_film_id=34773 size=548489465
+[22:54:33] step=upload done cr_film_id=34773 video_id=24474736 dur=34.2s speed=16.0MB/s
+[22:54:33] step=cleanup unlinked Old Flames Never Die (2022) CZ.mp4
+[22:54:33] step=film done cr_film_id=34773 total=105.6s (cdn=13.8s + download=57.5s + upload=34.2s)
+[22:54:33] step=state-saved cr_film_id=34773 (total uploads=1181)
+[22:54:33] step=iteration 12/50
+[22:54:33] step=film start cr_film_id=16901 name='Mia a já ve filmu (2022) CZ'
+[22:54:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32524_720p.mp4
+[22:54:47] step=cdn-resolve done 13.8s → https://online23.sktorrent.eu/media/videos//h264/32524_720p.mp4
+[22:54:47] step=download curl https://online23.sktorrent.eu/media/videos//h264/32524_720p.mp4
+[22:56:04] step=download done cr_film_id=16901 size=704040995 dur=77.2s speed=9.1MB/s
+[22:56:04] step=upload start cr_film_id=16901 size=704040995
+[22:57:07] step=upload done cr_film_id=16901 video_id=24474794 dur=62.7s speed=11.2MB/s
+[22:57:07] step=cleanup unlinked Mia a já ve filmu (2022) CZ.mp4
+[22:57:07] step=film done cr_film_id=16901 total=153.9s (cdn=13.8s + download=77.2s + upload=62.7s)
+[22:57:07] step=state-saved cr_film_id=16901 (total uploads=1182)
+[22:57:07] step=iteration 13/50
+[22:57:07] step=film start cr_film_id=15675 name='Myška a medvěd na cestách (2022) CZ'
+[22:57:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33524_720p.mp4
+[22:57:09] step=cdn-resolve done 2.0s → https://online3.sktorrent.eu/media/videos//h264/33524_720p.mp4
+[22:57:09] step=download curl https://online3.sktorrent.eu/media/videos//h264/33524_720p.mp4
+[22:58:16] step=download done cr_film_id=15675 size=428488430 dur=67.5s speed=6.3MB/s
+[22:58:16] step=upload start cr_film_id=15675 size=428488430
+[22:58:43] step=upload done cr_film_id=15675 video_id=24474850 dur=26.3s speed=16.3MB/s
+[22:58:43] step=cleanup unlinked Myška a medvěd na cestách (2022) CZ.mp4
+[22:58:43] step=film done cr_film_id=15675 total=95.9s (cdn=2.0s + download=67.5s + upload=26.3s)
+[22:58:43] step=state-saved cr_film_id=15675 (total uploads=1183)
+[22:58:43] step=iteration 14/50
+[22:58:43] step=film start cr_film_id=10571 name='Íá (2022) CZ'
+[22:58:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30979_720p.mp4
+[22:58:55] step=cdn-resolve done 12.3s → https://online20.sktorrent.eu/media/videos//h264/30979_720p.mp4
+[22:58:55] step=download curl https://online20.sktorrent.eu/media/videos//h264/30979_720p.mp4
+[22:59:58] step=download done cr_film_id=10571 size=567687510 dur=63.3s speed=9.0MB/s
+[22:59:58] step=upload start cr_film_id=10571 size=567687510
+[23:00:47] step=upload done cr_film_id=10571 video_id=24474898 dur=48.9s speed=11.6MB/s
+[23:00:47] step=cleanup unlinked Íá (2022) CZ.mp4
+[23:00:47] step=film done cr_film_id=10571 total=124.6s (cdn=12.3s + download=63.3s + upload=48.9s)
+[23:00:47] step=state-saved cr_film_id=10571 (total uploads=1184)
+[23:00:47] step=iteration 15/50
+[23:00:47] step=film start cr_film_id=7565 name='LEGO Star Wars: Letní prázdniny (2022) CZ'
+[23:00:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24751_720p.mp4
+[23:00:58] step=cdn-resolve done 11.1s → https://online18.sktorrent.eu/media/videos//h264/24751_720p.mp4
+[23:00:58] step=download curl https://online18.sktorrent.eu/media/videos//h264/24751_720p.mp4
+[23:01:36] step=download done cr_film_id=7565 size=323751865 dur=37.3s speed=8.7MB/s
+[23:01:36] step=upload start cr_film_id=7565 size=323751865
+[23:01:57] step=upload done cr_film_id=7565 video_id=24474946 dur=21.0s speed=15.4MB/s
+[23:01:57] step=cleanup unlinked LEGO Star Wars: Letní prázdniny (2022) CZ.mp4
+[23:01:57] step=film done cr_film_id=7565 total=69.5s (cdn=11.1s + download=37.3s + upload=21.0s)
+[23:01:57] step=state-saved cr_film_id=7565 (total uploads=1185)
+[23:01:57] step=iteration 16/50
+[23:01:57] step=film start cr_film_id=5897 name='Tlapková patrola ve filmu (2021) CZ'
+[23:01:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19848_720p.mp4
+[23:02:05] step=cdn-resolve done 8.5s → https://online13.sktorrent.eu/media/videos//h264/19848_720p.mp4
+[23:02:05] step=download curl https://online13.sktorrent.eu/media/videos//h264/19848_720p.mp4
+[23:03:23] step=download done cr_film_id=5897 size=664439966 dur=77.4s speed=8.6MB/s
+[23:03:23] step=upload start cr_film_id=5897 size=664439966
+[23:04:10] step=upload done cr_film_id=5897 video_id=24475002 dur=47.3s speed=14.0MB/s
+[23:04:10] step=cleanup unlinked Tlapková patrola ve filmu (2021) CZ.mp4
+[23:04:10] step=film done cr_film_id=5897 total=133.3s (cdn=8.5s + download=77.4s + upload=47.3s)
+[23:04:10] step=state-saved cr_film_id=5897 (total uploads=1186)
+[23:04:10] step=iteration 17/50
+[23:04:10] step=film start cr_film_id=10607 name='Máša a medvěd: Mášiny písničky (2020) CZ'
+[23:04:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/15428_720p.mp4
+[23:04:17] step=cdn-resolve done 6.8s → https://online10.sktorrent.eu/media/videos//h264/15428_720p.mp4
+[23:04:17] step=download curl https://online10.sktorrent.eu/media/videos//h264/15428_720p.mp4
+[23:06:09] step=download done cr_film_id=10607 size=983440391 dur=111.8s speed=8.8MB/s
+[23:06:09] step=upload start cr_film_id=10607 size=983440391
+[23:07:15] step=upload done cr_film_id=10607 video_id=24475079 dur=66.6s speed=14.8MB/s
+[23:07:15] step=cleanup unlinked Máša a medvěd: Mášiny písničky (2020) CZ.mp4
+[23:07:15] step=film done cr_film_id=10607 total=185.3s (cdn=6.8s + download=111.8s + upload=66.6s)
+[23:07:15] step=state-saved cr_film_id=10607 (total uploads=1187)
+[23:07:15] step=iteration 18/50
+[23:07:15] step=film start cr_film_id=35042 name='Kdo zabil Michaela Jacksona (2019) CZ'
+[23:07:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59933_480p.mp4
+[23:07:30] step=cdn-resolve done 14.8s → https://online25.sktorrent.eu/media/videos//h264/59933_480p.mp4
+[23:07:30] step=download curl https://online25.sktorrent.eu/media/videos//h264/59933_480p.mp4
+[23:07:38] step=download done cr_film_id=35042 size=104654154 dur=7.4s speed=14.1MB/s
+[23:07:38] step=upload start cr_film_id=35042 size=104654154
+[23:07:48] step=upload done cr_film_id=35042 video_id=24475117 dur=10.6s speed=9.9MB/s
+[23:07:48] step=cleanup unlinked Kdo zabil Michaela Jacksona (2019) CZ.mp4
+[23:07:48] step=film done cr_film_id=35042 total=32.8s (cdn=14.8s + download=7.4s + upload=10.6s)
+[23:07:48] step=state-saved cr_film_id=35042 (total uploads=1188)
+[23:07:48] step=iteration 19/50
+[23:07:48] step=film start cr_film_id=34995 name='Tajemství polární záře (2019) CZ'
+[23:07:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60373_720p.mp4
+[23:07:55] step=cdn-resolve done 7.1s → https://online11.sktorrent.eu/media/videos//h264/60373_720p.mp4
+[23:07:55] step=download curl https://online11.sktorrent.eu/media/videos//h264/60373_720p.mp4
+[23:08:31] step=download done cr_film_id=34995 size=297370547 dur=36.0s speed=8.3MB/s
+[23:08:31] step=upload start cr_film_id=34995 size=297370547
+[23:08:50] step=upload done cr_film_id=34995 video_id=24475144 dur=19.1s speed=15.6MB/s
+[23:08:51] step=cleanup unlinked Tajemství polární záře (2019) CZ.mp4
+[23:08:51] step=film done cr_film_id=34995 total=62.2s (cdn=7.1s + download=36.0s + upload=19.1s)
+[23:08:51] step=state-saved cr_film_id=34995 (total uploads=1189)
+[23:08:51] step=iteration 20/50
+[23:08:51] step=film start cr_film_id=34986 name='Jíst, pít a vdát se (2019) CZ'
+[23:08:51] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/6024_480p.mp4
+[23:08:54] step=cdn-resolve done 3.3s → https://online5.sktorrent.eu/media/videos//h264/6024_480p.mp4
+[23:08:54] step=download curl https://online5.sktorrent.eu/media/videos//h264/6024_480p.mp4
+[23:09:40] step=download done cr_film_id=34986 size=299740086 dur=45.9s speed=6.5MB/s
+[23:09:40] step=upload start cr_film_id=34986 size=299740086
+[23:10:00] step=upload done cr_film_id=34986 video_id=24475169 dur=20.7s speed=14.5MB/s
+[23:10:01] step=cleanup unlinked Jíst, pít a vdát se (2019) CZ.mp4
+[23:10:01] step=film done cr_film_id=34986 total=70.0s (cdn=3.3s + download=45.9s + upload=20.7s)
+[23:10:01] step=state-saved cr_film_id=34986 (total uploads=1190)
+[23:10:01] step=iteration 21/50
+[23:10:01] step=film start cr_film_id=34780 name='Love, Romance & Chocolate (2019) CZ'
+[23:10:01] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/42704_720p.mp4
+[23:10:06] step=cdn-resolve done 5.5s → https://online8.sktorrent.eu/media/videos//h264/42704_720p.mp4
+[23:10:06] step=download curl https://online8.sktorrent.eu/media/videos//h264/42704_720p.mp4
+[23:11:18] step=download done cr_film_id=34780 size=609989471 dur=71.5s speed=8.5MB/s
+[23:11:18] step=upload start cr_film_id=34780 size=609989471
+[23:11:57] step=upload done cr_film_id=34780 video_id=24475212 dur=39.9s speed=15.3MB/s
+[23:11:58] step=cleanup unlinked Love, Romance & Chocolate (2019) CZ.mp4
+[23:11:58] step=film done cr_film_id=34780 total=117.0s (cdn=5.5s + download=71.5s + upload=39.9s)
+[23:11:58] step=state-saved cr_film_id=34780 (total uploads=1191)
+[23:11:58] step=iteration 22/50
+[23:11:58] step=film start cr_film_id=34774 name='Stíny smrti: Vražda na zámku (2019) CZ'
+[23:11:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45533_720p.mp4
+[23:12:07] step=cdn-resolve done 9.9s → https://online16.sktorrent.eu/media/videos//h264/45533_720p.mp4
+[23:12:07] step=download curl https://online16.sktorrent.eu/media/videos//h264/45533_720p.mp4
+[23:13:05] step=download done cr_film_id=34774 size=591631470 dur=57.9s speed=10.2MB/s
+[23:13:05] step=upload start cr_film_id=34774 size=591631470
+[23:13:43] step=upload done cr_film_id=34774 video_id=24475273 dur=38.1s speed=15.5MB/s
+[23:13:44] step=cleanup unlinked Stíny smrti: Vražda na zámku (2019) CZ.mp4
+[23:13:44] step=film done cr_film_id=34774 total=106.0s (cdn=9.9s + download=57.9s + upload=38.1s)
+[23:13:44] step=state-saved cr_film_id=34774 (total uploads=1192)
+[23:13:44] step=iteration 23/50
+[23:13:44] step=film start cr_film_id=34755 name='Thanks for the Memories (2019) CZ'
+[23:13:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59253_720p.mp4
+[23:13:46] step=cdn-resolve done 2.7s → https://online4.sktorrent.eu/media/videos//h264/59253_720p.mp4
+[23:13:46] step=download curl https://online4.sktorrent.eu/media/videos//h264/59253_720p.mp4
+[23:16:09] step=download done cr_film_id=34755 size=1080699814 dur=142.7s speed=7.6MB/s
+[23:16:09] step=upload start cr_film_id=34755 size=1080699814
+[23:17:14] step=upload done cr_film_id=34755 video_id=24475367 dur=65.4s speed=16.5MB/s
+[23:17:14] step=cleanup unlinked Thanks for the Memories (2019) CZ.mp4
+[23:17:14] step=film done cr_film_id=34755 total=210.8s (cdn=2.7s + download=142.7s + upload=65.4s)
+[23:17:14] step=state-saved cr_film_id=34755 (total uploads=1193)
+[23:17:14] step=iteration 24/50
+[23:17:14] step=film start cr_film_id=31605 name='Kořen problému (2019) CZ'
+[23:17:14] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60046_720p.mp4
+[23:17:23] step=cdn-resolve done 8.2s → https://online11.sktorrent.eu/media/videos//h264/60046_720p.mp4
+[23:17:23] step=download curl https://online11.sktorrent.eu/media/videos//h264/60046_720p.mp4
+[23:18:19] step=download done cr_film_id=31605 size=485385702 dur=56.6s speed=8.6MB/s
+[23:18:19] step=upload start cr_film_id=31605 size=485385702
+[23:18:49] step=upload done cr_film_id=31605 video_id=24475422 dur=29.9s speed=16.2MB/s
+[23:18:49] step=cleanup unlinked Kořen problému (2019) CZ.mp4
+[23:18:49] step=film done cr_film_id=31605 total=94.8s (cdn=8.2s + download=56.6s + upload=29.9s)
+[23:18:49] step=state-saved cr_film_id=31605 (total uploads=1194)
+[23:18:49] step=iteration 25/50
+[23:18:49] step=film start cr_film_id=17670 name='The Pilgrim's Progress (2019) CZ'
+[23:18:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/51180_720p.mp4
+[23:19:04] step=cdn-resolve done 14.7s → https://online24.sktorrent.eu/media/videos//h264/51180_720p.mp4
+[23:19:04] step=download curl https://online24.sktorrent.eu/media/videos//h264/51180_720p.mp4
+[23:19:36] step=download done cr_film_id=17670 size=630729051 dur=32.1s speed=19.6MB/s
+[23:19:36] step=upload start cr_film_id=17670 size=630729051
+[23:20:13] step=upload done cr_film_id=17670 video_id=24475452 dur=37.1s speed=17.0MB/s
+[23:20:13] step=cleanup unlinked The Pilgrim's Progress (2019) CZ.mp4
+[23:20:13] step=film done cr_film_id=17670 total=83.9s (cdn=14.7s + download=32.1s + upload=37.1s)
+[23:20:13] step=state-saved cr_film_id=17670 (total uploads=1195)
+[23:20:13] step=iteration 26/50
+[23:20:13] step=film start cr_film_id=17567 name='Havran nezbeda: Hledání straceného pokladu (2019) CZ'
+[23:20:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25268_720p.mp4
+[23:20:28] step=cdn-resolve done 14.8s → https://online25.sktorrent.eu/media/videos//h264/25268_720p.mp4
+[23:20:28] step=download curl https://online25.sktorrent.eu/media/videos//h264/25268_720p.mp4
+[23:20:47] step=download done cr_film_id=17567 size=384505615 dur=19.1s speed=20.1MB/s
+[23:20:47] step=upload start cr_film_id=17567 size=384505615
+[23:21:12] step=upload done cr_film_id=17567 video_id=24475481 dur=25.3s speed=15.2MB/s
+[23:21:12] step=cleanup unlinked Havran nezbeda: Hledání straceného pokladu (2019) CZ.mp4
+[23:21:12] step=film done cr_film_id=17567 total=59.2s (cdn=14.8s + download=19.1s + upload=25.3s)
+[23:21:12] step=state-saved cr_film_id=17567 (total uploads=1196)
+[23:21:12] step=iteration 27/50
+[23:21:12] step=film start cr_film_id=13955 name='Medvídci Boonie: Cesta do pravěku (2019) CZ'
+[23:21:12] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24253_720p.mp4
+[23:21:21] step=cdn-resolve done 8.4s → https://online13.sktorrent.eu/media/videos//h264/24253_720p.mp4
+[23:21:21] step=download curl https://online13.sktorrent.eu/media/videos//h264/24253_720p.mp4
+[23:22:43] step=download done cr_film_id=13955 size=731679713 dur=82.0s speed=8.9MB/s
+[23:22:43] step=upload start cr_film_id=13955 size=731679713
+[23:23:29] step=upload done cr_film_id=13955 video_id=24475527 dur=46.0s speed=15.9MB/s
+[23:23:29] step=cleanup unlinked Medvídci Boonie: Cesta do pravěku (2019) CZ.mp4
+[23:23:29] step=film done cr_film_id=13955 total=136.5s (cdn=8.4s + download=82.0s + upload=46.0s)
+[23:23:29] step=state-saved cr_film_id=13955 (total uploads=1197)
+[23:23:29] step=iteration 28/50
+[23:23:29] step=film start cr_film_id=9089 name='Strom přání (2019) CZ'
+[23:23:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12960_720p.mp4
+[23:23:35] step=cdn-resolve done 6.1s → https://online9.sktorrent.eu/media/videos//h264/12960_720p.mp4
+[23:23:35] step=download curl https://online9.sktorrent.eu/media/videos//h264/12960_720p.mp4
+[23:24:35] step=download done cr_film_id=9089 size=503479827 dur=60.0s speed=8.4MB/s
+[23:24:35] step=upload start cr_film_id=9089 size=503479827
+[23:25:07] step=upload done cr_film_id=9089 video_id=24475583 dur=32.0s speed=15.7MB/s
+[23:25:07] step=cleanup unlinked Strom přání (2019) CZ.mp4
+[23:25:07] step=film done cr_film_id=9089 total=98.2s (cdn=6.1s + download=60.0s + upload=32.0s)
+[23:25:07] step=state-saved cr_film_id=9089 (total uploads=1198)
+[23:25:07] step=iteration 29/50
+[23:25:07] step=film start cr_film_id=1667 name='Pat a Mat: Kutilské trampoty (2019) CZ'
+[23:25:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/9749_720p.mp4
+[23:25:10] step=cdn-resolve done 3.3s → https://online5.sktorrent.eu/media/videos//h264/9749_720p.mp4
+[23:25:10] step=download curl https://online5.sktorrent.eu/media/videos//h264/9749_720p.mp4
+[23:26:10] step=download done cr_film_id=1667 size=438931258 dur=59.3s speed=7.4MB/s
+[23:26:10] step=upload start cr_film_id=1667 size=438931258
+[23:26:38] step=upload done cr_film_id=1667 video_id=24475625 dur=28.4s speed=15.5MB/s
+[23:26:38] step=cleanup unlinked Pat a Mat: Kutilské trampoty (2019) CZ.mp4
+[23:26:38] step=film done cr_film_id=1667 total=91.1s (cdn=3.3s + download=59.3s + upload=28.4s)
+[23:26:38] step=state-saved cr_film_id=1667 (total uploads=1199)
+[23:26:38] step=iteration 30/50
+[23:26:38] step=film start cr_film_id=35065 name='Sluník a Ludvík - Mise na Měsíc (2018) CZ'
+[23:26:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22421_720p.mp4
+[23:26:48] step=cdn-resolve done 9.5s → https://online14.sktorrent.eu/media/videos//h264/22421_720p.mp4
+[23:26:48] step=download curl https://online14.sktorrent.eu/media/videos//h264/22421_720p.mp4
+[23:27:33] step=download done cr_film_id=35065 size=402828858 dur=44.9s speed=9.0MB/s
+[23:27:33] step=upload start cr_film_id=35065 size=402828858
+[23:28:03] step=upload done cr_film_id=35065 video_id=24475668 dur=30.9s speed=13.0MB/s
+[23:28:03] step=cleanup unlinked Sluník a Ludvík - Mise na Měsíc (2018) CZ.mp4
+[23:28:03] step=film done cr_film_id=35065 total=85.3s (cdn=9.5s + download=44.9s + upload=30.9s)
+[23:28:03] step=state-saved cr_film_id=35065 (total uploads=1200)
+[23:28:03] step=iteration 31/50
+[23:28:03] step=film start cr_film_id=34984 name='Pretenders (2018) CZ'
+[23:28:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/6866_720p.mp4
+[23:28:05] step=cdn-resolve done 1.5s → https://online2.sktorrent.eu/media/videos//h264/6866_720p.mp4
+[23:28:05] step=download curl https://online2.sktorrent.eu/media/videos//h264/6866_720p.mp4
+[23:29:21] step=download done cr_film_id=34984 size=704309963 dur=75.6s speed=9.3MB/s
+[23:29:21] step=upload start cr_film_id=34984 size=704309963
+[23:30:02] step=upload done cr_film_id=34984 video_id=24475721 dur=41.1s speed=17.1MB/s
+[23:30:02] step=cleanup unlinked Pretenders (2018) CZ.mp4
+[23:30:02] step=film done cr_film_id=34984 total=118.3s (cdn=1.5s + download=75.6s + upload=41.1s)
+[23:30:02] step=state-saved cr_film_id=34984 (total uploads=1201)
+[23:30:02] step=iteration 32/50
+[23:30:02] step=film start cr_film_id=33869 name='Superjuffie (2018) CZ'
+[23:30:02] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60315_720p.mp4
+[23:30:05] step=cdn-resolve done 3.4s → https://online4.sktorrent.eu/media/videos//h264/60315_720p.mp4
+[23:30:05] step=download curl https://online4.sktorrent.eu/media/videos//h264/60315_720p.mp4
+[23:31:26] step=download done cr_film_id=33869 size=523975610 dur=80.5s speed=6.5MB/s
+[23:31:26] step=upload start cr_film_id=33869 size=523975610
+[23:32:00] step=upload done cr_film_id=33869 video_id=24475779 dur=34.3s speed=15.3MB/s
+[23:32:00] step=cleanup unlinked Superjuffie (2018) CZ.mp4
+[23:32:00] step=film done cr_film_id=33869 total=118.2s (cdn=3.4s + download=80.5s + upload=34.3s)
+[23:32:00] step=state-saved cr_film_id=33869 (total uploads=1202)
+[23:32:00] step=iteration 33/50
+[23:32:00] step=film start cr_film_id=21106 name='Jak houby stvořily náš svět (2018) CZ'
+[23:32:00] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59501_720p.mp4
+[23:32:15] step=cdn-resolve done 14.9s → https://online25.sktorrent.eu/media/videos//h264/59501_720p.mp4
+[23:32:15] step=download curl https://online25.sktorrent.eu/media/videos//h264/59501_720p.mp4
+[23:32:33] step=download done cr_film_id=21106 size=355075138 dur=17.9s speed=19.8MB/s
+[23:32:33] step=upload start cr_film_id=21106 size=355075138
+[23:32:56] step=upload done cr_film_id=21106 video_id=24475811 dur=23.1s speed=15.4MB/s
+[23:32:56] step=cleanup unlinked Jak houby stvořily náš svět (2018) CZ.mp4
+[23:32:56] step=film done cr_film_id=21106 total=56.0s (cdn=14.9s + download=17.9s + upload=23.1s)
+[23:32:56] step=state-saved cr_film_id=21106 (total uploads=1203)
+[23:32:56] step=iteration 34/50
+[23:32:56] step=film start cr_film_id=5142 name='Lego DC Super hrdinové: Flash (2018) CZ'
+[23:32:56] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1947_480p.mp4
+[23:33:10] step=cdn-resolve done 14.0s → https://online24.sktorrent.eu/media/videos//h264/1947_480p.mp4
+[23:33:10] step=download curl https://online24.sktorrent.eu/media/videos//h264/1947_480p.mp4
+[23:34:08] step=download done cr_film_id=5142 size=392287276 dur=57.6s speed=6.8MB/s
+[23:34:08] step=upload start cr_film_id=5142 size=392287276
+[23:34:35] step=upload done cr_film_id=5142 video_id=24475860 dur=27.2s speed=14.4MB/s
+[23:34:35] step=cleanup unlinked Lego DC Super hrdinové: Flash (2018) CZ.mp4
+[23:34:35] step=film done cr_film_id=5142 total=98.7s (cdn=14.0s + download=57.6s + upload=27.2s)
+[23:34:35] step=state-saved cr_film_id=5142 (total uploads=1204)
+[23:34:35] step=iteration 35/50
+[23:34:35] step=film start cr_film_id=34968 name='Šaty pro princeznu (2017) CZ'
+[23:34:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20743_720p.mp4
+[23:34:45] step=cdn-resolve done 9.8s → https://online16.sktorrent.eu/media/videos//h264/20743_720p.mp4
+[23:34:45] step=download curl https://online16.sktorrent.eu/media/videos//h264/20743_720p.mp4
+[23:35:27] step=download done cr_film_id=34968 size=440947853 dur=42.5s speed=10.4MB/s
+[23:35:27] step=upload start cr_film_id=34968 size=440947853
+[23:35:57] step=upload done cr_film_id=34968 video_id=24475893 dur=30.0s speed=14.7MB/s
+[23:35:57] step=cleanup unlinked Šaty pro princeznu (2017) CZ.mp4
+[23:35:57] step=film done cr_film_id=34968 total=82.4s (cdn=9.8s + download=42.5s + upload=30.0s)
+[23:35:57] step=state-saved cr_film_id=34968 (total uploads=1205)
+[23:35:57] step=iteration 36/50
+[23:35:57] step=film start cr_film_id=7347 name='Barbie: Magický delfín (2017) CZ'
+[23:35:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1290_720p.mp4
+[23:36:09] step=cdn-resolve done 12.0s → https://online19.sktorrent.eu/media/videos//h264/1290_720p.mp4
+[23:36:09] step=download curl https://online19.sktorrent.eu/media/videos//h264/1290_720p.mp4
+[23:37:53] step=download done cr_film_id=7347 size=856513627 dur=103.5s speed=8.3MB/s
+[23:37:53] step=upload start cr_film_id=7347 size=856513627
+[23:38:43] step=upload done cr_film_id=7347 video_id=24475955 dur=50.3s speed=17.0MB/s
+[23:38:43] step=cleanup unlinked Barbie: Magický delfín (2017) CZ.mp4
+[23:38:43] step=film done cr_film_id=7347 total=165.9s (cdn=12.0s + download=103.5s + upload=50.3s)
+[23:38:43] step=state-saved cr_film_id=7347 (total uploads=1206)
+[23:38:43] step=iteration 37/50
+[23:38:43] step=film start cr_film_id=31645 name='Conni a její kamarádi (2016) CZ'
+[23:38:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60168_720p.mp4
+[23:38:48] step=cdn-resolve done 4.6s → https://online7.sktorrent.eu/media/videos//h264/60168_720p.mp4
+[23:38:48] step=download curl https://online7.sktorrent.eu/media/videos//h264/60168_720p.mp4
+[23:40:38] step=download done cr_film_id=31645 size=839268651 dur=110.0s speed=7.6MB/s
+[23:40:38] step=upload start cr_film_id=31645 size=839268651
+[23:41:37] step=upload done cr_film_id=31645 video_id=24476015 dur=59.4s speed=14.1MB/s
+[23:41:37] step=cleanup unlinked Conni a její kamarádi (2016) CZ.mp4
+[23:41:37] step=film done cr_film_id=31645 total=174.1s (cdn=4.6s + download=110.0s + upload=59.4s)
+[23:41:37] step=state-saved cr_film_id=31645 (total uploads=1207)
+[23:41:37] step=iteration 38/50
+[23:41:37] step=film start cr_film_id=31579 name='Hakuoki SSL~sweet school life~: THE MOVIE (2016) CZ'
+[23:41:37] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59995_720p.mp4
+[23:41:44] step=cdn-resolve done 6.4s → https://online10.sktorrent.eu/media/videos//h264/59995_720p.mp4
+[23:41:44] step=download curl https://online10.sktorrent.eu/media/videos//h264/59995_720p.mp4
+[23:42:25] step=download done cr_film_id=31579 size=372909159 dur=41.0s speed=9.1MB/s
+[23:42:25] step=upload start cr_film_id=31579 size=372909159
+[23:42:48] step=upload done cr_film_id=31579 video_id=24476062 dur=23.4s speed=15.9MB/s
+[23:42:48] step=cleanup unlinked Hakuoki SSL~sweet school life~: THE MOVIE (2016) CZ.mp4
+[23:42:48] step=film done cr_film_id=31579 total=70.9s (cdn=6.4s + download=41.0s + upload=23.4s)
+[23:42:48] step=state-saved cr_film_id=31579 (total uploads=1208)
+[23:42:48] step=iteration 39/50
+[23:42:48] step=film start cr_film_id=7009 name='Barbie: Ve hvězdách (2016) CZ'
+[23:42:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33718_720p.mp4
+[23:42:58] step=cdn-resolve done 10.2s → https://online15.sktorrent.eu/media/videos//h264/33718_720p.mp4
+[23:42:58] step=download curl https://online15.sktorrent.eu/media/videos//h264/33718_720p.mp4
+[23:44:14] step=download done cr_film_id=7009 size=689335598 dur=75.7s speed=9.1MB/s
+[23:44:14] step=upload start cr_film_id=7009 size=689335598
+[23:44:59] step=upload done cr_film_id=7009 video_id=24476101 dur=44.8s speed=15.4MB/s
+[23:44:59] step=cleanup unlinked Barbie: Ve hvězdách (2016) CZ.mp4
+[23:44:59] step=film done cr_film_id=7009 total=130.8s (cdn=10.2s + download=75.7s + upload=44.8s)
+[23:44:59] step=state-saved cr_film_id=7009 (total uploads=1209)
+[23:44:59] step=iteration 40/50
+[23:44:59] step=film start cr_film_id=31604 name='Miracle Maker - A Christmas Tale (2015) CZ'
+[23:44:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60045_720p.mp4
+[23:45:07] step=cdn-resolve done 8.3s → https://online10.sktorrent.eu/media/videos//h264/60045_720p.mp4
+[23:45:07] step=download curl https://online10.sktorrent.eu/media/videos//h264/60045_720p.mp4
+[23:46:19] step=download done cr_film_id=31604 size=635858370 dur=71.5s speed=8.9MB/s
+[23:46:19] step=upload start cr_film_id=31604 size=635858370
+[23:46:58] step=upload done cr_film_id=31604 video_id=24476157 dur=39.4s speed=16.1MB/s
+[23:46:58] step=cleanup unlinked Miracle Maker - A Christmas Tale (2015) CZ.mp4
+[23:46:58] step=film done cr_film_id=31604 total=119.2s (cdn=8.3s + download=71.5s + upload=39.4s)
+[23:46:58] step=state-saved cr_film_id=31604 (total uploads=1210)
+[23:46:58] step=iteration 41/50
+[23:46:58] step=film start cr_film_id=30503 name='Duše špióna (2015) CZ'
+[23:46:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/11880_720p.mp4
+[23:47:10] step=cdn-resolve done 12.2s → https://online20.sktorrent.eu/media/videos//h264/11880_720p.mp4
+[23:47:10] step=download curl https://online20.sktorrent.eu/media/videos//h264/11880_720p.mp4
+[23:48:15] step=download done cr_film_id=30503 size=649630917 dur=64.8s speed=10.0MB/s
+[23:48:15] step=upload start cr_film_id=30503 size=649630917
+[23:48:56] step=upload done cr_film_id=30503 video_id=24476208 dur=41.0s speed=15.8MB/s
+[23:48:56] step=cleanup unlinked Duše špióna (2015) CZ.mp4
+[23:48:56] step=film done cr_film_id=30503 total=118.1s (cdn=12.2s + download=64.8s + upload=41.0s)
+[23:48:56] step=state-saved cr_film_id=30503 (total uploads=1211)
+[23:48:56] step=iteration 42/50
+[23:48:56] step=film start cr_film_id=16793 name='Ovečka Shaun - Farmářovy lamy (2015) CZ'
+[23:48:56] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/34373_720p.mp4
+[23:48:59] step=cdn-resolve done 2.6s → https://online4.sktorrent.eu/media/videos//h264/34373_720p.mp4
+[23:48:59] step=download curl https://online4.sktorrent.eu/media/videos//h264/34373_720p.mp4
+[23:49:26] step=download done cr_film_id=16793 size=208331435 dur=26.9s speed=7.7MB/s
+[23:49:26] step=upload start cr_film_id=16793 size=208331435
+[23:49:41] step=upload done cr_film_id=16793 video_id=24476231 dur=14.6s speed=14.3MB/s
+[23:49:41] step=cleanup unlinked Ovečka Shaun - Farmářovy lamy (2015) CZ.mp4
+[23:49:41] step=film done cr_film_id=16793 total=44.1s (cdn=2.6s + download=26.9s + upload=14.6s)
+[23:49:41] step=state-saved cr_film_id=16793 (total uploads=1212)
+[23:49:41] step=iteration 43/50
+[23:49:41] step=film start cr_film_id=31574 name='Malý Houdini (2014) CZ'
+[23:49:41] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59983_720p.mp4
+[23:49:54] step=cdn-resolve done 13.7s → https://online23.sktorrent.eu/media/videos//h264/59983_720p.mp4
+[23:49:54] step=download curl https://online23.sktorrent.eu/media/videos//h264/59983_720p.mp4
+[23:51:59] step=download done cr_film_id=31574 size=1268333325 dur=124.8s speed=10.2MB/s
+[23:51:59] step=upload start cr_film_id=31574 size=1268333325
+[23:53:13] step=upload done cr_film_id=31574 video_id=24476295 dur=73.4s speed=17.3MB/s
+[23:53:13] step=cleanup unlinked Malý Houdini (2014) CZ.mp4
+[23:53:13] step=film done cr_film_id=31574 total=212.1s (cdn=13.7s + download=124.8s + upload=73.4s)
+[23:53:13] step=state-saved cr_film_id=31574 (total uploads=1213)
+[23:53:13] step=iteration 44/50
+[23:53:13] step=film start cr_film_id=16475 name='უხილავი სივრცეე (2014) CZ'
+[23:53:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29749_720p.mp4
+[23:53:23] step=cdn-resolve done 10.6s → https://online17.sktorrent.eu/media/videos//h264/29749_720p.mp4
+[23:53:23] step=download curl https://online17.sktorrent.eu/media/videos//h264/29749_720p.mp4
+[23:53:30] step=download done cr_film_id=16475 size=57727518 dur=7.2s speed=8.0MB/s
+[23:53:30] step=upload start cr_film_id=16475 size=57727518
+[23:53:37] step=upload done cr_film_id=16475 video_id=24476334 dur=6.6s speed=8.7MB/s
+[23:53:37] step=cleanup unlinked უხილავი სივრცეე (2014) CZ.mp4
+[23:53:37] step=film done cr_film_id=16475 total=24.3s (cdn=10.6s + download=7.2s + upload=6.6s)
+[23:53:37] step=state-saved cr_film_id=16475 (total uploads=1214)
+[23:53:37] step=iteration 45/50
+[23:53:37] step=film start cr_film_id=34867 name='Africké dobrodružství (2013) CZ'
+[23:53:37] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24880_480p.mp4
+[23:53:46] step=cdn-resolve done 9.4s → https://online15.sktorrent.eu/media/videos//h264/24880_480p.mp4
+[23:53:46] step=download curl https://online15.sktorrent.eu/media/videos//h264/24880_480p.mp4
+[23:54:17] step=download done cr_film_id=34867 size=278511930 dur=30.2s speed=9.2MB/s
+[23:54:17] step=upload start cr_film_id=34867 size=278511930
+[23:54:35] step=upload done cr_film_id=34867 video_id=24476350 dur=18.0s speed=15.5MB/s
+[23:54:35] step=cleanup unlinked Africké dobrodružství (2013) CZ.mp4
+[23:54:35] step=film done cr_film_id=34867 total=57.6s (cdn=9.4s + download=30.2s + upload=18.0s)
+[23:54:35] step=state-saved cr_film_id=34867 (total uploads=1215)
+[23:54:35] step=iteration 46/50
+[23:54:35] step=film start cr_film_id=34866 name='Detektivové (2013) CZ'
+[23:54:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24886_720p.mp4
+[23:54:40] step=cdn-resolve done 5.2s → https://online8.sktorrent.eu/media/videos//h264/24886_720p.mp4
+[23:54:40] step=download curl https://online8.sktorrent.eu/media/videos//h264/24886_720p.mp4
+[23:55:25] step=download done cr_film_id=34866 size=409080092 dur=45.1s speed=9.1MB/s
+[23:55:25] step=upload start cr_film_id=34866 size=409080092
+[23:55:50] step=upload done cr_film_id=34866 video_id=24476381 dur=25.2s speed=16.2MB/s
+[23:55:50] step=cleanup unlinked Detektivové (2013) CZ.mp4
+[23:55:50] step=film done cr_film_id=34866 total=75.5s (cdn=5.2s + download=45.1s + upload=25.2s)
+[23:55:50] step=state-saved cr_film_id=34866 (total uploads=1216)
+[23:55:50] step=iteration 47/50
+[23:55:50] step=film start cr_film_id=31557 name='Sing Me the Songs That Say I Love You: A Concert for Kate McGarrigle (2013) CZ'
+[23:55:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59845_720p.mp4
+[23:55:58] step=cdn-resolve done 7.9s → https://online12.sktorrent.eu/media/videos//h264/59845_720p.mp4
+[23:55:58] step=download curl https://online12.sktorrent.eu/media/videos//h264/59845_720p.mp4
+[23:57:25] step=download done cr_film_id=31557 size=789854875 dur=86.5s speed=9.1MB/s
+[23:57:25] step=upload start cr_film_id=31557 size=789854875
+[23:58:23] step=upload done cr_film_id=31557 video_id=24476435 dur=58.1s speed=13.6MB/s
+[23:58:23] step=cleanup unlinked Sing Me the Songs That Say I Love You: A Concert for Kate McGarrigle (2013) CZ.mp4
+[23:58:23] step=film done cr_film_id=31557 total=152.6s (cdn=7.9s + download=86.5s + upload=58.1s)
+[23:58:23] step=state-saved cr_film_id=31557 (total uploads=1217)
+[23:58:23] step=iteration 48/50
+[23:58:23] step=film start cr_film_id=34993 name='Virový faktor (2012) CZ'
+[23:58:23] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1265_720p.mp4
+[23:58:35] step=cdn-resolve done 12.2s → https://online19.sktorrent.eu/media/videos//h264/1265_720p.mp4
+[23:58:35] step=download curl https://online19.sktorrent.eu/media/videos//h264/1265_720p.mp4
+[00:01:08] step=download done cr_film_id=34993 size=1412966148 dur=152.9s speed=9.2MB/s
+[00:01:08] step=upload start cr_film_id=34993 size=1412966148
+[00:02:34] step=upload done cr_film_id=34993 video_id=24476530 dur=85.7s speed=16.5MB/s
+[00:02:34] step=cleanup unlinked Virový faktor (2012) CZ.mp4
+[00:02:34] step=film done cr_film_id=34993 total=251.1s (cdn=12.2s + download=152.9s + upload=85.7s)
+[00:02:34] step=state-saved cr_film_id=34993 (total uploads=1218)
+[00:02:34] step=iteration 49/50
+[00:02:34] step=film start cr_film_id=34992 name='Subconscious Disconnect (2012) CZ'
+[00:02:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1688_720p.mp4
+[00:02:37] step=cdn-resolve done 3.3s → https://online5.sktorrent.eu/media/videos//h264/1688_720p.mp4
+[00:02:37] step=download curl https://online5.sktorrent.eu/media/videos//h264/1688_720p.mp4
+[00:05:08] step=download done cr_film_id=34992 size=997241756 dur=150.4s speed=6.6MB/s
+[00:05:08] step=upload start cr_film_id=34992 size=997241756
+[00:06:06] step=upload done cr_film_id=34992 video_id=24476640 dur=58.0s speed=17.2MB/s
+[00:06:06] step=cleanup unlinked Subconscious Disconnect (2012) CZ.mp4
+[00:06:06] step=film done cr_film_id=34992 total=211.8s (cdn=3.3s + download=150.4s + upload=58.0s)
+[00:06:06] step=state-saved cr_film_id=34992 (total uploads=1219)
+[00:06:06] step=iteration 50/50
+[00:06:06] step=film start cr_film_id=21159 name='Mateřská posedlost (2012) CZ'
+[00:06:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59646_720p.mp4
+[00:06:15] step=cdn-resolve done 9.2s → https://online13.sktorrent.eu/media/videos//h264/59646_720p.mp4
+[00:06:15] step=download curl https://online13.sktorrent.eu/media/videos//h264/59646_720p.mp4
+[00:07:06] step=download done cr_film_id=21159 size=510172306 dur=51.1s speed=10.0MB/s
+[00:07:06] step=upload start cr_film_id=21159 size=510172306
+[00:07:37] step=upload done cr_film_id=21159 video_id=24476691 dur=30.9s speed=16.5MB/s
+[00:07:37] step=cleanup unlinked Mateřská posedlost (2012) CZ.mp4
+[00:07:37] step=film done cr_film_id=21159 total=91.4s (cdn=9.2s + download=51.1s + upload=30.9s)
+[00:07:37] step=state-saved cr_film_id=21159 (total uploads=1220)
+[00:07:37] step=batch-end succeeded=50 failed=0 total_uploads=1220 batch_dur=5517.6s avg_per_film=110.4s backlog_remaining=401 eta_hours=12.3
