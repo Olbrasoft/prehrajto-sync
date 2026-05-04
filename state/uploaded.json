@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-05-04T09:11:21Z",
+  "last_updated": "2026-05-04T10:00:08Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -24791,6 +24791,258 @@
         "download_sec": 55.0,
         "upload_sec": 27.0,
         "total_sec": 93.0
+      }
+    },
+    {
+      "cr_film_id": 16736,
+      "cr_slug": "danger-close-2017",
+      "title": "Danger Close",
+      "year": 2017,
+      "sktorrent_id": 4540,
+      "prehrajto_video_id": 24488023,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:29:26Z",
+      "status": "processing",
+      "size_bytes": 2406448629,
+      "timing": {
+        "cdn_resolve_sec": 0.6,
+        "download_sec": 243.4,
+        "upload_sec": 105.9,
+        "total_sec": 350.4
+      }
+    },
+    {
+      "cr_film_id": 16802,
+      "cr_slug": "warden-1992",
+      "title": "Warden",
+      "year": 1992,
+      "sktorrent_id": 44649,
+      "prehrajto_video_id": 24488060,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:30:39Z",
+      "status": "processing",
+      "size_bytes": 451977399,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 54.4,
+        "upload_sec": 18.1,
+        "total_sec": 73.7
+      }
+    },
+    {
+      "cr_film_id": 16938,
+      "cr_slug": "poruseni-zakona-2020",
+      "title": "Porušení zákona",
+      "year": 2020,
+      "sktorrent_id": 20075,
+      "prehrajto_video_id": 24488081,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:31:46Z",
+      "status": "processing",
+      "size_bytes": 393070473,
+      "timing": {
+        "cdn_resolve_sec": 5.2,
+        "download_sec": 40.8,
+        "upload_sec": 20.3,
+        "total_sec": 66.3
+      }
+    },
+    {
+      "cr_film_id": 17000,
+      "cr_slug": "banker-2020",
+      "title": "Bankéř",
+      "year": 2020,
+      "sktorrent_id": 7787,
+      "prehrajto_video_id": 24488165,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:37:30Z",
+      "status": "processing",
+      "size_bytes": 2003128107,
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 242.9,
+        "upload_sec": 99.6,
+        "total_sec": 344.7
+      }
+    },
+    {
+      "cr_film_id": 17105,
+      "cr_slug": "the-great-war-2017",
+      "title": "The Great War",
+      "year": 2017,
+      "sktorrent_id": 7925,
+      "prehrajto_video_id": 24488298,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:45:40Z",
+      "status": "processing",
+      "size_bytes": 3389676818,
+      "timing": {
+        "cdn_resolve_sec": 0.6,
+        "download_sec": 358.6,
+        "upload_sec": 129.4,
+        "total_sec": 489.1
+      }
+    },
+    {
+      "cr_film_id": 17184,
+      "cr_slug": "lx-2006",
+      "title": "LX",
+      "year": 2006,
+      "sktorrent_id": 12920,
+      "prehrajto_video_id": 24488343,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:47:04Z",
+      "status": "processing",
+      "size_bytes": 400058097,
+      "timing": {
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 62.1,
+        "upload_sec": 18.0,
+        "total_sec": 84.7
+      }
+    },
+    {
+      "cr_film_id": 17275,
+      "cr_slug": "another-round-2018",
+      "title": "Another Round",
+      "year": 2018,
+      "sktorrent_id": 14449,
+      "prehrajto_video_id": 24488374,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:49:05Z",
+      "status": "processing",
+      "size_bytes": 762206451,
+      "timing": {
+        "cdn_resolve_sec": 7.6,
+        "download_sec": 81.3,
+        "upload_sec": 31.6,
+        "total_sec": 120.6
+      }
+    },
+    {
+      "cr_film_id": 17403,
+      "cr_slug": "murena-2022",
+      "title": "Muréna",
+      "year": 2022,
+      "sktorrent_id": 24834,
+      "prehrajto_video_id": 24488391,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:50:48Z",
+      "status": "processing",
+      "size_bytes": 632150797,
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 73.3,
+        "upload_sec": 26.1,
+        "total_sec": 102.7
+      }
+    },
+    {
+      "cr_film_id": 8403,
+      "cr_slug": "hndtering-av-udode",
+      "title": "Håndtering av udøde",
+      "year": 2024,
+      "sktorrent_id": 37639,
+      "prehrajto_video_id": 24488415,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:51:34Z",
+      "status": "processing",
+      "size_bytes": 274856519,
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 28.3,
+        "upload_sec": 11.5,
+        "total_sec": 46.8
+      }
+    },
+    {
+      "cr_film_id": 9329,
+      "cr_slug": "my-animal",
+      "title": "My Animal",
+      "year": 2023,
+      "sktorrent_id": 33946,
+      "prehrajto_video_id": 24488444,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:53:20Z",
+      "status": "processing",
+      "size_bytes": 480381322,
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 83.6,
+        "upload_sec": 19.0,
+        "total_sec": 105.7
+      }
+    },
+    {
+      "cr_film_id": 14340,
+      "cr_slug": "the-priest",
+      "title": "The Priest",
+      "year": 2020,
+      "sktorrent_id": 18238,
+      "prehrajto_video_id": 24488467,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:55:16Z",
+      "status": "processing",
+      "size_bytes": 732440727,
+      "timing": {
+        "cdn_resolve_sec": 9.6,
+        "download_sec": 75.6,
+        "upload_sec": 30.2,
+        "total_sec": 115.5
+      }
+    },
+    {
+      "cr_film_id": 3142,
+      "cr_slug": "fair-play",
+      "title": "Fair Play",
+      "year": 2014,
+      "sktorrent_id": 44540,
+      "prehrajto_video_id": 24488495,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:56:55Z",
+      "status": "processing",
+      "size_bytes": 586707042,
+      "timing": {
+        "cdn_resolve_sec": 5.6,
+        "download_sec": 71.2,
+        "upload_sec": 22.8,
+        "total_sec": 99.7
+      }
+    },
+    {
+      "cr_film_id": 13029,
+      "cr_slug": "ulicka-stratenych-snov",
+      "title": "Ulička stratených snov",
+      "year": 1985,
+      "sktorrent_id": 30826,
+      "prehrajto_video_id": 24488510,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T09:58:11Z",
+      "status": "processing",
+      "size_bytes": 430953021,
+      "timing": {
+        "cdn_resolve_sec": 5.7,
+        "download_sec": 47.0,
+        "upload_sec": 22.6,
+        "total_sec": 75.4
+      }
+    },
+    {
+      "cr_film_id": 11229,
+      "cr_slug": "fantasm-comes-again",
+      "title": "Fantasm Comes Again",
+      "year": 1977,
+      "sktorrent_id": 44386,
+      "prehrajto_video_id": 24488534,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T10:00:08Z",
+      "status": "processing",
+      "size_bytes": 1599144850,
+      "timing": {
+        "cdn_resolve_sec": 10.3,
+        "download_sec": 40.7,
+        "upload_sec": 65.5,
+        "total_sec": 116.8
       }
     }
   ],

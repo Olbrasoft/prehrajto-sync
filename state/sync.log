@@ -16769,3 +16769,165 @@
 [09:11:21] step=film done cr_film_id=16619 total=93.0s (cdn=10.9s + download=55.0s + upload=27.0s)
 [09:11:21] step=state-saved cr_film_id=16619 (total uploads=1378)
 [09:11:21] step=batch-end succeeded=50 failed=0 total_uploads=1378 batch_dur=6340.9s avg_per_film=126.8s backlog_remaining=249 eta_hours=8.8
+
+===== run 2026-05-04T09:23:33Z batch_size=50 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/25311277115) =====
+[09:23:34] step=batch-start count=50 backlog=1629 uploads=1378 moderated=2
+[09:23:34] step=login
+[09:23:35] step=login done
+[09:23:35] step=iteration 1/50
+[09:23:35] step=film start cr_film_id=16736 name='Danger Close (2017) CZ titulky'
+[09:23:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/4540_720p.mp4
+[09:23:36] step=cdn-resolve done 0.6s → https://online1.sktorrent.eu/media/videos//h264/4540_720p.mp4
+[09:23:36] step=download curl https://online1.sktorrent.eu/media/videos//h264/4540_720p.mp4
+[09:27:39] step=download done cr_film_id=16736 size=2406448629 dur=243.4s speed=9.9MB/s
+[09:27:39] step=upload start cr_film_id=16736 size=2406448629
+[09:29:25] step=upload done cr_film_id=16736 video_id=24488023 dur=105.9s speed=22.7MB/s
+[09:29:26] step=cleanup unlinked Danger Close (2017) CZ titulky.mp4
+[09:29:26] step=film done cr_film_id=16736 total=350.4s (cdn=0.6s + download=243.4s + upload=105.9s)
+[09:29:26] step=state-saved cr_film_id=16736 (total uploads=1379)
+[09:29:26] step=iteration 2/50
+[09:29:26] step=film start cr_film_id=16802 name='Warden (1992) CZ titulky'
+[09:29:26] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44649_720p.mp4
+[09:29:27] step=cdn-resolve done 1.2s → https://online3.sktorrent.eu/media/videos//h264/44649_720p.mp4
+[09:29:27] step=download curl https://online3.sktorrent.eu/media/videos//h264/44649_720p.mp4
+[09:30:21] step=download done cr_film_id=16802 size=451977399 dur=54.4s speed=8.3MB/s
+[09:30:21] step=upload start cr_film_id=16802 size=451977399
+[09:30:39] step=upload done cr_film_id=16802 video_id=24488060 dur=18.1s speed=25.0MB/s
+[09:30:39] step=cleanup unlinked Warden (1992) CZ titulky.mp4
+[09:30:39] step=film done cr_film_id=16802 total=73.7s (cdn=1.2s + download=54.4s + upload=18.1s)
+[09:30:39] step=state-saved cr_film_id=16802 (total uploads=1380)
+[09:30:39] step=iteration 3/50
+[09:30:39] step=film start cr_film_id=16938 name='Porušení zákona (2020) CZ titulky'
+[09:30:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20075_720p.mp4
+[09:30:44] step=cdn-resolve done 5.2s → https://online10.sktorrent.eu/media/videos//h264/20075_720p.mp4
+[09:30:44] step=download curl https://online10.sktorrent.eu/media/videos//h264/20075_720p.mp4
+[09:31:25] step=download done cr_film_id=16938 size=393070473 dur=40.8s speed=9.6MB/s
+[09:31:25] step=upload start cr_film_id=16938 size=393070473
+[09:31:46] step=upload done cr_film_id=16938 video_id=24488081 dur=20.3s speed=19.4MB/s
+[09:31:46] step=cleanup unlinked Porušení zákona (2020) CZ titulky.mp4
+[09:31:46] step=film done cr_film_id=16938 total=66.3s (cdn=5.2s + download=40.8s + upload=20.3s)
+[09:31:46] step=state-saved cr_film_id=16938 (total uploads=1381)
+[09:31:46] step=iteration 4/50
+[09:31:46] step=film start cr_film_id=17000 name='Bankéř (2020) CZ titulky'
+[09:31:46] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/7787_720p.mp4
+[09:31:48] step=cdn-resolve done 2.0s → https://online5.sktorrent.eu/media/videos//h264/7787_720p.mp4
+[09:31:48] step=download curl https://online5.sktorrent.eu/media/videos//h264/7787_720p.mp4
+[09:35:51] step=download done cr_film_id=17000 size=2003128107 dur=242.9s speed=8.2MB/s
+[09:35:51] step=upload start cr_film_id=17000 size=2003128107
+[09:37:30] step=upload done cr_film_id=17000 video_id=24488165 dur=99.6s speed=20.1MB/s
+[09:37:30] step=cleanup unlinked Bankéř (2020) CZ titulky.mp4
+[09:37:30] step=film done cr_film_id=17000 total=344.7s (cdn=2.0s + download=242.9s + upload=99.6s)
+[09:37:30] step=state-saved cr_film_id=17000 (total uploads=1382)
+[09:37:30] step=iteration 5/50
+[09:37:30] step=film start cr_film_id=17105 name='The Great War (2017) CZ titulky'
+[09:37:30] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/7925_720p.mp4
+[09:37:31] step=cdn-resolve done 0.6s → https://online1.sktorrent.eu/media/videos//h264/7925_720p.mp4
+[09:37:31] step=download curl https://online1.sktorrent.eu/media/videos//h264/7925_720p.mp4
+[09:43:30] step=download done cr_film_id=17105 size=3389676818 dur=358.6s speed=9.5MB/s
+[09:43:30] step=upload start cr_film_id=17105 size=3389676818
+[09:45:39] step=upload done cr_film_id=17105 video_id=24488298 dur=129.4s speed=26.2MB/s
+[09:45:40] step=cleanup unlinked The Great War (2017) CZ titulky.mp4
+[09:45:40] step=film done cr_film_id=17105 total=489.1s (cdn=0.6s + download=358.6s + upload=129.4s)
+[09:45:40] step=state-saved cr_film_id=17105 (total uploads=1383)
+[09:45:40] step=iteration 6/50
+[09:45:40] step=film start cr_film_id=17184 name='LX (2006) CZ titulky'
+[09:45:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12920_720p.mp4
+[09:45:44] step=cdn-resolve done 4.5s → https://online9.sktorrent.eu/media/videos//h264/12920_720p.mp4
+[09:45:44] step=download curl https://online9.sktorrent.eu/media/videos//h264/12920_720p.mp4
+[09:46:46] step=download done cr_film_id=17184 size=400058097 dur=62.1s speed=6.4MB/s
+[09:46:46] step=upload start cr_film_id=17184 size=400058097
+[09:47:04] step=upload done cr_film_id=17184 video_id=24488343 dur=18.0s speed=22.2MB/s
+[09:47:04] step=cleanup unlinked LX (2006) CZ titulky.mp4
+[09:47:04] step=film done cr_film_id=17184 total=84.7s (cdn=4.5s + download=62.1s + upload=18.0s)
+[09:47:04] step=state-saved cr_film_id=17184 (total uploads=1384)
+[09:47:04] step=iteration 7/50
+[09:47:04] step=film start cr_film_id=17275 name='Another Round (2018) CZ titulky'
+[09:47:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14449_720p.mp4
+[09:47:12] step=cdn-resolve done 7.6s → https://online18.sktorrent.eu/media/videos//h264/14449_720p.mp4
+[09:47:12] step=download curl https://online18.sktorrent.eu/media/videos//h264/14449_720p.mp4
+[09:48:33] step=download done cr_film_id=17275 size=762206451 dur=81.3s speed=9.4MB/s
+[09:48:33] step=upload start cr_film_id=17275 size=762206451
+[09:49:05] step=upload done cr_film_id=17275 video_id=24488374 dur=31.6s speed=24.1MB/s
+[09:49:05] step=cleanup unlinked Another Round (2018) CZ titulky.mp4
+[09:49:05] step=film done cr_film_id=17275 total=120.6s (cdn=7.6s + download=81.3s + upload=31.6s)
+[09:49:05] step=state-saved cr_film_id=17275 (total uploads=1385)
+[09:49:05] step=iteration 8/50
+[09:49:05] step=film start cr_film_id=17403 name='Muréna (2022) CZ titulky'
+[09:49:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24834_720p.mp4
+[09:49:08] step=cdn-resolve done 3.1s → https://online8.sktorrent.eu/media/videos//h264/24834_720p.mp4
+[09:49:08] step=download curl https://online8.sktorrent.eu/media/videos//h264/24834_720p.mp4
+[09:50:21] step=download done cr_film_id=17403 size=632150797 dur=73.3s speed=8.6MB/s
+[09:50:21] step=upload start cr_film_id=17403 size=632150797
+[09:50:47] step=upload done cr_film_id=17403 video_id=24488391 dur=26.1s speed=24.2MB/s
+[09:50:48] step=cleanup unlinked Muréna (2022) CZ titulky.mp4
+[09:50:48] step=film done cr_film_id=17403 total=102.7s (cdn=3.1s + download=73.3s + upload=26.1s)
+[09:50:48] step=state-saved cr_film_id=17403 (total uploads=1386)
+[09:50:48] step=iteration 9/50
+[09:50:48] step=film start cr_film_id=8403 name='Håndtering av udøde (2024) CZ titulky'
+[09:50:48] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37639_720p.mp4
+[09:50:54] step=cdn-resolve done 6.9s → https://online18.sktorrent.eu/media/videos//h264/37639_720p.mp4
+[09:50:54] step=download curl https://online18.sktorrent.eu/media/videos//h264/37639_720p.mp4
+[09:51:23] step=download done cr_film_id=8403 size=274856519 dur=28.3s speed=9.7MB/s
+[09:51:23] step=upload start cr_film_id=8403 size=274856519
+[09:51:34] step=upload done cr_film_id=8403 video_id=24488415 dur=11.5s speed=23.9MB/s
+[09:51:34] step=cleanup unlinked Håndtering av udøde (2024) CZ titulky.mp4
+[09:51:34] step=film done cr_film_id=8403 total=46.8s (cdn=6.9s + download=28.3s + upload=11.5s)
+[09:51:34] step=state-saved cr_film_id=8403 (total uploads=1387)
+[09:51:34] step=iteration 10/50
+[09:51:34] step=film start cr_film_id=9329 name='My Animal (2023) CZ titulky'
+[09:51:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33946_720p.mp4
+[09:51:37] step=cdn-resolve done 3.1s → https://online8.sktorrent.eu/media/videos//h264/33946_720p.mp4
+[09:51:37] step=download curl https://online8.sktorrent.eu/media/videos//h264/33946_720p.mp4
+[09:53:01] step=download done cr_film_id=9329 size=480381322 dur=83.6s speed=5.7MB/s
+[09:53:01] step=upload start cr_film_id=9329 size=480381322
+[09:53:20] step=upload done cr_film_id=9329 video_id=24488444 dur=19.0s speed=25.3MB/s
+[09:53:20] step=cleanup unlinked My Animal (2023) CZ titulky.mp4
+[09:53:20] step=film done cr_film_id=9329 total=105.7s (cdn=3.1s + download=83.6s + upload=19.0s)
+[09:53:20] step=state-saved cr_film_id=9329 (total uploads=1388)
+[09:53:20] step=iteration 11/50
+[09:53:20] step=film start cr_film_id=14340 name='The Priest (2020) CZ titulky'
+[09:53:20] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18238_720p.mp4
+[09:53:30] step=cdn-resolve done 9.6s → https://online22.sktorrent.eu/media/videos//h264/18238_720p.mp4
+[09:53:30] step=download curl https://online22.sktorrent.eu/media/videos//h264/18238_720p.mp4
+[09:54:45] step=download done cr_film_id=14340 size=732440727 dur=75.6s speed=9.7MB/s
+[09:54:45] step=upload start cr_film_id=14340 size=732440727
+[09:55:16] step=upload done cr_film_id=14340 video_id=24488467 dur=30.2s speed=24.3MB/s
+[09:55:16] step=cleanup unlinked The Priest (2020) CZ titulky.mp4
+[09:55:16] step=film done cr_film_id=14340 total=115.5s (cdn=9.6s + download=75.6s + upload=30.2s)
+[09:55:16] step=state-saved cr_film_id=14340 (total uploads=1389)
+[09:55:16] step=iteration 12/50
+[09:55:16] step=film start cr_film_id=3142 name='Fair Play (2014) CZ'
+[09:55:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44540_720p.mp4
+[09:55:21] step=cdn-resolve done 5.6s → https://online15.sktorrent.eu/media/videos//h264/44540_720p.mp4
+[09:55:21] step=download curl https://online15.sktorrent.eu/media/videos//h264/44540_720p.mp4
+[09:56:32] step=download done cr_film_id=3142 size=586707042 dur=71.2s speed=8.2MB/s
+[09:56:32] step=upload start cr_film_id=3142 size=586707042
+[09:56:55] step=upload done cr_film_id=3142 video_id=24488495 dur=22.8s speed=25.7MB/s
+[09:56:55] step=cleanup unlinked Fair Play (2014) CZ.mp4
+[09:56:55] step=film done cr_film_id=3142 total=99.7s (cdn=5.6s + download=71.2s + upload=22.8s)
+[09:56:55] step=state-saved cr_film_id=3142 (total uploads=1390)
+[09:56:55] step=iteration 13/50
+[09:56:55] step=film start cr_film_id=13029 name='Ulička stratených snov (1985) CZ'
+[09:56:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30826_720p.mp4
+[09:57:01] step=cdn-resolve done 5.7s → https://online15.sktorrent.eu/media/videos//h264/30826_720p.mp4
+[09:57:01] step=download curl https://online15.sktorrent.eu/media/videos//h264/30826_720p.mp4
+[09:57:48] step=download done cr_film_id=13029 size=430953021 dur=47.0s speed=9.2MB/s
+[09:57:48] step=upload start cr_film_id=13029 size=430953021
+[09:58:11] step=upload done cr_film_id=13029 video_id=24488510 dur=22.6s speed=19.1MB/s
+[09:58:11] step=cleanup unlinked Ulička stratených snov (1985) CZ.mp4
+[09:58:11] step=film done cr_film_id=13029 total=75.4s (cdn=5.7s + download=47.0s + upload=22.6s)
+[09:58:11] step=state-saved cr_film_id=13029 (total uploads=1391)
+[09:58:11] step=iteration 14/50
+[09:58:11] step=film start cr_film_id=11229 name='Fantasm Comes Again (1977) CZ titulky'
+[09:58:11] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44386_720p.mp4
+[09:58:21] step=cdn-resolve done 10.3s → https://online25.sktorrent.eu/media/videos//h264/44386_720p.mp4
+[09:58:21] step=download curl https://online25.sktorrent.eu/media/videos//h264/44386_720p.mp4
+[09:59:02] step=download done cr_film_id=11229 size=1599144850 dur=40.7s speed=39.3MB/s
+[09:59:02] step=upload start cr_film_id=11229 size=1599144850
+[10:00:07] step=upload done cr_film_id=11229 video_id=24488534 dur=65.5s speed=24.4MB/s
+[10:00:08] step=cleanup unlinked Fantasm Comes Again (1977) CZ titulky.mp4
+[10:00:08] step=film done cr_film_id=11229 total=116.8s (cdn=10.3s + download=40.7s + upload=65.5s)
+[10:00:08] step=state-saved cr_film_id=11229 (total uploads=1392)
+[10:00:08] step=iteration 15/50
+[10:00:08] step=batch-end backlog vyčerpán
+[10:00:08] step=batch-end succeeded=14 failed=0 total_uploads=1392 batch_dur=2192.5s avg_per_film=156.6s backlog_remaining=235 eta_hours=10.2
