@@ -15561,3 +15561,99 @@
 [01:33:50] step=film done cr_film_id=34805 total=22.3s (cdn=9.4s + download=6.3s + upload=6.6s)
 [01:33:50] step=state-saved cr_film_id=34805 (total uploads=1270)
 [01:33:50] step=batch-end succeeded=50 failed=0 total_uploads=1270 batch_dur=3614.4s avg_per_film=72.3s backlog_remaining=351 eta_hours=7.0
+
+===== run 2026-05-04T01:34:35Z batch_size=50 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/25296812852) =====
+[01:34:36] step=batch-start count=50 backlog=1623 uploads=1270 moderated=2
+[01:34:36] step=login
+[01:34:38] step=login done
+[01:34:38] step=iteration 1/50
+[01:34:38] step=film start cr_film_id=35009 name='Deň radosti (1972) CZ'
+[01:34:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60407_720p.mp4
+[01:34:47] step=cdn-resolve done 9.3s → https://online19.sktorrent.eu/media/videos//h264/60407_720p.mp4
+[01:34:47] step=download curl https://online19.sktorrent.eu/media/videos//h264/60407_720p.mp4
+[01:35:48] step=download done cr_film_id=35009 size=640287842 dur=60.9s speed=10.5MB/s
+[01:35:48] step=upload start cr_film_id=35009 size=640287842
+[01:36:15] step=upload done cr_film_id=35009 video_id=24478774 dur=26.6s speed=24.1MB/s
+[01:36:15] step=cleanup unlinked Deň radosti (1972) CZ.mp4
+[01:36:15] step=film done cr_film_id=35009 total=96.9s (cdn=9.3s + download=60.9s + upload=26.6s)
+[01:36:15] step=state-saved cr_film_id=35009 (total uploads=1271)
+[01:36:15] step=iteration 2/50
+[01:36:15] step=film start cr_film_id=31591 name='Combat Killers (1968) CZ'
+[01:36:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60025_480p.mp4
+[01:36:20] step=cdn-resolve done 5.5s → https://online15.sktorrent.eu/media/videos//h264/60025_480p.mp4
+[01:36:20] step=download curl https://online15.sktorrent.eu/media/videos//h264/60025_480p.mp4
+[01:37:06] step=download done cr_film_id=31591 size=489832785 dur=45.4s speed=10.8MB/s
+[01:37:06] step=upload start cr_film_id=31591 size=489832785
+[01:37:34] step=upload done cr_film_id=31591 video_id=24478801 dur=28.3s speed=17.3MB/s
+[01:37:34] step=cleanup unlinked Combat Killers (1968) CZ.mp4
+[01:37:34] step=film done cr_film_id=31591 total=79.3s (cdn=5.5s + download=45.4s + upload=28.3s)
+[01:37:34] step=state-saved cr_film_id=31591 (total uploads=1272)
+[01:37:34] step=iteration 3/50
+[01:37:34] step=film start cr_film_id=13553 name='Modrý kocourek (1959) CZ'
+[01:37:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28416_720p.mp4
+[01:37:40] step=cdn-resolve done 5.9s → https://online16.sktorrent.eu/media/videos//h264/28416_720p.mp4
+[01:37:40] step=download curl https://online16.sktorrent.eu/media/videos//h264/28416_720p.mp4
+[01:37:48] step=download done cr_film_id=13553 size=76382914 dur=7.7s speed=9.9MB/s
+[01:37:48] step=upload start cr_film_id=13553 size=76382914
+[01:37:54] step=upload done cr_film_id=13553 video_id=24478816 dur=5.9s speed=12.9MB/s
+[01:37:54] step=cleanup unlinked Modrý kocourek (1959) CZ.mp4
+[01:37:54] step=film done cr_film_id=13553 total=19.5s (cdn=5.9s + download=7.7s + upload=5.9s)
+[01:37:54] step=state-saved cr_film_id=13553 (total uploads=1273)
+[01:37:54] step=iteration 4/50
+[01:37:54] step=film start cr_film_id=31589 name='The Immortal Garrison (1956) CZ'
+[01:37:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/60020_480p.mp4
+[01:37:57] step=cdn-resolve done 3.8s → https://online10.sktorrent.eu/media/videos//h264/60020_480p.mp4
+[01:37:57] step=download curl https://online10.sktorrent.eu/media/videos//h264/60020_480p.mp4
+[01:38:24] step=download done cr_film_id=31589 size=280405944 dur=26.9s speed=10.4MB/s
+[01:38:24] step=upload start cr_film_id=31589 size=280405944
+[01:38:36] step=upload done cr_film_id=31589 video_id=24478829 dur=11.6s speed=24.2MB/s
+[01:38:36] step=cleanup unlinked The Immortal Garrison (1956) CZ.mp4
+[01:38:36] step=film done cr_film_id=31589 total=42.4s (cdn=3.8s + download=26.9s + upload=11.6s)
+[01:38:36] step=state-saved cr_film_id=31589 (total uploads=1274)
+[01:38:36] step=iteration 5/50
+[01:38:36] step=film start cr_film_id=34772 name='Arabské noci (1942) CZ'
+[01:38:36] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/46489_720p.mp4
+[01:38:45] step=cdn-resolve done 8.7s → https://online23.sktorrent.eu/media/videos//h264/46489_720p.mp4
+[01:38:45] step=download curl https://online23.sktorrent.eu/media/videos//h264/46489_720p.mp4
+[01:40:41] step=download done cr_film_id=34772 size=1262699516 dur=116.7s speed=10.8MB/s
+[01:40:41] step=upload start cr_film_id=34772 size=1262699516
+[01:41:33] step=upload done cr_film_id=34772 video_id=24478888 dur=51.2s speed=24.7MB/s
+[01:41:33] step=cleanup unlinked Arabské noci (1942) CZ.mp4
+[01:41:33] step=film done cr_film_id=34772 total=176.8s (cdn=8.7s + download=116.7s + upload=51.2s)
+[01:41:33] step=state-saved cr_film_id=34772 (total uploads=1275)
+[01:41:33] step=iteration 6/50
+[01:41:33] step=film start cr_film_id=35053 name='Bílá vrána (1938) CZ'
+[01:41:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/35973_480p.mp4
+[01:41:41] step=cdn-resolve done 8.3s → https://online23.sktorrent.eu/media/videos//h264/35973_480p.mp4
+[01:41:41] step=download curl https://online23.sktorrent.eu/media/videos//h264/35973_480p.mp4
+[01:42:32] step=download done cr_film_id=35053 size=514621028 dur=51.0s speed=10.1MB/s
+[01:42:32] step=upload start cr_film_id=35053 size=514621028
+[01:42:57] step=upload done cr_film_id=35053 video_id=24478930 dur=24.9s speed=20.7MB/s
+[01:42:57] step=cleanup unlinked Bílá vrána (1938) CZ.mp4
+[01:42:57] step=film done cr_film_id=35053 total=84.3s (cdn=8.3s + download=51.0s + upload=24.9s)
+[01:42:57] step=state-saved cr_film_id=35053 (total uploads=1276)
+[01:42:57] step=iteration 7/50
+[01:42:57] step=film start cr_film_id=16198 name='Podojená kráva (None) CZ'
+[01:42:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28450_480p.mp4
+[01:43:04] step=cdn-resolve done 7.0s → https://online19.sktorrent.eu/media/videos//h264/28450_480p.mp4
+[01:43:04] step=download curl https://online19.sktorrent.eu/media/videos//h264/28450_480p.mp4
+[01:43:10] step=download done cr_film_id=16198 size=51206837 dur=5.6s speed=9.1MB/s
+[01:43:10] step=upload start cr_film_id=16198 size=51206837
+[01:43:14] step=upload done cr_film_id=16198 video_id=24478952 dur=4.5s speed=11.4MB/s
+[01:43:14] step=cleanup unlinked Podojená kráva (None) CZ.mp4
+[01:43:14] step=film done cr_film_id=16198 total=17.0s (cdn=7.0s + download=5.6s + upload=4.5s)
+[01:43:14] step=state-saved cr_film_id=16198 (total uploads=1277)
+[01:43:14] step=iteration 8/50
+[01:43:14] step=film start cr_film_id=13408 name='Spine chillers 2003 S01E05 Goths (None) CZ'
+[01:43:14] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/56248_720p.mp4
+[01:43:20] step=cdn-resolve done 5.3s → https://online14.sktorrent.eu/media/videos//h264/56248_720p.mp4
+[01:43:20] step=download curl https://online14.sktorrent.eu/media/videos//h264/56248_720p.mp4
+[01:43:35] step=download done cr_film_id=13408 size=149920812 dur=15.4s speed=9.7MB/s
+[01:43:35] step=upload start cr_film_id=13408 size=149920812
+[01:43:45] step=upload done cr_film_id=13408 video_id=24478962 dur=9.8s speed=15.3MB/s
+[01:43:45] step=cleanup unlinked Spine chillers 2003 S01E05 Goths (None) CZ.mp4
+[01:43:45] step=film done cr_film_id=13408 total=30.5s (cdn=5.3s + download=15.4s + upload=9.8s)
+[01:43:45] step=state-saved cr_film_id=13408 (total uploads=1278)
+[01:43:45] step=iteration 9/50
+[01:43:45] step=batch-end backlog vyčerpán
+[01:43:45] step=batch-end succeeded=8 failed=0 total_uploads=1278 batch_dur=547.0s avg_per_film=68.4s backlog_remaining=343 eta_hours=6.5

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-05-04T01:33:50Z",
+  "last_updated": "2026-05-04T01:43:45Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -22847,6 +22847,150 @@
         "download_sec": 6.3,
         "upload_sec": 6.6,
         "total_sec": 22.3
+      }
+    },
+    {
+      "cr_film_id": 35009,
+      "cr_slug": "den-radosti",
+      "title": "Deň radosti",
+      "year": 1972,
+      "sktorrent_id": 60407,
+      "prehrajto_video_id": 24478774,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T01:36:15Z",
+      "status": "processing",
+      "size_bytes": 640287842,
+      "timing": {
+        "cdn_resolve_sec": 9.3,
+        "download_sec": 60.9,
+        "upload_sec": 26.6,
+        "total_sec": 96.9
+      }
+    },
+    {
+      "cr_film_id": 31591,
+      "cr_slug": "combat-killers",
+      "title": "Combat Killers",
+      "year": 1968,
+      "sktorrent_id": 60025,
+      "prehrajto_video_id": 24478801,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T01:37:34Z",
+      "status": "processing",
+      "size_bytes": 489832785,
+      "timing": {
+        "cdn_resolve_sec": 5.5,
+        "download_sec": 45.4,
+        "upload_sec": 28.3,
+        "total_sec": 79.3
+      }
+    },
+    {
+      "cr_film_id": 13553,
+      "cr_slug": "modry-kocourek",
+      "title": "Modrý kocourek",
+      "year": 1959,
+      "sktorrent_id": 28416,
+      "prehrajto_video_id": 24478816,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T01:37:54Z",
+      "status": "processing",
+      "size_bytes": 76382914,
+      "timing": {
+        "cdn_resolve_sec": 5.9,
+        "download_sec": 7.7,
+        "upload_sec": 5.9,
+        "total_sec": 19.5
+      }
+    },
+    {
+      "cr_film_id": 31589,
+      "cr_slug": "the-immortal-garrison",
+      "title": "The Immortal Garrison",
+      "year": 1956,
+      "sktorrent_id": 60020,
+      "prehrajto_video_id": 24478829,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T01:38:36Z",
+      "status": "processing",
+      "size_bytes": 280405944,
+      "timing": {
+        "cdn_resolve_sec": 3.8,
+        "download_sec": 26.9,
+        "upload_sec": 11.6,
+        "total_sec": 42.4
+      }
+    },
+    {
+      "cr_film_id": 34772,
+      "cr_slug": "arabske-noci",
+      "title": "Arabské noci",
+      "year": 1942,
+      "sktorrent_id": 46489,
+      "prehrajto_video_id": 24478888,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T01:41:33Z",
+      "status": "processing",
+      "size_bytes": 1262699516,
+      "timing": {
+        "cdn_resolve_sec": 8.7,
+        "download_sec": 116.7,
+        "upload_sec": 51.2,
+        "total_sec": 176.8
+      }
+    },
+    {
+      "cr_film_id": 35053,
+      "cr_slug": "bila-vrana-1938",
+      "title": "Bílá vrána",
+      "year": 1938,
+      "sktorrent_id": 35973,
+      "prehrajto_video_id": 24478930,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T01:42:57Z",
+      "status": "processing",
+      "size_bytes": 514621028,
+      "timing": {
+        "cdn_resolve_sec": 8.3,
+        "download_sec": 51.0,
+        "upload_sec": 24.9,
+        "total_sec": 84.3
+      }
+    },
+    {
+      "cr_film_id": 16198,
+      "cr_slug": "podojena-krava",
+      "title": "Podojená kráva",
+      "year": null,
+      "sktorrent_id": 28450,
+      "prehrajto_video_id": 24478952,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T01:43:14Z",
+      "status": "processing",
+      "size_bytes": 51206837,
+      "timing": {
+        "cdn_resolve_sec": 7.0,
+        "download_sec": 5.6,
+        "upload_sec": 4.5,
+        "total_sec": 17.0
+      }
+    },
+    {
+      "cr_film_id": 13408,
+      "cr_slug": "spine-chillers-2003-s01e05-goths",
+      "title": "Spine chillers 2003 S01E05 Goths",
+      "year": null,
+      "sktorrent_id": 56248,
+      "prehrajto_video_id": 24478962,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-04T01:43:45Z",
+      "status": "processing",
+      "size_bytes": 149920812,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 15.4,
+        "upload_sec": 9.8,
+        "total_sec": 30.5
       }
     }
   ],
