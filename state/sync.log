@@ -15657,3 +15657,559 @@
 [01:43:45] step=iteration 9/50
 [01:43:45] step=batch-end backlog vyčerpán
 [01:43:45] step=batch-end succeeded=8 failed=0 total_uploads=1278 batch_dur=547.0s avg_per_film=68.4s backlog_remaining=343 eta_hours=6.5
+
+===== run 2026-05-04T05:28:50Z batch_size=50 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/25302670485) =====
+[05:28:50] step=batch-start count=50 backlog=1629 uploads=1278 moderated=2
+[05:28:50] step=login
+[05:28:52] step=login done
+[05:28:52] step=iteration 1/50
+[05:28:52] step=film start cr_film_id=3700 name='Moucha v kufru (2020) CZ titulky'
+[05:28:52] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32770_720p.mp4
+[05:29:00] step=cdn-resolve done 8.3s → https://online13.sktorrent.eu/media/videos//h264/32770_720p.mp4
+[05:29:00] step=download curl https://online13.sktorrent.eu/media/videos//h264/32770_720p.mp4
+[05:29:36] step=download done cr_film_id=3700 size=372664908 dur=35.6s speed=10.5MB/s
+[05:29:36] step=upload start cr_film_id=3700 size=372664908
+[05:29:58] step=upload done cr_film_id=3700 video_id=24483694 dur=21.6s speed=17.3MB/s
+[05:29:58] step=cleanup unlinked Moucha v kufru (2020) CZ titulky.mp4
+[05:29:58] step=film done cr_film_id=3700 total=65.5s (cdn=8.3s + download=35.6s + upload=21.6s)
+[05:29:58] step=state-saved cr_film_id=3700 (total uploads=1279)
+[05:29:58] step=iteration 2/50
+[05:29:58] step=film start cr_film_id=3001 name='A Prayer Before Dawn (2017) CZ titulky'
+[05:29:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1431_720p.mp4
+[05:30:11] step=cdn-resolve done 13.1s → https://online24.sktorrent.eu/media/videos//h264/1431_720p.mp4
+[05:30:11] step=download curl https://online24.sktorrent.eu/media/videos//h264/1431_720p.mp4
+[05:31:07] step=download done cr_film_id=3001 size=1203095809 dur=56.1s speed=21.4MB/s
+[05:31:07] step=upload start cr_film_id=3001 size=1203095809
+[05:32:04] step=upload done cr_film_id=3001 video_id=24483742 dur=57.5s speed=20.9MB/s
+[05:32:04] step=cleanup unlinked A Prayer Before Dawn (2017) CZ titulky.mp4
+[05:32:04] step=film done cr_film_id=3001 total=126.8s (cdn=13.1s + download=56.1s + upload=57.5s)
+[05:32:04] step=state-saved cr_film_id=3001 (total uploads=1280)
+[05:32:04] step=iteration 3/50
+[05:32:04] step=film start cr_film_id=6231 name='Moloch (2022) CZ titulky'
+[05:32:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/24835_720p.mp4
+[05:32:10] step=cdn-resolve done 5.5s → https://online9.sktorrent.eu/media/videos//h264/24835_720p.mp4
+[05:32:10] step=download curl https://online9.sktorrent.eu/media/videos//h264/24835_720p.mp4
+[05:33:00] step=download done cr_film_id=6231 size=389481006 dur=50.5s speed=7.7MB/s
+[05:33:00] step=upload start cr_film_id=6231 size=389481006
+[05:33:22] step=upload done cr_film_id=6231 video_id=24483785 dur=21.5s speed=18.1MB/s
+[05:33:22] step=cleanup unlinked Moloch (2022) CZ titulky.mp4
+[05:33:22] step=film done cr_film_id=6231 total=77.6s (cdn=5.5s + download=50.5s + upload=21.5s)
+[05:33:22] step=state-saved cr_film_id=6231 (total uploads=1281)
+[05:33:22] step=iteration 4/50
+[05:33:22] step=film start cr_film_id=5905 name='Le Collier rouge (2018) CZ titulky'
+[05:33:22] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/30804_720p.mp4
+[05:33:28] step=cdn-resolve done 6.1s → https://online10.sktorrent.eu/media/videos//h264/30804_720p.mp4
+[05:33:28] step=download curl https://online10.sktorrent.eu/media/videos//h264/30804_720p.mp4
+[05:34:04] step=download done cr_film_id=5905 size=373772298 dur=35.9s speed=10.4MB/s
+[05:34:04] step=upload start cr_film_id=5905 size=373772298
+[05:34:28] step=upload done cr_film_id=5905 video_id=24483812 dur=23.9s speed=15.6MB/s
+[05:34:28] step=cleanup unlinked Le Collier rouge (2018) CZ titulky.mp4
+[05:34:28] step=film done cr_film_id=5905 total=65.9s (cdn=6.1s + download=35.9s + upload=23.9s)
+[05:34:28] step=state-saved cr_film_id=5905 (total uploads=1282)
+[05:34:28] step=iteration 5/50
+[05:34:28] step=film start cr_film_id=4131 name='If I Can't Have Love, I Want Power (2021) CZ titulky'
+[05:34:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26163_720p.mp4
+[05:34:33] step=cdn-resolve done 5.1s → https://online8.sktorrent.eu/media/videos//h264/26163_720p.mp4
+[05:34:33] step=download curl https://online8.sktorrent.eu/media/videos//h264/26163_720p.mp4
+[05:35:11] step=download done cr_film_id=4131 size=323584739 dur=38.2s speed=8.5MB/s
+[05:35:11] step=upload start cr_film_id=4131 size=323584739
+[05:35:34] step=upload done cr_film_id=4131 video_id=24483843 dur=22.5s speed=14.4MB/s
+[05:35:34] step=cleanup unlinked If I Can't Have Love, I Want Power (2021) CZ titulky.mp4
+[05:35:34] step=film done cr_film_id=4131 total=65.9s (cdn=5.1s + download=38.2s + upload=22.5s)
+[05:35:34] step=state-saved cr_film_id=4131 (total uploads=1283)
+[05:35:34] step=iteration 6/50
+[05:35:34] step=film start cr_film_id=9468 name='Ultima Ratio (2023) CZ titulky'
+[05:35:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38643_720p.mp4
+[05:35:46] step=cdn-resolve done 12.4s → https://online22.sktorrent.eu/media/videos//h264/38643_720p.mp4
+[05:35:46] step=download curl https://online22.sktorrent.eu/media/videos//h264/38643_720p.mp4
+[05:37:18] step=download done cr_film_id=9468 size=689167845 dur=91.4s speed=7.5MB/s
+[05:37:18] step=upload start cr_film_id=9468 size=689167845
+[05:37:53] step=upload done cr_film_id=9468 video_id=24483885 dur=35.8s speed=19.3MB/s
+[05:37:53] step=cleanup unlinked Ultima Ratio (2023) CZ titulky.mp4
+[05:37:53] step=film done cr_film_id=9468 total=139.7s (cdn=12.4s + download=91.4s + upload=35.8s)
+[05:37:53] step=state-saved cr_film_id=9468 (total uploads=1284)
+[05:37:53] step=iteration 7/50
+[05:37:53] step=film start cr_film_id=8125 name='Do You See What I See: Cerita Horor #64 - First Love (2024) CZ titulky'
+[05:37:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/41087_720p.mp4
+[05:38:03] step=cdn-resolve done 9.9s → https://online17.sktorrent.eu/media/videos//h264/41087_720p.mp4
+[05:38:03] step=download curl https://online17.sktorrent.eu/media/videos//h264/41087_720p.mp4
+[05:38:51] step=download done cr_film_id=8125 size=501377843 dur=47.6s speed=10.5MB/s
+[05:38:51] step=upload start cr_film_id=8125 size=501377843
+[05:39:19] step=upload done cr_film_id=8125 video_id=24483929 dur=27.7s speed=18.1MB/s
+[05:39:19] step=cleanup unlinked Do You See What I See: Cerita Horor #64 - First Love (2024) CZ titulky.mp4
+[05:39:19] step=film done cr_film_id=8125 total=85.2s (cdn=9.9s + download=47.6s + upload=27.7s)
+[05:39:19] step=state-saved cr_film_id=8125 (total uploads=1285)
+[05:39:19] step=iteration 8/50
+[05:39:19] step=film start cr_film_id=9371 name='Férovka (2020) CZ titulky'
+[05:39:19] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14248_720p.mp4
+[05:39:21] step=cdn-resolve done 2.5s → https://online4.sktorrent.eu/media/videos//h264/14248_720p.mp4
+[05:39:21] step=download curl https://online4.sktorrent.eu/media/videos//h264/14248_720p.mp4
+[05:40:38] step=download done cr_film_id=9371 size=738892553 dur=76.6s speed=9.6MB/s
+[05:40:38] step=upload start cr_film_id=9371 size=738892553
+[05:41:24] step=upload done cr_film_id=9371 video_id=24483971 dur=46.3s speed=16.0MB/s
+[05:41:24] step=cleanup unlinked Férovka (2020) CZ titulky.mp4
+[05:41:24] step=film done cr_film_id=9371 total=125.5s (cdn=2.5s + download=76.6s + upload=46.3s)
+[05:41:24] step=state-saved cr_film_id=9371 (total uploads=1286)
+[05:41:24] step=iteration 9/50
+[05:41:24] step=film start cr_film_id=10485 name='Dance to Death (2017) CZ titulky'
+[05:41:24] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14763_720p.mp4
+[05:41:27] step=cdn-resolve done 2.5s → https://online4.sktorrent.eu/media/videos//h264/14763_720p.mp4
+[05:41:27] step=download curl https://online4.sktorrent.eu/media/videos//h264/14763_720p.mp4
+[05:42:23] step=download done cr_film_id=10485 size=537531046 dur=56.0s speed=9.6MB/s
+[05:42:23] step=upload start cr_film_id=10485 size=537531046
+[05:42:50] step=upload done cr_film_id=10485 video_id=24483994 dur=27.4s speed=19.6MB/s
+[05:42:50] step=cleanup unlinked Dance to Death (2017) CZ titulky.mp4
+[05:42:50] step=film done cr_film_id=10485 total=85.9s (cdn=2.5s + download=56.0s + upload=27.4s)
+[05:42:50] step=state-saved cr_film_id=10485 (total uploads=1287)
+[05:42:50] step=iteration 10/50
+[05:42:50] step=film start cr_film_id=8455 name='Vychovatelka (2022) CZ titulky'
+[05:42:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26806_720p.mp4
+[05:42:56] step=cdn-resolve done 5.6s → https://online9.sktorrent.eu/media/videos//h264/26806_720p.mp4
+[05:42:56] step=download curl https://online9.sktorrent.eu/media/videos//h264/26806_720p.mp4
+[05:43:41] step=download done cr_film_id=8455 size=459953319 dur=45.3s speed=10.2MB/s
+[05:43:41] step=upload start cr_film_id=8455 size=459953319
+[05:44:06] step=upload done cr_film_id=8455 video_id=24484021 dur=24.7s speed=18.6MB/s
+[05:44:06] step=cleanup unlinked Vychovatelka (2022) CZ titulky.mp4
+[05:44:06] step=film done cr_film_id=8455 total=75.6s (cdn=5.6s + download=45.3s + upload=24.7s)
+[05:44:06] step=state-saved cr_film_id=8455 (total uploads=1288)
+[05:44:06] step=iteration 11/50
+[05:44:06] step=film start cr_film_id=14987 name='Život zločinu (2021) CZ titulky'
+[05:44:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20155_720p.mp4
+[05:44:11] step=cdn-resolve done 4.9s → https://online8.sktorrent.eu/media/videos//h264/20155_720p.mp4
+[05:44:11] step=download curl https://online8.sktorrent.eu/media/videos//h264/20155_720p.mp4
+[05:46:13] step=download done cr_film_id=14987 size=1217209816 dur=122.8s speed=9.9MB/s
+[05:46:13] step=upload start cr_film_id=14987 size=1217209816
+[05:47:19] step=upload done cr_film_id=14987 video_id=24484058 dur=66.0s speed=18.4MB/s
+[05:47:20] step=cleanup unlinked Život zločinu (2021) CZ titulky.mp4
+[05:47:20] step=film done cr_film_id=14987 total=193.8s (cdn=4.9s + download=122.8s + upload=66.0s)
+[05:47:20] step=state-saved cr_film_id=14987 (total uploads=1289)
+[05:47:20] step=iteration 12/50
+[05:47:20] step=film start cr_film_id=13801 name='Evangelion šin gekidžóban: Ha (2009) CZ titulky'
+[05:47:20] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31218_720p.mp4
+[05:47:29] step=cdn-resolve done 9.0s → https://online15.sktorrent.eu/media/videos//h264/31218_720p.mp4
+[05:47:29] step=download curl https://online15.sktorrent.eu/media/videos//h264/31218_720p.mp4
+[05:48:33] step=download done cr_film_id=13801 size=701463573 dur=64.7s speed=10.8MB/s
+[05:48:33] step=upload start cr_film_id=13801 size=701463573
+[05:49:16] step=upload done cr_film_id=13801 video_id=24484100 dur=42.5s speed=16.5MB/s
+[05:49:16] step=cleanup unlinked Evangelion šin gekidžóban: Ha (2009) CZ titulky.mp4
+[05:49:16] step=film done cr_film_id=13801 total=116.3s (cdn=9.0s + download=64.7s + upload=42.5s)
+[05:49:16] step=state-saved cr_film_id=13801 (total uploads=1290)
+[05:49:16] step=iteration 13/50
+[05:49:16] step=film start cr_film_id=15078 name='Anul pierdut 1986 (2022) CZ titulky'
+[05:49:16] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/31759_720p.mp4
+[05:49:25] step=cdn-resolve done 8.6s → https://online14.sktorrent.eu/media/videos//h264/31759_720p.mp4
+[05:49:25] step=download curl https://online14.sktorrent.eu/media/videos//h264/31759_720p.mp4
+[05:50:03] step=download done cr_film_id=15078 size=404078561 dur=38.6s speed=10.5MB/s
+[05:50:03] step=upload start cr_film_id=15078 size=404078561
+[05:50:33] step=upload done cr_film_id=15078 video_id=24484126 dur=29.9s speed=13.5MB/s
+[05:50:33] step=cleanup unlinked Anul pierdut 1986 (2022) CZ titulky.mp4
+[05:50:33] step=film done cr_film_id=15078 total=77.2s (cdn=8.6s + download=38.6s + upload=29.9s)
+[05:50:33] step=state-saved cr_film_id=15078 (total uploads=1291)
+[05:50:33] step=iteration 14/50
+[05:50:33] step=film start cr_film_id=14291 name='Tady jsme doma: Planeta Země pro úplné začátečníky (2020) CZ titulky'
+[05:50:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/9458_720p.mp4
+[05:50:34] step=cdn-resolve done 1.3s → https://online1.sktorrent.eu/media/videos//h264/9458_720p.mp4
+[05:50:34] step=download curl https://online1.sktorrent.eu/media/videos//h264/9458_720p.mp4
+[05:51:34] step=download done cr_film_id=14291 size=607156821 dur=59.2s speed=10.3MB/s
+[05:51:34] step=upload start cr_film_id=14291 size=607156821
+[05:52:09] step=upload done cr_film_id=14291 video_id=24484149 dur=35.0s speed=17.3MB/s
+[05:52:09] step=cleanup unlinked Tady jsme doma: Planeta Země pro úplné začátečníky (2020) CZ titulky.mp4
+[05:52:09] step=film done cr_film_id=14291 total=95.6s (cdn=1.3s + download=59.2s + upload=35.0s)
+[05:52:09] step=state-saved cr_film_id=14291 (total uploads=1292)
+[05:52:09] step=iteration 15/50
+[05:52:09] step=film start cr_film_id=17661 name='Mr. Malcolm's List (2019) CZ titulky'
+[05:52:09] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26452_720p.mp4
+[05:52:18] step=cdn-resolve done 9.6s → https://online16.sktorrent.eu/media/videos//h264/26452_720p.mp4
+[05:52:18] step=download curl https://online16.sktorrent.eu/media/videos//h264/26452_720p.mp4
+[05:53:12] step=download done cr_film_id=17661 size=554482045 dur=53.3s speed=10.4MB/s
+[05:53:12] step=upload start cr_film_id=17661 size=554482045
+[05:53:43] step=upload done cr_film_id=17661 video_id=24484169 dur=31.7s speed=17.5MB/s
+[05:53:43] step=cleanup unlinked Mr. Malcolm's List (2019) CZ titulky.mp4
+[05:53:43] step=film done cr_film_id=17661 total=94.7s (cdn=9.6s + download=53.3s + upload=31.7s)
+[05:53:43] step=state-saved cr_film_id=17661 (total uploads=1293)
+[05:53:43] step=iteration 16/50
+[05:53:43] step=film start cr_film_id=10251 name='Neklid na lůžku (2023) CZ titulky'
+[05:53:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32154_720p.mp4
+[05:53:56] step=cdn-resolve done 13.0s → https://online23.sktorrent.eu/media/videos//h264/32154_720p.mp4
+[05:53:56] step=download curl https://online23.sktorrent.eu/media/videos//h264/32154_720p.mp4
+[05:54:32] step=download done cr_film_id=10251 size=290762424 dur=35.9s speed=8.1MB/s
+[05:54:32] step=upload start cr_film_id=10251 size=290762424
+[05:54:55] step=upload done cr_film_id=10251 video_id=24484191 dur=22.4s speed=13.0MB/s
+[05:54:55] step=cleanup unlinked Neklid na lůžku (2023) CZ titulky.mp4
+[05:54:55] step=film done cr_film_id=10251 total=71.3s (cdn=13.0s + download=35.9s + upload=22.4s)
+[05:54:55] step=state-saved cr_film_id=10251 (total uploads=1294)
+[05:54:55] step=iteration 17/50
+[05:54:55] step=film start cr_film_id=15576 name='Snoopy uvádí: Lucka a její škola (2022) CZ titulky'
+[05:54:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25186_720p.mp4
+[05:55:05] step=cdn-resolve done 10.0s → https://online17.sktorrent.eu/media/videos//h264/25186_720p.mp4
+[05:55:05] step=download curl https://online17.sktorrent.eu/media/videos//h264/25186_720p.mp4
+[05:55:29] step=download done cr_film_id=15576 size=231040940 dur=24.1s speed=9.6MB/s
+[05:55:29] step=upload start cr_film_id=15576 size=231040940
+[05:55:42] step=upload done cr_film_id=15576 video_id=24484218 dur=13.4s speed=17.2MB/s
+[05:55:42] step=cleanup unlinked Snoopy uvádí: Lucka a její škola (2022) CZ titulky.mp4
+[05:55:42] step=film done cr_film_id=15576 total=47.6s (cdn=10.0s + download=24.1s + upload=13.4s)
+[05:55:42] step=state-saved cr_film_id=15576 (total uploads=1295)
+[05:55:42] step=iteration 18/50
+[05:55:42] step=film start cr_film_id=14022 name='Správnej sound (2020) CZ titulky'
+[05:55:42] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/21088_720p.mp4
+[05:55:50] step=cdn-resolve done 8.0s → https://online13.sktorrent.eu/media/videos//h264/21088_720p.mp4
+[05:55:50] step=download curl https://online13.sktorrent.eu/media/videos//h264/21088_720p.mp4
+[05:56:26] step=download done cr_film_id=14022 size=368132939 dur=35.8s speed=10.3MB/s
+[05:56:26] step=upload start cr_film_id=14022 size=368132939
+[05:56:53] step=upload done cr_film_id=14022 video_id=24484235 dur=27.3s speed=13.5MB/s
+[05:56:53] step=cleanup unlinked Správnej sound (2020) CZ titulky.mp4
+[05:56:53] step=film done cr_film_id=14022 total=71.1s (cdn=8.0s + download=35.8s + upload=27.3s)
+[05:56:53] step=state-saved cr_film_id=14022 (total uploads=1296)
+[05:56:53] step=iteration 19/50
+[05:56:53] step=film start cr_film_id=15328 name='Nu Aștepta Prea Mult de la Sfârșitul Lumii (2023) CZ titulky'
+[05:56:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44128_720p.mp4
+[05:57:04] step=cdn-resolve done 10.2s → https://online17.sktorrent.eu/media/videos//h264/44128_720p.mp4
+[05:57:04] step=download curl https://online17.sktorrent.eu/media/videos//h264/44128_720p.mp4
+[05:59:02] step=download done cr_film_id=15328 size=1289234494 dur=118.0s speed=10.9MB/s
+[05:59:02] step=upload start cr_film_id=15328 size=1289234494
+[06:00:21] step=upload done cr_film_id=15328 video_id=24484280 dur=79.8s speed=16.2MB/s
+[06:00:22] step=cleanup unlinked Nu Aștepta Prea Mult de la Sfârșitul Lumii (2023) CZ titulky.mp4
+[06:00:22] step=film done cr_film_id=15328 total=208.1s (cdn=10.2s + download=118.0s + upload=79.8s)
+[06:00:22] step=state-saved cr_film_id=15328 (total uploads=1297)
+[06:00:22] step=iteration 20/50
+[06:00:22] step=film start cr_film_id=17617 name='Chlapec jménem Adú (2020) CZ titulky'
+[06:00:22] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/11953_720p.mp4
+[06:00:32] step=cdn-resolve done 10.6s → https://online17.sktorrent.eu/media/videos//h264/11953_720p.mp4
+[06:00:32] step=download curl https://online17.sktorrent.eu/media/videos//h264/11953_720p.mp4
+[06:01:31] step=download done cr_film_id=17617 size=623354172 dur=58.3s speed=10.7MB/s
+[06:01:31] step=upload start cr_film_id=17617 size=623354172
+[06:02:03] step=upload done cr_film_id=17617 video_id=24484321 dur=32.0s speed=19.5MB/s
+[06:02:03] step=cleanup unlinked Chlapec jménem Adú (2020) CZ titulky.mp4
+[06:02:03] step=film done cr_film_id=17617 total=101.0s (cdn=10.6s + download=58.3s + upload=32.0s)
+[06:02:03] step=state-saved cr_film_id=17617 (total uploads=1298)
+[06:02:03] step=iteration 21/50
+[06:02:03] step=film start cr_film_id=11171 name='Terror of Mechagodzilla (1975) CZ titulky'
+[06:02:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12728_720p.mp4
+[06:02:15] step=cdn-resolve done 12.2s → https://online22.sktorrent.eu/media/videos//h264/12728_720p.mp4
+[06:02:15] step=download curl https://online22.sktorrent.eu/media/videos//h264/12728_720p.mp4
+[06:03:05] step=download done cr_film_id=11171 size=534829858 dur=49.8s speed=10.7MB/s
+[06:03:05] step=upload start cr_film_id=11171 size=534829858
+[06:03:43] step=upload done cr_film_id=11171 video_id=24484351 dur=37.9s speed=14.1MB/s
+[06:03:43] step=cleanup unlinked Terror of Mechagodzilla (1975) CZ titulky.mp4
+[06:03:43] step=film done cr_film_id=11171 total=100.0s (cdn=12.2s + download=49.8s + upload=37.9s)
+[06:03:43] step=state-saved cr_film_id=11171 (total uploads=1299)
+[06:03:43] step=iteration 22/50
+[06:03:43] step=film start cr_film_id=13962 name='Concerto for Abigail (2024) CZ titulky'
+[06:03:43] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44641_720p.mp4
+[06:03:53] step=cdn-resolve done 10.8s → https://online19.sktorrent.eu/media/videos//h264/44641_720p.mp4
+[06:03:53] step=download curl https://online19.sktorrent.eu/media/videos//h264/44641_720p.mp4
+[06:04:31] step=download done cr_film_id=13962 size=399776867 dur=37.8s speed=10.6MB/s
+[06:04:31] step=upload start cr_film_id=13962 size=399776867
+[06:04:55] step=upload done cr_film_id=13962 video_id=24484390 dur=23.7s speed=16.9MB/s
+[06:04:55] step=cleanup unlinked Concerto for Abigail (2024) CZ titulky.mp4
+[06:04:55] step=film done cr_film_id=13962 total=72.3s (cdn=10.8s + download=37.8s + upload=23.7s)
+[06:04:55] step=state-saved cr_film_id=13962 (total uploads=1300)
+[06:04:55] step=iteration 23/50
+[06:04:55] step=film start cr_film_id=16560 name='Гніздо горлиці (2016) CZ titulky'
+[06:04:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44653_720p.mp4
+[06:05:09] step=cdn-resolve done 13.7s → https://online25.sktorrent.eu/media/videos//h264/44653_720p.mp4
+[06:05:09] step=download curl https://online25.sktorrent.eu/media/videos//h264/44653_720p.mp4
+[06:06:48] step=download done cr_film_id=16560 size=725105939 dur=99.2s speed=7.3MB/s
+[06:06:48] step=upload start cr_film_id=16560 size=725105939
+[06:07:29] step=upload done cr_film_id=16560 video_id=24484442 dur=41.2s speed=17.6MB/s
+[06:07:29] step=cleanup unlinked Гніздо горлиці (2016) CZ titulky.mp4
+[06:07:29] step=film done cr_film_id=16560 total=154.1s (cdn=13.7s + download=99.2s + upload=41.2s)
+[06:07:29] step=state-saved cr_film_id=16560 (total uploads=1301)
+[06:07:29] step=iteration 24/50
+[06:07:29] step=film start cr_film_id=12042 name='Stíny a mlha (1991) CZ titulky'
+[06:07:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/45343_720p.mp4
+[06:07:39] step=cdn-resolve done 10.4s → https://online18.sktorrent.eu/media/videos//h264/45343_720p.mp4
+[06:07:39] step=download curl https://online18.sktorrent.eu/media/videos//h264/45343_720p.mp4
+[06:09:01] step=download done cr_film_id=12042 size=550837185 dur=81.2s speed=6.8MB/s
+[06:09:01] step=upload start cr_film_id=12042 size=550837185
+[06:09:30] step=upload done cr_film_id=12042 video_id=24484491 dur=29.3s speed=18.8MB/s
+[06:09:30] step=cleanup unlinked Stíny a mlha (1991) CZ titulky.mp4
+[06:09:30] step=film done cr_film_id=12042 total=120.9s (cdn=10.4s + download=81.2s + upload=29.3s)
+[06:09:30] step=state-saved cr_film_id=12042 (total uploads=1302)
+[06:09:30] step=iteration 25/50
+[06:09:30] step=film start cr_film_id=17396 name='Mighty Oak (2020) CZ titulky'
+[06:09:30] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12470_720p.mp4
+[06:09:32] step=cdn-resolve done 1.9s → https://online3.sktorrent.eu/media/videos//h264/12470_720p.mp4
+[06:09:32] step=download curl https://online3.sktorrent.eu/media/videos//h264/12470_720p.mp4
+[06:10:50] step=download done cr_film_id=17396 size=744360527 dur=78.2s speed=9.5MB/s
+[06:10:50] step=upload start cr_film_id=17396 size=744360527
+[06:11:28] step=upload done cr_film_id=17396 video_id=24484528 dur=38.3s speed=19.4MB/s
+[06:11:29] step=cleanup unlinked Mighty Oak (2020) CZ titulky.mp4
+[06:11:29] step=film done cr_film_id=17396 total=118.5s (cdn=1.9s + download=78.2s + upload=38.3s)
+[06:11:29] step=state-saved cr_film_id=17396 (total uploads=1303)
+[06:11:29] step=iteration 26/50
+[06:11:29] step=film start cr_film_id=17539 name='Life Overtakes Me (2019) CZ titulky'
+[06:11:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/4877_720p.mp4
+[06:11:30] step=cdn-resolve done 1.4s → https://online2.sktorrent.eu/media/videos//h264/4877_720p.mp4
+[06:11:30] step=download curl https://online2.sktorrent.eu/media/videos//h264/4877_720p.mp4
+[06:12:57] step=download done cr_film_id=17539 size=864360819 dur=87.1s speed=9.9MB/s
+[06:12:57] step=upload start cr_film_id=17539 size=864360819
+[06:13:53] step=upload done cr_film_id=17539 video_id=24484569 dur=56.0s speed=15.4MB/s
+[06:13:53] step=cleanup unlinked Life Overtakes Me (2019) CZ titulky.mp4
+[06:13:53] step=film done cr_film_id=17539 total=144.6s (cdn=1.4s + download=87.1s + upload=56.0s)
+[06:13:53] step=state-saved cr_film_id=17539 (total uploads=1304)
+[06:13:53] step=iteration 27/50
+[06:13:53] step=film start cr_film_id=16211 name='Florencino knihkupectví (2017) CZ titulky'
+[06:13:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1449_720p.mp4
+[06:14:07] step=cdn-resolve done 13.7s → https://online24.sktorrent.eu/media/videos//h264/1449_720p.mp4
+[06:14:07] step=download curl https://online24.sktorrent.eu/media/videos//h264/1449_720p.mp4
+[06:16:41] step=download done cr_film_id=16211 size=2376827771 dur=154.1s speed=15.4MB/s
+[06:16:41] step=upload start cr_film_id=16211 size=2376827771
+[06:18:45] step=upload done cr_film_id=16211 video_id=24484642 dur=124.2s speed=19.1MB/s
+[06:18:45] step=cleanup unlinked Florencino knihkupectví (2017) CZ titulky.mp4
+[06:18:45] step=film done cr_film_id=16211 total=292.2s (cdn=13.7s + download=154.1s + upload=124.2s)
+[06:18:45] step=state-saved cr_film_id=16211 (total uploads=1305)
+[06:18:45] step=iteration 28/50
+[06:18:45] step=film start cr_film_id=11078 name='Godzilla vs. Gigan (1972) CZ titulky'
+[06:18:45] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/6020_720p.mp4
+[06:18:47] step=cdn-resolve done 1.4s → https://online2.sktorrent.eu/media/videos//h264/6020_720p.mp4
+[06:18:47] step=download curl https://online2.sktorrent.eu/media/videos//h264/6020_720p.mp4
+[06:20:25] step=download done cr_film_id=11078 size=955690268 dur=97.9s speed=9.8MB/s
+[06:20:25] step=upload start cr_film_id=11078 size=955690268
+[06:21:25] step=upload done cr_film_id=11078 video_id=24484695 dur=60.8s speed=15.7MB/s
+[06:21:26] step=cleanup unlinked Godzilla vs. Gigan (1972) CZ titulky.mp4
+[06:21:26] step=film done cr_film_id=11078 total=160.1s (cdn=1.4s + download=97.9s + upload=60.8s)
+[06:21:26] step=state-saved cr_film_id=11078 (total uploads=1306)
+[06:21:26] step=iteration 29/50
+[06:21:26] step=film start cr_film_id=16832 name='Sarrainodu (2016) CZ titulky'
+[06:21:26] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29473_720p.mp4
+[06:21:36] step=cdn-resolve done 11.0s → https://online19.sktorrent.eu/media/videos//h264/29473_720p.mp4
+[06:21:36] step=download curl https://online19.sktorrent.eu/media/videos//h264/29473_720p.mp4
+[06:23:12] step=download done cr_film_id=16832 size=951977397 dur=95.4s speed=10.0MB/s
+[06:23:12] step=upload start cr_film_id=16832 size=951977397
+[06:24:05] step=upload done cr_film_id=16832 video_id=24484755 dur=52.7s speed=18.1MB/s
+[06:24:05] step=cleanup unlinked Sarrainodu (2016) CZ titulky.mp4
+[06:24:05] step=film done cr_film_id=16832 total=159.1s (cdn=11.0s + download=95.4s + upload=52.7s)
+[06:24:05] step=state-saved cr_film_id=16832 (total uploads=1307)
+[06:24:05] step=iteration 30/50
+[06:24:05] step=film start cr_film_id=14498 name='Mariah Carey a kouzelné Vánoce (2020) CZ titulky'
+[06:24:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14250_720p.mp4
+[06:24:08] step=cdn-resolve done 3.7s → https://online6.sktorrent.eu/media/videos//h264/14250_720p.mp4
+[06:24:08] step=download curl https://online6.sktorrent.eu/media/videos//h264/14250_720p.mp4
+[06:24:51] step=download done cr_film_id=14498 size=401440365 dur=42.7s speed=9.4MB/s
+[06:24:51] step=upload start cr_film_id=14498 size=401440365
+[06:25:13] step=upload done cr_film_id=14498 video_id=24484789 dur=21.5s speed=18.7MB/s
+[06:25:13] step=cleanup unlinked Mariah Carey a kouzelné Vánoce (2020) CZ titulky.mp4
+[06:25:13] step=film done cr_film_id=14498 total=67.9s (cdn=3.7s + download=42.7s + upload=21.5s)
+[06:25:13] step=state-saved cr_film_id=14498 (total uploads=1308)
+[06:25:13] step=iteration 31/50
+[06:25:13] step=film start cr_film_id=17663 name='Chvíle obyčejného štěstí (2019) CZ titulky'
+[06:25:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/13010_720p.mp4
+[06:25:22] step=cdn-resolve done 9.8s → https://online17.sktorrent.eu/media/videos//h264/13010_720p.mp4
+[06:25:22] step=download curl https://online17.sktorrent.eu/media/videos//h264/13010_720p.mp4
+[06:26:20] step=download done cr_film_id=17663 size=616112400 dur=57.7s speed=10.7MB/s
+[06:26:20] step=upload start cr_film_id=17663 size=616112400
+[06:26:54] step=upload done cr_film_id=17663 video_id=24484813 dur=34.3s speed=18.0MB/s
+[06:26:54] step=cleanup unlinked Chvíle obyčejného štěstí (2019) CZ titulky.mp4
+[06:26:54] step=film done cr_film_id=17663 total=101.8s (cdn=9.8s + download=57.7s + upload=34.3s)
+[06:26:54] step=state-saved cr_film_id=17663 (total uploads=1309)
+[06:26:54] step=iteration 32/50
+[06:26:54] step=film start cr_film_id=10315 name='Escape from Cannibal Farm (2017) CZ titulky'
+[06:26:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1548_480p.mp4
+[06:26:58] step=cdn-resolve done 3.2s → https://online5.sktorrent.eu/media/videos//h264/1548_480p.mp4
+[06:26:58] step=download curl https://online5.sktorrent.eu/media/videos//h264/1548_480p.mp4
+[06:27:38] step=download done cr_film_id=10315 size=321486590 dur=39.9s speed=8.1MB/s
+[06:27:38] step=upload start cr_film_id=10315 size=321486590
+[06:28:06] step=upload done cr_film_id=10315 video_id=24484840 dur=28.9s speed=11.1MB/s
+[06:28:06] step=cleanup unlinked Escape from Cannibal Farm (2017) CZ titulky.mp4
+[06:28:06] step=film done cr_film_id=10315 total=72.0s (cdn=3.2s + download=39.9s + upload=28.9s)
+[06:28:06] step=state-saved cr_film_id=10315 (total uploads=1310)
+[06:28:06] step=iteration 33/50
+[06:28:06] step=film start cr_film_id=14451 name='Borrego (2022) CZ titulky'
+[06:28:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/21518_720p.mp4
+[06:28:15] step=cdn-resolve done 8.1s → https://online13.sktorrent.eu/media/videos//h264/21518_720p.mp4
+[06:28:15] step=download curl https://online13.sktorrent.eu/media/videos//h264/21518_720p.mp4
+[06:29:22] step=download done cr_film_id=14451 size=645855399 dur=67.9s speed=9.5MB/s
+[06:29:22] step=upload start cr_film_id=14451 size=645855399
+[06:29:57] step=upload done cr_film_id=14451 video_id=24484878 dur=34.6s speed=18.7MB/s
+[06:29:57] step=cleanup unlinked Borrego (2022) CZ titulky.mp4
+[06:29:57] step=film done cr_film_id=14451 total=110.7s (cdn=8.1s + download=67.9s + upload=34.6s)
+[06:29:57] step=state-saved cr_film_id=14451 (total uploads=1311)
+[06:29:57] step=iteration 34/50
+[06:29:57] step=film start cr_film_id=16593 name='Nekonečné léto (2015) CZ titulky'
+[06:29:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1511_720p.mp4
+[06:30:11] step=cdn-resolve done 13.5s → https://online24.sktorrent.eu/media/videos//h264/1511_720p.mp4
+[06:30:11] step=download curl https://online24.sktorrent.eu/media/videos//h264/1511_720p.mp4
+[06:31:39] step=download done cr_film_id=16593 size=1800175441 dur=88.5s speed=20.3MB/s
+[06:31:39] step=upload start cr_film_id=16593 size=1800175441
+[06:33:10] step=upload done cr_film_id=16593 video_id=24484918 dur=90.4s speed=19.9MB/s
+[06:33:10] step=cleanup unlinked Nekonečné léto (2015) CZ titulky.mp4
+[06:33:10] step=film done cr_film_id=16593 total=192.5s (cdn=13.5s + download=88.5s + upload=90.4s)
+[06:33:10] step=state-saved cr_film_id=16593 (total uploads=1312)
+[06:33:10] step=iteration 35/50
+[06:33:10] step=film start cr_film_id=10873 name='Gamera, the Giant Monster (1965) CZ titulky'
+[06:33:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32599_720p.mp4
+[06:33:21] step=cdn-resolve done 11.7s → https://online20.sktorrent.eu/media/videos//h264/32599_720p.mp4
+[06:33:21] step=download curl https://online20.sktorrent.eu/media/videos//h264/32599_720p.mp4
+[06:34:04] step=download done cr_film_id=10873 size=410673900 dur=43.0s speed=9.6MB/s
+[06:34:04] step=upload start cr_film_id=10873 size=410673900
+[06:34:27] step=upload done cr_film_id=10873 video_id=24484963 dur=23.0s speed=17.9MB/s
+[06:34:27] step=cleanup unlinked Gamera, the Giant Monster (1965) CZ titulky.mp4
+[06:34:27] step=film done cr_film_id=10873 total=77.7s (cdn=11.7s + download=43.0s + upload=23.0s)
+[06:34:27] step=state-saved cr_film_id=10873 (total uploads=1313)
+[06:34:27] step=iteration 36/50
+[06:34:27] step=film start cr_film_id=15642 name='The Paramedic Who Stalked Me (2023) CZ titulky'
+[06:34:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12637_720p.mp4
+[06:34:38] step=cdn-resolve done 10.5s → https://online18.sktorrent.eu/media/videos//h264/12637_720p.mp4
+[06:34:38] step=download curl https://online18.sktorrent.eu/media/videos//h264/12637_720p.mp4
+[06:35:17] step=download done cr_film_id=15642 size=363007264 dur=38.6s speed=9.4MB/s
+[06:35:17] step=upload start cr_film_id=15642 size=363007264
+[06:35:40] step=upload done cr_film_id=15642 video_id=24484992 dur=23.0s speed=15.8MB/s
+[06:35:40] step=cleanup unlinked The Paramedic Who Stalked Me (2023) CZ titulky.mp4
+[06:35:40] step=film done cr_film_id=15642 total=72.1s (cdn=10.5s + download=38.6s + upload=23.0s)
+[06:35:40] step=state-saved cr_film_id=15642 (total uploads=1314)
+[06:35:40] step=iteration 37/50
+[06:35:40] step=film start cr_film_id=15641 name='Nebe je všude (2022) CZ titulky'
+[06:35:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/21516_720p.mp4
+[06:35:46] step=cdn-resolve done 6.7s → https://online11.sktorrent.eu/media/videos//h264/21516_720p.mp4
+[06:35:46] step=download curl https://online11.sktorrent.eu/media/videos//h264/21516_720p.mp4
+[06:37:13] step=download done cr_film_id=15641 size=737576204 dur=86.8s speed=8.5MB/s
+[06:37:13] step=upload start cr_film_id=15641 size=737576204
+[06:37:58] step=upload done cr_film_id=15641 video_id=24485044 dur=44.5s speed=16.6MB/s
+[06:37:58] step=cleanup unlinked Nebe je všude (2022) CZ titulky.mp4
+[06:37:58] step=film done cr_film_id=15641 total=138.0s (cdn=6.7s + download=86.8s + upload=44.5s)
+[06:37:58] step=state-saved cr_film_id=15641 (total uploads=1315)
+[06:37:58] step=iteration 38/50
+[06:37:58] step=film start cr_film_id=15595 name='Vizinhos (2022) CZ titulky'
+[06:37:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25621_720p.mp4
+[06:38:06] step=cdn-resolve done 7.9s → https://online13.sktorrent.eu/media/videos//h264/25621_720p.mp4
+[06:38:06] step=download curl https://online13.sktorrent.eu/media/videos//h264/25621_720p.mp4
+[06:39:35] step=download done cr_film_id=15595 size=812853304 dur=89.6s speed=9.1MB/s
+[06:39:35] step=upload start cr_film_id=15595 size=812853304
+[06:40:21] step=upload done cr_film_id=15595 video_id=24485100 dur=45.5s speed=17.9MB/s
+[06:40:21] step=cleanup unlinked Vizinhos (2022) CZ titulky.mp4
+[06:40:21] step=film done cr_film_id=15595 total=143.1s (cdn=7.9s + download=89.6s + upload=45.5s)
+[06:40:21] step=state-saved cr_film_id=15595 (total uploads=1316)
+[06:40:21] step=iteration 39/50
+[06:40:21] step=film start cr_film_id=14233 name='Ida Red (2021) CZ titulky'
+[06:40:21] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20570_720p.mp4
+[06:40:29] step=cdn-resolve done 8.2s → https://online13.sktorrent.eu/media/videos//h264/20570_720p.mp4
+[06:40:29] step=download curl https://online13.sktorrent.eu/media/videos//h264/20570_720p.mp4
+[06:41:30] step=download done cr_film_id=14233 size=555478577 dur=60.9s speed=9.1MB/s
+[06:41:30] step=upload start cr_film_id=14233 size=555478577
+[06:42:07] step=upload done cr_film_id=14233 video_id=24485150 dur=37.3s speed=14.9MB/s
+[06:42:07] step=cleanup unlinked Ida Red (2021) CZ titulky.mp4
+[06:42:07] step=film done cr_film_id=14233 total=106.5s (cdn=8.2s + download=60.9s + upload=37.3s)
+[06:42:07] step=state-saved cr_film_id=14233 (total uploads=1317)
+[06:42:07] step=iteration 40/50
+[06:42:07] step=film start cr_film_id=14307 name='Dias a Matias Santanovi (2020) CZ titulky'
+[06:42:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12471_720p.mp4
+[06:42:17] step=cdn-resolve done 10.0s → https://online17.sktorrent.eu/media/videos//h264/12471_720p.mp4
+[06:42:17] step=download curl https://online17.sktorrent.eu/media/videos//h264/12471_720p.mp4
+[06:43:28] step=download done cr_film_id=14307 size=694965744 dur=70.5s speed=9.9MB/s
+[06:43:28] step=upload start cr_film_id=14307 size=694965744
+[06:44:08] step=upload done cr_film_id=14307 video_id=24485191 dur=40.2s speed=17.3MB/s
+[06:44:08] step=cleanup unlinked Dias a Matias Santanovi (2020) CZ titulky.mp4
+[06:44:08] step=film done cr_film_id=14307 total=120.6s (cdn=10.0s + download=70.5s + upload=40.2s)
+[06:44:08] step=state-saved cr_film_id=14307 (total uploads=1318)
+[06:44:08] step=iteration 41/50
+[06:44:08] step=film start cr_film_id=17629 name='Ztracené duše (2019) CZ titulky'
+[06:44:08] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/4348_720p.mp4
+[06:44:09] step=cdn-resolve done 1.4s → https://online2.sktorrent.eu/media/videos//h264/4348_720p.mp4
+[06:44:09] step=download curl https://online2.sktorrent.eu/media/videos//h264/4348_720p.mp4
+[06:45:24] step=download done cr_film_id=17629 size=615096494 dur=74.9s speed=8.2MB/s
+[06:45:24] step=upload start cr_film_id=17629 size=615096494
+[06:45:58] step=upload done cr_film_id=17629 video_id=24485225 dur=33.4s speed=18.4MB/s
+[06:45:58] step=cleanup unlinked Ztracené duše (2019) CZ titulky.mp4
+[06:45:58] step=film done cr_film_id=17629 total=109.8s (cdn=1.4s + download=74.9s + upload=33.4s)
+[06:45:58] step=state-saved cr_film_id=17629 (total uploads=1319)
+[06:45:58] step=iteration 42/50
+[06:45:58] step=film start cr_film_id=14085 name='Táta za všechny peníze (2008) CZ titulky'
+[06:45:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44427_720p.mp4
+[06:46:11] step=cdn-resolve done 13.6s → https://online24.sktorrent.eu/media/videos//h264/44427_720p.mp4
+[06:46:11] step=download curl https://online24.sktorrent.eu/media/videos//h264/44427_720p.mp4
+[06:46:56] step=download done cr_film_id=14085 size=874527176 dur=44.7s speed=19.6MB/s
+[06:46:56] step=upload start cr_film_id=14085 size=874527176
+[06:47:58] step=upload done cr_film_id=14085 video_id=24485251 dur=61.8s speed=14.2MB/s
+[06:47:58] step=cleanup unlinked Táta za všechny peníze (2008) CZ titulky.mp4
+[06:47:58] step=film done cr_film_id=14085 total=120.1s (cdn=13.6s + download=44.7s + upload=61.8s)
+[06:47:58] step=state-saved cr_film_id=14085 (total uploads=1320)
+[06:47:58] step=iteration 43/50
+[06:47:58] step=film start cr_film_id=13183 name='The Sure Hand of God (2004) CZ titulky'
+[06:47:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20461_720p.mp4
+[06:48:03] step=cdn-resolve done 4.9s → https://online8.sktorrent.eu/media/videos//h264/20461_720p.mp4
+[06:48:03] step=download curl https://online8.sktorrent.eu/media/videos//h264/20461_720p.mp4
+[06:49:03] step=download done cr_film_id=13183 size=616069107 dur=60.4s speed=10.2MB/s
+[06:49:03] step=upload start cr_film_id=13183 size=616069107
+[06:49:36] step=upload done cr_film_id=13183 video_id=24485287 dur=33.0s speed=18.7MB/s
+[06:49:36] step=cleanup unlinked The Sure Hand of God (2004) CZ titulky.mp4
+[06:49:36] step=film done cr_film_id=13183 total=98.4s (cdn=4.9s + download=60.4s + upload=33.0s)
+[06:49:36] step=state-saved cr_film_id=13183 (total uploads=1321)
+[06:49:36] step=iteration 44/50
+[06:49:36] step=film start cr_film_id=15609 name='Making The Worst Person in the World (2022) CZ titulky'
+[06:49:36] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/21011_720p.mp4
+[06:49:46] step=cdn-resolve done 9.5s → https://online16.sktorrent.eu/media/videos//h264/21011_720p.mp4
+[06:49:46] step=download curl https://online16.sktorrent.eu/media/videos//h264/21011_720p.mp4
+[06:50:48] step=download done cr_film_id=15609 size=660124630 dur=61.8s speed=10.7MB/s
+[06:50:48] step=upload start cr_film_id=15609 size=660124630
+[06:51:22] step=upload done cr_film_id=15609 video_id=24485314 dur=34.8s speed=19.0MB/s
+[06:51:22] step=cleanup unlinked Making The Worst Person in the World (2022) CZ titulky.mp4
+[06:51:22] step=film done cr_film_id=15609 total=106.2s (cdn=9.5s + download=61.8s + upload=34.8s)
+[06:51:22] step=state-saved cr_film_id=15609 (total uploads=1322)
+[06:51:22] step=iteration 45/50
+[06:51:22] step=film start cr_film_id=14477 name='Survive the Game (2021) CZ titulky'
+[06:51:22] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/20239_720p.mp4
+[06:51:29] step=cdn-resolve done 6.3s → https://online10.sktorrent.eu/media/videos//h264/20239_720p.mp4
+[06:51:29] step=download curl https://online10.sktorrent.eu/media/videos//h264/20239_720p.mp4
+[06:52:45] step=download done cr_film_id=14477 size=805614141 dur=75.8s speed=10.6MB/s
+[06:52:45] step=upload start cr_film_id=14477 size=805614141
+[06:53:27] step=upload done cr_film_id=14477 video_id=24485340 dur=42.7s speed=18.9MB/s
+[06:53:27] step=cleanup unlinked Survive the Game (2021) CZ titulky.mp4
+[06:53:27] step=film done cr_film_id=14477 total=124.8s (cdn=6.3s + download=75.8s + upload=42.7s)
+[06:53:27] step=state-saved cr_film_id=14477 (total uploads=1323)
+[06:53:27] step=iteration 46/50
+[06:53:27] step=film start cr_film_id=17372 name='Dark Encounter (2019) CZ titulky'
+[06:53:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/7598_720p.mp4
+[06:53:29] step=cdn-resolve done 1.4s → https://online2.sktorrent.eu/media/videos//h264/7598_720p.mp4
+[06:53:29] step=download curl https://online2.sktorrent.eu/media/videos//h264/7598_720p.mp4
+[06:56:38] step=download done cr_film_id=17372 size=1676331040 dur=189.5s speed=8.8MB/s
+[06:56:38] step=upload start cr_film_id=17372 size=1676331040
+[06:58:04] step=upload done cr_film_id=17372 video_id=24485408 dur=85.7s speed=19.6MB/s
+[06:58:04] step=cleanup unlinked Dark Encounter (2019) CZ titulky.mp4
+[06:58:04] step=film done cr_film_id=17372 total=276.8s (cdn=1.4s + download=189.5s + upload=85.7s)
+[06:58:04] step=state-saved cr_film_id=17372 (total uploads=1324)
+[06:58:04] step=iteration 47/50
+[06:58:04] step=film start cr_film_id=10691 name='The Great Mr. Nobody (1941) CZ titulky'
+[06:58:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12237_720p.mp4
+[06:58:15] step=cdn-resolve done 11.1s → https://online19.sktorrent.eu/media/videos//h264/12237_720p.mp4
+[06:58:15] step=download curl https://online19.sktorrent.eu/media/videos//h264/12237_720p.mp4
+[06:59:44] step=download done cr_film_id=10691 size=909481284 dur=88.7s speed=10.3MB/s
+[06:59:44] step=upload start cr_film_id=10691 size=909481284
+[07:00:31] step=upload done cr_film_id=10691 video_id=24485474 dur=46.8s speed=19.4MB/s
+[07:00:31] step=cleanup unlinked The Great Mr. Nobody (1941) CZ titulky.mp4
+[07:00:31] step=film done cr_film_id=10691 total=146.7s (cdn=11.1s + download=88.7s + upload=46.8s)
+[07:00:31] step=state-saved cr_film_id=10691 (total uploads=1325)
+[07:00:31] step=iteration 48/50
+[07:00:31] step=film start cr_film_id=11347 name='Vražedná linka (1982) CZ titulky'
+[07:00:31] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27659_720p.mp4
+[07:00:37] step=cdn-resolve done 6.1s → https://online10.sktorrent.eu/media/videos//h264/27659_720p.mp4
+[07:00:37] step=download curl https://online10.sktorrent.eu/media/videos//h264/27659_720p.mp4
+[07:01:16] step=download done cr_film_id=11347 size=398645729 dur=38.9s speed=10.2MB/s
+[07:01:16] step=upload start cr_film_id=11347 size=398645729
+[07:01:39] step=upload done cr_film_id=11347 video_id=24485499 dur=23.1s speed=17.3MB/s
+[07:01:39] step=cleanup unlinked Vražedná linka (1982) CZ titulky.mp4
+[07:01:39] step=film done cr_film_id=11347 total=68.2s (cdn=6.1s + download=38.9s + upload=23.1s)
+[07:01:39] step=state-saved cr_film_id=11347 (total uploads=1326)
+[07:01:39] step=iteration 49/50
+[07:01:39] step=film start cr_film_id=13113 name='Asesinos de la noche (1957) CZ titulky'
+[07:01:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32765_720p.mp4
+[07:01:44] step=cdn-resolve done 4.9s → https://online8.sktorrent.eu/media/videos//h264/32765_720p.mp4
+[07:01:44] step=download curl https://online8.sktorrent.eu/media/videos//h264/32765_720p.mp4
+[07:02:50] step=download done cr_film_id=13113 size=643907574 dur=66.1s speed=9.7MB/s
+[07:02:50] step=upload start cr_film_id=13113 size=643907574
+[07:03:38] step=upload done cr_film_id=13113 video_id=24485534 dur=47.8s speed=13.5MB/s
+[07:03:38] step=cleanup unlinked Asesinos de la noche (1957) CZ titulky.mp4
+[07:03:38] step=film done cr_film_id=13113 total=118.8s (cdn=4.9s + download=66.1s + upload=47.8s)
+[07:03:38] step=state-saved cr_film_id=13113 (total uploads=1327)
+[07:03:38] step=iteration 50/50
+[07:03:38] step=film start cr_film_id=17601 name='The Gemini Project (2020) CZ titulky'
+[07:03:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22060_720p.mp4
+[07:03:45] step=cdn-resolve done 7.0s → https://online11.sktorrent.eu/media/videos//h264/22060_720p.mp4
+[07:03:45] step=download curl https://online11.sktorrent.eu/media/videos//h264/22060_720p.mp4
+[07:04:34] step=download done cr_film_id=17601 size=506714304 dur=49.4s speed=10.3MB/s
+[07:04:34] step=upload start cr_film_id=17601 size=506714304
+[07:05:01] step=upload done cr_film_id=17601 video_id=24485561 dur=26.7s speed=19.0MB/s
+[07:05:01] step=cleanup unlinked The Gemini Project (2020) CZ titulky.mp4
+[07:05:01] step=film done cr_film_id=17601 total=83.1s (cdn=7.0s + download=49.4s + upload=26.7s)
+[07:05:01] step=state-saved cr_film_id=17601 (total uploads=1328)
+[07:05:01] step=batch-end succeeded=50 failed=0 total_uploads=1328 batch_dur=5769.0s avg_per_film=115.4s backlog_remaining=299 eta_hours=9.6
