@@ -59,6 +59,10 @@ def _has_cz_sk_subtitles(film: dict) -> bool:
     return False
 
 
+def _has_burned_in_subs(film: dict) -> bool:
+    return bool(film.get("subs_burned_in"))
+
+
 def pick_next(
     state: dict,
     backlog_rows: list[dict],
@@ -71,7 +75,7 @@ def pick_next(
             continue
         if require_cs:
             has_cs_audio = r.get("detected_language") in ("cs", "sk")
-            if not has_cs_audio and not _has_cz_sk_subtitles(r):
+            if not has_cs_audio and not _has_cz_sk_subtitles(r) and not _has_burned_in_subs(r):
                 continue
         return r
     return None
@@ -85,9 +89,9 @@ def display_name(film: dict) -> str:
     year = film["year"]
     orig = film.get("original_language")
     audio = film.get("detected_language")
-    # Film with foreign audio but Czech/Slovak subtitles from sktorrent —
-    # signal that to the viewer explicitly.
-    if audio not in ("cs", "sk") and _has_cz_sk_subtitles(film):
+    # Film with foreign audio but Czech/Slovak subtitles (external from sktorrent
+    # OR burned into the picture) — signal that to the viewer explicitly.
+    if audio not in ("cs", "sk") and (_has_cz_sk_subtitles(film) or _has_burned_in_subs(film)):
         return f"{title} ({year}) CZ titulky"
     # Native (Czech/Slovak) or unknown title (TMDB miss) → no "Dabing" label.
     # Everything else with Czech audio is dubbing.
