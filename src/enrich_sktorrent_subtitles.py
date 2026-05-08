@@ -109,6 +109,12 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--delay", type=float, default=0.15)
+    ap.add_argument(
+        "--include-uploaded",
+        action="store_true",
+        help="Also rescrape films that already have a prehrajto upload "
+             "(needed when fixing previously-broken subtitle uploads).",
+    )
     args = ap.parse_args()
 
     only_ids = set()
@@ -127,7 +133,9 @@ def main() -> int:
         if only_ids and r.get("cr_film_id") not in only_ids:
             continue
         fid = r.get("cr_film_id")
-        if fid in uploaded or fid in failed or fid in moderated:
+        if not args.include_uploaded and (
+            fid in uploaded or fid in failed or fid in moderated
+        ):
             continue
         if not r.get("url"):
             continue
