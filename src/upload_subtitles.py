@@ -58,7 +58,7 @@ def detect_subtitle_format(content: bytes) -> tuple[str, str]:
     head = content.lstrip(b"\xef\xbb\xbf").lstrip()
     if head[:6] == b"WEBVTT":
         return ".vtt", "text/vtt"
-    if head[:11].lower().startswith(b"[script info"):
+    if head.lower().startswith(b"[script info"):
         return ".ass", "text/x-ass"
     return ".srt", "application/x-subrip"
 
@@ -299,7 +299,11 @@ def main() -> int:
 
     print()
     print(f"Done: ok={ok} fail={fail} unverified={unverified}")
-    return 0 if fail == 0 else 1
+    if fail:
+        return 1
+    if unverified and not args.no_verify:
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
