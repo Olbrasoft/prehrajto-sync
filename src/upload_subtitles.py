@@ -106,12 +106,24 @@ def vtt_to_srt(vtt_bytes: bytes) -> bytes:
     return ("\r\n\r\n".join(out) + "\r\n").encode("utf-8")
 
 
-def filename_from_url(url: str, ext: str) -> str:
-    base = url.rsplit("/", 1)[-1] or "Cesky"
-    for ex in (".vtt", ".srt", ".ass", ".ssa", ".sub"):
-        if base.lower().endswith(ex):
-            base = base[: -len(ex)]
-            break
+def build_filename(lang: str | None, ext: str, *, suffix: str = "") -> str:
+    """Build a per-upload filename like `cs-1778245059.srt`.
+
+    Prehraj.to's parser takes a different (broken) code path when the file
+    base is `Slovensky` (or `Slovensky-<num>`) — those uploads silently hang
+    in `Zpracovává se` even when the SRT bytes are valid. There is also a
+    per-video cache keyed on the basename, so re-uploading after a stuck
+    attempt with the same name lands in the same stuck slot.
+
+    We therefore use a short ISO 639-1 language code prefix (`cs`, `sk`,
+    `en`, …) plus a per-run timestamp suffix. This keeps the filename
+    informative for the user while sidestepping both the Slovensky-parser
+    bug and the per-video filename cache.
+    """
+    code = (lang or "").strip().lower()
+    if not code or len(code) > 5:
+        code = "cs"  # safe default — Czech path is known to process
+    base = f"{code}-{suffix}" if suffix else code
     return base + ext
 
 
@@ -178,7 +190,7 @@ def main() -> int:
     ap.add_argument(
         "--verify-delay",
         type=float,
-        default=8.0,
+        default=60.0,
         help="Seconds to wait before GETting detail page to verify var tracks",
     )
     ap.add_argument(
@@ -238,6 +250,11 @@ def main() -> int:
     print("Logging in…")
     session = login(email, password)
 
+    # Per-run unique filename suffix — defeats prehraj.to's per-video filename
+    # cache so re-uploads after a stuck attempt don't collide with the cached
+    # `Zpracovává se` slot.
+    upload_suffix = str(int(time.time()))
+
     ok = fail = unverified = 0
     posted_videos: dict[int, dict] = {}
     for cr, up, subs in plans:
@@ -259,7 +276,7 @@ def main() -> int:
                 content = vtt_to_srt(content)
                 ext, mime = ".srt", "application/x-subrip"
                 converted = " (vtt→srt)"
-            fn = filename_from_url(url, ext)
+            fn = build_filename(lang, ext, suffix=upload_suffix)
             try:
                 success, info = upload_one(session, pv, content, fn, mime)
             except Exception as e:
