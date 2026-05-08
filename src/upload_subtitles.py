@@ -101,7 +101,7 @@ def vtt_to_srt(vtt_bytes: bytes) -> bytes:
         m = ts_re.match(blk_lines[0])
         if m:
             blk_lines[0] = m.group(1)  # strip cue settings
-        out.append(f"{n}\n" + "\n".join(blk_lines))
+        out.append(f"{n}\r\n" + "\r\n".join(blk_lines))
         n += 1
     return ("\r\n\r\n".join(out) + "\r\n").encode("utf-8")
 
