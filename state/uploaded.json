@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-06-05T20:23:58Z",
+  "last_updated": "2026-06-05T21:42:17Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -25620,6 +25620,294 @@
         "upload_sec": 44.1,
         "total_sec": 174.8
       }
+    },
+    {
+      "cr_film_id": 16786,
+      "cr_slug": "1715-smrt-krale-slunce-2016",
+      "title": "1715: Smrt Krále Slunce",
+      "year": 2016,
+      "sktorrent_id": 1221,
+      "prehrajto_video_id": 25586233,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T20:36:24Z",
+      "status": "processing",
+      "size_bytes": 2135544352,
+      "timing": {
+        "cdn_resolve_sec": 19.9,
+        "download_sec": 511.3,
+        "upload_sec": 126.7,
+        "total_sec": 658.2
+      }
+    },
+    {
+      "cr_film_id": 13098,
+      "cr_slug": "k-19-stroj-na-smrt-2002",
+      "title": "K-19: Stroj na smrt",
+      "year": 2002,
+      "sktorrent_id": 46162,
+      "prehrajto_video_id": 25586448,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T20:45:56Z",
+      "status": "processing",
+      "size_bytes": 655291412,
+      "timing": {
+        "cdn_resolve_sec": 10.4,
+        "download_sec": 512.4,
+        "upload_sec": 49.1,
+        "total_sec": 572.1
+      }
+    },
+    {
+      "cr_film_id": 11679,
+      "cr_slug": "polda-1988",
+      "title": "Polda",
+      "year": 1988,
+      "sktorrent_id": 51069,
+      "prehrajto_video_id": 25586672,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T20:58:40Z",
+      "status": "processing",
+      "size_bytes": 515701617,
+      "timing": {
+        "cdn_resolve_sec": 17.1,
+        "download_sec": 149.5,
+        "upload_sec": 38.5,
+        "total_sec": 205.3
+      }
+    },
+    {
+      "cr_film_id": 14140,
+      "cr_slug": "ant-man-a-wasp-quantumania-2023",
+      "title": "Ant-Man a Wasp: Quantumania",
+      "year": 2023,
+      "sktorrent_id": 29395,
+      "prehrajto_video_id": 25586743,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:01:56Z",
+      "status": "processing",
+      "size_bytes": 813990528,
+      "timing": {
+        "cdn_resolve_sec": 18.1,
+        "download_sec": 117.4,
+        "upload_sec": 60.7,
+        "total_sec": 196.3
+      }
+    },
+    {
+      "cr_film_id": 13979,
+      "cr_slug": "ohana-rodina-je-poklad-2021",
+      "title": "‘Ohana: Rodina je poklad",
+      "year": 2021,
+      "sktorrent_id": 15596,
+      "prehrajto_video_id": 25586945,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:09:55Z",
+      "status": "processing",
+      "size_bytes": 965411981,
+      "timing": {
+        "cdn_resolve_sec": 3.3,
+        "download_sec": 410.8,
+        "upload_sec": 64.5,
+        "total_sec": 478.8
+      }
+    },
+    {
+      "cr_film_id": 11813,
+      "cr_slug": "tlustoch-a-chlapecek-1989",
+      "title": "Tlusťoch a Chlapeček",
+      "year": 1989,
+      "sktorrent_id": 32190,
+      "prehrajto_video_id": 25587047,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:13:34Z",
+      "status": "processing",
+      "size_bytes": 792793639,
+      "timing": {
+        "cdn_resolve_sec": 8.7,
+        "download_sec": 156.7,
+        "upload_sec": 54.1,
+        "total_sec": 219.5
+      }
+    },
+    {
+      "cr_film_id": 6895,
+      "cr_slug": "vhs",
+      "title": "V/H/S",
+      "year": 2012,
+      "sktorrent_id": 1426,
+      "prehrajto_video_id": 25587130,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:16:30Z",
+      "status": "processing",
+      "size_bytes": 581292744,
+      "timing": {
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 106.8,
+        "upload_sec": 42.1,
+        "total_sec": 153.4
+      }
+    },
+    {
+      "cr_film_id": 11830,
+      "cr_slug": "mala-monstra-1989",
+      "title": "Malá monstra",
+      "year": 1989,
+      "sktorrent_id": 4373,
+      "prehrajto_video_id": 25587232,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:21:44Z",
+      "status": "processing",
+      "size_bytes": 2016524358,
+      "timing": {
+        "cdn_resolve_sec": 14.2,
+        "download_sec": 182.6,
+        "upload_sec": 117.0,
+        "total_sec": 314.1
+      }
+    },
+    {
+      "cr_film_id": 15026,
+      "cr_slug": "ao-posledni-neandrtalec-2010",
+      "title": "AO: Poslední neandrtálec",
+      "year": 2010,
+      "sktorrent_id": 1697,
+      "prehrajto_video_id": 25587411,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:28:20Z",
+      "status": "processing",
+      "size_bytes": 500268911,
+      "timing": {
+        "cdn_resolve_sec": 3.7,
+        "download_sec": 355.4,
+        "upload_sec": 37.1,
+        "total_sec": 396.3
+      }
+    },
+    {
+      "cr_film_id": 11863,
+      "cr_slug": "film-1989-2",
+      "title": "Angel Enforcers",
+      "year": 1989,
+      "sktorrent_id": 39910,
+      "prehrajto_video_id": 25587439,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:29:20Z",
+      "status": "processing",
+      "size_bytes": 183699829,
+      "timing": {
+        "cdn_resolve_sec": 12.4,
+        "download_sec": 22.6,
+        "upload_sec": 24.5,
+        "total_sec": 59.5
+      }
+    },
+    {
+      "cr_film_id": 16172,
+      "cr_slug": "posedla-kontrolou-2025",
+      "title": "Posedlá kontrolou",
+      "year": 2025,
+      "sktorrent_id": 44580,
+      "prehrajto_video_id": 25587463,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:30:36Z",
+      "status": "processing",
+      "size_bytes": 386235649,
+      "timing": {
+        "cdn_resolve_sec": 22.1,
+        "download_sec": 17.5,
+        "upload_sec": 36.6,
+        "total_sec": 76.2
+      }
+    },
+    {
+      "cr_film_id": 17450,
+      "cr_slug": "zpevy-block-islandu-2021",
+      "title": "Zpěvy Block Islandu",
+      "year": 2021,
+      "sktorrent_id": 16459,
+      "prehrajto_video_id": 25587512,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:32:47Z",
+      "status": "processing",
+      "size_bytes": 421933679,
+      "timing": {
+        "cdn_resolve_sec": 5.1,
+        "download_sec": 89.6,
+        "upload_sec": 36.5,
+        "total_sec": 131.2
+      }
+    },
+    {
+      "cr_film_id": 17566,
+      "cr_slug": "final-kill-2020",
+      "title": "Final Kill",
+      "year": 2020,
+      "sktorrent_id": 7511,
+      "prehrajto_video_id": 25587542,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:34:11Z",
+      "status": "processing",
+      "size_bytes": 237525992,
+      "timing": {
+        "cdn_resolve_sec": 2.6,
+        "download_sec": 56.1,
+        "upload_sec": 24.4,
+        "total_sec": 83.2
+      }
+    },
+    {
+      "cr_film_id": 15534,
+      "cr_slug": "2-2012",
+      "title": "Dabangg 2",
+      "year": 2012,
+      "sktorrent_id": 29462,
+      "prehrajto_video_id": 25587609,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:37:49Z",
+      "status": "processing",
+      "size_bytes": 917544564,
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 154.6,
+        "upload_sec": 57.8,
+        "total_sec": 218.5
+      }
+    },
+    {
+      "cr_film_id": 14271,
+      "cr_slug": "spion-ktery-nikdy-nezemre-2022",
+      "title": "Špión, který nikdy nezemře",
+      "year": 2022,
+      "sktorrent_id": 25514,
+      "prehrajto_video_id": 25587653,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:40:07Z",
+      "status": "processing",
+      "size_bytes": 508561659,
+      "timing": {
+        "cdn_resolve_sec": 8.2,
+        "download_sec": 67.2,
+        "upload_sec": 39.2,
+        "total_sec": 114.7
+      }
+    },
+    {
+      "cr_film_id": 12191,
+      "cr_slug": "smrtelne-vize-1994",
+      "title": "Smrtelné vize",
+      "year": 1994,
+      "sktorrent_id": 16701,
+      "prehrajto_video_id": 25587692,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:42:17Z",
+      "status": "processing",
+      "size_bytes": 399318736,
+      "timing": {
+        "cdn_resolve_sec": 7.4,
+        "download_sec": 64.2,
+        "upload_sec": 36.7,
+        "total_sec": 108.4
+      }
     }
   ],
   "moderated_out": [
@@ -29250,6 +29538,51 @@
       "timing": {
         "cdn_resolve_sec": 1.9,
         "download_sec": 540.0
+      }
+    },
+    {
+      "cr_film_id": 16010,
+      "cr_slug": "neomylni-2024",
+      "title": "Neomylní",
+      "year": 2024,
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 757007952 out of 780069144 bytes received",
+      "failed_at": "2026-06-05T20:55:14Z",
+      "timing": {
+        "cdn_resolve_sec": 18.2,
+        "download_sec": 540.0
+      }
+    },
+    {
+      "cr_film_id": 11354,
+      "cr_slug": "vojin-benjaminova-1980",
+      "title": "Vojín Benjaminová",
+      "year": 1980,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T21:13:57Z",
+      "timing": {
+        "cdn_resolve_sec": 22.2
+      }
+    },
+    {
+      "cr_film_id": 14518,
+      "cr_slug": "ztraceny-ostrov-2008",
+      "title": "Ztracený ostrov",
+      "year": 2008,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T21:38:12Z",
+      "timing": {
+        "cdn_resolve_sec": 23.0
+      }
+    },
+    {
+      "cr_film_id": 12871,
+      "cr_slug": "proroctvi-mece-1996",
+      "title": "Proroctví meče",
+      "year": 1996,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T21:40:29Z",
+      "timing": {
+        "cdn_resolve_sec": 21.8
       }
     }
   ]
