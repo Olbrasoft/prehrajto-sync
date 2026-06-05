@@ -17772,3 +17772,208 @@
 [22:32:03] step=film done cr_film_id=7123 total=95.5s (cdn=8.3s + download=50.3s + upload=36.9s)
 [22:32:03] step=state-saved cr_film_id=7123 (total uploads=1459)
 [22:32:03] step=batch-end succeeded=19 failed=1 total_uploads=1459 batch_dur=2970.8s avg_per_film=156.4s backlog_remaining=175 eta_hours=7.6
+
+===== run 2026-06-05T22:32:17Z batch_size=20 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/27043550931) =====
+[22:32:18] step=batch-start count=20 backlog=1636 uploads=1459 moderated=2
+[22:32:18] step=login
+[22:32:18] step=login done
+[22:32:18] step=iteration 1/20
+[22:32:18] step=film start cr_film_id=7516 name='Čužaja (2023) CZ Dabing'
+[22:32:18] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33031_720p.mp4
+[22:32:25] step=cdn-resolve done 6.6s → https://online13.sktorrent.eu/media/videos//h264/33031_720p.mp4
+[22:32:25] step=download curl https://online13.sktorrent.eu/media/videos//h264/33031_720p.mp4
+[22:33:23] step=download done cr_film_id=7516 size=514610803 dur=58.2s speed=8.8MB/s
+[22:33:23] step=upload start cr_film_id=7516 size=514610803
+[22:33:51] step=upload done cr_film_id=7516 video_id=25588688 dur=27.9s speed=18.4MB/s
+[22:33:51] step=cleanup unlinked Čužaja (2023) CZ Dabing.mp4
+[22:33:51] step=film done cr_film_id=7516 total=92.9s (cdn=6.6s + download=58.2s + upload=27.9s)
+[22:33:51] step=state-saved cr_film_id=7516 (total uploads=1460)
+[22:33:51] step=iteration 2/20
+[22:33:51] step=film start cr_film_id=7965 name='Špióni (2019) CZ Dabing'
+[22:33:51] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/9461_720p.mp4
+[22:33:53] step=cdn-resolve done 2.0s → https://online5.sktorrent.eu/media/videos//h264/9461_720p.mp4
+[22:33:53] step=download curl https://online5.sktorrent.eu/media/videos//h264/9461_720p.mp4
+[22:38:26] step=download done cr_film_id=7965 size=1913943233 dur=272.9s speed=7.0MB/s
+[22:38:26] step=upload start cr_film_id=7965 size=1913943233
+[22:39:46] step=upload done cr_film_id=7965 video_id=25588811 dur=80.5s speed=23.8MB/s
+[22:39:47] step=cleanup unlinked Špióni (2019) CZ Dabing.mp4
+[22:39:47] step=film done cr_film_id=7965 total=355.6s (cdn=2.0s + download=272.9s + upload=80.5s)
+[22:39:47] step=state-saved cr_film_id=7965 (total uploads=1461)
+[22:39:47] step=iteration 3/20
+[22:39:47] step=film start cr_film_id=8160 name='Mlýn (2023) CZ Dabing'
+[22:39:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32797_720p.mp4
+[22:39:56] step=cdn-resolve done 9.5s → https://online20.sktorrent.eu/media/videos//h264/32797_720p.mp4
+[22:39:56] step=download curl https://online20.sktorrent.eu/media/videos//h264/32797_720p.mp4
+[22:40:48] step=download done cr_film_id=8160 size=449625489 dur=51.5s speed=8.7MB/s
+[22:40:48] step=upload start cr_film_id=8160 size=449625489
+[22:41:15] step=upload done cr_film_id=8160 video_id=25588861 dur=27.5s speed=16.4MB/s
+[22:41:15] step=cleanup unlinked Mlýn (2023) CZ Dabing.mp4
+[22:41:15] step=film done cr_film_id=8160 total=88.5s (cdn=9.5s + download=51.5s + upload=27.5s)
+[22:41:15] step=state-saved cr_film_id=8160 (total uploads=1462)
+[22:41:15] step=iteration 4/20
+[22:41:15] step=film start cr_film_id=8176 name='Jevy (2023) CZ Dabing'
+[22:41:15] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29303_720p.mp4
+[22:41:22] step=cdn-resolve done 6.9s → https://online19.sktorrent.eu/media/videos//h264/29303_720p.mp4
+[22:41:22] step=download curl https://online19.sktorrent.eu/media/videos//h264/29303_720p.mp4
+[22:42:25] step=download done cr_film_id=8176 size=520037585 dur=62.9s speed=8.3MB/s
+[22:42:25] step=upload start cr_film_id=8176 size=520037585
+[22:42:54] step=upload done cr_film_id=8176 video_id=25588897 dur=29.0s speed=17.9MB/s
+[22:42:54] step=cleanup unlinked Jevy (2023) CZ Dabing.mp4
+[22:42:54] step=film done cr_film_id=8176 total=98.9s (cdn=6.9s + download=62.9s + upload=29.0s)
+[22:42:54] step=state-saved cr_film_id=8176 (total uploads=1463)
+[22:42:54] step=iteration 5/20
+[22:42:54] step=film start cr_film_id=8497 name='Happily (2021) CZ Dabing'
+[22:42:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/43424_480p.mp4
+[22:43:00] step=cdn-resolve done 5.7s → https://online14.sktorrent.eu/media/videos//h264/43424_480p.mp4
+[22:43:00] step=download curl https://online14.sktorrent.eu/media/videos//h264/43424_480p.mp4
+[22:43:28] step=download done cr_film_id=8497 size=178400538 dur=28.1s speed=6.3MB/s
+[22:43:28] step=upload start cr_film_id=8497 size=178400538
+[22:43:47] step=upload done cr_film_id=8497 video_id=25588924 dur=19.2s speed=9.3MB/s
+[22:43:47] step=cleanup unlinked Happily (2021) CZ Dabing.mp4
+[22:43:47] step=film done cr_film_id=8497 total=53.0s (cdn=5.7s + download=28.1s + upload=19.2s)
+[22:43:47] step=state-saved cr_film_id=8497 (total uploads=1464)
+[22:43:47] step=iteration 6/20
+[22:43:47] step=film start cr_film_id=9054 name='Posedlost (2022) CZ Dabing'
+[22:43:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29570_720p.mp4
+[22:43:51] step=cdn-resolve done 3.6s → https://online9.sktorrent.eu/media/videos//h264/29570_720p.mp4
+[22:43:51] step=download curl https://online9.sktorrent.eu/media/videos//h264/29570_720p.mp4
+[22:44:42] step=download done cr_film_id=9054 size=338347355 dur=51.3s speed=6.6MB/s
+[22:44:42] step=upload start cr_film_id=9054 size=338347355
+[22:45:10] step=upload done cr_film_id=9054 video_id=25588954 dur=28.3s speed=12.0MB/s
+[22:45:10] step=cleanup unlinked Posedlost (2022) CZ Dabing.mp4
+[22:45:10] step=film done cr_film_id=9054 total=83.3s (cdn=3.6s + download=51.3s + upload=28.3s)
+[22:45:10] step=state-saved cr_film_id=9054 (total uploads=1465)
+[22:45:10] step=iteration 7/20
+[22:45:10] step=film start cr_film_id=9192 name='Zámečník (2023) CZ Dabing'
+[22:45:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44495_720p.mp4
+[22:45:19] step=cdn-resolve done 8.9s → https://online19.sktorrent.eu/media/videos//h264/44495_720p.mp4
+[22:45:19] step=download curl https://online19.sktorrent.eu/media/videos//h264/44495_720p.mp4
+[22:45:52] step=download done cr_film_id=9192 size=322622876 dur=32.6s speed=9.9MB/s
+[22:45:52] step=upload start cr_film_id=9192 size=322622876
+[22:46:14] step=upload done cr_film_id=9192 video_id=25588973 dur=21.7s speed=14.9MB/s
+[22:46:14] step=cleanup unlinked Zámečník (2023) CZ Dabing.mp4
+[22:46:14] step=film done cr_film_id=9192 total=63.3s (cdn=8.9s + download=32.6s + upload=21.7s)
+[22:46:14] step=state-saved cr_film_id=9192 (total uploads=1466)
+[22:46:14] step=iteration 8/20
+[22:46:14] step=film start cr_film_id=9237 name='MILF (2018) CZ Dabing'
+[22:46:14] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12032_720p.mp4
+[22:46:16] step=cdn-resolve done 2.6s → https://online6.sktorrent.eu/media/videos//h264/12032_720p.mp4
+[22:46:16] step=download curl https://online6.sktorrent.eu/media/videos//h264/12032_720p.mp4
+[22:48:07] step=download done cr_film_id=9237 size=754387150 dur=110.4s speed=6.8MB/s
+[22:48:07] step=upload start cr_film_id=9237 size=754387150
+[22:48:47] step=upload done cr_film_id=9237 video_id=25589027 dur=39.9s speed=18.9MB/s
+[22:48:47] step=cleanup unlinked MILF (2018) CZ Dabing.mp4
+[22:48:47] step=film done cr_film_id=9237 total=153.0s (cdn=2.6s + download=110.4s + upload=39.9s)
+[22:48:47] step=state-saved cr_film_id=9237 (total uploads=1467)
+[22:48:47] step=iteration 9/20
+[22:48:47] step=film start cr_film_id=9293 name='Štvanec (2013) CZ Dabing'
+[22:48:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/53686_HD.mp4
+[22:48:48] step=cdn-resolve done 1.6s → https://online4.sktorrent.eu/media/videos//h264/53686_HD.mp4
+[22:48:48] step=download curl https://online4.sktorrent.eu/media/videos//h264/53686_HD.mp4
+[22:49:33] step=download done cr_film_id=9293 size=258288897 dur=44.2s speed=5.8MB/s
+[22:49:33] step=upload start cr_film_id=9293 size=258288897
+[22:49:52] step=upload done cr_film_id=9293 video_id=25589062 dur=19.5s speed=13.2MB/s
+[22:49:52] step=cleanup unlinked Štvanec (2013) CZ Dabing.mp4
+[22:49:52] step=film done cr_film_id=9293 total=65.4s (cdn=1.6s + download=44.2s + upload=19.5s)
+[22:49:52] step=state-saved cr_film_id=9293 (total uploads=1468)
+[22:49:52] step=iteration 10/20
+[22:49:52] step=film start cr_film_id=9318 name='Chestnut (2023) CZ Dabing'
+[22:49:52] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38548_720p.mp4
+[22:49:58] step=cdn-resolve done 6.3s → https://online16.sktorrent.eu/media/videos//h264/38548_720p.mp4
+[22:49:58] step=download curl https://online16.sktorrent.eu/media/videos//h264/38548_720p.mp4
+[22:51:00] step=download done cr_film_id=9318 size=479059009 dur=61.3s speed=7.8MB/s
+[22:51:00] step=upload start cr_film_id=9318 size=479059009
+[22:51:33] step=upload done cr_film_id=9318 video_id=25589083 dur=33.2s speed=14.4MB/s
+[22:51:33] step=cleanup unlinked Chestnut (2023) CZ Dabing.mp4
+[22:51:33] step=film done cr_film_id=9318 total=100.9s (cdn=6.3s + download=61.3s + upload=33.2s)
+[22:51:33] step=state-saved cr_film_id=9318 (total uploads=1469)
+[22:51:33] step=iteration 11/20
+[22:51:33] step=film start cr_film_id=10244 name='Possessions (2024) CZ Dabing'
+[22:51:33] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/37554_720p.mp4
+[22:51:42] step=cdn-resolve done 9.2s → https://online21.sktorrent.eu/media/videos//h264/37554_720p.mp4
+[22:51:42] step=download curl https://online21.sktorrent.eu/media/videos//h264/37554_720p.mp4
+[22:52:13] step=download done cr_film_id=10244 size=294738695 dur=30.3s speed=9.7MB/s
+[22:52:13] step=upload start cr_film_id=10244 size=294738695
+[22:52:34] step=upload done cr_film_id=10244 video_id=25589108 dur=21.2s speed=13.9MB/s
+[22:52:34] step=cleanup unlinked Possessions (2024) CZ Dabing.mp4
+[22:52:34] step=film done cr_film_id=10244 total=60.8s (cdn=9.2s + download=30.3s + upload=21.2s)
+[22:52:34] step=state-saved cr_film_id=10244 (total uploads=1470)
+[22:52:34] step=iteration 12/20
+[22:52:34] step=film start cr_film_id=10299 name='Don't Look Away (2023) CZ Dabing'
+[22:52:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/33050_720p.mp4
+[22:52:39] step=cdn-resolve done 5.3s → https://online14.sktorrent.eu/media/videos//h264/33050_720p.mp4
+[22:52:39] step=download curl https://online14.sktorrent.eu/media/videos//h264/33050_720p.mp4
+[22:53:16] step=download done cr_film_id=10299 size=338514560 dur=36.7s speed=9.2MB/s
+[22:53:16] step=upload start cr_film_id=10299 size=338514560
+[22:53:40] step=upload done cr_film_id=10299 video_id=25589136 dur=24.4s speed=13.9MB/s
+[22:53:40] step=cleanup unlinked Don't Look Away (2023) CZ Dabing.mp4
+[22:53:40] step=film done cr_film_id=10299 total=66.4s (cdn=5.3s + download=36.7s + upload=24.4s)
+[22:53:40] step=state-saved cr_film_id=10299 (total uploads=1471)
+[22:53:40] step=iteration 13/20
+[22:53:40] step=film start cr_film_id=10371 name='Randál (2023) CZ Dabing'
+[22:53:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/28678_720p.mp4
+[22:53:46] step=cdn-resolve done 6.0s → https://online15.sktorrent.eu/media/videos//h264/28678_720p.mp4
+[22:53:46] step=download curl https://online15.sktorrent.eu/media/videos//h264/28678_720p.mp4
+[22:54:26] step=download done cr_film_id=10371 size=377095903 dur=40.2s speed=9.4MB/s
+[22:54:26] step=upload start cr_film_id=10371 size=377095903
+[22:54:53] step=upload done cr_film_id=10371 video_id=25589161 dur=26.8s speed=14.1MB/s
+[22:54:53] step=cleanup unlinked Randál (2023) CZ Dabing.mp4
+[22:54:53] step=film done cr_film_id=10371 total=73.0s (cdn=6.0s + download=40.2s + upload=26.8s)
+[22:54:53] step=state-saved cr_film_id=10371 (total uploads=1472)
+[22:54:53] step=iteration 14/20
+[22:54:53] step=film start cr_film_id=10743 name='1984 (1956) CZ Dabing'
+[22:54:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/35806_480p.mp4
+[22:55:03] step=cdn-resolve FAILED cr_film_id=10743 after 10.1s
+[22:55:03] step=iteration 15/20
+[22:55:03] step=film start cr_film_id=10904 name='Člověk zvaný Flintstone (1966) CZ Dabing'
+[22:55:03] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/29210_480p.mp4
+[22:55:13] step=cdn-resolve FAILED cr_film_id=10904 after 9.1s
+[22:55:13] step=iteration 16/20
+[22:55:13] step=film start cr_film_id=10931 name='Blázni ve válce (1967) CZ Dabing'
+[22:55:13] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16812_480p.mp4
+[22:55:22] step=cdn-resolve FAILED cr_film_id=10931 after 9.3s
+[22:55:22] step=iteration 17/20
+[22:55:22] step=film start cr_film_id=11117 name='Marco (1973) CZ Dabing'
+[22:55:22] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/55391_720p.mp4
+[22:55:24] step=cdn-resolve done 2.0s → https://online5.sktorrent.eu/media/videos//h264/55391_720p.mp4
+[22:55:24] step=download curl https://online5.sktorrent.eu/media/videos//h264/55391_720p.mp4
+[22:57:09] step=download done cr_film_id=11117 size=643110852 dur=104.9s speed=6.1MB/s
+[22:57:09] step=upload start cr_film_id=11117 size=643110852
+[22:57:40] step=upload done cr_film_id=11117 video_id=25589207 dur=31.0s speed=20.7MB/s
+[22:57:40] step=cleanup unlinked Marco (1973) CZ Dabing.mp4
+[22:57:40] step=film done cr_film_id=11117 total=138.0s (cdn=2.0s + download=104.9s + upload=31.0s)
+[22:57:40] step=state-saved cr_film_id=11117 (total uploads=1473)
+[22:57:40] step=iteration 18/20
+[22:57:40] step=film start cr_film_id=11145 name='The Little Prince (1974) CZ Dabing'
+[22:57:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/47002_HD.mp4
+[22:57:49] step=cdn-resolve done 9.4s → https://online23.sktorrent.eu/media/videos//h264/47002_HD.mp4
+[22:57:49] step=download curl https://online23.sktorrent.eu/media/videos//h264/47002_HD.mp4
+[22:58:37] step=download done cr_film_id=11145 size=391519784 dur=47.8s speed=8.2MB/s
+[22:58:37] step=upload start cr_film_id=11145 size=391519784
+[22:59:04] step=upload done cr_film_id=11145 video_id=25589230 dur=26.6s speed=14.7MB/s
+[22:59:04] step=cleanup unlinked The Little Prince (1974) CZ Dabing.mp4
+[22:59:04] step=film done cr_film_id=11145 total=83.9s (cdn=9.4s + download=47.8s + upload=26.6s)
+[22:59:04] step=state-saved cr_film_id=11145 (total uploads=1474)
+[22:59:04] step=iteration 19/20
+[22:59:04] step=film start cr_film_id=11215 name='The House That Jack Built (1977) CZ Dabing'
+[22:59:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/2005_720p.mp4
+[22:59:07] step=cdn-resolve done 2.8s → https://online7.sktorrent.eu/media/videos//h264/2005_720p.mp4
+[22:59:07] step=download curl https://online7.sktorrent.eu/media/videos//h264/2005_720p.mp4
+[23:01:54] step=download done cr_film_id=11215 size=1419763715 dur=167.7s speed=8.5MB/s
+[23:01:54] step=upload start cr_film_id=11215 size=1419763715
+[23:03:31] step=upload done cr_film_id=11215 video_id=25589283 dur=96.3s speed=14.7MB/s
+[23:03:31] step=cleanup unlinked The House That Jack Built (1977) CZ Dabing.mp4
+[23:03:31] step=film done cr_film_id=11215 total=267.0s (cdn=2.8s + download=167.7s + upload=96.3s)
+[23:03:31] step=state-saved cr_film_id=11215 (total uploads=1475)
+[23:03:31] step=iteration 20/20
+[23:03:31] step=film start cr_film_id=11225 name='Dead of Night (1977) CZ Dabing'
+[23:03:31] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44432_720p.mp4
+[23:03:33] step=cdn-resolve done 2.5s → https://online5.sktorrent.eu/media/videos//h264/44432_720p.mp4
+[23:03:33] step=download curl https://online5.sktorrent.eu/media/videos//h264/44432_720p.mp4
+[23:05:13] step=download done cr_film_id=11225 size=705164597 dur=99.9s speed=7.1MB/s
+[23:05:13] step=upload start cr_film_id=11225 size=705164597
+[23:05:50] step=upload done cr_film_id=11225 video_id=25589341 dur=36.5s speed=19.3MB/s
+[23:05:50] step=cleanup unlinked Dead of Night (1977) CZ Dabing.mp4
+[23:05:50] step=film done cr_film_id=11225 total=139.0s (cdn=2.5s + download=99.9s + upload=36.5s)
+[23:05:50] step=state-saved cr_film_id=11225 (total uploads=1476)
+[23:05:50] step=batch-end succeeded=17 failed=3 total_uploads=1476 batch_dur=2011.7s avg_per_film=118.3s backlog_remaining=158 eta_hours=5.2

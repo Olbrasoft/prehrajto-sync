@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-06-05T22:32:03Z",
+  "last_updated": "2026-06-05T23:05:50Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -26250,6 +26250,312 @@
         "upload_sec": 36.9,
         "total_sec": 95.5
       }
+    },
+    {
+      "cr_film_id": 7516,
+      "cr_slug": "cuzaja",
+      "title": "Čužaja",
+      "year": 2023,
+      "sktorrent_id": 33031,
+      "prehrajto_video_id": 25588688,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:33:51Z",
+      "status": "processing",
+      "size_bytes": 514610803,
+      "timing": {
+        "cdn_resolve_sec": 6.6,
+        "download_sec": 58.2,
+        "upload_sec": 27.9,
+        "total_sec": 92.9
+      }
+    },
+    {
+      "cr_film_id": 7965,
+      "cr_slug": "spioni",
+      "title": "Špióni",
+      "year": 2019,
+      "sktorrent_id": 9461,
+      "prehrajto_video_id": 25588811,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:39:47Z",
+      "status": "processing",
+      "size_bytes": 1913943233,
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 272.9,
+        "upload_sec": 80.5,
+        "total_sec": 355.6
+      }
+    },
+    {
+      "cr_film_id": 8160,
+      "cr_slug": "the-mill",
+      "title": "Mlýn",
+      "year": 2023,
+      "sktorrent_id": 32797,
+      "prehrajto_video_id": 25588861,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:41:15Z",
+      "status": "processing",
+      "size_bytes": 449625489,
+      "timing": {
+        "cdn_resolve_sec": 9.5,
+        "download_sec": 51.5,
+        "upload_sec": 27.5,
+        "total_sec": 88.5
+      }
+    },
+    {
+      "cr_film_id": 8176,
+      "cr_slug": "jevy",
+      "title": "Jevy",
+      "year": 2023,
+      "sktorrent_id": 29303,
+      "prehrajto_video_id": 25588897,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:42:54Z",
+      "status": "processing",
+      "size_bytes": 520037585,
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 62.9,
+        "upload_sec": 29.0,
+        "total_sec": 98.9
+      }
+    },
+    {
+      "cr_film_id": 8497,
+      "cr_slug": "stastne-spolu",
+      "title": "Happily",
+      "year": 2021,
+      "sktorrent_id": 43424,
+      "prehrajto_video_id": 25588924,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:43:47Z",
+      "status": "processing",
+      "size_bytes": 178400538,
+      "timing": {
+        "cdn_resolve_sec": 5.7,
+        "download_sec": 28.1,
+        "upload_sec": 19.2,
+        "total_sec": 53.0
+      }
+    },
+    {
+      "cr_film_id": 9054,
+      "cr_slug": "posedlost",
+      "title": "Posedlost",
+      "year": 2022,
+      "sktorrent_id": 29570,
+      "prehrajto_video_id": 25588954,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:45:10Z",
+      "status": "processing",
+      "size_bytes": 338347355,
+      "timing": {
+        "cdn_resolve_sec": 3.6,
+        "download_sec": 51.3,
+        "upload_sec": 28.3,
+        "total_sec": 83.3
+      }
+    },
+    {
+      "cr_film_id": 9192,
+      "cr_slug": "the-locksmith",
+      "title": "Zámečník",
+      "year": 2023,
+      "sktorrent_id": 44495,
+      "prehrajto_video_id": 25588973,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:46:14Z",
+      "status": "processing",
+      "size_bytes": 322622876,
+      "timing": {
+        "cdn_resolve_sec": 8.9,
+        "download_sec": 32.6,
+        "upload_sec": 21.7,
+        "total_sec": 63.3
+      }
+    },
+    {
+      "cr_film_id": 9237,
+      "cr_slug": "milf",
+      "title": "MILF",
+      "year": 2018,
+      "sktorrent_id": 12032,
+      "prehrajto_video_id": 25589027,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:48:47Z",
+      "status": "processing",
+      "size_bytes": 754387150,
+      "timing": {
+        "cdn_resolve_sec": 2.6,
+        "download_sec": 110.4,
+        "upload_sec": 39.9,
+        "total_sec": 153.0
+      }
+    },
+    {
+      "cr_film_id": 9293,
+      "cr_slug": "stvanec",
+      "title": "Štvanec",
+      "year": 2013,
+      "sktorrent_id": 53686,
+      "prehrajto_video_id": 25589062,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:49:52Z",
+      "status": "processing",
+      "size_bytes": 258288897,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 44.2,
+        "upload_sec": 19.5,
+        "total_sec": 65.4
+      }
+    },
+    {
+      "cr_film_id": 9318,
+      "cr_slug": "chestnut",
+      "title": "Chestnut",
+      "year": 2023,
+      "sktorrent_id": 38548,
+      "prehrajto_video_id": 25589083,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:51:33Z",
+      "status": "processing",
+      "size_bytes": 479059009,
+      "timing": {
+        "cdn_resolve_sec": 6.3,
+        "download_sec": 61.3,
+        "upload_sec": 33.2,
+        "total_sec": 100.9
+      }
+    },
+    {
+      "cr_film_id": 10244,
+      "cr_slug": "possessions",
+      "title": "Possessions",
+      "year": 2024,
+      "sktorrent_id": 37554,
+      "prehrajto_video_id": 25589108,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:52:34Z",
+      "status": "processing",
+      "size_bytes": 294738695,
+      "timing": {
+        "cdn_resolve_sec": 9.2,
+        "download_sec": 30.3,
+        "upload_sec": 21.2,
+        "total_sec": 60.8
+      }
+    },
+    {
+      "cr_film_id": 10299,
+      "cr_slug": "dont-look-away",
+      "title": "Don't Look Away",
+      "year": 2023,
+      "sktorrent_id": 33050,
+      "prehrajto_video_id": 25589136,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:53:40Z",
+      "status": "processing",
+      "size_bytes": 338514560,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 36.7,
+        "upload_sec": 24.4,
+        "total_sec": 66.4
+      }
+    },
+    {
+      "cr_film_id": 10371,
+      "cr_slug": "randal",
+      "title": "Randál",
+      "year": 2023,
+      "sktorrent_id": 28678,
+      "prehrajto_video_id": 25589161,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:54:53Z",
+      "status": "processing",
+      "size_bytes": 377095903,
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 40.2,
+        "upload_sec": 26.8,
+        "total_sec": 73.0
+      }
+    },
+    {
+      "cr_film_id": 11117,
+      "cr_slug": "marco-1973",
+      "title": "Marco",
+      "year": 1973,
+      "sktorrent_id": 55391,
+      "prehrajto_video_id": 25589207,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:57:40Z",
+      "status": "processing",
+      "size_bytes": 643110852,
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 104.9,
+        "upload_sec": 31.0,
+        "total_sec": 138.0
+      }
+    },
+    {
+      "cr_film_id": 11145,
+      "cr_slug": "the-little-prince-1974",
+      "title": "The Little Prince",
+      "year": 1974,
+      "sktorrent_id": 47002,
+      "prehrajto_video_id": 25589230,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:59:04Z",
+      "status": "processing",
+      "size_bytes": 391519784,
+      "timing": {
+        "cdn_resolve_sec": 9.4,
+        "download_sec": 47.8,
+        "upload_sec": 26.6,
+        "total_sec": 83.9
+      }
+    },
+    {
+      "cr_film_id": 11215,
+      "cr_slug": "the-house-that-jack-built-1977",
+      "title": "The House That Jack Built",
+      "year": 1977,
+      "sktorrent_id": 2005,
+      "prehrajto_video_id": 25589283,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:03:31Z",
+      "status": "processing",
+      "size_bytes": 1419763715,
+      "timing": {
+        "cdn_resolve_sec": 2.8,
+        "download_sec": 167.7,
+        "upload_sec": 96.3,
+        "total_sec": 267.0
+      }
+    },
+    {
+      "cr_film_id": 11225,
+      "cr_slug": "dead-of-night-1977",
+      "title": "Dead of Night",
+      "year": 1977,
+      "sktorrent_id": 44432,
+      "prehrajto_video_id": 25589341,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:05:50Z",
+      "status": "processing",
+      "size_bytes": 705164597,
+      "timing": {
+        "cdn_resolve_sec": 2.5,
+        "download_sec": 99.9,
+        "upload_sec": 36.5,
+        "total_sec": 139.0
+      }
     }
   ],
   "moderated_out": [
@@ -29936,6 +30242,39 @@
       "failed_at": "2026-06-05T22:11:10Z",
       "timing": {
         "cdn_resolve_sec": 14.9
+      }
+    },
+    {
+      "cr_film_id": 10743,
+      "cr_slug": "1984-1956",
+      "title": "1984",
+      "year": 1956,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T22:55:03Z",
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
+    },
+    {
+      "cr_film_id": 10904,
+      "cr_slug": "clovek-zvany-flintstone-1966",
+      "title": "Člověk zvaný Flintstone",
+      "year": 1966,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T22:55:13Z",
+      "timing": {
+        "cdn_resolve_sec": 9.1
+      }
+    },
+    {
+      "cr_film_id": 10931,
+      "cr_slug": "blazni-ve-valce-1967",
+      "title": "Blázni ve válce",
+      "year": 1967,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T22:55:22Z",
+      "timing": {
+        "cdn_resolve_sec": 9.3
       }
     }
   ]
