@@ -45,6 +45,7 @@ jobs:
         env:
           PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+          PREHRAJTO_COOKIE_JSON: ${{ secrets.PREHRAJTO_COOKIE_JSON }}
           # Current enriched backlog already encodes CZ/SK suitability.
           # Many rows do not have detected_language, so the legacy runtime
           # audio filter would skip them all.
