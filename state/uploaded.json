@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-05-04T10:00:08Z",
+  "last_updated": "2026-06-05T15:51:02Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -25043,6 +25043,24 @@
         "download_sec": 40.7,
         "upload_sec": 65.5,
         "total_sec": 116.8
+      }
+    },
+    {
+      "cr_film_id": 2523,
+      "cr_slug": "exhuma",
+      "title": "Exhuma",
+      "year": 2024,
+      "sktorrent_id": 36751,
+      "prehrajto_video_id": 25570032,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:51:02Z",
+      "status": "processing",
+      "size_bytes": 64336545,
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 8.2,
+        "upload_sec": 13.9,
+        "total_sec": 29.2
       }
     }
   ],
