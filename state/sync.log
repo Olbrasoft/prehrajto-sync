@@ -17977,3 +17977,208 @@
 [23:05:50] step=film done cr_film_id=11225 total=139.0s (cdn=2.5s + download=99.9s + upload=36.5s)
 [23:05:50] step=state-saved cr_film_id=11225 (total uploads=1476)
 [23:05:50] step=batch-end succeeded=17 failed=3 total_uploads=1476 batch_dur=2011.7s avg_per_film=118.3s backlog_remaining=158 eta_hours=5.2
+
+===== run 2026-06-05T23:06:05Z batch_size=20 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/27044736892) =====
+[23:06:06] step=batch-start count=20 backlog=1636 uploads=1476 moderated=2
+[23:06:06] step=login
+[23:06:07] step=login done
+[23:06:07] step=iteration 1/20
+[23:06:07] step=film start cr_film_id=11340 name='Golem (1980) CZ Dabing'
+[23:06:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36303_480p.mp4
+[23:06:17] step=cdn-resolve done 10.5s → https://online24.sktorrent.eu/media/videos//h264/36303_480p.mp4
+[23:06:17] step=download curl https://online24.sktorrent.eu/media/videos//h264/36303_480p.mp4
+[23:06:35] step=download done cr_film_id=11340 size=387637771 dur=18.0s speed=21.5MB/s
+[23:06:35] step=upload start cr_film_id=11340 size=387637771
+[23:07:05] step=upload done cr_film_id=11340 video_id=25589364 dur=30.0s speed=12.9MB/s
+[23:07:05] step=cleanup unlinked Golem (1980) CZ Dabing.mp4
+[23:07:05] step=film done cr_film_id=11340 total=58.6s (cdn=10.5s + download=18.0s + upload=30.0s)
+[23:07:05] step=state-saved cr_film_id=11340 (total uploads=1477)
+[23:07:05] step=iteration 2/20
+[23:07:05] step=film start cr_film_id=11532 name='Mutant (1984) CZ Dabing'
+[23:07:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19088_720p.mp4
+[23:07:10] step=cdn-resolve done 5.0s → https://online13.sktorrent.eu/media/videos//h264/19088_720p.mp4
+[23:07:10] step=download curl https://online13.sktorrent.eu/media/videos//h264/19088_720p.mp4
+[23:08:16] step=download done cr_film_id=11532 size=654822471 dur=65.4s speed=10.0MB/s
+[23:08:16] step=upload start cr_film_id=11532 size=654822471
+[23:08:51] step=upload done cr_film_id=11532 video_id=25589388 dur=35.7s speed=18.3MB/s
+[23:08:51] step=cleanup unlinked Mutant (1984) CZ Dabing.mp4
+[23:08:51] step=film done cr_film_id=11532 total=106.2s (cdn=5.0s + download=65.4s + upload=35.7s)
+[23:08:51] step=state-saved cr_film_id=11532 (total uploads=1478)
+[23:08:51] step=iteration 3/20
+[23:08:51] step=film start cr_film_id=11785 name='Tainted (1987) CZ Dabing'
+[23:08:51] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/16862_720p.mp4
+[23:08:54] step=cdn-resolve done 2.7s → https://online7.sktorrent.eu/media/videos//h264/16862_720p.mp4
+[23:08:54] step=download curl https://online7.sktorrent.eu/media/videos//h264/16862_720p.mp4
+[23:09:40] step=download done cr_film_id=11785 size=355181334 dur=45.4s speed=7.8MB/s
+[23:09:40] step=upload start cr_film_id=11785 size=355181334
+[23:10:02] step=upload done cr_film_id=11785 video_id=25589417 dur=22.4s speed=15.9MB/s
+[23:10:02] step=cleanup unlinked Tainted (1987) CZ Dabing.mp4
+[23:10:02] step=film done cr_film_id=11785 total=70.6s (cdn=2.7s + download=45.4s + upload=22.4s)
+[23:10:02] step=state-saved cr_film_id=11785 (total uploads=1479)
+[23:10:02] step=iteration 4/20
+[23:10:02] step=film start cr_film_id=11799 name='After Midnight (1989) CZ Dabing'
+[23:10:02] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/7727_720p.mp4
+[23:10:03] step=cdn-resolve done 0.8s → https://online1.sktorrent.eu/media/videos//h264/7727_720p.mp4
+[23:10:03] step=download curl https://online1.sktorrent.eu/media/videos//h264/7727_720p.mp4
+[23:12:27] step=download done cr_film_id=11799 size=1415440308 dur=144.4s speed=9.8MB/s
+[23:12:27] step=upload start cr_film_id=11799 size=1415440308
+[23:13:27] step=upload done cr_film_id=11799 video_id=25589472 dur=59.4s speed=23.8MB/s
+[23:13:27] step=cleanup unlinked After Midnight (1989) CZ Dabing.mp4
+[23:13:27] step=film done cr_film_id=11799 total=204.8s (cdn=0.8s + download=144.4s + upload=59.4s)
+[23:13:27] step=state-saved cr_film_id=11799 (total uploads=1480)
+[23:13:27] step=iteration 5/20
+[23:13:27] step=film start cr_film_id=11937 name='Uranus (1990) CZ Dabing'
+[23:13:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44140_720p.mp4
+[23:13:30] step=cdn-resolve done 3.3s → https://online5.sktorrent.eu/media/videos//h264/44140_720p.mp4
+[23:13:30] step=download curl https://online5.sktorrent.eu/media/videos//h264/44140_720p.mp4
+[23:15:58] step=download done cr_film_id=11937 size=751270169 dur=148.0s speed=5.1MB/s
+[23:15:58] step=upload start cr_film_id=11937 size=751270169
+[23:16:36] step=upload done cr_film_id=11937 video_id=25589543 dur=37.9s speed=19.8MB/s
+[23:16:36] step=cleanup unlinked Uranus (1990) CZ Dabing.mp4
+[23:16:36] step=film done cr_film_id=11937 total=189.3s (cdn=3.3s + download=148.0s + upload=37.9s)
+[23:16:36] step=state-saved cr_film_id=11937 (total uploads=1481)
+[23:16:36] step=iteration 6/20
+[23:16:36] step=film start cr_film_id=11943 name='Makléři (1990) CZ Dabing'
+[23:16:36] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27691_720p.mp4
+[23:16:42] step=cdn-resolve done 5.8s → https://online12.sktorrent.eu/media/videos//h264/27691_720p.mp4
+[23:16:42] step=download curl https://online12.sktorrent.eu/media/videos//h264/27691_720p.mp4
+[23:17:42] step=download done cr_film_id=11943 size=504768071 dur=59.7s speed=8.5MB/s
+[23:17:42] step=upload start cr_film_id=11943 size=504768071
+[23:18:10] step=upload done cr_film_id=11943 video_id=25589571 dur=28.1s speed=18.0MB/s
+[23:18:10] step=cleanup unlinked Makléři (1990) CZ Dabing.mp4
+[23:18:10] step=film done cr_film_id=11943 total=93.6s (cdn=5.8s + download=59.7s + upload=28.1s)
+[23:18:10] step=state-saved cr_film_id=11943 (total uploads=1482)
+[23:18:10] step=iteration 7/20
+[23:18:10] step=film start cr_film_id=11949 name='Conagher (1991) CZ Dabing'
+[23:18:10] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/1133_480p.mp4
+[23:18:19] step=cdn-resolve done 9.2s → https://online24.sktorrent.eu/media/videos//h264/1133_480p.mp4
+[23:18:19] step=download curl https://online24.sktorrent.eu/media/videos//h264/1133_480p.mp4
+[23:18:47] step=download done cr_film_id=11949 size=566304244 dur=28.5s speed=19.9MB/s
+[23:18:47] step=upload start cr_film_id=11949 size=566304244
+[23:19:28] step=upload done cr_film_id=11949 video_id=25589600 dur=40.6s speed=13.9MB/s
+[23:19:28] step=cleanup unlinked Conagher (1991) CZ Dabing.mp4
+[23:19:28] step=film done cr_film_id=11949 total=78.3s (cdn=9.2s + download=28.5s + upload=40.6s)
+[23:19:28] step=state-saved cr_film_id=11949 (total uploads=1483)
+[23:19:28] step=iteration 8/20
+[23:19:28] step=film start cr_film_id=11980 name='Popkorn (1991) CZ Dabing'
+[23:19:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/23206_480p.mp4
+[23:19:38] step=cdn-resolve FAILED cr_film_id=11980 after 9.6s
+[23:19:38] step=iteration 9/20
+[23:19:38] step=film start cr_film_id=12167 name='Skřítek 2 (1994) CZ Dabing'
+[23:19:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/19045_480p.mp4
+[23:19:47] step=cdn-resolve FAILED cr_film_id=12167 after 8.8s
+[23:19:47] step=iteration 10/20
+[23:19:47] step=film start cr_film_id=12894 name='Herci (2000) CZ Dabing'
+[23:19:47] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26265_480p.mp4
+[23:19:55] step=cdn-resolve FAILED cr_film_id=12894 after 8.8s
+[23:19:55] step=iteration 11/20
+[23:19:55] step=film start cr_film_id=12931 name='Two of Us (2000) CZ Dabing'
+[23:19:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/6389_720p.mp4
+[23:19:57] step=cdn-resolve done 1.9s → https://online5.sktorrent.eu/media/videos//h264/6389_720p.mp4
+[23:19:57] step=download curl https://online5.sktorrent.eu/media/videos//h264/6389_720p.mp4
+[23:25:32] step=download done cr_film_id=12931 size=1482480769 dur=334.6s speed=4.4MB/s
+[23:25:32] step=upload start cr_film_id=12931 size=1482480769
+[23:26:40] step=upload done cr_film_id=12931 video_id=25589754 dur=67.6s speed=21.9MB/s
+[23:26:40] step=cleanup unlinked Two of Us (2000) CZ Dabing.mp4
+[23:26:40] step=film done cr_film_id=12931 total=404.4s (cdn=1.9s + download=334.6s + upload=67.6s)
+[23:26:40] step=state-saved cr_film_id=12931 (total uploads=1484)
+[23:26:40] step=iteration 12/20
+[23:26:40] step=film start cr_film_id=12966 name='Dead by Dawn (1998) CZ Dabing'
+[23:26:40] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/58683_720p.mp4
+[23:26:48] step=cdn-resolve done 7.9s → https://online20.sktorrent.eu/media/videos//h264/58683_720p.mp4
+[23:26:48] step=download curl https://online20.sktorrent.eu/media/videos//h264/58683_720p.mp4
+[23:27:55] step=download done cr_film_id=12966 size=527800232 dur=67.2s speed=7.9MB/s
+[23:27:55] step=upload start cr_film_id=12966 size=527800232
+[23:28:23] step=upload done cr_film_id=12966 video_id=25589808 dur=28.2s speed=18.7MB/s
+[23:28:23] step=cleanup unlinked Dead by Dawn (1998) CZ Dabing.mp4
+[23:28:23] step=film done cr_film_id=12966 total=103.4s (cdn=7.9s + download=67.2s + upload=28.2s)
+[23:28:23] step=state-saved cr_film_id=12966 (total uploads=1485)
+[23:28:23] step=iteration 13/20
+[23:28:23] step=film start cr_film_id=13062 name='Wishmaster 4: The Prophecy Fulfilled (2002) CZ Dabing'
+[23:28:23] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/53418_HD.mp4
+[23:28:25] step=cdn-resolve done 1.5s → https://online4.sktorrent.eu/media/videos//h264/53418_HD.mp4
+[23:28:25] step=download curl https://online4.sktorrent.eu/media/videos//h264/53418_HD.mp4
+[23:29:30] step=download done cr_film_id=13062 size=405120333 dur=65.6s speed=6.2MB/s
+[23:29:30] step=upload start cr_film_id=13062 size=405120333
+[23:29:56] step=upload done cr_film_id=13062 video_id=25589836 dur=25.7s speed=15.8MB/s
+[23:29:56] step=cleanup unlinked Wishmaster 4: The Prophecy Fulfilled (2002) CZ Dabing.mp4
+[23:29:56] step=film done cr_film_id=13062 total=92.9s (cdn=1.5s + download=65.6s + upload=25.7s)
+[23:29:56] step=state-saved cr_film_id=13062 (total uploads=1486)
+[23:29:56] step=iteration 14/20
+[23:29:56] step=film start cr_film_id=13078 name='Dvaasedmdesátka (1953) CZ'
+[23:29:56] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36295_480p.mp4
+[23:30:03] step=cdn-resolve done 7.2s → https://online19.sktorrent.eu/media/videos//h264/36295_480p.mp4
+[23:30:03] step=download curl https://online19.sktorrent.eu/media/videos//h264/36295_480p.mp4
+[23:30:21] step=download done cr_film_id=13078 size=173288549 dur=17.2s speed=10.1MB/s
+[23:30:21] step=upload start cr_film_id=13078 size=173288549
+[23:30:37] step=upload done cr_film_id=13078 video_id=25589846 dur=16.6s speed=10.4MB/s
+[23:30:37] step=cleanup unlinked Dvaasedmdesátka (1953) CZ.mp4
+[23:30:37] step=film done cr_film_id=13078 total=41.1s (cdn=7.2s + download=17.2s + upload=16.6s)
+[23:30:37] step=state-saved cr_film_id=13078 (total uploads=1487)
+[23:30:37] step=iteration 15/20
+[23:30:37] step=film start cr_film_id=13107 name='Štvanec (2003) CZ Dabing'
+[23:30:37] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36576_720p.mp4
+[23:30:41] step=cdn-resolve done 3.6s → https://online9.sktorrent.eu/media/videos//h264/36576_720p.mp4
+[23:30:41] step=download curl https://online9.sktorrent.eu/media/videos//h264/36576_720p.mp4
+[23:32:39] step=download done cr_film_id=13107 size=808994334 dur=118.7s speed=6.8MB/s
+[23:32:39] step=upload start cr_film_id=13107 size=808994334
+[23:33:27] step=upload done cr_film_id=13107 video_id=25589888 dur=47.3s speed=17.1MB/s
+[23:33:27] step=cleanup unlinked Štvanec (2003) CZ Dabing.mp4
+[23:33:27] step=film done cr_film_id=13107 total=169.8s (cdn=3.6s + download=118.7s + upload=47.3s)
+[23:33:27] step=state-saved cr_film_id=13107 (total uploads=1488)
+[23:33:27] step=iteration 16/20
+[23:33:27] step=film start cr_film_id=13151 name='Counterstrike (2002) CZ Dabing'
+[23:33:27] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44315_720p.mp4
+[23:33:31] step=cdn-resolve done 4.5s → https://online9.sktorrent.eu/media/videos//h264/44315_720p.mp4
+[23:33:31] step=download curl https://online9.sktorrent.eu/media/videos//h264/44315_720p.mp4
+[23:34:42] step=download done cr_film_id=13151 size=534720702 dur=70.4s speed=7.6MB/s
+[23:34:42] step=upload start cr_film_id=13151 size=534720702
+[23:35:14] step=upload done cr_film_id=13151 video_id=25589921 dur=31.8s speed=16.8MB/s
+[23:35:14] step=cleanup unlinked Counterstrike (2002) CZ Dabing.mp4
+[23:35:14] step=film done cr_film_id=13151 total=106.8s (cdn=4.5s + download=70.4s + upload=31.8s)
+[23:35:14] step=state-saved cr_film_id=13151 (total uploads=1489)
+[23:35:14] step=iteration 17/20
+[23:35:14] step=film start cr_film_id=13241 name='Fenomén 2 (2003) CZ Dabing'
+[23:35:14] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59134_480p.mp4
+[23:35:24] step=cdn-resolve done 10.5s → https://online25.sktorrent.eu/media/videos//h264/59134_480p.mp4
+[23:35:24] step=download curl https://online25.sktorrent.eu/media/videos//h264/59134_480p.mp4
+[23:35:33] step=download done cr_film_id=13241 size=271020557 dur=8.3s speed=32.7MB/s
+[23:35:33] step=upload start cr_film_id=13241 size=271020557
+[23:35:53] step=upload done cr_film_id=13241 video_id=25589935 dur=20.9s speed=13.0MB/s
+[23:35:54] step=cleanup unlinked Fenomén 2 (2003) CZ Dabing.mp4
+[23:35:54] step=film done cr_film_id=13241 total=39.8s (cdn=10.5s + download=8.3s + upload=20.9s)
+[23:35:54] step=state-saved cr_film_id=13241 (total uploads=1490)
+[23:35:54] step=iteration 18/20
+[23:35:54] step=film start cr_film_id=13352 name='Noise (2004) CZ Dabing'
+[23:35:54] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/49341_720p.mp4
+[23:36:00] step=cdn-resolve done 6.1s → https://online17.sktorrent.eu/media/videos//h264/49341_720p.mp4
+[23:36:00] step=download curl https://online17.sktorrent.eu/media/videos//h264/49341_720p.mp4
+[23:36:36] step=download done cr_film_id=13352 size=323496255 dur=36.8s speed=8.8MB/s
+[23:36:36] step=upload start cr_film_id=13352 size=323496255
+[23:36:59] step=upload done cr_film_id=13352 video_id=25589952 dur=22.6s speed=14.3MB/s
+[23:36:59] step=cleanup unlinked Noise (2004) CZ Dabing.mp4
+[23:36:59] step=film done cr_film_id=13352 total=65.6s (cdn=6.1s + download=36.8s + upload=22.6s)
+[23:36:59] step=state-saved cr_film_id=13352 (total uploads=1491)
+[23:36:59] step=iteration 19/20
+[23:36:59] step=film start cr_film_id=13360 name='Svítání (1933) CZ'
+[23:36:59] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/38022_480p.mp4
+[23:37:08] step=cdn-resolve done 8.6s → https://online24.sktorrent.eu/media/videos//h264/38022_480p.mp4
+[23:37:08] step=download curl https://online24.sktorrent.eu/media/videos//h264/38022_480p.mp4
+[23:37:43] step=download done cr_film_id=13360 size=313900255 dur=35.5s speed=8.8MB/s
+[23:37:43] step=upload start cr_film_id=13360 size=313900255
+[23:38:07] step=upload done cr_film_id=13360 video_id=25589975 dur=23.9s speed=13.1MB/s
+[23:38:07] step=cleanup unlinked Svítání (1933) CZ.mp4
+[23:38:07] step=film done cr_film_id=13360 total=68.0s (cdn=8.6s + download=35.5s + upload=23.9s)
+[23:38:07] step=state-saved cr_film_id=13360 (total uploads=1492)
+[23:38:07] step=iteration 20/20
+[23:38:07] step=film start cr_film_id=13369 name='Pokoj (2003) CZ Dabing'
+[23:38:07] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/4962_720p.mp4
+[23:38:08] step=cdn-resolve done 1.2s → https://online3.sktorrent.eu/media/videos//h264/4962_720p.mp4
+[23:38:08] step=download curl https://online3.sktorrent.eu/media/videos//h264/4962_720p.mp4
+[23:41:00] step=download done cr_film_id=13369 size=1406323051 dur=171.9s speed=8.2MB/s
+[23:41:00] step=upload start cr_film_id=13369 size=1406323051
+[23:42:01] step=upload done cr_film_id=13369 video_id=25590028 dur=60.6s speed=23.2MB/s
+[23:42:01] step=cleanup unlinked Pokoj (2003) CZ Dabing.mp4
+[23:42:01] step=film done cr_film_id=13369 total=233.9s (cdn=1.2s + download=171.9s + upload=60.6s)
+[23:42:01] step=state-saved cr_film_id=13369 (total uploads=1493)
+[23:42:01] step=batch-end succeeded=17 failed=3 total_uploads=1493 batch_dur=2154.5s avg_per_film=126.7s backlog_remaining=141 eta_hours=5.0

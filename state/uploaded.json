@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-06-05T23:05:50Z",
+  "last_updated": "2026-06-05T23:42:01Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -26556,6 +26556,312 @@
         "upload_sec": 36.5,
         "total_sec": 139.0
       }
+    },
+    {
+      "cr_film_id": 11340,
+      "cr_slug": "golem-1980",
+      "title": "Golem",
+      "year": 1980,
+      "sktorrent_id": 36303,
+      "prehrajto_video_id": 25589364,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:07:05Z",
+      "status": "processing",
+      "size_bytes": 387637771,
+      "timing": {
+        "cdn_resolve_sec": 10.5,
+        "download_sec": 18.0,
+        "upload_sec": 30.0,
+        "total_sec": 58.6
+      }
+    },
+    {
+      "cr_film_id": 11532,
+      "cr_slug": "mutant-1984",
+      "title": "Mutant",
+      "year": 1984,
+      "sktorrent_id": 19088,
+      "prehrajto_video_id": 25589388,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:08:51Z",
+      "status": "processing",
+      "size_bytes": 654822471,
+      "timing": {
+        "cdn_resolve_sec": 5.0,
+        "download_sec": 65.4,
+        "upload_sec": 35.7,
+        "total_sec": 106.2
+      }
+    },
+    {
+      "cr_film_id": 11785,
+      "cr_slug": "tainted-1987",
+      "title": "Tainted",
+      "year": 1987,
+      "sktorrent_id": 16862,
+      "prehrajto_video_id": 25589417,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:10:02Z",
+      "status": "processing",
+      "size_bytes": 355181334,
+      "timing": {
+        "cdn_resolve_sec": 2.7,
+        "download_sec": 45.4,
+        "upload_sec": 22.4,
+        "total_sec": 70.6
+      }
+    },
+    {
+      "cr_film_id": 11799,
+      "cr_slug": "after-midnight-1989",
+      "title": "After Midnight",
+      "year": 1989,
+      "sktorrent_id": 7727,
+      "prehrajto_video_id": 25589472,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:13:27Z",
+      "status": "processing",
+      "size_bytes": 1415440308,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 144.4,
+        "upload_sec": 59.4,
+        "total_sec": 204.8
+      }
+    },
+    {
+      "cr_film_id": 11937,
+      "cr_slug": "uranus-1990",
+      "title": "Uranus",
+      "year": 1990,
+      "sktorrent_id": 44140,
+      "prehrajto_video_id": 25589543,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:16:36Z",
+      "status": "processing",
+      "size_bytes": 751270169,
+      "timing": {
+        "cdn_resolve_sec": 3.3,
+        "download_sec": 148.0,
+        "upload_sec": 37.9,
+        "total_sec": 189.3
+      }
+    },
+    {
+      "cr_film_id": 11943,
+      "cr_slug": "makleri-1990",
+      "title": "Makléři",
+      "year": 1990,
+      "sktorrent_id": 27691,
+      "prehrajto_video_id": 25589571,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:18:10Z",
+      "status": "processing",
+      "size_bytes": 504768071,
+      "timing": {
+        "cdn_resolve_sec": 5.8,
+        "download_sec": 59.7,
+        "upload_sec": 28.1,
+        "total_sec": 93.6
+      }
+    },
+    {
+      "cr_film_id": 11949,
+      "cr_slug": "conagher-1991",
+      "title": "Conagher",
+      "year": 1991,
+      "sktorrent_id": 1133,
+      "prehrajto_video_id": 25589600,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:19:28Z",
+      "status": "processing",
+      "size_bytes": 566304244,
+      "timing": {
+        "cdn_resolve_sec": 9.2,
+        "download_sec": 28.5,
+        "upload_sec": 40.6,
+        "total_sec": 78.3
+      }
+    },
+    {
+      "cr_film_id": 12931,
+      "cr_slug": "two-of-us-2000",
+      "title": "Two of Us",
+      "year": 2000,
+      "sktorrent_id": 6389,
+      "prehrajto_video_id": 25589754,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:26:40Z",
+      "status": "processing",
+      "size_bytes": 1482480769,
+      "timing": {
+        "cdn_resolve_sec": 1.9,
+        "download_sec": 334.6,
+        "upload_sec": 67.6,
+        "total_sec": 404.4
+      }
+    },
+    {
+      "cr_film_id": 12966,
+      "cr_slug": "dead-by-dawn-1998",
+      "title": "Dead by Dawn",
+      "year": 1998,
+      "sktorrent_id": 58683,
+      "prehrajto_video_id": 25589808,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:28:23Z",
+      "status": "processing",
+      "size_bytes": 527800232,
+      "timing": {
+        "cdn_resolve_sec": 7.9,
+        "download_sec": 67.2,
+        "upload_sec": 28.2,
+        "total_sec": 103.4
+      }
+    },
+    {
+      "cr_film_id": 13062,
+      "cr_slug": "wishmaster-4-the-prophecy-fulfilled-2002",
+      "title": "Wishmaster 4: The Prophecy Fulfilled",
+      "year": 2002,
+      "sktorrent_id": 53418,
+      "prehrajto_video_id": 25589836,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:29:56Z",
+      "status": "processing",
+      "size_bytes": 405120333,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 65.6,
+        "upload_sec": 25.7,
+        "total_sec": 92.9
+      }
+    },
+    {
+      "cr_film_id": 13078,
+      "cr_slug": "dvaasedmdesatka-1953",
+      "title": "Dvaasedmdesátka",
+      "year": 1953,
+      "sktorrent_id": 36295,
+      "prehrajto_video_id": 25589846,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:30:37Z",
+      "status": "processing",
+      "size_bytes": 173288549,
+      "timing": {
+        "cdn_resolve_sec": 7.2,
+        "download_sec": 17.2,
+        "upload_sec": 16.6,
+        "total_sec": 41.1
+      }
+    },
+    {
+      "cr_film_id": 13107,
+      "cr_slug": "stvanec-2003",
+      "title": "Štvanec",
+      "year": 2003,
+      "sktorrent_id": 36576,
+      "prehrajto_video_id": 25589888,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:33:27Z",
+      "status": "processing",
+      "size_bytes": 808994334,
+      "timing": {
+        "cdn_resolve_sec": 3.6,
+        "download_sec": 118.7,
+        "upload_sec": 47.3,
+        "total_sec": 169.8
+      }
+    },
+    {
+      "cr_film_id": 13151,
+      "cr_slug": "counterstrike-2002",
+      "title": "Counterstrike",
+      "year": 2002,
+      "sktorrent_id": 44315,
+      "prehrajto_video_id": 25589921,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:35:14Z",
+      "status": "processing",
+      "size_bytes": 534720702,
+      "timing": {
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 70.4,
+        "upload_sec": 31.8,
+        "total_sec": 106.8
+      }
+    },
+    {
+      "cr_film_id": 13241,
+      "cr_slug": "fenomen-2-2003",
+      "title": "Fenomén 2",
+      "year": 2003,
+      "sktorrent_id": 59134,
+      "prehrajto_video_id": 25589935,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:35:54Z",
+      "status": "processing",
+      "size_bytes": 271020557,
+      "timing": {
+        "cdn_resolve_sec": 10.5,
+        "download_sec": 8.3,
+        "upload_sec": 20.9,
+        "total_sec": 39.8
+      }
+    },
+    {
+      "cr_film_id": 13352,
+      "cr_slug": "noise-2004",
+      "title": "Noise",
+      "year": 2004,
+      "sktorrent_id": 49341,
+      "prehrajto_video_id": 25589952,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:36:59Z",
+      "status": "processing",
+      "size_bytes": 323496255,
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 36.8,
+        "upload_sec": 22.6,
+        "total_sec": 65.6
+      }
+    },
+    {
+      "cr_film_id": 13360,
+      "cr_slug": "svitani-1933",
+      "title": "Svítání",
+      "year": 1933,
+      "sktorrent_id": 38022,
+      "prehrajto_video_id": 25589975,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:38:07Z",
+      "status": "processing",
+      "size_bytes": 313900255,
+      "timing": {
+        "cdn_resolve_sec": 8.6,
+        "download_sec": 35.5,
+        "upload_sec": 23.9,
+        "total_sec": 68.0
+      }
+    },
+    {
+      "cr_film_id": 13369,
+      "cr_slug": "pokoj-2003",
+      "title": "Pokoj",
+      "year": 2003,
+      "sktorrent_id": 4962,
+      "prehrajto_video_id": 25590028,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T23:42:01Z",
+      "status": "processing",
+      "size_bytes": 1406323051,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 171.9,
+        "upload_sec": 60.6,
+        "total_sec": 233.9
+      }
     }
   ],
   "moderated_out": [
@@ -30275,6 +30581,39 @@
       "failed_at": "2026-06-05T22:55:22Z",
       "timing": {
         "cdn_resolve_sec": 9.3
+      }
+    },
+    {
+      "cr_film_id": 11980,
+      "cr_slug": "popkorn-1991",
+      "title": "Popkorn",
+      "year": 1991,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T23:19:38Z",
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
+    },
+    {
+      "cr_film_id": 12167,
+      "cr_slug": "skritek-2-1994",
+      "title": "Skřítek 2",
+      "year": 1994,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T23:19:47Z",
+      "timing": {
+        "cdn_resolve_sec": 8.8
+      }
+    },
+    {
+      "cr_film_id": 12894,
+      "cr_slug": "herci-2000",
+      "title": "Herci",
+      "year": 2000,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T23:19:55Z",
+      "timing": {
+        "cdn_resolve_sec": 8.8
       }
     }
   ]
