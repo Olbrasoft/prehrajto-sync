@@ -16939,3 +16939,20 @@
 [14:12:24] step=iteration 1/20
 [14:12:24] step=batch-end backlog vyčerpán
 [14:12:24] step=batch-end succeeded=0 failed=0 total_uploads=1392 batch_dur=0.0s avg_per_film=0s backlog_remaining=242 eta_hours=None
+
+===== run 2026-06-05T15:46:31Z batch_size=1 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/27024868975) =====
+[15:46:32] step=batch-start count=1 backlog=1636 uploads=1392 moderated=2
+[15:46:32] step=login
+[15:46:34] step=login done
+[15:46:34] step=iteration 1/1
+[15:46:34] step=film start cr_film_id=2523 name='Exhuma (2024) CZ Dabing'
+[15:46:34] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/36751_720p.mp4
+[15:46:42] step=cdn-resolve done 8.6s → https://online16.sktorrent.eu/media/videos//h264/36751_720p.mp4
+[15:46:42] step=download curl https://online16.sktorrent.eu/media/videos//h264/36751_720p.mp4
+[15:46:50] step=download done cr_film_id=2523 size=64336545 dur=7.1s speed=9.1MB/s
+[15:46:50] step=upload start cr_film_id=2523 size=64336545
+[15:46:56] step=upload done cr_film_id=2523 video_id=25569924 dur=6.1s speed=10.5MB/s
+[15:46:56] step=cleanup unlinked Exhuma (2024) CZ Dabing.mp4
+[15:46:56] step=film done cr_film_id=2523 total=21.8s (cdn=8.6s + download=7.1s + upload=6.1s)
+[15:46:56] step=state-saved cr_film_id=2523 (total uploads=1393)
+[15:46:56] step=batch-end succeeded=1 failed=0 total_uploads=1393 batch_dur=21.8s avg_per_film=21.8s backlog_remaining=241 eta_hours=1.5
