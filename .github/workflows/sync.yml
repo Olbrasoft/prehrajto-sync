@@ -45,6 +45,10 @@ jobs:
         env:
           PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+          # Current enriched backlog already encodes CZ/SK suitability.
+          # Many rows do not have detected_language, so the legacy runtime
+          # audio filter would skip them all.
+          REQUIRE_CS_AUDIO: "false"
         run: |
           python src/sync_batch.py --count "${{ inputs.batch_size }}"
 
