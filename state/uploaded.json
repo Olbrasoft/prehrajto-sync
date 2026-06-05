@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-06-05T15:17:37Z",
+  "last_updated": "2026-06-05T15:42:40Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -25385,6 +25385,150 @@
         "download_sec": 141.7,
         "upload_sec": 49.4,
         "total_sec": 198.0
+      }
+    },
+    {
+      "cr_film_id": 7584,
+      "cr_slug": "vhs94",
+      "title": "V/H/S/94",
+      "year": 2021,
+      "sktorrent_id": 19727,
+      "prehrajto_video_id": 25569440,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:24:35Z",
+      "status": "processing",
+      "size_bytes": 1164480696,
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 218.3,
+        "upload_sec": 72.9,
+        "total_sec": 297.5
+      }
+    },
+    {
+      "cr_film_id": 8702,
+      "cr_slug": "vhs99",
+      "title": "V/H/S/99",
+      "year": 2022,
+      "sktorrent_id": 27792,
+      "prehrajto_video_id": 25569546,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:29:24Z",
+      "status": "processing",
+      "size_bytes": 1273697310,
+      "timing": {
+        "cdn_resolve_sec": 3.5,
+        "download_sec": 219.1,
+        "upload_sec": 66.0,
+        "total_sec": 288.8
+      }
+    },
+    {
+      "cr_film_id": 9348,
+      "cr_slug": "two-witches",
+      "title": "Dvě čarodějnice",
+      "year": 2021,
+      "sktorrent_id": 26027,
+      "prehrajto_video_id": 25569585,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:30:28Z",
+      "status": "processing",
+      "size_bytes": 426351673,
+      "timing": {
+        "cdn_resolve_sec": 14.0,
+        "download_sec": 17.7,
+        "upload_sec": 32.2,
+        "total_sec": 64.0
+      }
+    },
+    {
+      "cr_film_id": 7962,
+      "cr_slug": "kletba",
+      "title": "Znamení voodoo",
+      "year": 2020,
+      "sktorrent_id": 13744,
+      "prehrajto_video_id": 25569637,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:32:58Z",
+      "status": "processing",
+      "size_bytes": 546999904,
+      "timing": {
+        "cdn_resolve_sec": 3.4,
+        "download_sec": 113.3,
+        "upload_sec": 32.7,
+        "total_sec": 149.5
+      }
+    },
+    {
+      "cr_film_id": 9449,
+      "cr_slug": "stiny-z-podkrovi",
+      "title": "Stíny z podkroví",
+      "year": 2021,
+      "sktorrent_id": 18408,
+      "prehrajto_video_id": 25569682,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:35:06Z",
+      "status": "processing",
+      "size_bytes": 471823812,
+      "timing": {
+        "cdn_resolve_sec": 5.4,
+        "download_sec": 97.6,
+        "upload_sec": 25.6,
+        "total_sec": 128.7
+      }
+    },
+    {
+      "cr_film_id": 9341,
+      "cr_slug": "after-pouto",
+      "title": "After: Pouto",
+      "year": 2022,
+      "sktorrent_id": 51466,
+      "prehrajto_video_id": 25569723,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:36:40Z",
+      "status": "processing",
+      "size_bytes": 438254590,
+      "timing": {
+        "cdn_resolve_sec": 12.9,
+        "download_sec": 56.1,
+        "upload_sec": 24.2,
+        "total_sec": 93.2
+      }
+    },
+    {
+      "cr_film_id": 9643,
+      "cr_slug": "rbitov-zviratek-pokrevni-linie",
+      "title": "Řbitov zvířátek: Pokrevní linie",
+      "year": 2023,
+      "sktorrent_id": 32654,
+      "prehrajto_video_id": 25569752,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:38:15Z",
+      "status": "processing",
+      "size_bytes": 396008304,
+      "timing": {
+        "cdn_resolve_sec": 7.5,
+        "download_sec": 63.2,
+        "upload_sec": 24.6,
+        "total_sec": 95.3
+      }
+    },
+    {
+      "cr_film_id": 15800,
+      "cr_slug": "shin-evangelion-gekijoban-2021",
+      "title": "Shin Evangelion gekijōban:||",
+      "year": 2021,
+      "sktorrent_id": 32174,
+      "prehrajto_video_id": 25569808,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:42:40Z",
+      "status": "processing",
+      "size_bytes": 1032655504,
+      "timing": {
+        "cdn_resolve_sec": 6.6,
+        "download_sec": 182.4,
+        "upload_sec": 75.9,
+        "total_sec": 265.1
       }
     }
   ],
