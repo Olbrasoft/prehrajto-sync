@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-05-04T10:00:08Z",
+  "last_updated": "2026-06-05T15:17:37Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -25044,6 +25044,348 @@
         "upload_sec": 65.5,
         "total_sec": 116.8
       }
+    },
+    {
+      "cr_film_id": 2523,
+      "cr_slug": "exhuma",
+      "title": "Exhuma",
+      "year": 2024,
+      "sktorrent_id": 36751,
+      "prehrajto_video_id": 25567697,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:14:29Z",
+      "status": "processing",
+      "size_bytes": 64336545,
+      "timing": {
+        "cdn_resolve_sec": 10.1,
+        "download_sec": 9.9,
+        "upload_sec": 10.3,
+        "total_sec": 30.3
+      }
+    },
+    {
+      "cr_film_id": 1594,
+      "cr_slug": "zelvy-ninja-mutanti-chaos",
+      "title": "Želvy Ninja: Mutantí chaos",
+      "year": 2023,
+      "sktorrent_id": 32445,
+      "prehrajto_video_id": 25567778,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:19:09Z",
+      "status": "processing",
+      "size_bytes": 1010622944,
+      "timing": {
+        "cdn_resolve_sec": 13.2,
+        "download_sec": 198.0,
+        "upload_sec": 68.0,
+        "total_sec": 279.4
+      }
+    },
+    {
+      "cr_film_id": 2966,
+      "cr_slug": "kingdom",
+      "title": "Kingdom",
+      "year": 2019,
+      "sktorrent_id": 30200,
+      "prehrajto_video_id": 25567879,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:22:57Z",
+      "status": "processing",
+      "size_bytes": 895364343,
+      "timing": {
+        "cdn_resolve_sec": 11.9,
+        "download_sec": 153.1,
+        "upload_sec": 63.0,
+        "total_sec": 228.1
+      }
+    },
+    {
+      "cr_film_id": 2190,
+      "cr_slug": "kalki-2898-ad",
+      "title": "Kalki 2898-AD",
+      "year": 2024,
+      "sktorrent_id": 39360,
+      "prehrajto_video_id": 25568018,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:29:02Z",
+      "status": "processing",
+      "size_bytes": 1191253728,
+      "timing": {
+        "cdn_resolve_sec": 5.6,
+        "download_sec": 265.8,
+        "upload_sec": 94.0,
+        "total_sec": 365.6
+      }
+    },
+    {
+      "cr_film_id": 3756,
+      "cr_slug": "svata-maud",
+      "title": "Svatá Maud",
+      "year": 2019,
+      "sktorrent_id": 15608,
+      "prehrajto_video_id": 25568321,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:39:35Z",
+      "status": "processing",
+      "size_bytes": 319882352,
+      "timing": {
+        "cdn_resolve_sec": 2.6,
+        "download_sec": 57.0,
+        "upload_sec": 31.2,
+        "total_sec": 90.9
+      }
+    },
+    {
+      "cr_film_id": 2503,
+      "cr_slug": "nickel-boys",
+      "title": "Chlapci z nickelu",
+      "year": 2024,
+      "sktorrent_id": 44251,
+      "prehrajto_video_id": 25568387,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:41:56Z",
+      "status": "processing",
+      "size_bytes": 685135640,
+      "timing": {
+        "cdn_resolve_sec": 11.3,
+        "download_sec": 87.2,
+        "upload_sec": 42.1,
+        "total_sec": 140.7
+      }
+    },
+    {
+      "cr_film_id": 6007,
+      "cr_slug": "vichr-3",
+      "title": "Rychlý jako vítr 3 - Cesta do Ory",
+      "year": 2017,
+      "sktorrent_id": 604,
+      "prehrajto_video_id": 25568456,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:44:12Z",
+      "status": "processing",
+      "size_bytes": 481600840,
+      "timing": {
+        "cdn_resolve_sec": 15.3,
+        "download_sec": 93.5,
+        "upload_sec": 27.9,
+        "total_sec": 136.8
+      }
+    },
+    {
+      "cr_film_id": 9388,
+      "cr_slug": "kobiety-mafii",
+      "title": "Ženy mafiánů",
+      "year": 2018,
+      "sktorrent_id": 1227,
+      "prehrajto_video_id": 25568573,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:49:17Z",
+      "status": "processing",
+      "size_bytes": 1461510767,
+      "timing": {
+        "cdn_resolve_sec": 11.3,
+        "download_sec": 202.3,
+        "upload_sec": 90.5,
+        "total_sec": 304.4
+      }
+    },
+    {
+      "cr_film_id": 7500,
+      "cr_slug": "argylle-tajny-agent",
+      "title": "Argylle: Tajný agent",
+      "year": 2024,
+      "sktorrent_id": 34857,
+      "prehrajto_video_id": 25568666,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:52:08Z",
+      "status": "processing",
+      "size_bytes": 844736565,
+      "timing": {
+        "cdn_resolve_sec": 10.6,
+        "download_sec": 110.6,
+        "upload_sec": 50.1,
+        "total_sec": 171.4
+      }
+    },
+    {
+      "cr_film_id": 6198,
+      "cr_slug": "gyoseob",
+      "title": "The Point Men",
+      "year": 2023,
+      "sktorrent_id": 32375,
+      "prehrajto_video_id": 25568726,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:54:54Z",
+      "status": "processing",
+      "size_bytes": 596039875,
+      "timing": {
+        "cdn_resolve_sec": 11.6,
+        "download_sec": 103.7,
+        "upload_sec": 50.1,
+        "total_sec": 165.5
+      }
+    },
+    {
+      "cr_film_id": 6171,
+      "cr_slug": "dobrodruzstvi-knihomolky",
+      "title": "Dobrodružství knihomolky",
+      "year": 2024,
+      "sktorrent_id": 44318,
+      "prehrajto_video_id": 25568777,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T14:56:39Z",
+      "status": "processing",
+      "size_bytes": 465690166,
+      "timing": {
+        "cdn_resolve_sec": 7.7,
+        "download_sec": 64.8,
+        "upload_sec": 33.2,
+        "total_sec": 105.8
+      }
+    },
+    {
+      "cr_film_id": 7317,
+      "cr_slug": "what-keeps-you-alive",
+      "title": "Co tě drží naživu",
+      "year": 2018,
+      "sktorrent_id": 1170,
+      "prehrajto_video_id": 25568899,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:02:28Z",
+      "status": "processing",
+      "size_bytes": 891215468,
+      "timing": {
+        "cdn_resolve_sec": 11.9,
+        "download_sec": 283.2,
+        "upload_sec": 53.0,
+        "total_sec": 348.3
+      }
+    },
+    {
+      "cr_film_id": 8671,
+      "cr_slug": "la-nina-de-la-comunion",
+      "title": "The Communion Girl",
+      "year": 2023,
+      "sktorrent_id": 30427,
+      "prehrajto_video_id": 25568973,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:05:06Z",
+      "status": "processing",
+      "size_bytes": 499165604,
+      "timing": {
+        "cdn_resolve_sec": 5.2,
+        "download_sec": 107.3,
+        "upload_sec": 45.3,
+        "total_sec": 157.8
+      }
+    },
+    {
+      "cr_film_id": 8106,
+      "cr_slug": "mel-jsi-odejit",
+      "title": "Měli jste odejít",
+      "year": 2020,
+      "sktorrent_id": 11749,
+      "prehrajto_video_id": 25569039,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:07:20Z",
+      "status": "processing",
+      "size_bytes": 506498099,
+      "timing": {
+        "cdn_resolve_sec": 3.9,
+        "download_sec": 97.1,
+        "upload_sec": 33.1,
+        "total_sec": 134.1
+      }
+    },
+    {
+      "cr_film_id": 7831,
+      "cr_slug": "krutas-od-prirody",
+      "title": "Kruťas od přírody",
+      "year": 2024,
+      "sktorrent_id": 37845,
+      "prehrajto_video_id": 25569117,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:10:03Z",
+      "status": "processing",
+      "size_bytes": 571619820,
+      "timing": {
+        "cdn_resolve_sec": 13.9,
+        "download_sec": 104.9,
+        "upload_sec": 44.4,
+        "total_sec": 163.3
+      }
+    },
+    {
+      "cr_film_id": 7581,
+      "cr_slug": "the-feast",
+      "title": "Gwleđđ",
+      "year": 2021,
+      "sktorrent_id": 20099,
+      "prehrajto_video_id": 25569170,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:11:22Z",
+      "status": "processing",
+      "size_bytes": 303707777,
+      "timing": {
+        "cdn_resolve_sec": 8.9,
+        "download_sec": 43.2,
+        "upload_sec": 26.9,
+        "total_sec": 79.1
+      }
+    },
+    {
+      "cr_film_id": 8146,
+      "cr_slug": "v-temnotach",
+      "title": "Out of Darkness",
+      "year": 2022,
+      "sktorrent_id": 34845,
+      "prehrajto_video_id": 25569201,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:12:22Z",
+      "status": "processing",
+      "size_bytes": 331846344,
+      "timing": {
+        "cdn_resolve_sec": 13.5,
+        "download_sec": 23.6,
+        "upload_sec": 22.6,
+        "total_sec": 59.7
+      }
+    },
+    {
+      "cr_film_id": 5786,
+      "cr_slug": "pemandi-jenazah",
+      "title": "Myčka mrtvol",
+      "year": 2024,
+      "sktorrent_id": 38550,
+      "prehrajto_video_id": 25569242,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:14:19Z",
+      "status": "processing",
+      "size_bytes": 401722236,
+      "timing": {
+        "cdn_resolve_sec": 12.3,
+        "download_sec": 76.6,
+        "upload_sec": 28.3,
+        "total_sec": 117.3
+      }
+    },
+    {
+      "cr_film_id": 8732,
+      "cr_slug": "cerny-ostrov",
+      "title": "Černý ostrov",
+      "year": 2021,
+      "sktorrent_id": 19021,
+      "prehrajto_video_id": 25569306,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T15:17:37Z",
+      "status": "processing",
+      "size_bytes": 645599188,
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 141.7,
+        "upload_sec": 49.4,
+        "total_sec": 198.0
+      }
     }
   ],
   "moderated_out": [
@@ -28571,6 +28913,18 @@
       "failed_at": "2026-05-03T21:48:38Z",
       "timing": {
         "cdn_resolve_sec": 16.4
+      }
+    },
+    {
+      "cr_film_id": 1149,
+      "cr_slug": "zena-na-valecne-stezce",
+      "title": "Žena na válečné stezce",
+      "year": 2018,
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 674247951 out of 1280650732 bytes received",
+      "failed_at": "2026-06-05T14:38:04Z",
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 540.0
       }
     }
   ]
