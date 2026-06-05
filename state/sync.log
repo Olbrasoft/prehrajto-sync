@@ -17170,3 +17170,186 @@
 [17:13:35] step=film done cr_film_id=7584 total=467.8s (cdn=14.1s + download=364.4s + upload=89.1s)
 [17:13:35] step=state-saved cr_film_id=7584 (total uploads=1411)
 [17:13:35] step=batch-end succeeded=18 failed=2 total_uploads=1411 batch_dur=4911.9s avg_per_film=272.9s backlog_remaining=223 eta_hours=16.9
+
+===== run 2026-06-05T19:03:05Z batch_size=20 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/27034470358) =====
+[19:03:06] step=batch-start count=20 backlog=1636 uploads=1411 moderated=2
+[19:03:06] step=login
+[19:03:06] step=login done
+[19:03:06] step=iteration 1/20
+[19:03:06] step=film start cr_film_id=8702 name='V/H/S/99 (2022) CZ Dabing'
+[19:03:06] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27792_720p.mp4
+[19:03:44] step=cdn-resolve FAILED cr_film_id=8702 after 37.6s
+[19:03:44] step=iteration 2/20
+[19:03:44] step=film start cr_film_id=9348 name='Dvě čarodějnice (2021) CZ Dabing'
+[19:03:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/26027_720p.mp4
+[19:04:19] step=cdn-resolve done 35.2s → https://online25.sktorrent.eu/media/videos//h264/26027_720p.mp4
+[19:04:19] step=download curl https://online25.sktorrent.eu/media/videos//h264/26027_720p.mp4
+[19:04:31] step=download done cr_film_id=9348 size=426351673 dur=12.3s speed=34.7MB/s
+[19:04:31] step=upload start cr_film_id=9348 size=426351673
+[19:04:57] step=upload done cr_film_id=9348 video_id=25574141 dur=25.6s speed=16.7MB/s
+[19:04:57] step=cleanup unlinked Dvě čarodějnice (2021) CZ Dabing.mp4
+[19:04:57] step=film done cr_film_id=9348 total=73.2s (cdn=35.2s + download=12.3s + upload=25.6s)
+[19:04:57] step=state-saved cr_film_id=9348 (total uploads=1412)
+[19:04:57] step=iteration 3/20
+[19:04:57] step=film start cr_film_id=7962 name='Znamení voodoo (2020) CZ Dabing'
+[19:04:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/13744_720p.mp4
+[19:05:35] step=cdn-resolve FAILED cr_film_id=7962 after 38.4s
+[19:05:35] step=iteration 4/20
+[19:05:35] step=film start cr_film_id=9449 name='Stíny z podkroví (2021) CZ Dabing'
+[19:05:35] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18408_720p.mp4
+[19:06:03] step=cdn-resolve done 27.7s → https://online9.sktorrent.eu/media/videos//h264/18408_720p.mp4
+[19:06:03] step=download curl https://online9.sktorrent.eu/media/videos//h264/18408_720p.mp4
+[19:08:18] step=download done cr_film_id=9449 size=471823812 dur=134.6s speed=3.5MB/s
+[19:08:18] step=upload start cr_film_id=9449 size=471823812
+[19:08:49] step=upload done cr_film_id=9449 video_id=25574220 dur=31.1s speed=15.2MB/s
+[19:08:49] step=cleanup unlinked Stíny z podkroví (2021) CZ Dabing.mp4
+[19:08:49] step=film done cr_film_id=9449 total=193.4s (cdn=27.7s + download=134.6s + upload=31.1s)
+[19:08:49] step=state-saved cr_film_id=9449 (total uploads=1413)
+[19:08:49] step=iteration 5/20
+[19:08:49] step=film start cr_film_id=9341 name='After: Pouto (2022) CZ Dabing'
+[19:08:49] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/51466_720p.mp4
+[19:09:19] step=cdn-resolve done 30.1s → https://online23.sktorrent.eu/media/videos//h264/51466_720p.mp4
+[19:09:19] step=download curl https://online23.sktorrent.eu/media/videos//h264/51466_720p.mp4
+[19:11:08] step=download done cr_film_id=9341 size=438254590 dur=109.1s speed=4.0MB/s
+[19:11:08] step=upload start cr_film_id=9341 size=438254590
+[19:11:39] step=upload done cr_film_id=9341 video_id=25574293 dur=31.3s speed=14.0MB/s
+[19:11:39] step=cleanup unlinked After: Pouto (2022) CZ Dabing.mp4
+[19:11:39] step=film done cr_film_id=9341 total=170.6s (cdn=30.1s + download=109.1s + upload=31.3s)
+[19:11:39] step=state-saved cr_film_id=9341 (total uploads=1414)
+[19:11:39] step=iteration 6/20
+[19:11:39] step=film start cr_film_id=9643 name='Řbitov zvířátek: Pokrevní linie (2023) CZ Dabing'
+[19:11:39] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32654_720p.mp4
+[19:12:00] step=cdn-resolve done 21.0s → https://online13.sktorrent.eu/media/videos//h264/32654_720p.mp4
+[19:12:00] step=download curl https://online13.sktorrent.eu/media/videos//h264/32654_720p.mp4
+[19:13:03] step=download done cr_film_id=9643 size=396008304 dur=62.4s speed=6.3MB/s
+[19:13:03] step=upload start cr_film_id=9643 size=396008304
+[19:13:28] step=upload done cr_film_id=9643 video_id=25574331 dur=25.3s speed=15.7MB/s
+[19:13:28] step=cleanup unlinked Řbitov zvířátek: Pokrevní linie (2023) CZ Dabing.mp4
+[19:13:28] step=film done cr_film_id=9643 total=108.7s (cdn=21.0s + download=62.4s + upload=25.3s)
+[19:13:28] step=state-saved cr_film_id=9643 (total uploads=1415)
+[19:13:28] step=iteration 7/20
+[19:13:28] step=film start cr_film_id=15800 name='Shin Evangelion gekijōban:|| (2021) CZ Dabing'
+[19:13:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/32174_720p.mp4
+[19:13:49] step=cdn-resolve done 20.6s → https://online12.sktorrent.eu/media/videos//h264/32174_720p.mp4
+[19:13:49] step=download curl https://online12.sktorrent.eu/media/videos//h264/32174_720p.mp4
+[19:19:08] step=download done cr_film_id=15800 size=1032655504 dur=319.2s speed=3.2MB/s
+[19:19:08] step=upload start cr_film_id=15800 size=1032655504
+[19:19:57] step=upload done cr_film_id=15800 video_id=25574464 dur=49.4s speed=20.9MB/s
+[19:19:57] step=cleanup unlinked Shin Evangelion gekijōban:|| (2021) CZ Dabing.mp4
+[19:19:57] step=film done cr_film_id=15800 total=389.3s (cdn=20.6s + download=319.2s + upload=49.4s)
+[19:19:57] step=state-saved cr_film_id=15800 (total uploads=1416)
+[19:19:57] step=iteration 8/20
+[19:19:57] step=film start cr_film_id=17068 name='Life in a Year (2020) CZ Dabing'
+[19:19:57] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/14169_720p.mp4
+[19:20:30] step=cdn-resolve FAILED cr_film_id=17068 after 32.9s
+[19:20:30] step=iteration 9/20
+[19:20:30] step=film start cr_film_id=12234 name='Godzilla vs Destoroyah (1995) CZ Dabing'
+[19:20:30] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/3729_720p.mp4
+[19:20:55] step=cdn-resolve done 24.1s → https://online23.sktorrent.eu/media/videos//h264/3729_720p.mp4
+[19:20:55] step=download curl https://online23.sktorrent.eu/media/videos//h264/3729_720p.mp4
+[19:29:55] step=download FAILED cr_film_id=12234 after 540.0s err=curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 1397311951 out of 1755849668 bytes received
+[19:29:55] step=iteration 10/20
+[19:29:55] step=film start cr_film_id=10591 name='Luca | CZ (2021) CZ'
+[19:29:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/18160_720p.mp4
+[19:30:13] step=cdn-resolve done 18.0s → https://online8.sktorrent.eu/media/videos//h264/18160_720p.mp4
+[19:30:13] step=download curl https://online8.sktorrent.eu/media/videos//h264/18160_720p.mp4
+[19:34:09] step=download done cr_film_id=10591 size=899947720 dur=236.4s speed=3.8MB/s
+[19:34:09] step=upload start cr_film_id=10591 size=899947720
+[19:34:53] step=upload done cr_film_id=10591 video_id=25575162 dur=43.5s speed=20.7MB/s
+[19:34:53] step=cleanup unlinked Luca | CZ (2021) CZ.mp4
+[19:34:53] step=film done cr_film_id=10591 total=298.0s (cdn=18.0s + download=236.4s + upload=43.5s)
+[19:34:53] step=state-saved cr_film_id=10591 (total uploads=1417)
+[19:34:53] step=iteration 11/20
+[19:34:53] step=film start cr_film_id=14516 name='The Calm Beyond (2020) CZ Dabing'
+[19:34:53] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/22413_720p.mp4
+[19:35:28] step=cdn-resolve FAILED cr_film_id=14516 after 35.3s
+[19:35:28] step=iteration 12/20
+[19:35:28] step=film start cr_film_id=12820 name='Gamera 3: Džašin kakusei (1999) CZ Dabing'
+[19:35:28] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/13763_720p.mp4
+[19:35:49] step=cdn-resolve done 20.8s → https://online17.sktorrent.eu/media/videos//h264/13763_720p.mp4
+[19:35:49] step=download curl https://online17.sktorrent.eu/media/videos//h264/13763_720p.mp4
+[19:44:31] step=download done cr_film_id=12820 size=881167409 dur=522.0s speed=1.7MB/s
+[19:44:31] step=upload start cr_film_id=12820 size=881167409
+[19:45:17] step=upload done cr_film_id=12820 video_id=25585121 dur=46.5s speed=18.9MB/s
+[19:45:18] step=cleanup unlinked Gamera 3: Džašin kakusei (1999) CZ Dabing.mp4
+[19:45:18] step=film done cr_film_id=12820 total=589.5s (cdn=20.8s + download=522.0s + upload=46.5s)
+[19:45:18] step=state-saved cr_film_id=12820 (total uploads=1418)
+[19:45:18] step=iteration 13/20
+[19:45:18] step=film start cr_film_id=14191 name='Když promluvila (2022) CZ Dabing'
+[19:45:18] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/27648_720p.mp4
+[19:45:32] step=cdn-resolve done 14.1s → https://online14.sktorrent.eu/media/videos//h264/27648_720p.mp4
+[19:45:32] step=download curl https://online14.sktorrent.eu/media/videos//h264/27648_720p.mp4
+[19:48:15] step=download done cr_film_id=14191 size=600197179 dur=163.2s speed=3.7MB/s
+[19:48:15] step=upload start cr_film_id=14191 size=600197179
+[19:48:58] step=upload done cr_film_id=14191 video_id=25585203 dur=42.6s speed=14.1MB/s
+[19:48:58] step=cleanup unlinked Když promluvila (2022) CZ Dabing.mp4
+[19:48:58] step=film done cr_film_id=14191 total=220.0s (cdn=14.1s + download=163.2s + upload=42.6s)
+[19:48:58] step=state-saved cr_film_id=14191 (total uploads=1419)
+[19:48:58] step=iteration 14/20
+[19:48:58] step=film start cr_film_id=15566 name='Eye for an Eye (2022) CZ Dabing'
+[19:48:58] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44850_720p.mp4
+[19:49:01] step=cdn-resolve done 3.4s → https://online8.sktorrent.eu/media/videos//h264/44850_720p.mp4
+[19:49:01] step=download curl https://online8.sktorrent.eu/media/videos//h264/44850_720p.mp4
+[19:52:03] step=download done cr_film_id=15566 size=582243394 dur=182.0s speed=3.2MB/s
+[19:52:03] step=upload start cr_film_id=15566 size=582243394
+[19:52:38] step=upload done cr_film_id=15566 video_id=25585287 dur=35.2s speed=16.5MB/s
+[19:52:38] step=cleanup unlinked Eye for an Eye (2022) CZ Dabing.mp4
+[19:52:38] step=film done cr_film_id=15566 total=220.7s (cdn=3.4s + download=182.0s + upload=35.2s)
+[19:52:38] step=state-saved cr_film_id=15566 (total uploads=1420)
+[19:52:38] step=iteration 15/20
+[19:52:38] step=film start cr_film_id=11375 name='The Decline of Western Civilization (1981) CZ Dabing'
+[19:52:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/12474_720p.mp4
+[19:52:49] step=cdn-resolve done 10.9s → https://online7.sktorrent.eu/media/videos//h264/12474_720p.mp4
+[19:52:49] step=download curl https://online7.sktorrent.eu/media/videos//h264/12474_720p.mp4
+[19:54:27] step=download done cr_film_id=11375 size=426881359 dur=97.3s speed=4.4MB/s
+[19:54:27] step=upload start cr_film_id=11375 size=426881359
+[19:55:05] step=upload done cr_film_id=11375 video_id=25585367 dur=38.0s speed=11.2MB/s
+[19:55:05] step=cleanup unlinked The Decline of Western Civilization (1981) CZ Dabing.mp4
+[19:55:05] step=film done cr_film_id=11375 total=146.2s (cdn=10.9s + download=97.3s + upload=38.0s)
+[19:55:05] step=state-saved cr_film_id=11375 (total uploads=1421)
+[19:55:05] step=iteration 16/20
+[19:55:05] step=film start cr_film_id=14171 name='Mapa dokonalých maličkostí (2021) CZ Dabing'
+[19:55:05] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/15801_720p.mp4
+[19:55:24] step=cdn-resolve done 19.2s → https://online12.sktorrent.eu/media/videos//h264/15801_720p.mp4
+[19:55:24] step=download curl https://online12.sktorrent.eu/media/videos//h264/15801_720p.mp4
+[19:58:02] step=download done cr_film_id=14171 size=659336551 dur=158.4s speed=4.2MB/s
+[19:58:02] step=upload start cr_film_id=14171 size=659336551
+[19:58:38] step=upload done cr_film_id=14171 video_id=25585453 dur=36.0s speed=18.3MB/s
+[19:58:38] step=cleanup unlinked Mapa dokonalých maličkostí (2021) CZ Dabing.mp4
+[19:58:38] step=film done cr_film_id=14171 total=213.7s (cdn=19.2s + download=158.4s + upload=36.0s)
+[19:58:38] step=state-saved cr_film_id=14171 (total uploads=1422)
+[19:58:38] step=iteration 17/20
+[19:58:38] step=film start cr_film_id=15988 name='Do Patti (2024) CZ Dabing'
+[19:58:38] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/40771_720p.mp4
+[19:58:50] step=cdn-resolve done 11.9s → https://online9.sktorrent.eu/media/videos//h264/40771_720p.mp4
+[19:58:50] step=download curl https://online9.sktorrent.eu/media/videos//h264/40771_720p.mp4
+[20:07:50] step=download FAILED cr_film_id=15988 after 540.0s err=curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 307920896 out of 578524675 bytes received
+[20:07:50] step=iteration 18/20
+[20:07:50] step=film start cr_film_id=14755 name='Beavis and Butt-Head Do the Universe (2022) CZ Dabing'
+[20:07:50] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/25620_720p.mp4
+[20:08:10] step=cdn-resolve done 19.3s → https://online19.sktorrent.eu/media/videos//h264/25620_720p.mp4
+[20:08:10] step=download curl https://online19.sktorrent.eu/media/videos//h264/25620_720p.mp4
+[20:11:04] step=download done cr_film_id=14755 size=569529803 dur=174.2s speed=3.3MB/s
+[20:11:04] step=upload start cr_film_id=14755 size=569529803
+[20:12:01] step=upload done cr_film_id=14755 video_id=25585729 dur=57.6s speed=9.9MB/s
+[20:12:02] step=cleanup unlinked Beavis and Butt-Head Do the Universe (2022) CZ Dabing.mp4
+[20:12:02] step=film done cr_film_id=14755 total=251.2s (cdn=19.3s + download=174.2s + upload=57.6s)
+[20:12:02] step=state-saved cr_film_id=14755 (total uploads=1423)
+[20:12:02] step=iteration 19/20
+[20:12:02] step=film start cr_film_id=17171 name='The Fortress (2017) CZ Dabing'
+[20:12:02] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/4164_720p.mp4
+[20:12:03] step=cdn-resolve done 1.9s → https://online4.sktorrent.eu/media/videos//h264/4164_720p.mp4
+[20:12:03] step=download curl https://online4.sktorrent.eu/media/videos//h264/4164_720p.mp4
+[20:21:03] step=download FAILED cr_film_id=17171 after 540.0s err=curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 128794624 out of 1387319222 bytes received
+[20:21:04] step=iteration 20/20
+[20:21:04] step=film start cr_film_id=16296 name='Handsome Guys (2024) CZ Dabing'
+[20:21:04] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/44886_720p.mp4
+[20:21:28] step=cdn-resolve done 24.5s → https://online20.sktorrent.eu/media/videos//h264/44886_720p.mp4
+[20:21:28] step=download curl https://online20.sktorrent.eu/media/videos//h264/44886_720p.mp4
+[20:23:14] step=download done cr_film_id=16296 size=642846364 dur=106.1s speed=6.1MB/s
+[20:23:14] step=upload start cr_film_id=16296 size=642846364
+[20:23:58] step=upload done cr_film_id=16296 video_id=25585993 dur=44.1s speed=14.6MB/s
+[20:23:58] step=cleanup unlinked Handsome Guys (2024) CZ Dabing.mp4
+[20:23:58] step=film done cr_film_id=16296 total=174.8s (cdn=24.5s + download=106.1s + upload=44.1s)
+[20:23:58] step=state-saved cr_film_id=16296 (total uploads=1424)
+[20:23:58] step=batch-end succeeded=13 failed=7 total_uploads=1424 batch_dur=4852.4s avg_per_film=373.3s backlog_remaining=210 eta_hours=21.8
