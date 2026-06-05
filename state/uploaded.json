@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-06-05T21:42:17Z",
+  "last_updated": "2026-06-05T22:32:03Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -25908,6 +25908,348 @@
         "upload_sec": 36.7,
         "total_sec": 108.4
       }
+    },
+    {
+      "cr_film_id": 10489,
+      "cr_slug": "sharp-teeth",
+      "title": "Sharp Teeth",
+      "year": 2024,
+      "sktorrent_id": 41534,
+      "prehrajto_video_id": 25587731,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:45:13Z",
+      "status": "processing",
+      "size_bytes": 644803269,
+      "timing": {
+        "cdn_resolve_sec": 9.4,
+        "download_sec": 95.0,
+        "upload_sec": 55.9,
+        "total_sec": 160.4
+      }
+    },
+    {
+      "cr_film_id": 14296,
+      "cr_slug": "zaby-bez-jazyka-2020",
+      "title": "Žáby bez jazyka",
+      "year": 2020,
+      "sktorrent_id": 19663,
+      "prehrajto_video_id": 25587790,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:48:10Z",
+      "status": "processing",
+      "size_bytes": 718688220,
+      "timing": {
+        "cdn_resolve_sec": 8.1,
+        "download_sec": 117.2,
+        "upload_sec": 52.3,
+        "total_sec": 177.7
+      }
+    },
+    {
+      "cr_film_id": 16264,
+      "cr_slug": "die-hart-die-harter-2",
+      "title": "Die Hart: Die Harter 2",
+      "year": null,
+      "sktorrent_id": 37341,
+      "prehrajto_video_id": 25587860,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:51:15Z",
+      "status": "processing",
+      "size_bytes": 502839773,
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 135.6,
+        "upload_sec": 42.9,
+        "total_sec": 184.5
+      }
+    },
+    {
+      "cr_film_id": 116,
+      "cr_slug": "2001-vesmirna-odysea",
+      "title": "2001: Vesmírná Odysea",
+      "year": 1968,
+      "sktorrent_id": 1343,
+      "prehrajto_video_id": 25587932,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:55:37Z",
+      "status": "processing",
+      "size_bytes": 930956398,
+      "timing": {
+        "cdn_resolve_sec": 3.3,
+        "download_sec": 193.7,
+        "upload_sec": 64.6,
+        "total_sec": 261.8
+      }
+    },
+    {
+      "cr_film_id": 916,
+      "cr_slug": "greta",
+      "title": "Greta",
+      "year": 2020,
+      "sktorrent_id": 15155,
+      "prehrajto_video_id": 25587973,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:58:01Z",
+      "status": "processing",
+      "size_bytes": 434270818,
+      "timing": {
+        "cdn_resolve_sec": 3.5,
+        "download_sec": 101.6,
+        "upload_sec": 39.2,
+        "total_sec": 144.3
+      }
+    },
+    {
+      "cr_film_id": 953,
+      "cr_slug": "hodiny",
+      "title": "Hodiny",
+      "year": 2002,
+      "sktorrent_id": 29745,
+      "prehrajto_video_id": 25587995,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T21:59:18Z",
+      "status": "processing",
+      "size_bytes": 293823648,
+      "timing": {
+        "cdn_resolve_sec": 8.8,
+        "download_sec": 39.8,
+        "upload_sec": 28.2,
+        "total_sec": 76.8
+      }
+    },
+    {
+      "cr_film_id": 1629,
+      "cr_slug": "onoda",
+      "title": "Onoda",
+      "year": 2021,
+      "sktorrent_id": 20508,
+      "prehrajto_video_id": 25588108,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:06:45Z",
+      "status": "processing",
+      "size_bytes": 1357678219,
+      "timing": {
+        "cdn_resolve_sec": 7.0,
+        "download_sec": 340.1,
+        "upload_sec": 99.9,
+        "total_sec": 447.2
+      }
+    },
+    {
+      "cr_film_id": 1894,
+      "cr_slug": "pohreb",
+      "title": "Pohřeb",
+      "year": 2023,
+      "sktorrent_id": 32735,
+      "prehrajto_video_id": 25588162,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:09:04Z",
+      "status": "processing",
+      "size_bytes": 639596485,
+      "timing": {
+        "cdn_resolve_sec": 11.6,
+        "download_sec": 77.6,
+        "upload_sec": 49.6,
+        "total_sec": 138.9
+      }
+    },
+    {
+      "cr_film_id": 1933,
+      "cr_slug": "the-tragedy-of-macbeth",
+      "title": "Macbeth",
+      "year": 2021,
+      "sktorrent_id": 20877,
+      "prehrajto_video_id": 25588197,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:10:55Z",
+      "status": "processing",
+      "size_bytes": 462543932,
+      "timing": {
+        "cdn_resolve_sec": 3.9,
+        "download_sec": 69.2,
+        "upload_sec": 37.7,
+        "total_sec": 110.9
+      }
+    },
+    {
+      "cr_film_id": 2388,
+      "cr_slug": "demolice",
+      "title": "Demolice",
+      "year": 2015,
+      "sktorrent_id": 767,
+      "prehrajto_video_id": 25588228,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:12:25Z",
+      "status": "processing",
+      "size_bytes": 359048670,
+      "timing": {
+        "cdn_resolve_sec": 13.7,
+        "download_sec": 29.9,
+        "upload_sec": 31.8,
+        "total_sec": 75.5
+      }
+    },
+    {
+      "cr_film_id": 2815,
+      "cr_slug": "hijack-1971",
+      "title": "Únos 1971",
+      "year": 2024,
+      "sktorrent_id": 38578,
+      "prehrajto_video_id": 25588286,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:15:16Z",
+      "status": "processing",
+      "size_bytes": 675355104,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 119.5,
+        "upload_sec": 49.4,
+        "total_sec": 170.5
+      }
+    },
+    {
+      "cr_film_id": 3165,
+      "cr_slug": "duchon",
+      "title": "Duchoň",
+      "year": 2025,
+      "sktorrent_id": 53229,
+      "prehrajto_video_id": 25588325,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:16:47Z",
+      "status": "processing",
+      "size_bytes": 624970235,
+      "timing": {
+        "cdn_resolve_sec": 15.1,
+        "download_sec": 27.1,
+        "upload_sec": 48.6,
+        "total_sec": 90.9
+      }
+    },
+    {
+      "cr_film_id": 3730,
+      "cr_slug": "zprava-2020",
+      "title": "Zpráva",
+      "year": 2020,
+      "sktorrent_id": 19506,
+      "prehrajto_video_id": 25588365,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:18:22Z",
+      "status": "processing",
+      "size_bytes": 410117101,
+      "timing": {
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 56.0,
+        "upload_sec": 34.8,
+        "total_sec": 95.3
+      }
+    },
+    {
+      "cr_film_id": 4014,
+      "cr_slug": "amater",
+      "title": "Amatér",
+      "year": 2025,
+      "sktorrent_id": 46796,
+      "prehrajto_video_id": 25588407,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:20:18Z",
+      "status": "processing",
+      "size_bytes": 525889213,
+      "timing": {
+        "cdn_resolve_sec": 8.2,
+        "download_sec": 65.7,
+        "upload_sec": 41.7,
+        "total_sec": 115.7
+      }
+    },
+    {
+      "cr_film_id": 5011,
+      "cr_slug": "rozkos",
+      "title": "Rozkoš",
+      "year": 2021,
+      "sktorrent_id": 21577,
+      "prehrajto_video_id": 25588468,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:23:15Z",
+      "status": "processing",
+      "size_bytes": 664924644,
+      "timing": {
+        "cdn_resolve_sec": 4.2,
+        "download_sec": 117.6,
+        "upload_sec": 55.1,
+        "total_sec": 177.0
+      }
+    },
+    {
+      "cr_film_id": 5066,
+      "cr_slug": "navrat",
+      "title": "Návrat",
+      "year": 2019,
+      "sktorrent_id": 35031,
+      "prehrajto_video_id": 25588533,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:27:01Z",
+      "status": "processing",
+      "size_bytes": 332844881,
+      "timing": {
+        "cdn_resolve_sec": 1.9,
+        "download_sec": 193.4,
+        "upload_sec": 30.7,
+        "total_sec": 226.1
+      }
+    },
+    {
+      "cr_film_id": 5298,
+      "cr_slug": "mike-a-nick-a-nick-a-alice",
+      "title": "Mike a Nick a Nick a Alice",
+      "year": 2026,
+      "sktorrent_id": 58711,
+      "prehrajto_video_id": 25588561,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:28:41Z",
+      "status": "processing",
+      "size_bytes": 510367342,
+      "timing": {
+        "cdn_resolve_sec": 14.5,
+        "download_sec": 27.0,
+        "upload_sec": 58.8,
+        "total_sec": 100.4
+      }
+    },
+    {
+      "cr_film_id": 5827,
+      "cr_slug": "carodejnictvi",
+      "title": "Čarodějnictví",
+      "year": 2023,
+      "sktorrent_id": 33968,
+      "prehrajto_video_id": 25588604,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:30:27Z",
+      "status": "processing",
+      "size_bytes": 410264814,
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 62.7,
+        "upload_sec": 36.0,
+        "total_sec": 105.8
+      }
+    },
+    {
+      "cr_film_id": 7123,
+      "cr_slug": "v-pasti-2025",
+      "title": "V pasti",
+      "year": 2025,
+      "sktorrent_id": 45700,
+      "prehrajto_video_id": 25588645,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T22:32:03Z",
+      "status": "processing",
+      "size_bytes": 453484161,
+      "timing": {
+        "cdn_resolve_sec": 8.3,
+        "download_sec": 50.3,
+        "upload_sec": 36.9,
+        "total_sec": 95.5
+      }
     }
   ],
   "moderated_out": [
@@ -29583,6 +29925,17 @@
       "failed_at": "2026-06-05T21:40:29Z",
       "timing": {
         "cdn_resolve_sec": 21.8
+      }
+    },
+    {
+      "cr_film_id": 2180,
+      "cr_slug": "jackass-3",
+      "title": "Jackass 3",
+      "year": 2010,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-05T22:11:10Z",
+      "timing": {
+        "cdn_resolve_sec": 14.9
       }
     }
   ]
