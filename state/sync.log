@@ -16931,3 +16931,11 @@
 [10:00:08] step=iteration 15/50
 [10:00:08] step=batch-end backlog vyčerpán
 [10:00:08] step=batch-end succeeded=14 failed=0 total_uploads=1392 batch_dur=2192.5s avg_per_film=156.6s backlog_remaining=235 eta_hours=10.2
+
+===== run 2026-06-05T14:12:22Z batch_size=20 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/27019952220) =====
+[14:12:23] step=batch-start count=20 backlog=1636 uploads=1392 moderated=2
+[14:12:23] step=login
+[14:12:24] step=login done
+[14:12:24] step=iteration 1/20
+[14:12:24] step=batch-end backlog vyčerpán
+[14:12:24] step=batch-end succeeded=0 failed=0 total_uploads=1392 batch_dur=0.0s avg_per_film=0s backlog_remaining=242 eta_hours=None
