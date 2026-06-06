@@ -18804,3 +18804,55 @@
 [01:19:29] step=film done cr_film_id=21086 total=93.4s (cdn=15.1s + download=28.0s + upload=50.1s)
 [01:19:29] step=state-saved cr_film_id=21086 (total uploads=1545)
 [01:19:29] step=batch-end succeeded=18 failed=2 total_uploads=1545 batch_dur=2491.4s avg_per_film=138.4s backlog_remaining=89 eta_hours=3.4
+
+===== run 2026-06-06T01:19:43Z batch_size=20 (https://github.com/Olbrasoft/prehrajto-sync/actions/runs/27048555482) =====
+[01:19:44] step=batch-start count=20 backlog=1636 uploads=1545 moderated=2
+[01:19:44] step=login
+[01:19:44] step=login done
+[01:19:44] step=iteration 1/20
+[01:19:44] step=film start cr_film_id=21128 name='Otrok (1998) CZ Dabing'
+[01:19:44] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59584_720p.mp4
+[01:19:48] step=cdn-resolve done 4.1s → https://online7.sktorrent.eu/media/videos//h264/59584_720p.mp4
+[01:19:48] step=download curl https://online7.sktorrent.eu/media/videos//h264/59584_720p.mp4
+[01:20:55] step=download done cr_film_id=21128 size=675521409 dur=66.6s speed=10.1MB/s
+[01:20:55] step=upload start cr_film_id=21128 size=675521409
+[01:21:28] step=upload done cr_film_id=21128 video_id=25591639 dur=33.6s speed=20.1MB/s
+[01:21:29] step=cleanup unlinked Otrok (1998) CZ Dabing.mp4
+[01:21:29] step=film done cr_film_id=21128 total=104.4s (cdn=4.1s + download=66.6s + upload=33.6s)
+[01:21:29] step=state-saved cr_film_id=21128 (total uploads=1546)
+[01:21:29] step=iteration 2/20
+[01:21:29] step=film start cr_film_id=21146 name='Venganza (2026) CZ Dabing'
+[01:21:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59628_720p.mp4
+[01:21:37] step=cdn-resolve done 8.2s → https://online20.sktorrent.eu/media/videos//h264/59628_720p.mp4
+[01:21:37] step=download curl https://online20.sktorrent.eu/media/videos//h264/59628_720p.mp4
+[01:22:24] step=download done cr_film_id=21146 size=511687721 dur=46.7s speed=11.0MB/s
+[01:22:24] step=upload start cr_film_id=21146 size=511687721
+[01:22:55] step=upload done cr_film_id=21146 video_id=25591655 dur=31.3s speed=16.3MB/s
+[01:22:55] step=cleanup unlinked Venganza (2026) CZ Dabing.mp4
+[01:22:55] step=film done cr_film_id=21146 total=86.3s (cdn=8.2s + download=46.7s + upload=31.3s)
+[01:22:55] step=state-saved cr_film_id=21146 (total uploads=1547)
+[01:22:55] step=iteration 3/20
+[01:22:55] step=film start cr_film_id=21169 name='Barvy (1988) CZ Dabing'
+[01:22:55] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59657_720p.mp4
+[01:23:04] step=cdn-resolve done 9.1s → https://online24.sktorrent.eu/media/videos//h264/59657_720p.mp4
+[01:23:04] step=download curl https://online24.sktorrent.eu/media/videos//h264/59657_720p.mp4
+[01:23:44] step=download done cr_film_id=21169 size=875008789 dur=39.6s speed=22.1MB/s
+[01:23:44] step=upload start cr_film_id=21169 size=875008789
+[01:24:29] step=upload done cr_film_id=21169 video_id=25591676 dur=45.2s speed=19.4MB/s
+[01:24:29] step=cleanup unlinked Barvy (1988) CZ Dabing.mp4
+[01:24:29] step=film done cr_film_id=21169 total=94.0s (cdn=9.1s + download=39.6s + upload=45.2s)
+[01:24:29] step=state-saved cr_film_id=21169 (total uploads=1548)
+[01:24:29] step=iteration 4/20
+[01:24:29] step=film start cr_film_id=29903 name='Prime (2025) CZ Dabing'
+[01:24:29] step=cdn-resolve placeholder=https://online.sktorrent.eu/media/videos//h264/59747_720p.mp4
+[01:24:34] step=cdn-resolve done 5.2s → https://online14.sktorrent.eu/media/videos//h264/59747_720p.mp4
+[01:24:34] step=download curl https://online14.sktorrent.eu/media/videos//h264/59747_720p.mp4
+[01:25:10] step=download done cr_film_id=29903 size=347395078 dur=35.7s speed=9.7MB/s
+[01:25:10] step=upload start cr_film_id=29903 size=347395078
+[01:25:32] step=upload done cr_film_id=29903 video_id=25591699 dur=22.3s speed=15.6MB/s
+[01:25:32] step=cleanup unlinked Prime (2025) CZ Dabing.mp4
+[01:25:32] step=film done cr_film_id=29903 total=63.3s (cdn=5.2s + download=35.7s + upload=22.3s)
+[01:25:32] step=state-saved cr_film_id=29903 (total uploads=1549)
+[01:25:32] step=iteration 5/20
+[01:25:32] step=batch-end backlog vyčerpán
+[01:25:32] step=batch-end succeeded=4 failed=0 total_uploads=1549 batch_dur=348.2s avg_per_film=87.0s backlog_remaining=85 eta_hours=2.1

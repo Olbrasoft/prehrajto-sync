@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-06-06T01:19:29Z",
+  "last_updated": "2026-06-06T01:25:32Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -27797,6 +27797,78 @@
         "download_sec": 28.0,
         "upload_sec": 50.1,
         "total_sec": 93.4
+      }
+    },
+    {
+      "cr_film_id": 21128,
+      "cr_slug": "otrok",
+      "title": "Otrok",
+      "year": 1998,
+      "sktorrent_id": 59584,
+      "prehrajto_video_id": 25591639,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:21:29Z",
+      "status": "processing",
+      "size_bytes": 675521409,
+      "timing": {
+        "cdn_resolve_sec": 4.1,
+        "download_sec": 66.6,
+        "upload_sec": 33.6,
+        "total_sec": 104.4
+      }
+    },
+    {
+      "cr_film_id": 21146,
+      "cr_slug": "venganza",
+      "title": "Venganza",
+      "year": 2026,
+      "sktorrent_id": 59628,
+      "prehrajto_video_id": 25591655,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:22:55Z",
+      "status": "processing",
+      "size_bytes": 511687721,
+      "timing": {
+        "cdn_resolve_sec": 8.2,
+        "download_sec": 46.7,
+        "upload_sec": 31.3,
+        "total_sec": 86.3
+      }
+    },
+    {
+      "cr_film_id": 21169,
+      "cr_slug": "barvy",
+      "title": "Barvy",
+      "year": 1988,
+      "sktorrent_id": 59657,
+      "prehrajto_video_id": 25591676,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:24:29Z",
+      "status": "processing",
+      "size_bytes": 875008789,
+      "timing": {
+        "cdn_resolve_sec": 9.1,
+        "download_sec": 39.6,
+        "upload_sec": 45.2,
+        "total_sec": 94.0
+      }
+    },
+    {
+      "cr_film_id": 29903,
+      "cr_slug": "prime-2025",
+      "title": "Prime",
+      "year": 2025,
+      "sktorrent_id": 59747,
+      "prehrajto_video_id": 25591699,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:25:32Z",
+      "status": "processing",
+      "size_bytes": 347395078,
+      "timing": {
+        "cdn_resolve_sec": 5.2,
+        "download_sec": 35.7,
+        "upload_sec": 22.3,
+        "total_sec": 63.3
       }
     }
   ],
