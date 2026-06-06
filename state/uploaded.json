@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-06-06T00:11:02Z",
+  "last_updated": "2026-06-06T00:37:43Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -27168,6 +27168,312 @@
         "upload_sec": 31.9,
         "total_sec": 64.4
       }
+    },
+    {
+      "cr_film_id": 14940,
+      "cr_slug": "malickost-k-narozeninam-2018",
+      "title": "Maličkost k narozeninám",
+      "year": 2018,
+      "sktorrent_id": 1296,
+      "prehrajto_video_id": 25590543,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:13:24Z",
+      "status": "processing",
+      "size_bytes": 783808097,
+      "timing": {
+        "cdn_resolve_sec": 9.6,
+        "download_sec": 80.2,
+        "upload_sec": 39.9,
+        "total_sec": 129.8
+      }
+    },
+    {
+      "cr_film_id": 15003,
+      "cr_slug": "rusalka-1960",
+      "title": "Rusalka",
+      "year": 1960,
+      "sktorrent_id": 49725,
+      "prehrajto_video_id": 25590573,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:15:11Z",
+      "status": "processing",
+      "size_bytes": 525349605,
+      "timing": {
+        "cdn_resolve_sec": 2.2,
+        "download_sec": 73.0,
+        "upload_sec": 31.0,
+        "total_sec": 106.4
+      }
+    },
+    {
+      "cr_film_id": 15225,
+      "cr_slug": "insight-2011",
+      "title": "InSight",
+      "year": 2011,
+      "sktorrent_id": 16477,
+      "prehrajto_video_id": 25590601,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:16:47Z",
+      "status": "processing",
+      "size_bytes": 484945783,
+      "timing": {
+        "cdn_resolve_sec": 3.6,
+        "download_sec": 51.8,
+        "upload_sec": 30.3,
+        "total_sec": 85.7
+      }
+    },
+    {
+      "cr_film_id": 15321,
+      "cr_slug": "the-death-that-awaits-2025",
+      "title": "The Death That Awaits",
+      "year": 2025,
+      "sktorrent_id": 43341,
+      "prehrajto_video_id": 25590644,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:18:43Z",
+      "status": "processing",
+      "size_bytes": 458193059,
+      "timing": {
+        "cdn_resolve_sec": 2.2,
+        "download_sec": 73.7,
+        "upload_sec": 29.8,
+        "total_sec": 105.7
+      }
+    },
+    {
+      "cr_film_id": 15360,
+      "cr_slug": "neodchazej-2022",
+      "title": "Neodcházej",
+      "year": 2022,
+      "sktorrent_id": 26425,
+      "prehrajto_video_id": 25590663,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:20:22Z",
+      "status": "processing",
+      "size_bytes": 513205194,
+      "timing": {
+        "cdn_resolve_sec": 8.4,
+        "download_sec": 55.7,
+        "upload_sec": 35.0,
+        "total_sec": 99.2
+      }
+    },
+    {
+      "cr_film_id": 15574,
+      "cr_slug": "nejkrasnejsi-dar-2022",
+      "title": "Nejkrásnější dar",
+      "year": 2022,
+      "sktorrent_id": 43912,
+      "prehrajto_video_id": 25590693,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:22:07Z",
+      "status": "processing",
+      "size_bytes": 608501256,
+      "timing": {
+        "cdn_resolve_sec": 8.0,
+        "download_sec": 56.6,
+        "upload_sec": 40.3,
+        "total_sec": 104.9
+      }
+    },
+    {
+      "cr_film_id": 15693,
+      "cr_slug": "witchboard-hra-s-duchy-2025",
+      "title": "Witchboard: Hra s duchy",
+      "year": 2025,
+      "sktorrent_id": 56005,
+      "prehrajto_video_id": 25590727,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:23:38Z",
+      "status": "processing",
+      "size_bytes": 547994090,
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 51.7,
+        "upload_sec": 32.8,
+        "total_sec": 90.5
+      }
+    },
+    {
+      "cr_film_id": 15795,
+      "cr_slug": "na-hranicich-2023",
+      "title": "Na hranicích",
+      "year": 2023,
+      "sktorrent_id": 36553,
+      "prehrajto_video_id": 25590744,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:24:11Z",
+      "status": "processing",
+      "size_bytes": 165632824,
+      "timing": {
+        "cdn_resolve_sec": 9.8,
+        "download_sec": 7.4,
+        "upload_sec": 16.1,
+        "total_sec": 33.3
+      }
+    },
+    {
+      "cr_film_id": 15868,
+      "cr_slug": "naslednik-2023",
+      "title": "Následník",
+      "year": 2023,
+      "sktorrent_id": 44787,
+      "prehrajto_video_id": 25590757,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:25:26Z",
+      "status": "processing",
+      "size_bytes": 358229837,
+      "timing": {
+        "cdn_resolve_sec": 7.9,
+        "download_sec": 34.4,
+        "upload_sec": 33.0,
+        "total_sec": 75.4
+      }
+    },
+    {
+      "cr_film_id": 15878,
+      "cr_slug": "ploty-2016",
+      "title": "Ploty",
+      "year": 2016,
+      "sktorrent_id": 36881,
+      "prehrajto_video_id": 25590792,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:27:13Z",
+      "status": "processing",
+      "size_bytes": 625576740,
+      "timing": {
+        "cdn_resolve_sec": 8.0,
+        "download_sec": 61.5,
+        "upload_sec": 36.9,
+        "total_sec": 106.6
+      }
+    },
+    {
+      "cr_film_id": 15992,
+      "cr_slug": "mnichov-1972-2024",
+      "title": "Mnichov 1972",
+      "year": 2024,
+      "sktorrent_id": 44535,
+      "prehrajto_video_id": 25590805,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:28:17Z",
+      "status": "processing",
+      "size_bytes": 588724309,
+      "timing": {
+        "cdn_resolve_sec": 10.2,
+        "download_sec": 19.9,
+        "upload_sec": 34.2,
+        "total_sec": 64.4
+      }
+    },
+    {
+      "cr_film_id": 16046,
+      "cr_slug": "no-voltees-2026",
+      "title": "No Voltees",
+      "year": 2026,
+      "sktorrent_id": 40678,
+      "prehrajto_video_id": 25590827,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:29:24Z",
+      "status": "processing",
+      "size_bytes": 553943678,
+      "timing": {
+        "cdn_resolve_sec": 9.7,
+        "download_sec": 24.3,
+        "upload_sec": 33.0,
+        "total_sec": 67.1
+      }
+    },
+    {
+      "cr_film_id": 16137,
+      "cr_slug": "the-ninth",
+      "title": "The Ninth",
+      "year": null,
+      "sktorrent_id": 13847,
+      "prehrajto_video_id": 25590855,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:31:15Z",
+      "status": "processing",
+      "size_bytes": 554337840,
+      "timing": {
+        "cdn_resolve_sec": 4.0,
+        "download_sec": 74.0,
+        "upload_sec": 32.3,
+        "total_sec": 110.5
+      }
+    },
+    {
+      "cr_film_id": 16312,
+      "cr_slug": "toxic-daughter",
+      "title": "Toxic Daughter",
+      "year": 2024,
+      "sktorrent_id": 53232,
+      "prehrajto_video_id": 25590865,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:32:27Z",
+      "status": "processing",
+      "size_bytes": 478491978,
+      "timing": {
+        "cdn_resolve_sec": 10.1,
+        "download_sec": 16.8,
+        "upload_sec": 34.5,
+        "total_sec": 61.4
+      }
+    },
+    {
+      "cr_film_id": 16346,
+      "cr_slug": "1978-2025",
+      "title": "1978",
+      "year": 2025,
+      "sktorrent_id": 48419,
+      "prehrajto_video_id": 25590888,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:33:27Z",
+      "status": "processing",
+      "size_bytes": 298375825,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 32.9,
+        "upload_sec": 26.3,
+        "total_sec": 59.9
+      }
+    },
+    {
+      "cr_film_id": 16420,
+      "cr_slug": "tom-and-jerry",
+      "title": "Tom and Jerry",
+      "year": null,
+      "sktorrent_id": 16847,
+      "prehrajto_video_id": 25590923,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:36:00Z",
+      "status": "processing",
+      "size_bytes": 966980756,
+      "timing": {
+        "cdn_resolve_sec": 4.9,
+        "download_sec": 95.3,
+        "upload_sec": 53.2,
+        "total_sec": 153.6
+      }
+    },
+    {
+      "cr_film_id": 16484,
+      "cr_slug": "don-t-fuck-in-the-woods-2016",
+      "title": "Don't Fuck in the Woods",
+      "year": 2016,
+      "sktorrent_id": 28135,
+      "prehrajto_video_id": 25590961,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:37:43Z",
+      "status": "processing",
+      "size_bytes": 586609118,
+      "timing": {
+        "cdn_resolve_sec": 2.7,
+        "download_sec": 59.0,
+        "upload_sec": 41.2,
+        "total_sec": 103.0
+      }
     }
   ],
   "moderated_out": [
@@ -30953,6 +31259,39 @@
       "failed_at": "2026-06-05T23:45:17Z",
       "timing": {
         "cdn_resolve_sec": 11.2
+      }
+    },
+    {
+      "cr_film_id": 15149,
+      "cr_slug": "kaktus-2008",
+      "title": "Kaktus",
+      "year": 2008,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-06T00:15:21Z",
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
+    },
+    {
+      "cr_film_id": 15309,
+      "cr_slug": "zbohatlici-2011",
+      "title": "Zbohatlíci",
+      "year": 2011,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-06T00:16:57Z",
+      "timing": {
+        "cdn_resolve_sec": 10.4
+      }
+    },
+    {
+      "cr_film_id": 16229,
+      "cr_slug": "prodana-nevesta-2024",
+      "title": "Prodaná nevěsta",
+      "year": 2024,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-06T00:31:25Z",
+      "timing": {
+        "cdn_resolve_sec": 10.2
       }
     }
   ]
