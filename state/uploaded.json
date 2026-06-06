@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "account": "filmy.prehrajto@email.cz",
-  "last_updated": "2026-06-06T00:37:43Z",
+  "last_updated": "2026-06-06T01:19:29Z",
   "uploads": [
     {
       "cr_film_id": 1268,
@@ -27474,6 +27474,330 @@
         "upload_sec": 41.2,
         "total_sec": 103.0
       }
+    },
+    {
+      "cr_film_id": 16616,
+      "cr_slug": "wild-men-2017",
+      "title": "Wild Men",
+      "year": 2017,
+      "sktorrent_id": 24710,
+      "prehrajto_video_id": 25591000,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:39:54Z",
+      "status": "processing",
+      "size_bytes": 583058723,
+      "timing": {
+        "cdn_resolve_sec": 11.5,
+        "download_sec": 58.1,
+        "upload_sec": 46.9,
+        "total_sec": 116.6
+      }
+    },
+    {
+      "cr_film_id": 16680,
+      "cr_slug": "lullaby",
+      "title": "Lullaby",
+      "year": null,
+      "sktorrent_id": 27893,
+      "prehrajto_video_id": 25591023,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:41:14Z",
+      "status": "processing",
+      "size_bytes": 385202064,
+      "timing": {
+        "cdn_resolve_sec": 8.6,
+        "download_sec": 37.8,
+        "upload_sec": 32.8,
+        "total_sec": 79.2
+      }
+    },
+    {
+      "cr_film_id": 16683,
+      "cr_slug": "vanguard",
+      "title": "Vanguard",
+      "year": null,
+      "sktorrent_id": 14501,
+      "prehrajto_video_id": 25591069,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:44:22Z",
+      "status": "processing",
+      "size_bytes": 1100397010,
+      "timing": {
+        "cdn_resolve_sec": 5.1,
+        "download_sec": 110.8,
+        "upload_sec": 71.8,
+        "total_sec": 187.8
+      }
+    },
+    {
+      "cr_film_id": 16690,
+      "cr_slug": "365-days-2015",
+      "title": "365 Days",
+      "year": 2015,
+      "sktorrent_id": 14505,
+      "prehrajto_video_id": 25591114,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:46:36Z",
+      "status": "processing",
+      "size_bytes": 710625616,
+      "timing": {
+        "cdn_resolve_sec": 11.6,
+        "download_sec": 70.3,
+        "upload_sec": 52.6,
+        "total_sec": 134.7
+      }
+    },
+    {
+      "cr_film_id": 16995,
+      "cr_slug": "u-me-doma-2018",
+      "title": "U mě doma",
+      "year": 2018,
+      "sktorrent_id": 14596,
+      "prehrajto_video_id": 25591152,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:48:45Z",
+      "status": "processing",
+      "size_bytes": 669583052,
+      "timing": {
+        "cdn_resolve_sec": 10.4,
+        "download_sec": 63.7,
+        "upload_sec": 54.2,
+        "total_sec": 128.4
+      }
+    },
+    {
+      "cr_film_id": 17095,
+      "cr_slug": "dolphin-reef-2018",
+      "title": "Dolphin Reef",
+      "year": 2018,
+      "sktorrent_id": 9242,
+      "prehrajto_video_id": 25591239,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:54:26Z",
+      "status": "processing",
+      "size_bytes": 2161830935,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 205.4,
+        "upload_sec": 134.0,
+        "total_sec": 341.4
+      }
+    },
+    {
+      "cr_film_id": 17104,
+      "cr_slug": "the-king-s-case-files-2017",
+      "title": "The King's Case Files",
+      "year": 2017,
+      "sktorrent_id": 1099,
+      "prehrajto_video_id": 25591288,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:55:43Z",
+      "status": "processing",
+      "size_bytes": 461932403,
+      "timing": {
+        "cdn_resolve_sec": 14.7,
+        "download_sec": 23.7,
+        "upload_sec": 38.2,
+        "total_sec": 76.7
+      }
+    },
+    {
+      "cr_film_id": 17113,
+      "cr_slug": "pozehnani-2021",
+      "title": "Požehnání",
+      "year": 2021,
+      "sktorrent_id": 26708,
+      "prehrajto_video_id": 25591318,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T00:57:22Z",
+      "status": "processing",
+      "size_bytes": 485722666,
+      "timing": {
+        "cdn_resolve_sec": 11.2,
+        "download_sec": 50.9,
+        "upload_sec": 36.7,
+        "total_sec": 99.0
+      }
+    },
+    {
+      "cr_film_id": 17298,
+      "cr_slug": "47-hours-to-live-2019",
+      "title": "47 Hours to Live",
+      "year": 2019,
+      "sktorrent_id": 8809,
+      "prehrajto_video_id": 25591356,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:00:22Z",
+      "status": "processing",
+      "size_bytes": 1085792979,
+      "timing": {
+        "cdn_resolve_sec": 3.8,
+        "download_sec": 106.0,
+        "upload_sec": 70.6,
+        "total_sec": 180.5
+      }
+    },
+    {
+      "cr_film_id": 17301,
+      "cr_slug": "the-liar",
+      "title": "The Liar",
+      "year": null,
+      "sktorrent_id": 26201,
+      "prehrajto_video_id": 25591385,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:02:08Z",
+      "status": "processing",
+      "size_bytes": 545356130,
+      "timing": {
+        "cdn_resolve_sec": 11.2,
+        "download_sec": 54.1,
+        "upload_sec": 40.2,
+        "total_sec": 105.6
+      }
+    },
+    {
+      "cr_film_id": 17331,
+      "cr_slug": "switched-2020",
+      "title": "Switched",
+      "year": 2020,
+      "sktorrent_id": 13590,
+      "prehrajto_video_id": 25591417,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:04:06Z",
+      "status": "processing",
+      "size_bytes": 631468696,
+      "timing": {
+        "cdn_resolve_sec": 13.2,
+        "download_sec": 60.0,
+        "upload_sec": 45.0,
+        "total_sec": 118.4
+      }
+    },
+    {
+      "cr_film_id": 17374,
+      "cr_slug": "the-huntress-rune-of-the-dead-2022",
+      "title": "The Huntress: Rune of the Dead",
+      "year": 2022,
+      "sktorrent_id": 6294,
+      "prehrajto_video_id": 25591473,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:09:27Z",
+      "status": "processing",
+      "size_bytes": 1922460089,
+      "timing": {
+        "cdn_resolve_sec": 1.7,
+        "download_sec": 205.6,
+        "upload_sec": 112.8,
+        "total_sec": 320.4
+      }
+    },
+    {
+      "cr_film_id": 17538,
+      "cr_slug": "morometii-2-2018",
+      "title": "Moromeţii 2",
+      "year": 2018,
+      "sktorrent_id": 2625,
+      "prehrajto_video_id": 25591506,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:11:06Z",
+      "status": "processing",
+      "size_bytes": 348674514,
+      "timing": {
+        "cdn_resolve_sec": 4.3,
+        "download_sec": 34.7,
+        "upload_sec": 31.4,
+        "total_sec": 70.5
+      }
+    },
+    {
+      "cr_film_id": 17585,
+      "cr_slug": "3022-2019",
+      "title": "3022",
+      "year": 2019,
+      "sktorrent_id": 12373,
+      "prehrajto_video_id": 25591525,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:12:15Z",
+      "status": "processing",
+      "size_bytes": 320275476,
+      "timing": {
+        "cdn_resolve_sec": 5.0,
+        "download_sec": 35.4,
+        "upload_sec": 29.1,
+        "total_sec": 69.4
+      }
+    },
+    {
+      "cr_film_id": 17635,
+      "cr_slug": "posledni-predstaveni-2022",
+      "title": "Poslední představení",
+      "year": 2022,
+      "sktorrent_id": 44571,
+      "prehrajto_video_id": 25591548,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:14:19Z",
+      "status": "processing",
+      "size_bytes": 678255591,
+      "timing": {
+        "cdn_resolve_sec": 12.9,
+        "download_sec": 63.0,
+        "upload_sec": 47.3,
+        "total_sec": 123.3
+      }
+    },
+    {
+      "cr_film_id": 21074,
+      "cr_slug": "zabak",
+      "title": "Žabák",
+      "year": 2003,
+      "sktorrent_id": 59398,
+      "prehrajto_video_id": 25591564,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:15:23Z",
+      "status": "processing",
+      "size_bytes": 367224902,
+      "timing": {
+        "cdn_resolve_sec": 15.3,
+        "download_sec": 17.6,
+        "upload_sec": 31.2,
+        "total_sec": 64.1
+      }
+    },
+    {
+      "cr_film_id": 21078,
+      "cr_slug": "prelud-svobody",
+      "title": "Přelud svobody",
+      "year": 1974,
+      "sktorrent_id": 59402,
+      "prehrajto_video_id": 25591590,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:17:56Z",
+      "status": "processing",
+      "size_bytes": 873965873,
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 91.9,
+        "upload_sec": 57.8,
+        "total_sec": 152.9
+      }
+    },
+    {
+      "cr_film_id": 21086,
+      "cr_slug": "ezop",
+      "title": "Ezop",
+      "year": 1970,
+      "sktorrent_id": 59476,
+      "prehrajto_video_id": 25591619,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-06T01:19:29Z",
+      "status": "processing",
+      "size_bytes": 634146287,
+      "timing": {
+        "cdn_resolve_sec": 15.1,
+        "download_sec": 28.0,
+        "upload_sec": 50.1,
+        "total_sec": 93.4
+      }
     }
   ],
   "moderated_out": [
@@ -31292,6 +31616,28 @@
       "failed_at": "2026-06-06T00:31:25Z",
       "timing": {
         "cdn_resolve_sec": 10.2
+      }
+    },
+    {
+      "cr_film_id": 17413,
+      "cr_slug": "fantasy-2011",
+      "title": "Fantasy",
+      "year": 2011,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-06T01:09:41Z",
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
+    },
+    {
+      "cr_film_id": 17468,
+      "cr_slug": "nevinna-1966",
+      "title": "Nevinná",
+      "year": 1966,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-06-06T01:09:55Z",
+      "timing": {
+        "cdn_resolve_sec": 14.0
       }
     }
   ]
